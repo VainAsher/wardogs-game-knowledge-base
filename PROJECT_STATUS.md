@@ -2,11 +2,9 @@
 
 Updated 2026-10-08.
 
-- 13 documents frozen: 7 foundations (v1.0.0, economy v1.0.1) and 6 depth docs (v1.0.0).
-- Low confidence: maps-environment-foundation, launch-maps-reference, rcon-and-server-admin, server-hosting-and-browser. All rest on unofficial or commercial sources. Others Medium.
-- Verified against Early Access Season 1, patch 0.1.2 (30 Sep 2026) plus 2 Oct hotfixes. **Season 02 lands 15 Oct 2026 (XP/cash reset, rain): re-verify all docs after it.**
-- Resolved: 0.1.2 date is 30 Sep (economy-foundation corrected in v1.0.1); GBP 36.99 and USD 39.99 are one edition in two currencies; Supporter Pack is cosmetic-only.
-- Stale cross-references to fix on the next revision: meta-release-foundation and economy-foundation still list Supporter Pack contents as unretrieved; the 128 MaxPlayers and 12h/24h restart questions remain open.
-- Weak points: Steam news bodies unreadable; RCON/ini reference predates 0.1.2; approved-host names and prices are fan-relayed.
-- Next: depth docs for Gameplay, Combat, Economy, Vehicles after Season 02; a full re-verification pass.
-- Standing auto-approve-on-green-QA mandate in force. Nothing published to GitHub.
+- 29 documents frozen: 7 foundations, 6 cluster-C depth docs and 16 cluster-D depth docs, plus the dated baseline snapshot `snapshots/2026-10-08/` (tag `baseline-pre-season-2-snapshot`).
+- Cluster D docs are built from the full text of the official Steam posts and carry Baseline values tables for mechanical diffing.
+- Low confidence: weapons-catalogue, death-penalty-and-rebuy, season-2-announcements (plus four earlier). Official text names almost no weapons, does not state the death penalty, and says nothing about a Season 02 wipe.
+- **Known stale claims in the 13 older docs** (frozen from press summaries): wrong Steam post id in combat-loadouts-foundation; 2 Oct hotfix attribution; map size (official 256 km2 / 2x2 km Control Zone); six role tracks; Gold Bars; Approved Hosting Partners confirmed officially; Large Hammer level 8 and hammer prices. A v1.1.0 revision wave against the official text is next.
+- Season 02 lands 15 Oct 2026. After it: re-run `scripts/snapshot_steam_news.py`, diff against 2026-10-08, re-verify every doc.
+- Nothing published to GitHub.

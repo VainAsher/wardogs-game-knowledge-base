@@ -5,9 +5,9 @@
 
 Evidence-based, source-cited reference for WARDOGS (Bulkhead / Team17) - gameplay, combat, vehicles, economy, maps and server administration.
 
-**13 documents** across **13 topics** — every factual claim carries a citation to a vendor or authoritative source, assessed gaps are labelled and confidence-rated, and links, citations and structure are checked automatically in CI.
+**29 documents** across **29 topics** — every factual claim carries a citation to a vendor or authoritative source, assessed gaps are labelled and confidence-rated, and links, citations and structure are checked automatically in CI.
 
-*Confidence: 0 High · 9 Medium · 4 Low.*  *Market: Global 13.*
+*Confidence: 1 High · 21 Medium · 7 Low.*  *Market: Global 29.*
 
 ## Class 1 — Category foundations
 
@@ -21,12 +21,31 @@ Evidence-based, source-cited reference for WARDOGS (Bulkhead / Team17) - gamepla
 
 ## Class 2 — Depth documents
 
+- [Damage, Ballistics & Balance Changes](combat-loadouts/damage-ballistics-and-balance.md) — *Damage model, ballistics, hit registration, and the balance-change history* (Global)
+- [Cash Rewards & Costs](economy/cash-rewards-and-costs.md) — *How cash is earned and lost per action, and exploit fixes* (Global)
+- [Death Penalty, Loadout Loss & Re-buy](economy/death-penalty-and-rebuy.md) — *What dying costs, loadout loss, re-buy, insurance-like mechanics, negative balances* (Global)
+- [Seasons, Resets & Currencies](economy/season-reset-and-currencies.md) — *Season structure, what resets, Gold Bars, what persists, cosmetics* (Global)
+- [Control Zone & Match Flow](gameplay-modes/control-zone-and-match-flow.md) — *Match lifecycle, Control Zone and Hot Zone scoring, win conditions, spawning, team balance* (Global)
+- [Progression & Role Tracks](gameplay-modes/progression-and-role-tracks.md) — *XP curves, role tracks, WARDOG level, season resets* (Global)
+- [Destructibility & Level Design](maps-environment/destructibility-and-level-design.md) — *Destruction model, level design philosophy, map scale, performance trade-offs, weather* (Global)
 - [Launch Maps Reference](maps-environment/launch-maps-reference.md) — *Per-map profiles: Bakurani, Ozeti, Zestafona and unconfirmed maps* (Global)
+- [Community Channels & Source Reliability Register](meta-release/community-and-source-reliability.md) — *Official channels, community hubs, and a reliability rating for every source class and outlet used* (Global)
 - [Editions, Pricing & Platforms](meta-release/editions-pricing-platforms.md) — *Editions, regional pricing, Supporter Pack contents, platform roadmap, Early Access policy* (Global)
 - [Patch & Update History](meta-release/patch-history.md) — *Dated per-patch changelog from closed beta through 0.1.2 and hotfixes* (Global)
+- [Season 02: Announced Changes (Pre-Release Baseline)](meta-release/season-2-announcements.md) — *Everything officially and unofficially said about Season 02 and the 1.0 roadmap before launch* (Global)
 - [RCON & Server Administration](technical-servers/rcon-and-server-admin.md) — *RCON interface, ServerSettings, admin tooling, security hardening* (Global)
 - [Server Hosting & Server Browser](technical-servers/server-hosting-and-browser.md) — *Official vs community servers, approved hosts, regions, browser behaviour, restarts* (Global)
 - [System Requirements, Performance & Crashes](technical-servers/system-requirements-and-performance.md) — *Hardware requirements, Linux/Proton, anti-cheat, crash codes, performance fixes* (Global)
+- [Air Vehicles & Counter-Air](vehicles-outposts/air-and-counter-air.md) — *Helicopters, aircraft, anti-air systems (CIWS/Sea Whiz, Havoc), pilots, IR countermeasures* (Global)
+- [FOBs, Hammers & Base Building](vehicles-outposts/fob-and-base-building.md) — *FOB deployment, supply types, hammer tiers, structures, pallet logistics, costs* (Global)
+
+## Class 3 — Reference data & tables
+
+- [Gadgets, Armor & Equipment](combat-loadouts/gadgets-armor-and-equipment.md) — *Gadgets, armor, backpacks, ammo types, sidearms, optics and IR gear* (Global)
+- [Weapons Catalogue](combat-loadouts/weapons-catalogue.md) — *Firearms and launchers: roster, prices, unlock levels, attachments* (Global)
+- [Season 1 Price Tables](economy/price-tables-season-1.md) — *Complete in-game price list as of Season 1 plus later patch changes* (Global)
+- [Progression Unlock Tables (Season 1)](gameplay-modes/progression-unlock-tables.md) — *Level-by-level unlocks per role and account* (Global)
+- [Vehicle Roster & Prices](vehicles-outposts/vehicle-roster-and-prices.md) — *Land and air vehicles: roster, price, unlock level, crew, role* (Global)
 
 ## Knowledge graph
 
@@ -44,12 +63,30 @@ Evidence-based, source-cited reference for WARDOGS (Bulkhead / Team17) - gamepla
         vehicles_outposts_foundation["vehicles-outposts-foundation"]
       end
       subgraph Tier2["Tier 2"]
+        air_and_counter_air["air-and-counter-air"]
+        cash_rewards_and_costs["cash-rewards-and-costs"]
+        community_and_source_reliability["community-and-source-reliability"]
+        control_zone_and_match_flow["control-zone-and-match-flow"]
+        damage_ballistics_and_balance["damage-ballistics-and-balance"]
+        death_penalty_and_rebuy["death-penalty-and-rebuy"]
+        destructibility_and_level_design["destructibility-and-level-design"]
         editions_pricing_platforms["editions-pricing-platforms"]
+        fob_and_base_building["fob-and-base-building"]
         launch_maps_reference["launch-maps-reference"]
         patch_history["patch-history"]
+        progression_and_role_tracks["progression-and-role-tracks"]
         rcon_and_server_admin["rcon-and-server-admin"]
+        season_2_announcements["season-2-announcements"]
+        season_reset_and_currencies["season-reset-and-currencies"]
         server_hosting_and_browser["server-hosting-and-browser"]
         system_requirements_and_performance["system-requirements-and-performance"]
+      end
+      subgraph Tier3["Tier 3"]
+        gadgets_armor_and_equipment["gadgets-armor-and-equipment"]
+        price_tables_season_1["price-tables-season-1"]
+        progression_unlock_tables["progression-unlock-tables"]
+        vehicle_roster_and_prices["vehicle-roster-and-prices"]
+        weapons_catalogue["weapons-catalogue"]
       end
       gameplay_modes_foundation -->|related| combat_loadouts_foundation
       gameplay_modes_foundation -->|related| economy_foundation
@@ -94,6 +131,79 @@ Evidence-based, source-cited reference for WARDOGS (Bulkhead / Team17) - gamepla
       launch_maps_reference -->|related| maps_environment_foundation
       launch_maps_reference -->|related| gameplay_modes_foundation
       launch_maps_reference -->|related| vehicles_outposts_foundation
+      control_zone_and_match_flow -->|related| gameplay_modes_foundation
+      control_zone_and_match_flow -->|related| progression_and_role_tracks
+      control_zone_and_match_flow -->|related| maps_environment_foundation
+      control_zone_and_match_flow -->|related| launch_maps_reference
+      control_zone_and_match_flow -->|related| cash_rewards_and_costs
+      progression_and_role_tracks -->|related| gameplay_modes_foundation
+      progression_and_role_tracks -->|related| progression_unlock_tables
+      progression_and_role_tracks -->|related| season_reset_and_currencies
+      progression_and_role_tracks -->|related| combat_loadouts_foundation
+      progression_and_role_tracks -->|related| economy_foundation
+      progression_unlock_tables -->|related| progression_and_role_tracks
+      progression_unlock_tables -->|related| weapons_catalogue
+      progression_unlock_tables -->|related| vehicle_roster_and_prices
+      progression_unlock_tables -->|related| gadgets_armor_and_equipment
+      weapons_catalogue -->|related| combat_loadouts_foundation
+      weapons_catalogue -->|related| gadgets_armor_and_equipment
+      weapons_catalogue -->|related| damage_ballistics_and_balance
+      weapons_catalogue -->|related| progression_unlock_tables
+      weapons_catalogue -->|related| price_tables_season_1
+      gadgets_armor_and_equipment -->|related| combat_loadouts_foundation
+      gadgets_armor_and_equipment -->|related| weapons_catalogue
+      gadgets_armor_and_equipment -->|related| damage_ballistics_and_balance
+      gadgets_armor_and_equipment -->|related| progression_unlock_tables
+      gadgets_armor_and_equipment -->|related| price_tables_season_1
+      damage_ballistics_and_balance -->|related| combat_loadouts_foundation
+      damage_ballistics_and_balance -->|related| weapons_catalogue
+      damage_ballistics_and_balance -->|related| gadgets_armor_and_equipment
+      damage_ballistics_and_balance -->|related| patch_history
+      cash_rewards_and_costs -->|related| economy_foundation
+      cash_rewards_and_costs -->|related| death_penalty_and_rebuy
+      cash_rewards_and_costs -->|related| price_tables_season_1
+      cash_rewards_and_costs -->|related| season_reset_and_currencies
+      cash_rewards_and_costs -->|related| control_zone_and_match_flow
+      price_tables_season_1 -->|related| economy_foundation
+      price_tables_season_1 -->|related| weapons_catalogue
+      price_tables_season_1 -->|related| gadgets_armor_and_equipment
+      price_tables_season_1 -->|related| vehicle_roster_and_prices
+      price_tables_season_1 -->|related| cash_rewards_and_costs
+      death_penalty_and_rebuy -->|related| economy_foundation
+      death_penalty_and_rebuy -->|related| cash_rewards_and_costs
+      death_penalty_and_rebuy -->|related| price_tables_season_1
+      death_penalty_and_rebuy -->|related| combat_loadouts_foundation
+      season_reset_and_currencies -->|related| economy_foundation
+      season_reset_and_currencies -->|related| progression_and_role_tracks
+      season_reset_and_currencies -->|related| season_2_announcements
+      season_reset_and_currencies -->|related| patch_history
+      vehicle_roster_and_prices -->|related| vehicles_outposts_foundation
+      vehicle_roster_and_prices -->|related| air_and_counter_air
+      vehicle_roster_and_prices -->|related| fob_and_base_building
+      vehicle_roster_and_prices -->|related| price_tables_season_1
+      vehicle_roster_and_prices -->|related| progression_unlock_tables
+      fob_and_base_building -->|related| vehicles_outposts_foundation
+      fob_and_base_building -->|related| vehicle_roster_and_prices
+      fob_and_base_building -->|related| air_and_counter_air
+      fob_and_base_building -->|related| cash_rewards_and_costs
+      fob_and_base_building -->|related| maps_environment_foundation
+      air_and_counter_air -->|related| vehicles_outposts_foundation
+      air_and_counter_air -->|related| vehicle_roster_and_prices
+      air_and_counter_air -->|related| fob_and_base_building
+      air_and_counter_air -->|related| gadgets_armor_and_equipment
+      air_and_counter_air -->|related| damage_ballistics_and_balance
+      destructibility_and_level_design -->|related| maps_environment_foundation
+      destructibility_and_level_design -->|related| launch_maps_reference
+      destructibility_and_level_design -->|related| fob_and_base_building
+      destructibility_and_level_design -->|related| system_requirements_and_performance
+      season_2_announcements -->|related| meta_release_foundation
+      season_2_announcements -->|related| season_reset_and_currencies
+      season_2_announcements -->|related| patch_history
+      season_2_announcements -->|related| progression_and_role_tracks
+      season_2_announcements -->|related| destructibility_and_level_design
+      community_and_source_reliability -->|related| meta_release_foundation
+      community_and_source_reliability -->|related| patch_history
+      community_and_source_reliability -->|related| editions_pricing_platforms
       combat_loadouts_foundation -->|related| gameplay_modes_foundation
       economy_foundation -->|related| gameplay_modes_foundation
       economy_foundation -->|related| combat_loadouts_foundation

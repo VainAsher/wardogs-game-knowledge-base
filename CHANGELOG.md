@@ -6,3 +6,4 @@
 - Cluster A (v1.0.0): gameplay-modes, combat-loadouts and economy foundations.
 - Cluster B (v1.0.0): vehicles-outposts, maps-environment, technical-servers and meta-release foundations.
 - Cluster C (v1.0.0): six depth docs (server hosting, RCON, system requirements, patch history, editions/pricing, launch maps). economy-foundation v1.0.1 date correction.
+- Cluster D (v1.0.0): 16 depth docs built from official Steam text; check_steam_gids.py gate; baseline snapshot.

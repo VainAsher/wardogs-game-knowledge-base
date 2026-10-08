@@ -37,3 +37,14 @@
 | Season 1.0 | Label of the launch-day changelog covering unlock levels, XP curve and prices | gfinity-s1 |
 | Play area (community) | Community term for a named circle (reported 500 m radius) conflicting with the official 2x2 km Control Zone | allthings-maps |
 | Drill tower | Capturable map tower revealing part of a key code (community-reported) | allthings-zestafona |
+| Gold Market | Official name for the cosmetic store bought with Gold Bars (18 Feb 2026 FAQ); relation to the roadmap's "Black Market & Vault" unresolved | steam-news 1825093633182385 |
+| Role track (official) | Official Season 1 changelog names six: Career, Medic, Recon, Support, Driver, Pilot; "Assault" is a player-guide name | steam-news 1843481262690549 |
+| XP band | A level at which the Season 1 changelog publishes an XP requirement (levels 6 to 50) | steam-news 1843481262690549 |
+| Schematic | Placed, unbuilt structure; destroying one pays a reduced reward since 0.1.2 | steam-news 1845383656376490 |
+| Economy abuse | Cash or XP exploits, XP farming or real money trading; punished by timed bans and a reset, or permanent bans | steam-news 1843481262698449 |
+| CIWS | Close-in weapon system anti-air buildable; 2 Oct 2026 hotfix cut time to destroy a Havoc from about 12 s to about 6 s (official) | steam-news 1845383656386801 |
+| IR Rangefinder | Item disabled in the vendor by the 2 Oct 2026 hotfix until Season 02, when it requires batteries; the post title says IR Goggles | steam-news 1845383656386801 |
+| WAR DYNAMICS FRAMEWORK | Bulkhead's custom Unreal Engine 5 enhancements for 100-player combat | steam-news 1825093633182385 |
+| Reliability grade (R1-R4) | KB judgement of a source against official text: R1 reliable to R4 do not cite alone | community-and-source-reliability |
+| Baseline value | A number stamped with the game version it was true for, so later seasons can be diffed mechanically | - |
+

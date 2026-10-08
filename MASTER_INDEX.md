@@ -19,6 +19,22 @@ Catalogue of every document. Generated site and exports read the table below.
 | patch-history | Patch & Update History | Dated per-patch changelog from closed beta through 0.1.2 and hotfixes | 2 | Global | 1.0.0 | frozen | Medium | `docs/meta-release/patch-history.md` |
 | editions-pricing-platforms | Editions, Pricing & Platforms | Editions, regional pricing, Supporter Pack contents, platform roadmap, Early Access policy | 2 | Global | 1.0.0 | frozen | Medium | `docs/meta-release/editions-pricing-platforms.md` |
 | launch-maps-reference | Launch Maps Reference | Per-map profiles: Bakurani, Ozeti, Zestafona and unconfirmed maps | 2 | Global | 1.0.0 | frozen | Low | `docs/maps-environment/launch-maps-reference.md` |
+| control-zone-and-match-flow | Control Zone & Match Flow | Match lifecycle, Control Zone and Hot Zone scoring, win conditions, spawning, team balance | 2 | Global | 1.0.0 | frozen | Medium | `docs/gameplay-modes/control-zone-and-match-flow.md` |
+| progression-and-role-tracks | Progression & Role Tracks | XP curves, role tracks, WARDOG level, season resets | 2 | Global | 1.0.0 | frozen | Medium | `docs/gameplay-modes/progression-and-role-tracks.md` |
+| progression-unlock-tables | Progression Unlock Tables (Season 1) | Level-by-level unlocks per role and account | 3 | Global | 1.0.0 | frozen | Medium | `docs/gameplay-modes/progression-unlock-tables.md` |
+| weapons-catalogue | Weapons Catalogue | Firearms and launchers: roster, prices, unlock levels, attachments | 3 | Global | 1.0.0 | frozen | Low | `docs/combat-loadouts/weapons-catalogue.md` |
+| gadgets-armor-and-equipment | Gadgets, Armor & Equipment | Gadgets, armor, backpacks, ammo types, sidearms, optics and IR gear | 3 | Global | 1.0.0 | frozen | Medium | `docs/combat-loadouts/gadgets-armor-and-equipment.md` |
+| damage-ballistics-and-balance | Damage, Ballistics & Balance Changes | Damage model, ballistics, hit registration, and the balance-change history | 2 | Global | 1.0.0 | frozen | Medium | `docs/combat-loadouts/damage-ballistics-and-balance.md` |
+| cash-rewards-and-costs | Cash Rewards & Costs | How cash is earned and lost per action, and exploit fixes | 2 | Global | 1.0.0 | frozen | Medium | `docs/economy/cash-rewards-and-costs.md` |
+| price-tables-season-1 | Season 1 Price Tables | Complete in-game price list as of Season 1 plus later patch changes | 3 | Global | 1.0.0 | frozen | High | `docs/economy/price-tables-season-1.md` |
+| death-penalty-and-rebuy | Death Penalty, Loadout Loss & Re-buy | What dying costs, loadout loss, re-buy, insurance-like mechanics, negative balances | 2 | Global | 1.0.0 | frozen | Low | `docs/economy/death-penalty-and-rebuy.md` |
+| season-reset-and-currencies | Seasons, Resets & Currencies | Season structure, what resets, Gold Bars, what persists, cosmetics | 2 | Global | 1.0.0 | frozen | Medium | `docs/economy/season-reset-and-currencies.md` |
+| vehicle-roster-and-prices | Vehicle Roster & Prices | Land and air vehicles: roster, price, unlock level, crew, role | 3 | Global | 1.0.0 | frozen | Medium | `docs/vehicles-outposts/vehicle-roster-and-prices.md` |
+| fob-and-base-building | FOBs, Hammers & Base Building | FOB deployment, supply types, hammer tiers, structures, pallet logistics, costs | 2 | Global | 1.0.0 | frozen | Medium | `docs/vehicles-outposts/fob-and-base-building.md` |
+| air-and-counter-air | Air Vehicles & Counter-Air | Helicopters, aircraft, anti-air systems (CIWS/Sea Whiz, Havoc), pilots, IR countermeasures | 2 | Global | 1.0.0 | frozen | Medium | `docs/vehicles-outposts/air-and-counter-air.md` |
+| destructibility-and-level-design | Destructibility & Level Design | Destruction model, level design philosophy, map scale, performance trade-offs, weather | 2 | Global | 1.0.0 | frozen | Medium | `docs/maps-environment/destructibility-and-level-design.md` |
+| season-2-announcements | Season 02: Announced Changes (Pre-Release Baseline) | Everything officially and unofficially said about Season 02 and the 1.0 roadmap before launch | 2 | Global | 1.0.0 | frozen | Low | `docs/meta-release/season-2-announcements.md` |
+| community-and-source-reliability | Community Channels & Source Reliability Register | Official channels, community hubs, and a reliability rating for every source class and outlet used | 2 | Global | 1.0.0 | frozen | Medium | `docs/meta-release/community-and-source-reliability.md` |
 
 ## Proposed taxonomy (approved 2026-10-08)
 
@@ -61,3 +77,19 @@ First cluster: Gameplay & Modes, Combat & Loadouts, Economy.
 - `editions-pricing-platforms` related to `patch-history`, `system-requirements-and-performance`
 - `launch-maps-reference` deepens `maps-environment-foundation`
 - `launch-maps-reference` related to `gameplay-modes-foundation`, `vehicles-outposts-foundation`
+- `control-zone-and-match-flow` related to `gameplay-modes-foundation`, `progression-and-role-tracks`, `maps-environment-foundation`, `launch-maps-reference`, `cash-rewards-and-costs`
+- `progression-and-role-tracks` related to `gameplay-modes-foundation`, `progression-unlock-tables`, `season-reset-and-currencies`, `combat-loadouts-foundation`, `economy-foundation`
+- `progression-unlock-tables` related to `progression-and-role-tracks`, `weapons-catalogue`, `vehicle-roster-and-prices`, `gadgets-armor-and-equipment`
+- `weapons-catalogue` related to `combat-loadouts-foundation`, `gadgets-armor-and-equipment`, `damage-ballistics-and-balance`, `progression-unlock-tables`, `price-tables-season-1`
+- `gadgets-armor-and-equipment` related to `combat-loadouts-foundation`, `weapons-catalogue`, `damage-ballistics-and-balance`, `progression-unlock-tables`, `price-tables-season-1`
+- `damage-ballistics-and-balance` related to `combat-loadouts-foundation`, `weapons-catalogue`, `gadgets-armor-and-equipment`, `patch-history`
+- `cash-rewards-and-costs` related to `economy-foundation`, `death-penalty-and-rebuy`, `price-tables-season-1`, `season-reset-and-currencies`, `control-zone-and-match-flow`
+- `price-tables-season-1` related to `economy-foundation`, `weapons-catalogue`, `gadgets-armor-and-equipment`, `vehicle-roster-and-prices`, `cash-rewards-and-costs`
+- `death-penalty-and-rebuy` related to `economy-foundation`, `cash-rewards-and-costs`, `price-tables-season-1`, `combat-loadouts-foundation`
+- `season-reset-and-currencies` related to `economy-foundation`, `progression-and-role-tracks`, `season-2-announcements`, `patch-history`
+- `vehicle-roster-and-prices` related to `vehicles-outposts-foundation`, `air-and-counter-air`, `fob-and-base-building`, `price-tables-season-1`, `progression-unlock-tables`
+- `fob-and-base-building` related to `vehicles-outposts-foundation`, `vehicle-roster-and-prices`, `air-and-counter-air`, `cash-rewards-and-costs`, `maps-environment-foundation`
+- `air-and-counter-air` related to `vehicles-outposts-foundation`, `vehicle-roster-and-prices`, `fob-and-base-building`, `gadgets-armor-and-equipment`, `damage-ballistics-and-balance`
+- `destructibility-and-level-design` related to `maps-environment-foundation`, `launch-maps-reference`, `fob-and-base-building`, `system-requirements-and-performance`
+- `season-2-announcements` related to `meta-release-foundation`, `season-reset-and-currencies`, `patch-history`, `progression-and-role-tracks`, `destructibility-and-level-design`
+- `community-and-source-reliability` related to `meta-release-foundation`, `patch-history`, `editions-pricing-platforms`

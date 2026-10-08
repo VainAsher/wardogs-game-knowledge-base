@@ -50,9 +50,26 @@ nav:
       - "Technical & Servers: Foundation": technical-servers/technical-servers-foundation.md
       - "Vehicles & Outposts: Foundation": vehicles-outposts/vehicles-outposts-foundation.md
   - "Class 2 — Depth documents":
+      - "Damage, Ballistics & Balance Changes": combat-loadouts/damage-ballistics-and-balance.md
+      - "Cash Rewards & Costs": economy/cash-rewards-and-costs.md
+      - "Death Penalty, Loadout Loss & Re-buy": economy/death-penalty-and-rebuy.md
+      - "Seasons, Resets & Currencies": economy/season-reset-and-currencies.md
+      - "Control Zone & Match Flow": gameplay-modes/control-zone-and-match-flow.md
+      - "Progression & Role Tracks": gameplay-modes/progression-and-role-tracks.md
+      - "Destructibility & Level Design": maps-environment/destructibility-and-level-design.md
       - "Launch Maps Reference": maps-environment/launch-maps-reference.md
+      - "Community Channels & Source Reliability Register": meta-release/community-and-source-reliability.md
       - "Editions, Pricing & Platforms": meta-release/editions-pricing-platforms.md
       - "Patch & Update History": meta-release/patch-history.md
+      - "Season 02: Announced Changes (Pre-Release Baseline)": meta-release/season-2-announcements.md
       - "RCON & Server Administration": technical-servers/rcon-and-server-admin.md
       - "Server Hosting & Server Browser": technical-servers/server-hosting-and-browser.md
       - "System Requirements, Performance & Crashes": technical-servers/system-requirements-and-performance.md
+      - "Air Vehicles & Counter-Air": vehicles-outposts/air-and-counter-air.md
+      - "FOBs, Hammers & Base Building": vehicles-outposts/fob-and-base-building.md
+  - "Class 3 — Reference data & tables":
+      - "Gadgets, Armor & Equipment": combat-loadouts/gadgets-armor-and-equipment.md
+      - "Weapons Catalogue": combat-loadouts/weapons-catalogue.md
+      - "Season 1 Price Tables": economy/price-tables-season-1.md
+      - "Progression Unlock Tables (Season 1)": gameplay-modes/progression-unlock-tables.md
+      - "Vehicle Roster & Prices": vehicles-outposts/vehicle-roster-and-prices.md

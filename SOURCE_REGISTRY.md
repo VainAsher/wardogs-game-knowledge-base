@@ -76,3 +76,41 @@ Hosts that 403/429 to fetchers during cluster B (do not cite): metaforge.app. A 
 
 Fetched live (not 403 hosts): wardogs-game.com, wardogs.tech, wardogservers.com. 403/429 during cluster C: mobalytics.gg, GamesBeat, supercraft.host wiki, thegameswiki.
 
+## Official Steam news register (Primary, from 2026-10-08 snapshot)
+
+Cite as `https://store.steampowered.com/news/app/1867240/view/<gid>`. The link checker cannot prove these (the host is allowlisted and returns 200 for any id), so `scripts/check_steam_gids.py` validates every cited id against the snapshot index. Full text is in `snapshots/2026-10-08/steam-news/`.
+
+| Date (UTC) | gid | Title |
+|-----------|-----|-------|
+| 2026-02-09 | 1823825466504264 | WARDOGS - Official Announcement Trailer |
+| 2026-02-10 | 1823825466508865 | 100,000 Steam Wishlists! |
+| 2026-02-18 | 1825093633182385 | WARDOGS - TOP QUESTIONS |
+| 2026-02-19 | 1825093633185779 | Evolving the King of the Hill Mod! |
+| 2026-03-03 | 1825727806721330 | WARDOGS - Answering Your Questions |
+| 2026-04-07 | 1828894815567544 | WARDOGS - Early Access & Beyond |
+| 2026-05-21 | 1833334318569240 | WARDOGS - Tactical Depth & Teamplay |
+| 2026-05-26 | 1833334318579522 | 500,000 Steam Wishlists! |
+| 2026-06-06 | 1834602721194537 | WARDOGS - Gameplay Trailer |
+| 2026-06-07 | 1834602721196835 | WARDOGS Pre-Alpha Announcement |
+| 2026-06-16 | 1835236783575445 | WARDOGS / Addressing Feedback |
+| 2026-07-16 | 1838407329256924 | WARDOGS / Level Design & Performance |
+| 2026-07-17 | 1838407329259784 | WARDOGS / Livestream Announcement |
+| 2026-07-22 | 1839041357023508 | First WARDOGS Livestream! |
+| 2026-08-11 | 1840310314354505 | PRE-ORDER NOW! |
+| 2026-08-14 | 1840944183779929 | 1 MILLION WISHLISTS ON STEAM |
+| 2026-08-20 | 1841579228666871 | WARDOGS / Closed Beta Schedule |
+| 2026-08-24 | 1841579228676589 | WARDOGS / Beta Recap & Next Steps |
+| 2026-09-01 | 1842212951313938 | WARDOGS / Closed Beta 02 Announcement |
+| 2026-09-05 | 1842846814449809 | THE CLOSED BETA IS NOW AN OPEN BETA! |
+| 2026-09-08 | 1842846814456311 | The 11th Reason NOT To Buy WARDOGS |
+| 2026-09-09 | 1843481262690549 | Pre-Load Live & Season 1 Changelog |
+| 2026-09-10 | 1843481262691760 | WARDOGS LAUNCH TRAILER |
+| 2026-09-10 | 1843481262693332 | Launch Stability Hotfix #1 |
+| 2026-09-11 | 1843481262693807 | 1.25 MILLION COPIES SOLD! |
+| 2026-09-12 | 1843481262698449 | SCHEDULED MAINTENANCE & PATCH 0.11 |
+| 2026-09-15 | 1843481262705755 | 2 MILLION COPIES SOLD |
+| 2026-09-22 | 1844115010504839 | WARDOGS / Season 02 Teaser |
+| 2026-09-26 | 1844751498227777 | 3 Million Sales + Golden Joystick Awards [VOTE NOW!] |
+| 2026-09-30 | 1845383656376490 | WARDOGS / Update 0.1.2 (Minor Patch)  |
+| 2026-10-02 | 1845383656384445 | WARDOGS / Security & Stability Hotfix |
+| 2026-10-02 | 1845383656386801 | IR Goggles & CIWS Balance Hotfix |
