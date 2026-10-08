@@ -1,0 +1,5 @@
+# Local-only reference captures: third-party text (official Steam post bodies, store page/API text).
+# Kept on the maintainer machine for diffing; not redistributed. index.json and reviews-summary.json are tracked.
+snapshots/*/steam-news/*.md
+snapshots/*/store-*.json
+snapshots/*/store-page-live.txt

@@ -6,4 +6,4 @@ See `MASTER_INDEX.md` for the catalogue.
 
 ## Baselines and staleness checks
 
-`snapshots/<date>/` holds dated captures of the official Steam news posts (full text), store-page data and review summary, taken with `python scripts/snapshot_steam_news.py`. Re-run after each patch and diff against the previous folder to find stale claims.
+`snapshots/<date>/` holds dated captures taken with `python scripts/snapshot_steam_news.py`. The published repo tracks only `steam-news/index.json` (post ids, dates, titles, hashes) and `reviews-summary.json`; the verbatim post bodies and store-page text are third-party content and stay local (gitignored). `scripts/check_steam_gids.py` checks every cited Steam post id against the index. Re-run the script after each patch and diff against the previous folder to find stale claims.
