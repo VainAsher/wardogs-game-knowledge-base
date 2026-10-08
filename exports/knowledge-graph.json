@@ -47,7 +47,7 @@
       "topic": "Account balance, costs, rewards, death penalty",
       "tier": "1",
       "market": "Global",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "status": "frozen",
       "confidence": "Medium",
       "path": "docs/economy/economy-foundation.md",
@@ -143,6 +143,128 @@
         "economy-foundation",
         "technical-servers-foundation",
         "maps-environment-foundation"
+      ]
+    },
+    {
+      "id": "server-hosting-and-browser",
+      "title": "Server Hosting & Server Browser",
+      "topic": "Official vs community servers, approved hosts, regions, browser behaviour, restarts",
+      "tier": "2",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Low",
+      "path": "docs/technical-servers/server-hosting-and-browser.md",
+      "category": "Technical & Servers",
+      "document_type": "depth",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "technical-servers-foundation",
+        "rcon-and-server-admin",
+        "meta-release-foundation"
+      ]
+    },
+    {
+      "id": "rcon-and-server-admin",
+      "title": "RCON & Server Administration",
+      "topic": "RCON interface, ServerSettings, admin tooling, security hardening",
+      "tier": "2",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Low",
+      "path": "docs/technical-servers/rcon-and-server-admin.md",
+      "category": "Technical & Servers",
+      "document_type": "depth",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "technical-servers-foundation",
+        "server-hosting-and-browser",
+        "system-requirements-and-performance"
+      ]
+    },
+    {
+      "id": "system-requirements-and-performance",
+      "title": "System Requirements, Performance & Crashes",
+      "topic": "Hardware requirements, Linux/Proton, anti-cheat, crash codes, performance fixes",
+      "tier": "2",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Medium",
+      "path": "docs/technical-servers/system-requirements-and-performance.md",
+      "category": "Technical & Servers",
+      "document_type": "depth",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "technical-servers-foundation",
+        "rcon-and-server-admin",
+        "meta-release-foundation"
+      ]
+    },
+    {
+      "id": "patch-history",
+      "title": "Patch & Update History",
+      "topic": "Dated per-patch changelog from closed beta through 0.1.2 and hotfixes",
+      "tier": "2",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Medium",
+      "path": "docs/meta-release/patch-history.md",
+      "category": "Meta & Release",
+      "document_type": "reference-data",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "meta-release-foundation",
+        "technical-servers-foundation",
+        "economy-foundation",
+        "editions-pricing-platforms"
+      ]
+    },
+    {
+      "id": "editions-pricing-platforms",
+      "title": "Editions, Pricing & Platforms",
+      "topic": "Editions, regional pricing, Supporter Pack contents, platform roadmap, Early Access policy",
+      "tier": "2",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Medium",
+      "path": "docs/meta-release/editions-pricing-platforms.md",
+      "category": "Meta & Release",
+      "document_type": "reference-data",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "meta-release-foundation",
+        "economy-foundation",
+        "patch-history",
+        "system-requirements-and-performance"
+      ]
+    },
+    {
+      "id": "launch-maps-reference",
+      "title": "Launch Maps Reference",
+      "topic": "Per-map profiles: Bakurani, Ozeti, Zestafona and unconfirmed maps",
+      "tier": "2",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Low",
+      "path": "docs/maps-environment/launch-maps-reference.md",
+      "category": "Maps & Environment",
+      "document_type": "reference-data",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "maps-environment-foundation",
+        "gameplay-modes-foundation",
+        "vehicles-outposts-foundation"
       ]
     }
   ],
@@ -282,6 +404,126 @@
     {
       "from": "meta-release-foundation",
       "to": "maps-environment-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "server-hosting-and-browser",
+      "to": "technical-servers-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "server-hosting-and-browser",
+      "to": "rcon-and-server-admin",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "server-hosting-and-browser",
+      "to": "meta-release-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rcon-and-server-admin",
+      "to": "technical-servers-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rcon-and-server-admin",
+      "to": "server-hosting-and-browser",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "rcon-and-server-admin",
+      "to": "system-requirements-and-performance",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "system-requirements-and-performance",
+      "to": "technical-servers-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "system-requirements-and-performance",
+      "to": "rcon-and-server-admin",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "system-requirements-and-performance",
+      "to": "meta-release-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "patch-history",
+      "to": "meta-release-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "patch-history",
+      "to": "technical-servers-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "patch-history",
+      "to": "economy-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "patch-history",
+      "to": "editions-pricing-platforms",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "editions-pricing-platforms",
+      "to": "meta-release-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "editions-pricing-platforms",
+      "to": "economy-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "editions-pricing-platforms",
+      "to": "patch-history",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "editions-pricing-platforms",
+      "to": "system-requirements-and-performance",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "launch-maps-reference",
+      "to": "maps-environment-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "launch-maps-reference",
+      "to": "gameplay-modes-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "launch-maps-reference",
+      "to": "vehicles-outposts-foundation",
       "rel": "related",
       "target": "known"
     },

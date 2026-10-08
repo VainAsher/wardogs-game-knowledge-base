@@ -27,3 +27,13 @@
 | WD-L020 | Crash code tied to Windows 11 update KB5124010, fixed in 0.1.2 | ingamenews-012 |
 | Supporter Edition | Base game plus cosmetic-only Supporter Pack (GBP 45.99 on Steam, 2026-10-08) | steam-store |
 | Closed Beta | Pre-launch playtest gated by pre-order or a Steam page request | gameluster-wishlists |
+| Approved host | Hosting provider the studio permits to run community servers; fan-relayed names: QONZER, BisectHosting, xREALM | neonsect-servers-guide |
+| Deploy screen | In-game flow to the Official and Community server browsers; 0.1.2 added Infantry Mode and Low-Level options | mp1st-012 |
+| Config document | Whole ServerSettings.ini text read and replaced via /v1/config, with If-Match revision checks (unofficial) | server-refs |
+| CL-501228 | Build (2026-09-14) reported to have removed eight RCON write endpoints (unofficial) | server-refs |
+| KB5124010 | Windows 11 update reported by press as the trigger of WD-L020 crashes | mp1st-012 |
+| Kernel-level anti-cheat | Driver-level anti-cheat; the Steam page states WARDOGS uses it, product unnamed | steam-store |
+| Supporter Pack | Cosmetic DLC: 3 Starter Weapon camos, 3 branded camos, scoreboard icon, 2 bobbleheads | steam-api |
+| Season 1.0 | Label of the launch-day changelog covering unlock levels, XP curve and prices | gfinity-s1 |
+| Play area (community) | Community term for a named circle (reported 500 m radius) conflicting with the official 2x2 km Control Zone | allthings-maps |
+| Drill tower | Capturable map tower revealing part of a key code (community-reported) | allthings-zestafona |

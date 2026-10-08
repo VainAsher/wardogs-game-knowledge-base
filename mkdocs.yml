@@ -49,3 +49,10 @@ nav:
       - "Meta & Release: Foundation": meta-release/meta-release-foundation.md
       - "Technical & Servers: Foundation": technical-servers/technical-servers-foundation.md
       - "Vehicles & Outposts: Foundation": vehicles-outposts/vehicles-outposts-foundation.md
+  - "Class 2 — Depth documents":
+      - "Launch Maps Reference": maps-environment/launch-maps-reference.md
+      - "Editions, Pricing & Platforms": meta-release/editions-pricing-platforms.md
+      - "Patch & Update History": meta-release/patch-history.md
+      - "RCON & Server Administration": technical-servers/rcon-and-server-admin.md
+      - "Server Hosting & Server Browser": technical-servers/server-hosting-and-browser.md
+      - "System Requirements, Performance & Crashes": technical-servers/system-requirements-and-performance.md

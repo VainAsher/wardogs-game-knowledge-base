@@ -61,3 +61,18 @@ Hosts that 403/429 to checkers during cluster A (do not cite): primagames.com, t
 
 Hosts that 403/429 to fetchers during cluster B (do not cite): metaforge.app. A BisectHosting help article also 403'd.
 
+## Sources added by cluster C (2026-10-08)
+
+| Key | Source | Class | URL |
+|-----|--------|-------|-----|
+| steam-api | Steam storefront API (DLC 4809960) | Primary | https://store.steampowered.com/api/appdetails?appids=4809960&cc=us |
+| gfinity-012 | Update 0.1.2 patch notes (Gfinity) | Press | https://www.gfinityesports.com/article/wardogs-update-012-patch-notes-cash-and-xp-exploit-fixes-are-here |
+| vice-012 | Update 0.1.2 patch notes (Vice) | Press | https://www.vice.com/en/article/wardogs-update-0-1-2-patch-notes/ |
+| gosu-3m | 3 million copies (GosuGamers) | Press | https://www.gosugamers.net/entertainment/news/79260-wardogs-sells-3-million-copies-in-just-over-two-weeks-after-early-access-launch |
+| steamdeckhq-proton | Proton work (SteamDeckHQ) | Press | https://steamdeckhq.com/news/wardogs-devs-are-working-on-proton-support/ |
+| neonsect-servers-guide | Community servers guide (Neonsect) | Player-Reported | https://neonsect.com/wardogs/wardogs-community-servers-guide/ |
+| mmoexp-oct2, timesaver-hotfix | 2 Oct hotfix coverage | Player-Reported, single-source / conflict of interest | see patch-history |
+| xgs-mapguide, boostroom-maps | Map guides by hosting and boosting sellers | Player-Reported, conflict of interest | see launch-maps-reference |
+
+Fetched live (not 403 hosts): wardogs-game.com, wardogs.tech, wardogservers.com. 403/429 during cluster C: mobalytics.gg, GamesBeat, supercraft.host wiki, thegameswiki.
+

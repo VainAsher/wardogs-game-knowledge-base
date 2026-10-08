@@ -1,13 +1,13 @@
 ---
 id: economy-foundation
 title: "Economy: Foundation"
-version: 1.0.0
+version: 1.0.1
 status: frozen
 confidence: Medium
 category: Economy
 topic: "Account balance, costs, rewards, death penalty"
 market: Global
-game_version: "Early Access Update 0.1.2 (29 Sep 2026) plus hotfixes to 2 Oct 2026"
+game_version: "Early Access Update 0.1.2 (30 Sep 2026) plus hotfixes to 2 Oct 2026"
 document_type: foundation
 created: 2026-10-08
 updated: 2026-10-08
@@ -23,11 +23,11 @@ tags: [economy, cash, death-penalty, pricing, early-access]
 | Field | Value |
 |-------|-------|
 | Document ID | economy-foundation |
-| Version | 1.0.0 |
+| Version | 1.0.1 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Economy |
-| Game version | Early Access Update 0.1.2 (29 Sep 2026) plus hotfixes to 2 Oct 2026 |
+| Game version | Early Access Update 0.1.2 (30 Sep 2026) plus hotfixes to 2 Oct 2026 |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
 | Updated | 2026-10-08 |
@@ -76,7 +76,7 @@ All facts below are for Early Access, as of 2026-10-08.
 - The studio committed to "no in-game monetisation during Early Access" apart from an optional cosmetic Supporters Edition [3].
 - Steam lists Standard at £36.99, Supporter Edition at £45.99, and the Supporter Pack DLC at £11.99; the page describes no in-game purchases [1].
 - The Steam page says the team plans lower Early Access pricing and may raise it nearer full release; Early Access is expected to last around 1 to 2 years [1].
-- The latest posted version is Update 0.1.2 (29 Sep); hotfixes followed on 1 and 2 Oct, and Season 02 is teased for 15 Oct 2026 [2].
+- The latest posted version is Update 0.1.2 (30 Sep); hotfixes followed on 1 and 2 Oct, and Season 02 is teased for 15 Oct 2026 [2].
 
 # Detail
 
@@ -126,7 +126,7 @@ The launch press release quoted $39.99 USD for Early Access [3].
 
 - 10 Sep 2026, Season 1.0 launch changelog: price rebalance of vendor and vehicle items, reworked role-track XP curve (for example level 20 from 111,500 to 250,000 XP), and unlock-level moves such as Artillery Tank 55 to 90 [4].
 - 12 to 14 Sep 2026, Patch 0.11: cash exploit fixes, temporary 5% end-of-match cash bonus on community servers for a week, and an economy abuse policy: timed bans and cash/XP reset to 0 for cash exploits, permanent bans for XP farming [2][5].
-- 29 Sep 2026, Update 0.1.2: closed cash and XP exploits (vehicle fly-through, reduced rewards for destroying buildables and depositing outside a FOB zone) [2].
+- 30 Sep 2026, Update 0.1.2: closed cash and XP exploits (vehicle fly-through, reduced rewards for destroying buildables and depositing outside a FOB zone) [2].
 - 2 Oct 2026, hotfix: IR Rangefinders disabled until Season 02 and CIWS balance tweak [2].
 - Planned: Season 02 teased for 15 Oct 2026 [2].
 
@@ -185,3 +185,4 @@ Gold Bar and cosmetics guides on community sites; the official Steam news feed f
 |---------|------|--------|--------|-------------|
 | 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial draft. | — |
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint and links (0 dead). | Standing mandate (auto-approve on green QA) |
+| 1.0.1 | 2026-10-08 | Orchestrator | Corrected Update 0.1.2 date from 29 Sep to 30 Sep 2026 (five outlets agree; see patch-history). | Standing mandate (auto-approve on green QA) |
