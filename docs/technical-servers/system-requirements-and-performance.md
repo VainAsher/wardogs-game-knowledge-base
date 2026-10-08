@@ -1,7 +1,7 @@
 ---
 id: system-requirements-and-performance
 title: "System Requirements, Performance & Crashes"
-version: 1.0.0
+version: 1.1.0
 status: frozen
 confidence: Medium
 category: Technical & Servers
@@ -11,7 +11,7 @@ game_version: "Season 1, patch 0.1.2 plus hotfixes to 2 Oct 2026"
 document_type: depth
 created: 2026-10-08
 updated: 2026-10-08
-review_due: 2026-11-08
+review_due: 2026-10-22
 sources_verified: 2026-10-08
 supersedes: null
 related: [technical-servers-foundation, rcon-and-server-admin, meta-release-foundation]
@@ -23,152 +23,167 @@ tags: [system-requirements, performance, crashes, linux, proton, anti-cheat, dls
 | Field | Value |
 |-------|-------|
 | Document ID | system-requirements-and-performance |
-| Version | 1.0.0 |
+| Version | 1.1.0 |
 | Status | frozen |
-| Confidence | Medium |
+| Confidence | Medium (High for the specification table) |
 | Category | Technical & Servers |
 | Game version | Season 1, patch 0.1.2 plus hotfixes to 2 Oct 2026 |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
 | Updated | 2026-10-08 |
-| Review due | 2026-11-08 |
+| Review due | 2026-10-22 |
 
 # Executive Summary
 
-This depth document goes beyond the specification table in technical-servers-foundation. It collects what is documented about client performance and stability in WARDOGS (Steam app 1867240): the exact wording and gaps of the Steam requirements, what is and is not stated about upscaling and frame generation, the Linux and Proton position, what a "kernel level" anti-cheat implies for players, the WD-L020 crash and its Windows 11 KB5124010 link, and a patch-by-patch list of performance and crash fixes through the 2 October 2026 hotfix [1][2][3][4][5].
+This depth document goes beyond the specification table in technical-servers-foundation. It collects what is officially documented about client performance and stability in WARDOGS (Steam app 1867240): the Steam store requirements as returned by the store API in the US and GB storefronts, what the official posts say about upscaling and frame generation, the Linux and Proton position, the WD-L020 crash and its Windows 11 KB5124010 link, and a post-by-post list of performance and crash fixes through the 2 October 2026 hotfixes [1][2][3][4][5][6][7].
 
-Headline facts: the Steam page lists a 50 GB install, 16 GB RAM and a 1080p Low 60 fps (upscaled) minimum, and does not list DirectX, Steam Deck or Linux [1]. WD-L020 was the main target of update 0.1.2 on 30 September 2026 and was tied by press to Windows 11 update KB5124010 [4][5]. Upscaling settings are confirmed only through a DLSS Frame Generation toggle in launch notes and a player-reported settings guide [2][7].
+Headline facts: the store lists a 50 GB install, 16 GB RAM and a 1080p Low 60 fps (upscaled) minimum, lists Windows only, and carries no DirectX, VRAM or storage-type line [1]. Update 0.1.2 (30 September 2026) officially names a "Windows 11 'WD-L020' Crash Error Fix" and attributes the crashes to Windows 11 update KB5124010 [5]. The only official upscaling or frame generation wording is a DLSS Frame Generation toggle fix in the Season 1 changelog [2]. The developers' own posts say nothing about Linux, Proton, Steam Deck or the name of the anti-cheat [1][10].
 
-Confidence is Medium. The specification and anti-cheat line are primary, but patch contents rest on press summaries because Steam news bodies were not readable, and the settings guidance is player-reported.
+Confidence is Medium overall. The specification table is a direct reading of the store snapshot and is rated High; the Linux position rests on one press article and the settings guidance is player-reported.
 
 # Key Takeaways
 
-- The Steam page lists Windows 10 64-bit minimum, Windows 11 64-bit recommended, 16 GB RAM and 50 GB storage for both tiers; no DirectX version, VRAM figure or storage type is given (checked 2026-10-08) [1].
-- The minimum is stated as 1080p Low at 60 fps upscaled; the recommended is 1440p Medium 70+ fps native or 4K Medium 60+ fps upscaled, so the minimum assumes an upscaler is on [1].
-- The Steam page says "Uses Kernel Level Anti-Cheat" and does not name the product; GamingOnLinux says the studio used Easy Anti-Cheat earlier and appeared to be testing something else (5 Sep 2026) [1][6].
-- Linux is unsupported; on 5 Sep 2026 the developers said they cannot commit to Linux for Early Access, that earlier Linux working was accidental, and invited refunds [6]. The Steam page does not mention Steam Deck [1].
-- WD-L020 crash fix shipped in update 0.1.2 (30 Sep 2026), described as the patch's main issue and linked to Windows 11 update KB5124010 [4][5].
-- Launch patch (10 Sep 2026) made DLSS Frame Generation switchable without a restart and fixed two frame generation crash paths [2]. Patch 0.11 (14 Sep 2026) added only "more GPU crashes addressed" with no detail [3].
-- Player-reported guides rate Global Illumination as the largest single frame-rate cost and recommend installing on an SSD (guide updated 12 Sep 2026) [7].
+- Specification (store API, US and GB identical, snapshot 2026-10-08): minimum Windows 10, Core i5 8600 or Ryzen 5 3500, 16 GB RAM, GTX 1660 or RX 590, 50 GB, 1080p Low at 60 fps (upscaled); recommended Windows 11, Core i7 12700k or Ryzen 7 5700x, 16 GB RAM, RTX 3070 or RX 6700 XT, 50 GB, 1440p Medium at 70 fps+ (native) or 4K Medium at 60 fps+ (upscaled) [1].
+- Both tiers say "Requires a 64-bit processor and operating system"; no DirectX version, VRAM figure or SSD/HDD statement is given [1].
+- The store API reports platforms Windows true, Mac false, Linux false, and empty Mac and Linux requirement blocks [1].
+- Supported languages: 14, with full audio in English only [1].
+- Update 0.1.2 fixed "the issue caused by the latest Windows 11 update, KB5124010, causing the recent WD-L020 crashes" [5]. No official post describes the mechanism or affected hardware.
+- The Season 1 changelog (published 9 Sep 2026, live for launch) lists a Performance and stability section: DLSS Frame Generation toggle without restart, configurable render target pool, fewer shadow cache refreshes, two frame generation crash paths fixed, more detailed GPU crash reports and several other crash fixes [2].
+- Launch Stability Hotfix #1 (10 Sep 2026) targeted join failures, mid-game kicks and login queues, not graphics performance [3].
+- Linux: no official post found; GamingOnLinux reports the developers cannot commit to Linux for Early Access (5 Sep 2026) [11]. The developers' only anti-cheat remark in the posts read is a tongue-in-cheek line that "you don't talk about anti-cheat" [10].
 
 # Scope
 
-Covered: Steam specification wording, graphics and upscaling settings as documented, Linux and Steam Deck status, the implications of kernel-level anti-cheat, crash codes and performance and stability fixes by patch, at game version Season 1, patch 0.1.2 plus hotfixes to 2 Oct 2026. Excluded: server hosting and RCON (rcon-and-server-admin, technical-servers-foundation), release and pricing (meta-release-foundation), and Season 2 (reported for 15 Oct 2026), which is outside the verified version. No benchmark data was found, so none is given.
+Covered: Steam specification wording, graphics and upscaling settings as documented, platform status, anti-cheat disclosure, crash codes and performance and stability fixes by official post, at game version Season 1, patch 0.1.2 plus hotfixes to 2 Oct 2026. Excluded: server hosting and RCON (rcon-and-server-admin, technical-servers-foundation), release and pricing (meta-release-foundation), and Season 2, which is outside the verified version. No benchmark data was found, so none is given.
 
 # Definitions
 
-- **WD-L020:** a client crash error code named in the 0.1.2 patch notes as reported by press [4][5].
-- **KB5124010:** a Windows 11 cumulative update identified by press as the trigger for WD-L020 [4][5].
-- **Frame Generation:** DLSS Frame Generation, named in the launch changelog [2].
-- **Upscaled:** rendered at lower internal resolution and scaled; the Steam notes use "upscaled" without naming a technology [1].
-- **Kernel-level anti-cheat:** anti-cheat software that runs a driver in the operating system kernel; term used verbatim on the Steam page [1].
+- **WD-L020:** a client crash error code named in the 0.1.2 patch notes as a Windows 11 crash [5].
+- **KB5124010:** a Windows 11 update that the 0.1.2 notes identify as the cause of the WD-L020 crashes [5].
+- **Frame Generation:** DLSS Frame Generation, named in the Season 1 changelog [2].
+- **Upscaled:** rendered at lower internal resolution and scaled; the store notes use "Upscaled" without naming a technology [1].
+- **Kernel-level anti-cheat:** anti-cheat software that runs a driver in the operating system kernel. The phrase "Uses Kernel Level Anti-Cheat" was read on the live Steam page earlier, but it is not present in the store API snapshot (a Steam-generated notice), so it is treated here as an unverified-in-snapshot disclosure.
 
 # Current State
 
 At Season 1 / patch 0.1.2, checked 2026-10-08:
 
-- **Specifications.** Exactly as in the table under Detail. The Steam page lists Broadband internet as the network requirement and gives no DirectX line [1].
-- **Platforms.** The page lists Windows only. Neither Linux nor Steam Deck is mentioned [1]. GamingOnLinux reports the developers do not officially support Linux and are still working on Proton compatibility [6].
-- **Anti-cheat.** Kernel-level, unnamed [1][6].
-- **Crash status.** WD-L020 is reported fixed by 0.1.2 on 30 Sep 2026 [4][5]. The 2 Oct 2026 hotfix lists "minor security and stability issues" without specifics [4].
+- **Specifications.** Exactly as in the table under Detail [1]. The store lists Broadband internet and gives no DirectX line [1].
+- **Platforms.** The store API lists Windows only; Mac and Linux are false with empty requirement lists [1]. Steam Deck is not mentioned anywhere in the store data or in the posts read [1].
+- **Engine.** The developers describe a custom "War Dynamics Framework" that "enhances UE5" and say performance and input latency are a major concern (18 Feb 2026) [9].
+- **Anti-cheat.** Kernel-level per the live Steam page earlier in the pipeline; no official source read names the product [10].
+- **Crash status.** WD-L020 was fixed in 0.1.2 on 30 Sep 2026 [5]. The 2 Oct 2026 hotfix is described only as addressing "minor security and stability issues affecting some players" with one hour of downtime [6].
 
 # Detail
 
-## Specification wording (Steam, 2026-10-08) [1]
+## Specification wording (Steam store API, US and GB, snapshot 2026-10-08) [1]
+
+Confidence: High. The US and GB storefront payloads are identical.
 
 | Item | Minimum | Recommended |
 |------|---------|-------------|
-| OS | Windows 10, 64-bit | Windows 11, 64-bit |
-| CPU | Intel Core i5 8600 or AMD Ryzen 5 3500 | Intel Core i7 12700K or AMD Ryzen 7 5700X |
+| Architecture | 64-bit processor and operating system | 64-bit processor and operating system |
+| OS | Windows 10 | Windows 11 |
+| CPU | Intel Core i5 8600, AMD Ryzen 5 3500 | Intel Core i7 12700k, AMD Ryzen 7 5700x |
 | RAM | 16 GB | 16 GB |
-| GPU | Nvidia GTX 1660 or AMD Radeon RX 590 | Nvidia RTX 3070 or AMD Radeon RX 6700 XT |
-| Storage | 50 GB available | 50 GB available |
-| Network | Broadband | Broadband |
-| Note | 1080p Low, 60 fps (upscaled) | 1440p Medium 70+ fps (native), or 4K Medium 60+ fps (upscaled) |
+| GPU | Nvidia GTX 1660, Radeon RX 590 | Nvidia RTX 3070, AMD Radeon RX 6700 XT |
+| Storage | 50 GB available space | 50 GB available space |
+| Network | Broadband Internet connection | Broadband Internet connection |
+| Additional notes | 1080p Low @ 60fps (Upscaled) | 1440p Medium @ 70fps+ (Native) or 4k Medium @ 60fps+ (Upscaled) |
 | DirectX | Not listed | Not listed |
 
-Gaps in the official figures: no VRAM, no storage type (SSD or HDD), no Windows 11 requirement for the minimum tier, and no DirectX or Vulkan statement [1]. The minimum tier mixes a 2018-era GTX 1660 class GPU with an "upscaled" target, so players below it should expect to rely on an upscaler. Assessment: that reading is an inference from the note wording, Confidence Medium, resting on [1].
+Gaps in the official figures: no VRAM, no storage type (SSD or HDD), and no DirectX or Vulkan statement [1]. The minimum tier pairs a GTX 1660 class GPU with an "Upscaled" target, so players near the minimum should expect to rely on an upscaler. Assessment: that reading is an inference from the note wording, Confidence Medium, resting on [1].
+
+Other store data: supported languages are English (full audio), French, Italian, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Russian, Simplified Chinese, Traditional Chinese, Polish, Turkish and Ukrainian; accessibility tags include Camera Comfort and Custom Volume Controls [1].
 
 ## Graphics and upscaling settings
 
-- **Documented officially:** DLSS Frame Generation can be turned off without restarting the game and the render target pool is configurable (10 Sep 2026 launch changelog, press summary) [2]. Shadow quality is clamped to Low on high benchmark scores instead of being disabled, and shadow cache refreshes were reduced to cut hitching when taking control of a character [2].
-- **Not documented in the sources read:** an FSR or XeSS option list, DLSS quality modes, or a Reflex entry. The launch changelog does not mention FSR, general upscaling options or memory changes [2].
-- **Player-reported settings guide** (allthings.how, "Updated Sep 12, 2026"): lists an Overall Quality Custom profile; Global Illumination as the biggest single gain at roughly 20 percent on average; Shadows, Reflections, Shading, Post-Processing and Particle Spawn Rate at Low; Texture Streaming reduced first on VRAM warnings; DLSS on RTX cards and FSR on others, with Quality as the usual balance; Nvidia Reflex and a frame limit matching refresh rate [7]. These are one site's recommendations, not developer guidance, and the figure is not independently measured.
-- A search of other community guides found disagreement on Global Illumination (off versus kept on with lower Shadows) and on DLSS Performance versus Quality mode; that search summary is not cited as fact. Treat all settings advice as player-reported.
+- **Documented officially:** the Season 1 changelog says DLSS Frame Generation can be turned off without restarting and the render target pool is configurable; shadow quality is clamped to Low on high benchmark scores rather than being switched off entirely; shadow cache refreshes were reduced, which cuts hitching when taking control of a character; dropped items no longer affect navigation, "which claws back a little performance"; a legacy graphics dependency was removed [2].
+- **Official intent:** a 16 Jul 2026 devlog post states that performance "has been a priority for the entire team since day one", that the game was optimised "across a wide range of hardware" and that graphics options let players tune it to their PC; it gives no figures [8].
+- **Not documented in the sources read:** an FSR or XeSS option list, DLSS quality modes, or a Reflex entry. No official post mentions FSR, XeSS, Reflex or VRAM [2][5].
+- **Player-reported settings guide** (allthings.how, "Updated Sep 12, 2026"): lists an Overall Quality Custom profile; Global Illumination as the biggest single gain at roughly 20 percent on average; Shadows, Reflections, Shading, Post-Processing and Particle Spawn Rate at Low; Texture Streaming reduced first on VRAM warnings; DLSS on RTX cards and FSR on others, with Quality as the usual balance; Nvidia Reflex and a frame limit matching refresh rate [12]. These are one site's recommendations, not developer guidance, and the figure is not independently measured. Treat all settings advice as player-reported.
 
 ## Linux, Steam Deck and Proton
 
 | Date | Statement | Source |
 |------|-----------|--------|
-| 5 Sep 2026 | Developers "cannot commit to having Linux support for our Early Access launch"; still working on Proton compatibility; stance unchanged since before release | [6] |
-| 5 Sep 2026 | An earlier community-manager Discord post implying support was called a communication mistake; earlier Linux functionality in alpha and beta tests was accidental | [6] |
-| 5 Sep 2026 | Buyers who expected Proton support on 10 Sep were told to refund | [6] |
-| 25 Sep 2026 | A reader comment on the article quotes the developers as having no new information and still wanting Linux support via Proton (player-reported, unverified) | [6] |
+| 2026-10-08 | Store API: platforms Windows true, Mac false, Linux false; Linux requirements empty | [1] |
+| 5 Sep 2026 | Developers "cannot commit to having Linux support for our Early Access launch"; still working on Proton compatibility (press report) | [11] |
+| 5 Sep 2026 | An earlier community-manager Discord post implying support was called a communication mistake; earlier Linux functionality in tests was accidental (press report) | [11] |
+| 5 Sep 2026 | Buyers who expected Proton support on 10 Sep were told to refund (press report) | [11] |
 
-Steam Deck: the Steam page and GamingOnLinux article give no Steam Deck status [1][6]. No Deck Verified rating was found; treat Deck as unsupported and untested.
+The Steam news posts in the snapshot (official posts, February to 2 October 2026) contain no mention of Linux, Proton or Steam Deck, so the developers' position rests on the GamingOnLinux report. No Deck Verified rating was found; treat Deck as unsupported and untested.
 
-## Kernel-level anti-cheat and what it implies
+## Anti-cheat disclosure
 
-- Fact: the Steam page states the game "Uses Kernel Level Anti-Cheat" [1]. GamingOnLinux says the game previously used Easy Anti-Cheat, the developers appear to be testing something else, and the product is not named; the site said it would check at release [6]. This document does not name the product. A reader comment on that article names one, which is unverified and not repeated here.
-- Assessment: a kernel driver generally installs at game launch, needs administrator rights, and limits some virtualization and driver-level tools; kernel anti-cheat also commonly conflicts with Linux compatibility layers unless the vendor enables Proton support. Confidence Low to Medium: this is general reasoning, not a WARDOGS-specific statement, and the sources above do not confirm the mechanism for this game.
-- Player-reported: a reader comment says the beta ran on Windows only with the new anti-cheat and had many cheaters, and that Linux ran better in the previous beta [6]. Anecdotal.
-- Moderation side (not kernel-specific): a report-weighting system and ban announcements were added at launch [2]; see technical-servers-foundation.
+- Fact: the live Steam page was read earlier as stating the game "Uses Kernel Level Anti-Cheat". That wording does not appear in the store API snapshot, which carries no anti-cheat field, so it is not re-confirmed from the snapshot [1].
+- No official source names the product. The developers' 8 Sep 2026 post says "There's a rule in game development: you don't talk about anti-cheat" and points players to the in-game report function and community-hosted servers [10]. GamingOnLinux says the game previously used Easy Anti-Cheat and the developers appeared to be testing something else; this document does not name the product [11].
+- Moderation side: the Season 1 changelog added a report tracking system, weighted reports, and in-server announcements of cheater bans [2]; see technical-servers-foundation.
+- Assessment: a kernel driver generally installs at game launch, needs administrator rights, and commonly conflicts with Linux compatibility layers unless the vendor enables Proton support. Confidence Low to Medium: this is general reasoning, not a WARDOGS-specific statement.
 
 ## WD-L020 and KB5124010
 
-- Update 0.1.2 on 30 Sep 2026 lists a "Windows 11 'WD-L020' Crash Error Fix"; MP1st calls it "the main issue tackled by this patch" and says the update KB5124010 caused the recent WD-L020 crashes [5].
-- In-Game News independently reports the WD-L020 fix and links it to KB5124010, and says the notes contain no other GPU, DLSS or FSR items [4].
-- No source read describes the mechanism, which hardware was affected, or a pre-patch workaround. Uninstalling the Windows update is not recommended by any source; do not infer it.
+- The 0.1.2 post (30 Sep 2026) lists "Windows 11 'WD-L020' Crash Error Fix" as a key update, and states: "Fixed the issue caused by the latest Windows 11 update, KB5124010, causing the recent WD-L020 crashes." [5]
+- It was part of a minor patch aimed mainly at XP and cash exploits and security issues, with about one hour of maintenance from 08:00 UTC [5].
+- No official post describes the mechanism, which hardware was affected, or a pre-patch workaround. No source recommends uninstalling the Windows update; do not infer it.
 
 # Early Access Changes & Known Issues
 
 | Date and version | Item | Source |
 |------------------|------|--------|
-| 10 Sep 2026, launch | DLSS Frame Generation can be disabled without restart; render target pool configurable; shadow cache and clamp changes; dropped items no longer affect navigation; startup reliability, clearer early-failure messages and recovery path; legacy graphics dependency removed; two frame generation crash paths, off-thread network call, chatbox tooltip, buildables and orphaned-weapon fire crashes fixed; GPU crash reports carry more detail; voice chat recovery improved | [2] |
-| 14 Sep 2026, 0.11 | "More GPU crashes addressed"; no GPU models or details | [3] |
-| 30 Sep 2026, 0.1.2 | WD-L020 crash fix (Windows 11 KB5124010); server stability hotfixes | [4][5] |
-| 2 Oct 2026, hotfix | "Minor security and stability issues"; no gameplay, balance or UI changes; about one hour of maintenance; specifics undisclosed | [4] |
+| 9 Sep 2026, Season 1 changelog (live 10 Sep) | Performance and stability: DLSS Frame Generation can be disabled without restart; render target pool configurable; fewer shadow cache refreshes; two frame generation crash paths fixed; GPU crash reports carry more detail; legacy graphics dependency removed; shadow quality clamped to Low rather than off on high benchmark scores; crashes fixed for off-thread network calls, chatbox tooltip close, buildables and firing a weapon whose owner had left; dropped items no longer affect navigation; startup reliability and clearer early-failure messages; voice chat recovery improved | [2] |
+| 10 Sep 2026, Launch Stability Hotfix #1 | Forced client update and controlled login batches to address players unable to join servers, unexpected kicks and long login queues | [3] |
+| 14 Sep 2026, 0.11 | "More GPU crashes addressed"; no GPU models or details; also server browser changes | [4] |
+| 30 Sep 2026, 0.1.2 | Windows 11 WD-L020 crash fix (KB5124010); exploit fixes; "various server stability hotfixes" | [5] |
+| 2 Oct 2026, security and stability hotfix | "Minor security and stability issues affecting some players"; 08:00 UTC, one hour downtime; specifics undisclosed | [6] |
+| 2 Oct 2026, IR Goggles and CIWS hotfix | Balance only; no client download or server downtime required | [7] |
 
-Known issues: Linux and Steam Deck unsupported [6]. No other open client crash codes were found in the sources read; a missing report does not mean none exist.
+Known issues: Linux and Steam Deck unsupported per the store platform flags [1]. No other open client crash codes are named in the official posts read; a missing report does not mean none exist.
 
 # Admin & Technical Notes
 
-None found for dedicated server performance. For server restarts and RCON, see technical-servers-foundation and rcon-and-server-admin. Client-side only: a stable base frame rate is recommended before frame generation by one player guide; player-reported [7].
+No official post gives dedicated server hardware or performance requirements. For server restarts and RCON, see technical-servers-foundation and rcon-and-server-admin; the 0.1.2 post added a daily scheduled restart time (UTC) and RCON AllowedHosts for community admins [5]. Client-side only: a stable base frame rate is recommended before frame generation by one player guide; player-reported [12].
 
 # Risks & Caveats
 
-- Patch contents rest on press summaries; Steam news bodies did not render, so official notes were not read directly [2].
-- The Steam page is bot-prone and was read through a summariser [1].
-- Settings advice and the 20 percent figure are single-site, player-reported and tied to an early build; they may be stale after any patch [7].
+- The "Uses Kernel Level Anti-Cheat" wording is not in the store API snapshot and rests on an earlier read of the live page.
+- The Linux stance rests on a single press article; the official posts are silent.
+- The Season 1 changelog is dated 9 Sep 2026 (pre-load) and is described here as live for launch; its snapshot title is "Pre-load Live Season 1 Changelog".
+- Settings advice and the 20 percent figure are single-site, player-reported and tied to an early build; they may be stale after any patch [12].
 - The anti-cheat implications are general reasoning, not documented for this title.
-- Season 2 (reported for 15 Oct 2026) may change requirements and settings.
+- Season 2 may change requirements and settings.
 
 # Open Questions
 
 - Which anti-cheat product is used? A developer statement would resolve it.
 - Will Proton or Steam Deck support ship, and does the anti-cheat allow it?
-- What exactly caused WD-L020 and which systems were affected?
+- What exactly caused WD-L020 beyond the KB5124010 attribution, and which systems were affected?
 - Which upscalers (FSR, XeSS) and which DLSS modes does the in-game menu officially provide?
-- What were the 2 Oct 2026 hotfix fixes?
+- What were the 2 Oct 2026 security and stability hotfix fixes?
 - Is an SSD officially required, and what is the VRAM floor?
 
 # References
 
 **Primary Sources**
 
-- [1] **Valve / Bulkhead** — *WARDOGS on Steam*. https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-08.
+- [1] **Valve / Bulkhead** — *WARDOGS on Steam* (store page and store API snapshots, US and GB). https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-08.
+- [2] **Bulkhead** — *Pre-load live Season 1 changelog*, Steam announcement, 2026-09-09. https://store.steampowered.com/news/app/1867240/view/1843481262690549. Accessed 2026-10-08.
+- [3] **Bulkhead** — *Launch Stability Hotfix #1*, Steam announcement, 2026-09-10. https://store.steampowered.com/news/app/1867240/view/1843481262693332. Accessed 2026-10-08.
+- [4] **Bulkhead** — *Scheduled Maintenance & Patch 0.11*, Steam announcement, 2026-09-12. https://store.steampowered.com/news/app/1867240/view/1843481262698449. Accessed 2026-10-08.
+- [5] **Bulkhead** — *WARDOGS | Update 0.1.2 (Minor Patch)*, Steam announcement, 2026-09-30. https://store.steampowered.com/news/app/1867240/view/1845383656376490. Accessed 2026-10-08.
+- [6] **Bulkhead** — *WARDOGS | Security & Stability Hotfix*, Steam announcement, 2026-10-02. https://store.steampowered.com/news/app/1867240/view/1845383656384445. Accessed 2026-10-08.
+- [7] **Bulkhead** — *IR Goggles & CIWS Balance Hotfix*, Steam announcement, 2026-10-02. https://store.steampowered.com/news/app/1867240/view/1845383656386801. Accessed 2026-10-08.
+- [8] **Bulkhead** — *WARDOGS | Level Design & Performance*, Steam announcement, 2026-07-16. https://store.steampowered.com/news/app/1867240/view/1838407329256924. Accessed 2026-10-08.
+- [9] **Bulkhead** — *WARDOGS Top Questions*, Steam announcement, 2026-02-18. https://store.steampowered.com/news/app/1867240/view/1825093633182385. Accessed 2026-10-08.
+- [10] **Bulkhead** — *The 11th Reason NOT to Buy WARDOGS*, Steam announcement, 2026-09-08. https://store.steampowered.com/news/app/1867240/view/1842846814456311. Accessed 2026-10-08.
 
 **Press & Secondary**
 
-- [2] **Gfinity Esports** — *WARDOGS Season 1 changelog (Early Access patch notes)*. https://www.gfinityesports.com/article/wardogs-season-1-changelog-early-access-patch-notes. Accessed 2026-10-08.
-- [3] **PlayDay** — *WARDOGS patch 0.11 focuses on server browsers (full notes)*. https://playday.one/2026/09/14/wardogs-patch-11-focuses-on-server-browsers-full-notes/. Accessed 2026-10-08.
-- [4] **In-Game News** — *WARDOGS update 0.1.2 and security hotfix*. https://ingamenews.com/gaming-news/wardogs-update-0-1-2-and-security-hotfix-a-comparative-overview/. Accessed 2026-10-08.
-- [5] **MP1st** — *WARDOGS update 0.1.2 deployed on September 30*. https://mp1st.com/title-updates-and-patches/wardogs-update-0-1-2-deployed-on-september-30-as-servers-go-down. Accessed 2026-10-08.
-- [6] **GamingOnLinux** — *WARDOGS developers clarify Linux support via Proton may come later*. http://www.gamingonlinux.com/2026/09/wardogs-developers-clarify-linux-support-via-proton-may-come-later. Accessed 2026-10-08.
+- [11] **GamingOnLinux** — *WARDOGS developers clarify Linux support via Proton may come later*. http://www.gamingonlinux.com/2026/09/wardogs-developers-clarify-linux-support-via-proton-may-come-later. Accessed 2026-10-08.
 
 **Player-Reported Evidence**
 
-- [7] **allthings.how** — *WARDOGS best settings for performance and visibility on PC* (updated 12 Sep 2026). https://allthings.how/wardogs-best-settings-for-performance-and-visibility-on-pc/. Accessed 2026-10-08.
+- [12] **allthings.how** — *WARDOGS best settings for performance and visibility on PC* (updated 12 Sep 2026). https://allthings.how/wardogs-best-settings-for-performance-and-visibility-on-pc/. Accessed 2026-10-08.
 
 # Further Reading
 
@@ -186,3 +201,4 @@ None found for dedicated server performance. For server restarts and RCON, see t
 |---------|------|--------|--------|-------------|
 | 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial draft. | — |
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint and links (0 dead). | Standing mandate (auto-approve on green QA) |
+| 1.1.0 | 2026-10-08 | Research Pipeline (revision worker) | Revised against full official Steam text and store snapshot; spec table now from store API (US/GB identical), press patch summaries replaced by official posts, WD-L020/KB5124010 officially attributed, Linux and anti-cheat positions clarified, confidence re-rated | Standing mandate (auto-approve on green QA) |

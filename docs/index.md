@@ -7,7 +7,7 @@ Evidence-based, source-cited reference for WARDOGS (Bulkhead / Team17) - gamepla
 
 **29 documents** across **29 topics** — every factual claim carries a citation to a vendor or authoritative source, assessed gaps are labelled and confidence-rated, and links, citations and structure are checked automatically in CI.
 
-*Confidence: 1 High · 21 Medium · 7 Low.*  *Market: Global 29.*
+*Confidence: 4 High · 20 Medium · 5 Low.*  *Market: Global 29.*
 
 ## Class 1 — Category foundations
 
@@ -31,7 +31,7 @@ Evidence-based, source-cited reference for WARDOGS (Bulkhead / Team17) - gamepla
 - [Launch Maps Reference](maps-environment/launch-maps-reference.md) — *Per-map profiles: Bakurani, Ozeti, Zestafona and unconfirmed maps* (Global)
 - [Community Channels & Source Reliability Register](meta-release/community-and-source-reliability.md) — *Official channels, community hubs, and a reliability rating for every source class and outlet used* (Global)
 - [Editions, Pricing & Platforms](meta-release/editions-pricing-platforms.md) — *Editions, regional pricing, Supporter Pack contents, platform roadmap, Early Access policy* (Global)
-- [Patch & Update History](meta-release/patch-history.md) — *Dated per-patch changelog from closed beta through 0.1.2 and hotfixes* (Global)
+- [Patch & Update History](meta-release/patch-history.md) — *Dated per-patch changelog from closed beta through 0.1.2 and hotfixes, rebuilt from official Steam posts* (Global)
 - [Season 02: Announced Changes (Pre-Release Baseline)](meta-release/season-2-announcements.md) — *Everything officially and unofficially said about Season 02 and the 1.0 roadmap before launch* (Global)
 - [RCON & Server Administration](technical-servers/rcon-and-server-admin.md) — *RCON interface, ServerSettings, admin tooling, security hardening* (Global)
 - [Server Hosting & Server Browser](technical-servers/server-hosting-and-browser.md) — *Official vs community servers, approved hosts, regions, browser behaviour, restarts* (Global)
@@ -205,8 +205,49 @@ Evidence-based, source-cited reference for WARDOGS (Bulkhead / Team17) - gamepla
       community_and_source_reliability -->|related| patch_history
       community_and_source_reliability -->|related| editions_pricing_platforms
       combat_loadouts_foundation -->|related| gameplay_modes_foundation
+      combat_loadouts_foundation -->|related| weapons_catalogue
+      combat_loadouts_foundation -->|related| gadgets_armor_and_equipment
+      combat_loadouts_foundation -->|related| damage_ballistics_and_balance
+      combat_loadouts_foundation -->|related| price_tables_season_1
+      combat_loadouts_foundation -->|related| progression_unlock_tables
+      combat_loadouts_foundation -->|related| patch_history
       economy_foundation -->|related| gameplay_modes_foundation
       economy_foundation -->|related| combat_loadouts_foundation
+      economy_foundation -->|related| cash_rewards_and_costs
+      economy_foundation -->|related| price_tables_season_1
+      economy_foundation -->|related| death_penalty_and_rebuy
+      economy_foundation -->|related| season_reset_and_currencies
+      economy_foundation -->|related| editions_pricing_platforms
+      gameplay_modes_foundation -->|related| control_zone_and_match_flow
+      gameplay_modes_foundation -->|related| progression_and_role_tracks
+      gameplay_modes_foundation -->|related| progression_unlock_tables
+      gameplay_modes_foundation -->|related| season_reset_and_currencies
+      gameplay_modes_foundation -->|related| season_2_announcements
+      gameplay_modes_foundation -->|related| community_and_source_reliability
+      gameplay_modes_foundation -->|related| patch_history
+      launch_maps_reference -->|related| destructibility_and_level_design
+      launch_maps_reference -->|related| control_zone_and_match_flow
+      maps_environment_foundation -->|related| destructibility_and_level_design
+      maps_environment_foundation -->|related| launch_maps_reference
+      maps_environment_foundation -->|related| control_zone_and_match_flow
+      maps_environment_foundation -->|related| season_2_announcements
+      meta_release_foundation -->|related| patch_history
+      meta_release_foundation -->|related| editions_pricing_platforms
+      meta_release_foundation -->|related| season_2_announcements
+      meta_release_foundation -->|related| community_and_source_reliability
+      meta_release_foundation -->|related| season_reset_and_currencies
+      technical_servers_foundation -->|related| server_hosting_and_browser
+      technical_servers_foundation -->|related| rcon_and_server_admin
+      technical_servers_foundation -->|related| system_requirements_and_performance
+      technical_servers_foundation -->|related| patch_history
+      technical_servers_foundation -->|related| community_and_source_reliability
+      vehicles_outposts_foundation -->|related| vehicle_roster_and_prices
+      vehicles_outposts_foundation -->|related| fob_and_base_building
+      vehicles_outposts_foundation -->|related| air_and_counter_air
+      vehicles_outposts_foundation -->|related| price_tables_season_1
+      vehicles_outposts_foundation -->|related| progression_unlock_tables
+      vehicles_outposts_foundation -->|related| destructibility_and_level_design
+      vehicles_outposts_foundation -->|related| patch_history
     ```
 
 ## Machine-readable exports

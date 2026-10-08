@@ -26,6 +26,8 @@ jobs:
       - run: pip install pyyaml
       - name: Validate documents
         run: python scripts/validate.py
+      - name: Verify cited Steam post ids against the snapshot
+        run: python scripts/check_steam_gids.py
       - name: Build exports & validate cross-references
         run: python scripts/build_graph.py
       - name: Build RAG export

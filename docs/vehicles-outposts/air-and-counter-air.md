@@ -1,7 +1,7 @@
 ---
 id: air-and-counter-air
 title: "Air Vehicles & Counter-Air"
-version: 1.0.0
+version: 1.0.1
 status: frozen
 confidence: Medium
 category: Vehicles & Outposts
@@ -23,7 +23,7 @@ tags: [helicopters, pilot-track, anti-air, ciws, havoc, ir-rangefinder, baseline
 | Field | Value |
 |-------|-------|
 | Document ID | air-and-counter-air |
-| Version | 1.0.0 |
+| Version | 1.0.1 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Vehicles & Outposts |
@@ -43,7 +43,7 @@ The roster, prices and Pilot levels come only from player-reported guides, which
 
 # Key Takeaways
 
-- Fighter jets are planned for full release only; Early Access air vehicles are helicopters (Steam page, 2026-10-08) [1].
+- Early Access air vehicles are helicopters. The earlier claim that fighter jets are planned for full release is unverified: it is not in the saved store data or any official post, and needs a live-page check.
 - 2 Oct 2026, official: IR Rangefinders disabled in the vendor until Season 02, when they will require batteries; the CIWS now destroys the Havoc in around 6 s instead of 12 [3].
 - Official: Bulkhead says it "overcorrected" the CIWS in "the previous patch"; the post does not say which patch [3].
 - Update 0.1.2 (30 Sep 2026), official: vehicle fly-through exploit fixed with rewards capped, and a Havoc bug that raised damage taken from 20mm and 30mm cannon fire was fixed [2].
@@ -67,7 +67,7 @@ Covers helicopter and air roster, Pilot-track gating, anti-air (vehicle and base
 
 As of 2026-10-08.
 
-- The Steam page promotes helicopters that ferry supplies to teammates, with more vehicles and fighter jets planned for the full release [1].
+- The Steam page promotes helicopters that ferry supplies to teammates [1]. A claim of fighter jets planned for the full release is unverified (not in the saved store data or any official post).
 - IR Rangefinders were to be disabled in the vendor within 12 hours of 2 Oct 2026 as regional servers restarted, "until Season 02, where they will require batteries to use". Bulkhead said it agreed with player sentiment that they were too overpowered. No client download or server downtime was required [3].
 - The CIWS destroys the Havoc in around 6 seconds, down from 12 [3].
 - Since the 10 Sep 2026 Season 1 changelog, flare deployables take more loadout room and all helicopters apply input damping on every input device [4].
@@ -199,3 +199,4 @@ Steam News hub: https://store.steampowered.com/news/app/1867240 for Season 02 no
 |---------|------|--------|--------|-------------|
 | 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial draft; pre-Season-02 baseline. | — |
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint, links (0 dead) and Steam post ids. Pre-Season-02 baseline. | Standing mandate (auto-approve on green QA) |
+| 1.0.1 | 2026-10-08 | Orchestrator | Relabelled the fighter-jets claim as unverified (absent from the saved store data and all official posts). | Standing mandate (auto-approve on green QA) |

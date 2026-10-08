@@ -6,19 +6,26 @@
       "topic": "Match structure, objectives, three-team model, progression",
       "tier": "1",
       "market": "Global",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "frozen",
-      "confidence": "Medium",
+      "confidence": "High",
       "path": "docs/gameplay-modes/gameplay-modes-foundation.md",
       "category": "Gameplay & Modes",
       "document_type": "foundation",
-      "review_due": "2026-11-08",
+      "review_due": "2026-10-22",
       "created": "2026-10-08",
       "related": [
         "combat-loadouts-foundation",
         "economy-foundation",
         "maps-environment-foundation",
-        "meta-release-foundation"
+        "meta-release-foundation",
+        "control-zone-and-match-flow",
+        "progression-and-role-tracks",
+        "progression-unlock-tables",
+        "season-reset-and-currencies",
+        "season-2-announcements",
+        "community-and-source-reliability",
+        "patch-history"
       ]
     },
     {
@@ -27,18 +34,24 @@
       "topic": "Weapons, gadgets, classes, damage and ballistics",
       "tier": "1",
       "market": "Global",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "frozen",
       "confidence": "Medium",
       "path": "docs/combat-loadouts/combat-loadouts-foundation.md",
       "category": "Combat & Loadouts",
       "document_type": "foundation",
-      "review_due": "2026-11-08",
+      "review_due": "2026-10-22",
       "created": "2026-10-08",
       "related": [
         "gameplay-modes-foundation",
         "economy-foundation",
-        "vehicles-outposts-foundation"
+        "vehicles-outposts-foundation",
+        "weapons-catalogue",
+        "gadgets-armor-and-equipment",
+        "damage-ballistics-and-balance",
+        "price-tables-season-1",
+        "progression-unlock-tables",
+        "patch-history"
       ]
     },
     {
@@ -47,19 +60,24 @@
       "topic": "Account balance, costs, rewards, death penalty",
       "tier": "1",
       "market": "Global",
-      "version": "1.0.1",
+      "version": "1.2.0",
       "status": "frozen",
       "confidence": "Medium",
       "path": "docs/economy/economy-foundation.md",
       "category": "Economy",
       "document_type": "foundation",
-      "review_due": "2026-11-08",
+      "review_due": "2026-10-22",
       "created": "2026-10-08",
       "related": [
         "gameplay-modes-foundation",
         "combat-loadouts-foundation",
         "vehicles-outposts-foundation",
-        "meta-release-foundation"
+        "meta-release-foundation",
+        "cash-rewards-and-costs",
+        "price-tables-season-1",
+        "death-penalty-and-rebuy",
+        "season-reset-and-currencies",
+        "editions-pricing-platforms"
       ]
     },
     {
@@ -68,19 +86,26 @@
       "topic": "Vehicle roster, purchasing, outpost construction, destruction",
       "tier": "1",
       "market": "Global",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "frozen",
       "confidence": "Medium",
       "path": "docs/vehicles-outposts/vehicles-outposts-foundation.md",
       "category": "Vehicles & Outposts",
       "document_type": "foundation",
-      "review_due": "2026-11-08",
+      "review_due": "2026-10-22",
       "created": "2026-10-08",
       "related": [
         "gameplay-modes-foundation",
         "combat-loadouts-foundation",
         "economy-foundation",
-        "maps-environment-foundation"
+        "maps-environment-foundation",
+        "vehicle-roster-and-prices",
+        "fob-and-base-building",
+        "air-and-counter-air",
+        "price-tables-season-1",
+        "progression-unlock-tables",
+        "destructibility-and-level-design",
+        "patch-history"
       ]
     },
     {
@@ -89,19 +114,23 @@
       "topic": "Map list, destructibility, points of interest",
       "tier": "1",
       "market": "Global",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "frozen",
-      "confidence": "Low",
+      "confidence": "Medium",
       "path": "docs/maps-environment/maps-environment-foundation.md",
       "category": "Maps & Environment",
       "document_type": "foundation",
-      "review_due": "2026-11-08",
+      "review_due": "2026-10-22",
       "created": "2026-10-08",
       "related": [
         "gameplay-modes-foundation",
         "vehicles-outposts-foundation",
         "technical-servers-foundation",
-        "meta-release-foundation"
+        "meta-release-foundation",
+        "destructibility-and-level-design",
+        "launch-maps-reference",
+        "control-zone-and-match-flow",
+        "season-2-announcements"
       ]
     },
     {
@@ -110,18 +139,23 @@
       "topic": "System requirements, settings, netcode, dedicated and community servers, modding",
       "tier": "1",
       "market": "Global",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "frozen",
       "confidence": "Medium",
       "path": "docs/technical-servers/technical-servers-foundation.md",
       "category": "Technical & Servers",
       "document_type": "foundation",
-      "review_due": "2026-11-08",
+      "review_due": "2026-10-22",
       "created": "2026-10-08",
       "related": [
         "gameplay-modes-foundation",
         "maps-environment-foundation",
-        "meta-release-foundation"
+        "meta-release-foundation",
+        "server-hosting-and-browser",
+        "rcon-and-server-admin",
+        "system-requirements-and-performance",
+        "patch-history",
+        "community-and-source-reliability"
       ]
     },
     {
@@ -130,19 +164,24 @@
       "topic": "Early Access roadmap, patch history, platforms and pricing, community",
       "tier": "1",
       "market": "Global",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "frozen",
-      "confidence": "Medium",
+      "confidence": "High",
       "path": "docs/meta-release/meta-release-foundation.md",
       "category": "Meta & Release",
       "document_type": "foundation",
-      "review_due": "2026-11-08",
+      "review_due": "2026-10-22",
       "created": "2026-10-08",
       "related": [
         "gameplay-modes-foundation",
         "economy-foundation",
         "technical-servers-foundation",
-        "maps-environment-foundation"
+        "maps-environment-foundation",
+        "patch-history",
+        "editions-pricing-platforms",
+        "season-2-announcements",
+        "community-and-source-reliability",
+        "season-reset-and-currencies"
       ]
     },
     {
@@ -151,13 +190,13 @@
       "topic": "Official vs community servers, approved hosts, regions, browser behaviour, restarts",
       "tier": "2",
       "market": "Global",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "frozen",
-      "confidence": "Low",
+      "confidence": "Medium",
       "path": "docs/technical-servers/server-hosting-and-browser.md",
       "category": "Technical & Servers",
       "document_type": "depth",
-      "review_due": "2026-11-08",
+      "review_due": "2026-10-22",
       "created": "2026-10-08",
       "related": [
         "technical-servers-foundation",
@@ -171,13 +210,13 @@
       "topic": "RCON interface, ServerSettings, admin tooling, security hardening",
       "tier": "2",
       "market": "Global",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "frozen",
       "confidence": "Low",
       "path": "docs/technical-servers/rcon-and-server-admin.md",
       "category": "Technical & Servers",
       "document_type": "depth",
-      "review_due": "2026-11-08",
+      "review_due": "2026-10-22",
       "created": "2026-10-08",
       "related": [
         "technical-servers-foundation",
@@ -191,13 +230,13 @@
       "topic": "Hardware requirements, Linux/Proton, anti-cheat, crash codes, performance fixes",
       "tier": "2",
       "market": "Global",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "frozen",
       "confidence": "Medium",
       "path": "docs/technical-servers/system-requirements-and-performance.md",
       "category": "Technical & Servers",
       "document_type": "depth",
-      "review_due": "2026-11-08",
+      "review_due": "2026-10-22",
       "created": "2026-10-08",
       "related": [
         "technical-servers-foundation",
@@ -208,16 +247,16 @@
     {
       "id": "patch-history",
       "title": "Patch & Update History",
-      "topic": "Dated per-patch changelog from closed beta through 0.1.2 and hotfixes",
+      "topic": "Dated per-patch changelog from closed beta through 0.1.2 and hotfixes, rebuilt from official Steam posts",
       "tier": "2",
       "market": "Global",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "frozen",
-      "confidence": "Medium",
+      "confidence": "High",
       "path": "docs/meta-release/patch-history.md",
       "category": "Meta & Release",
       "document_type": "reference-data",
-      "review_due": "2026-11-08",
+      "review_due": "2026-10-22",
       "created": "2026-10-08",
       "related": [
         "meta-release-foundation",
@@ -232,13 +271,13 @@
       "topic": "Editions, regional pricing, Supporter Pack contents, platform roadmap, Early Access policy",
       "tier": "2",
       "market": "Global",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "frozen",
       "confidence": "Medium",
       "path": "docs/meta-release/editions-pricing-platforms.md",
       "category": "Meta & Release",
       "document_type": "reference-data",
-      "review_due": "2026-11-08",
+      "review_due": "2026-10-22",
       "created": "2026-10-08",
       "related": [
         "meta-release-foundation",
@@ -253,18 +292,20 @@
       "topic": "Per-map profiles: Bakurani, Ozeti, Zestafona and unconfirmed maps",
       "tier": "2",
       "market": "Global",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "status": "frozen",
       "confidence": "Low",
       "path": "docs/maps-environment/launch-maps-reference.md",
       "category": "Maps & Environment",
       "document_type": "reference-data",
-      "review_due": "2026-11-08",
+      "review_due": "2026-10-22",
       "created": "2026-10-08",
       "related": [
         "maps-environment-foundation",
         "gameplay-modes-foundation",
-        "vehicles-outposts-foundation"
+        "vehicles-outposts-foundation",
+        "destructibility-and-level-design",
+        "control-zone-and-match-flow"
       ]
     },
     {
@@ -533,7 +574,7 @@
       "topic": "Helicopters, aircraft, anti-air systems (CIWS/Sea Whiz, Havoc), pilots, IR countermeasures",
       "tier": "2",
       "market": "Global",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "status": "frozen",
       "confidence": "Medium",
       "path": "docs/vehicles-outposts/air-and-counter-air.md",
@@ -1317,6 +1358,42 @@
       "target": "known"
     },
     {
+      "from": "combat-loadouts-foundation",
+      "to": "weapons-catalogue",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "combat-loadouts-foundation",
+      "to": "gadgets-armor-and-equipment",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "combat-loadouts-foundation",
+      "to": "damage-ballistics-and-balance",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "combat-loadouts-foundation",
+      "to": "price-tables-season-1",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "combat-loadouts-foundation",
+      "to": "progression-unlock-tables",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "combat-loadouts-foundation",
+      "to": "patch-history",
+      "rel": "related",
+      "target": "known"
+    },
+    {
       "from": "economy-foundation",
       "to": "gameplay-modes-foundation",
       "rel": "related",
@@ -1325,6 +1402,216 @@
     {
       "from": "economy-foundation",
       "to": "combat-loadouts-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "economy-foundation",
+      "to": "cash-rewards-and-costs",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "economy-foundation",
+      "to": "price-tables-season-1",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "economy-foundation",
+      "to": "death-penalty-and-rebuy",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "economy-foundation",
+      "to": "season-reset-and-currencies",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "economy-foundation",
+      "to": "editions-pricing-platforms",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "gameplay-modes-foundation",
+      "to": "control-zone-and-match-flow",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "gameplay-modes-foundation",
+      "to": "progression-and-role-tracks",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "gameplay-modes-foundation",
+      "to": "progression-unlock-tables",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "gameplay-modes-foundation",
+      "to": "season-reset-and-currencies",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "gameplay-modes-foundation",
+      "to": "season-2-announcements",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "gameplay-modes-foundation",
+      "to": "community-and-source-reliability",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "gameplay-modes-foundation",
+      "to": "patch-history",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "launch-maps-reference",
+      "to": "destructibility-and-level-design",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "launch-maps-reference",
+      "to": "control-zone-and-match-flow",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "maps-environment-foundation",
+      "to": "destructibility-and-level-design",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "maps-environment-foundation",
+      "to": "launch-maps-reference",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "maps-environment-foundation",
+      "to": "control-zone-and-match-flow",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "maps-environment-foundation",
+      "to": "season-2-announcements",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "meta-release-foundation",
+      "to": "patch-history",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "meta-release-foundation",
+      "to": "editions-pricing-platforms",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "meta-release-foundation",
+      "to": "season-2-announcements",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "meta-release-foundation",
+      "to": "community-and-source-reliability",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "meta-release-foundation",
+      "to": "season-reset-and-currencies",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "technical-servers-foundation",
+      "to": "server-hosting-and-browser",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "technical-servers-foundation",
+      "to": "rcon-and-server-admin",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "technical-servers-foundation",
+      "to": "system-requirements-and-performance",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "technical-servers-foundation",
+      "to": "patch-history",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "technical-servers-foundation",
+      "to": "community-and-source-reliability",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "vehicles-outposts-foundation",
+      "to": "vehicle-roster-and-prices",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "vehicles-outposts-foundation",
+      "to": "fob-and-base-building",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "vehicles-outposts-foundation",
+      "to": "air-and-counter-air",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "vehicles-outposts-foundation",
+      "to": "price-tables-season-1",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "vehicles-outposts-foundation",
+      "to": "progression-unlock-tables",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "vehicles-outposts-foundation",
+      "to": "destructibility-and-level-design",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "vehicles-outposts-foundation",
+      "to": "patch-history",
       "rel": "related",
       "target": "known"
     }

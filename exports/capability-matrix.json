@@ -7,10 +7,10 @@
     "market": "Global",
     "document_type": "foundation",
     "category": "Gameplay & Modes",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "status": "frozen",
-    "confidence": "Medium",
-    "review_due": "2026-11-08",
+    "confidence": "High",
+    "review_due": "2026-10-22",
     "path": "docs/gameplay-modes/gameplay-modes-foundation.md"
   },
   {
@@ -21,10 +21,10 @@
     "market": "Global",
     "document_type": "foundation",
     "category": "Combat & Loadouts",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "status": "frozen",
     "confidence": "Medium",
-    "review_due": "2026-11-08",
+    "review_due": "2026-10-22",
     "path": "docs/combat-loadouts/combat-loadouts-foundation.md"
   },
   {
@@ -35,10 +35,10 @@
     "market": "Global",
     "document_type": "foundation",
     "category": "Economy",
-    "version": "1.0.1",
+    "version": "1.2.0",
     "status": "frozen",
     "confidence": "Medium",
-    "review_due": "2026-11-08",
+    "review_due": "2026-10-22",
     "path": "docs/economy/economy-foundation.md"
   },
   {
@@ -49,10 +49,10 @@
     "market": "Global",
     "document_type": "foundation",
     "category": "Vehicles & Outposts",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "status": "frozen",
     "confidence": "Medium",
-    "review_due": "2026-11-08",
+    "review_due": "2026-10-22",
     "path": "docs/vehicles-outposts/vehicles-outposts-foundation.md"
   },
   {
@@ -63,10 +63,10 @@
     "market": "Global",
     "document_type": "foundation",
     "category": "Maps & Environment",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "status": "frozen",
-    "confidence": "Low",
-    "review_due": "2026-11-08",
+    "confidence": "Medium",
+    "review_due": "2026-10-22",
     "path": "docs/maps-environment/maps-environment-foundation.md"
   },
   {
@@ -77,10 +77,10 @@
     "market": "Global",
     "document_type": "foundation",
     "category": "Technical & Servers",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "status": "frozen",
     "confidence": "Medium",
-    "review_due": "2026-11-08",
+    "review_due": "2026-10-22",
     "path": "docs/technical-servers/technical-servers-foundation.md"
   },
   {
@@ -91,10 +91,10 @@
     "market": "Global",
     "document_type": "foundation",
     "category": "Meta & Release",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "status": "frozen",
-    "confidence": "Medium",
-    "review_due": "2026-11-08",
+    "confidence": "High",
+    "review_due": "2026-10-22",
     "path": "docs/meta-release/meta-release-foundation.md"
   },
   {
@@ -105,10 +105,10 @@
     "market": "Global",
     "document_type": "depth",
     "category": "Technical & Servers",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "status": "frozen",
-    "confidence": "Low",
-    "review_due": "2026-11-08",
+    "confidence": "Medium",
+    "review_due": "2026-10-22",
     "path": "docs/technical-servers/server-hosting-and-browser.md"
   },
   {
@@ -119,10 +119,10 @@
     "market": "Global",
     "document_type": "depth",
     "category": "Technical & Servers",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "status": "frozen",
     "confidence": "Low",
-    "review_due": "2026-11-08",
+    "review_due": "2026-10-22",
     "path": "docs/technical-servers/rcon-and-server-admin.md"
   },
   {
@@ -133,24 +133,24 @@
     "market": "Global",
     "document_type": "depth",
     "category": "Technical & Servers",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "status": "frozen",
     "confidence": "Medium",
-    "review_due": "2026-11-08",
+    "review_due": "2026-10-22",
     "path": "docs/technical-servers/system-requirements-and-performance.md"
   },
   {
     "id": "patch-history",
     "title": "Patch & Update History",
-    "topic": "Dated per-patch changelog from closed beta through 0.1.2 and hotfixes",
+    "topic": "Dated per-patch changelog from closed beta through 0.1.2 and hotfixes, rebuilt from official Steam posts",
     "tier": "2",
     "market": "Global",
     "document_type": "reference-data",
     "category": "Meta & Release",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "status": "frozen",
-    "confidence": "Medium",
-    "review_due": "2026-11-08",
+    "confidence": "High",
+    "review_due": "2026-10-22",
     "path": "docs/meta-release/patch-history.md"
   },
   {
@@ -161,10 +161,10 @@
     "market": "Global",
     "document_type": "reference-data",
     "category": "Meta & Release",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "status": "frozen",
     "confidence": "Medium",
-    "review_due": "2026-11-08",
+    "review_due": "2026-10-22",
     "path": "docs/meta-release/editions-pricing-platforms.md"
   },
   {
@@ -175,10 +175,10 @@
     "market": "Global",
     "document_type": "reference-data",
     "category": "Maps & Environment",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "status": "frozen",
     "confidence": "Low",
-    "review_due": "2026-11-08",
+    "review_due": "2026-10-22",
     "path": "docs/maps-environment/launch-maps-reference.md"
   },
   {
@@ -357,7 +357,7 @@
     "market": "Global",
     "document_type": "depth",
     "category": "Vehicles & Outposts",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "status": "frozen",
     "confidence": "Medium",
     "review_due": "2026-11-08",
