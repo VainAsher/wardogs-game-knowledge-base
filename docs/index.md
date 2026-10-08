@@ -5,15 +5,19 @@
 
 Evidence-based, source-cited reference for WARDOGS (Bulkhead / Team17) - gameplay, combat, vehicles, economy, maps and server administration.
 
-**3 documents** across **3 topics** — every factual claim carries a citation to a vendor or authoritative source, assessed gaps are labelled and confidence-rated, and links, citations and structure are checked automatically in CI.
+**7 documents** across **7 topics** — every factual claim carries a citation to a vendor or authoritative source, assessed gaps are labelled and confidence-rated, and links, citations and structure are checked automatically in CI.
 
-*Confidence: 0 High · 3 Medium · 0 Low.*  *Market: Global 3.*
+*Confidence: 0 High · 6 Medium · 1 Low.*  *Market: Global 7.*
 
 ## Class 1 — Category foundations
 
 - [Combat & Loadouts: Foundation](combat-loadouts/combat-loadouts-foundation.md) — *Weapons, gadgets, classes, damage and ballistics* (Global)
 - [Economy: Foundation](economy/economy-foundation.md) — *Account balance, costs, rewards, death penalty* (Global)
 - [Gameplay & Modes: Foundation](gameplay-modes/gameplay-modes-foundation.md) — *Match structure, objectives, three-team model, progression* (Global)
+- [Maps & Environment: Foundation](maps-environment/maps-environment-foundation.md) — *Map list, destructibility, points of interest* (Global)
+- [Meta & Release: Foundation](meta-release/meta-release-foundation.md) — *Early Access roadmap, patch history, platforms and pricing, community* (Global)
+- [Technical & Servers: Foundation](technical-servers/technical-servers-foundation.md) — *System requirements, settings, netcode, dedicated and community servers, modding* (Global)
+- [Vehicles & Outposts: Foundation](vehicles-outposts/vehicles-outposts-foundation.md) — *Vehicle roster, purchasing, outpost construction, destruction* (Global)
 
 ## Knowledge graph
 
@@ -25,18 +29,34 @@ Evidence-based, source-cited reference for WARDOGS (Bulkhead / Team17) - gamepla
         combat_loadouts_foundation["combat-loadouts-foundation"]
         economy_foundation["economy-foundation"]
         gameplay_modes_foundation["gameplay-modes-foundation"]
+        maps_environment_foundation["maps-environment-foundation"]
+        meta_release_foundation["meta-release-foundation"]
+        technical_servers_foundation["technical-servers-foundation"]
+        vehicles_outposts_foundation["vehicles-outposts-foundation"]
       end
       gameplay_modes_foundation -->|related| combat_loadouts_foundation
       gameplay_modes_foundation -->|related| economy_foundation
       combat_loadouts_foundation -->|related| economy_foundation
-      maps_environment_foundation(["maps-environment-foundation<br/>(planned)"])
-      gameplay_modes_foundation -.->|related| maps_environment_foundation
-      meta_release_foundation(["meta-release-foundation<br/>(planned)"])
-      gameplay_modes_foundation -.->|related| meta_release_foundation
-      vehicles_outposts_foundation(["vehicles-outposts-foundation<br/>(planned)"])
-      combat_loadouts_foundation -.->|related| vehicles_outposts_foundation
-      economy_foundation -.->|related| vehicles_outposts_foundation
-      economy_foundation -.->|related| meta_release_foundation
+      gameplay_modes_foundation -->|related| maps_environment_foundation
+      gameplay_modes_foundation -->|related| meta_release_foundation
+      combat_loadouts_foundation -->|related| vehicles_outposts_foundation
+      economy_foundation -->|related| vehicles_outposts_foundation
+      economy_foundation -->|related| meta_release_foundation
+      vehicles_outposts_foundation -->|related| gameplay_modes_foundation
+      vehicles_outposts_foundation -->|related| combat_loadouts_foundation
+      vehicles_outposts_foundation -->|related| economy_foundation
+      vehicles_outposts_foundation -->|related| maps_environment_foundation
+      maps_environment_foundation -->|related| gameplay_modes_foundation
+      maps_environment_foundation -->|related| vehicles_outposts_foundation
+      maps_environment_foundation -->|related| technical_servers_foundation
+      maps_environment_foundation -->|related| meta_release_foundation
+      technical_servers_foundation -->|related| gameplay_modes_foundation
+      technical_servers_foundation -->|related| maps_environment_foundation
+      technical_servers_foundation -->|related| meta_release_foundation
+      meta_release_foundation -->|related| gameplay_modes_foundation
+      meta_release_foundation -->|related| economy_foundation
+      meta_release_foundation -->|related| technical_servers_foundation
+      meta_release_foundation -->|related| maps_environment_foundation
       combat_loadouts_foundation -->|related| gameplay_modes_foundation
       economy_foundation -->|related| gameplay_modes_foundation
       economy_foundation -->|related| combat_loadouts_foundation

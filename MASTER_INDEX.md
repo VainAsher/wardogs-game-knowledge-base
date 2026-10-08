@@ -9,6 +9,10 @@ Catalogue of every document. Generated site and exports read the table below.
 | gameplay-modes-foundation | Gameplay & Modes: Foundation | Match structure, objectives, three-team model, progression | 1 | Global | 1.0.0 | frozen | Medium | `docs/gameplay-modes/gameplay-modes-foundation.md` |
 | combat-loadouts-foundation | Combat & Loadouts: Foundation | Weapons, gadgets, classes, damage and ballistics | 1 | Global | 1.0.0 | frozen | Medium | `docs/combat-loadouts/combat-loadouts-foundation.md` |
 | economy-foundation | Economy: Foundation | Account balance, costs, rewards, death penalty | 1 | Global | 1.0.0 | frozen | Medium | `docs/economy/economy-foundation.md` |
+| vehicles-outposts-foundation | Vehicles & Outposts: Foundation | Vehicle roster, purchasing, outpost construction, destruction | 1 | Global | 1.0.0 | frozen | Medium | `docs/vehicles-outposts/vehicles-outposts-foundation.md` |
+| maps-environment-foundation | Maps & Environment: Foundation | Map list, destructibility, points of interest | 1 | Global | 1.0.0 | frozen | Low | `docs/maps-environment/maps-environment-foundation.md` |
+| technical-servers-foundation | Technical & Servers: Foundation | System requirements, settings, netcode, dedicated and community servers, modding | 1 | Global | 1.0.0 | frozen | Medium | `docs/technical-servers/technical-servers-foundation.md` |
+| meta-release-foundation | Meta & Release: Foundation | Early Access roadmap, patch history, platforms and pricing, community | 1 | Global | 1.0.0 | frozen | Medium | `docs/meta-release/meta-release-foundation.md` |
 
 ## Proposed taxonomy (approved 2026-10-08)
 
@@ -30,8 +34,12 @@ First cluster: Gameplay & Modes, Combat & Loadouts, Economy.
 
 - `gameplay-modes-foundation` related to `combat-loadouts-foundation`, `economy-foundation`
 - `combat-loadouts-foundation` related to `economy-foundation`
-- `gameplay-modes-foundation` related to `maps-environment-foundation` (planned)
-- `gameplay-modes-foundation` related to `meta-release-foundation` (planned)
-- `combat-loadouts-foundation` related to `vehicles-outposts-foundation` (planned)
-- `economy-foundation` related to `vehicles-outposts-foundation` (planned)
-- `economy-foundation` related to `meta-release-foundation` (planned)
+- `gameplay-modes-foundation` related to `maps-environment-foundation`
+- `gameplay-modes-foundation` related to `meta-release-foundation`
+- `combat-loadouts-foundation` related to `vehicles-outposts-foundation`
+- `economy-foundation` related to `vehicles-outposts-foundation`
+- `economy-foundation` related to `meta-release-foundation`
+- `vehicles-outposts-foundation` related to `gameplay-modes-foundation`, `combat-loadouts-foundation`, `economy-foundation`, `maps-environment-foundation`
+- `maps-environment-foundation` related to `gameplay-modes-foundation`, `vehicles-outposts-foundation`, `technical-servers-foundation`, `meta-release-foundation`
+- `technical-servers-foundation` related to `gameplay-modes-foundation`, `maps-environment-foundation`, `meta-release-foundation`
+- `meta-release-foundation` related to `gameplay-modes-foundation`, `economy-foundation`, `technical-servers-foundation`, `maps-environment-foundation`

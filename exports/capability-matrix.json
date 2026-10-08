@@ -40,5 +40,61 @@
     "confidence": "Medium",
     "review_due": "2026-11-08",
     "path": "docs/economy/economy-foundation.md"
+  },
+  {
+    "id": "vehicles-outposts-foundation",
+    "title": "Vehicles & Outposts: Foundation",
+    "topic": "Vehicle roster, purchasing, outpost construction, destruction",
+    "tier": "1",
+    "market": "Global",
+    "document_type": "foundation",
+    "category": "Vehicles & Outposts",
+    "version": "1.0.0",
+    "status": "frozen",
+    "confidence": "Medium",
+    "review_due": "2026-11-08",
+    "path": "docs/vehicles-outposts/vehicles-outposts-foundation.md"
+  },
+  {
+    "id": "maps-environment-foundation",
+    "title": "Maps & Environment: Foundation",
+    "topic": "Map list, destructibility, points of interest",
+    "tier": "1",
+    "market": "Global",
+    "document_type": "foundation",
+    "category": "Maps & Environment",
+    "version": "1.0.0",
+    "status": "frozen",
+    "confidence": "Low",
+    "review_due": "2026-11-08",
+    "path": "docs/maps-environment/maps-environment-foundation.md"
+  },
+  {
+    "id": "technical-servers-foundation",
+    "title": "Technical & Servers: Foundation",
+    "topic": "System requirements, settings, netcode, dedicated and community servers, modding",
+    "tier": "1",
+    "market": "Global",
+    "document_type": "foundation",
+    "category": "Technical & Servers",
+    "version": "1.0.0",
+    "status": "frozen",
+    "confidence": "Medium",
+    "review_due": "2026-11-08",
+    "path": "docs/technical-servers/technical-servers-foundation.md"
+  },
+  {
+    "id": "meta-release-foundation",
+    "title": "Meta & Release: Foundation",
+    "topic": "Early Access roadmap, patch history, platforms and pricing, community",
+    "tier": "1",
+    "market": "Global",
+    "document_type": "foundation",
+    "category": "Meta & Release",
+    "version": "1.0.0",
+    "status": "frozen",
+    "confidence": "Medium",
+    "review_due": "2026-11-08",
+    "path": "docs/meta-release/meta-release-foundation.md"
   }
 ]

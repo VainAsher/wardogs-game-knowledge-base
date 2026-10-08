@@ -43,3 +43,21 @@ Hosts found to reliably 403 during re-verification are recorded here.
 
 Hosts that 403/429 to checkers during cluster A (do not cite): primagames.com, thegameswiki. Steam news post bodies do not render to fetchers; patch contents rest on press summaries.
 
+## Sources added by cluster B (2026-10-08)
+
+| Key | Source | Class | URL |
+|-----|--------|-------|-----|
+| team17-gamepage | Team17 WARDOGS game page | Primary | https://www.team17.com/games/wardogs/ |
+| mp1st-012 | Update 0.1.2 deployed 30 Sept (MP1st) | Press | https://mp1st.com/title-updates-and-patches/wardogs-update-0-1-2-deployed-on-september-30-as-servers-go-down |
+| gol-linux | Linux support via Proton (GamingOnLinux) | Press | http://www.gamingonlinux.com/2026/09/wardogs-developers-clarify-linux-support-via-proton-may-come-later |
+| cogconnected-sales | Over 1 million copies sold | Press | https://cogconnected.com/2026/09/wardogs-has-officially-sold-over-over-1-million-copies/ |
+| gameluster-wishlists | One million wishlists | Press | https://gameluster.com/wardogs-million-wishlists/ |
+| vice-rain | Season 2 rain confirmation (Vice) | Press | https://www.vice.com/en/article/wardogs-season-2-rain-progression-wipe/ |
+| keengamer-s2 | Season 2 features and rumors | Press | https://www.keengamer.com/articles/guides/wardogs-season-2-confirmed-features-rumors-changes/ |
+| xgs-roadmap | Roadmap (XGamingServer) | Press, unattributed | https://xgamingserver.com/blog/?p=23236 |
+| dexerto-s2 | Season 2 wiki (Dexerto) | Player-Reported | https://www.dexerto.com/wikis/wardogs/season-2-update/ |
+| guides | KeenGamer FOB guides, allthings.how vehicle and map guides, GameBrief | Player-Reported | see the cited docs |
+| server-refs | wardogs.tech, wardogservers.com, wardogs-game.com, warcon (GitHub) | Player-Reported | see technical-servers-foundation |
+
+Hosts that 403/429 to fetchers during cluster B (do not cite): metaforge.app. A BisectHosting help article also 403'd.
+
