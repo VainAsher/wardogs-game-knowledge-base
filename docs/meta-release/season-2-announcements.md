@@ -1,7 +1,7 @@
 ---
 id: season-2-announcements
 title: "Season 02: Announced Changes (Pre-Release Baseline)"
-version: 1.0.0
+version: 1.0.1
 status: frozen
 confidence: Low
 category: Meta & Release
@@ -23,7 +23,7 @@ tags: [season-02, roadmap, baseline, rumours, wipe, pre-release]
 | Field | Value |
 |-------|-------|
 | Document ID | season-2-announcements |
-| Version | 1.0.0 |
+| Version | 1.0.1 |
 | Status | frozen |
 | Confidence | Low |
 | Category | Meta & Release |
@@ -35,11 +35,13 @@ tags: [season-02, roadmap, baseline, rumours, wipe, pre-release]
 
 # Executive Summary
 
-This is a snapshot taken on 2026-10-08, one week before Season 02, of everything said about Season 02 and the longer Early Access roadmap. It exists so that after launch the real patch notes can be diffed against what was promised and what was rumoured. It deepens meta-release-foundation; it does not repeat its release timeline.
+This is a snapshot taken on 2026-10-08 (revised the same day against a live capture of the Steam store page), one week before Season 02, of everything said about Season 02 and the longer Early Access roadmap. It exists so that after launch the real patch notes can be diffed against what was promised and what was rumoured. It deepens meta-release-foundation; it does not repeat its release timeline.
 
 Officially, very little is confirmed. BULKHEAD's Steam post of 22 Sep 2026 gives only the date, 15 October 2026, and a video [1]. The 30 Sep 2026 Update 0.1.2 post describes Season 02 as "a larger content update, with new map conditions, equipment, balance reworks and additional features" [3], and the 2 Oct 2026 hotfix post says IR Rangefinders return in Season 02 and will need batteries [4]. Two promised "next week" detail posts had not appeared in the Steam News snapshot by 8 Oct 2026 [3][5].
 
-Almost everything else (rain, a progression wipe, cash converting to Gold Bars, new weapons) is press or rumour. Confidence is Low: the core content claims are pre-release and come from press and from commercial sources that sell boosting or in-game cash. A table below grades each rumour so it can be scored after launch.
+The live store page's Early Access section (Primary) gives the longer roadmap: more maps, weapons, vehicles and gameplay variety, deeper progression systems, a stronger seasonal meta game, fighter jets, expanded weapon categories, additional objective variations, and Early Access of "around 1 to 2 years" [12]. It says nothing specific about Season 02 or a progression wipe [12].
+
+Almost everything else about Season 02 (rain, a progression wipe, cash converting to Gold Bars, new weapons) is press or rumour. Confidence is Low for Season 02 specifics: the core content claims are pre-release and come from press and from commercial sources that sell boosting or in-game cash. A table below grades each rumour so it can be scored after launch.
 
 # Key Takeaways
 
@@ -49,11 +51,12 @@ Almost everything else (rain, a progression wipe, cash converting to Gold Bars, 
 - Official: "Each season we will have a different XP curve with different item orders" (Season 1.0 changelog, 9 Sep 2026) [6].
 - Press, not official text in the snapshot: rain as a per-map weather preset, and a progression wipe in which leftover cash converts to Gold Bars [13][14].
 - Rumour (single podcast, seller site): four new weapons, new ammo types, a fogging helmet visor, no fixed season length [17].
+- Official (live store page, capture 2026-10-08): the Early Access roadmap names new vehicle types including fighter jets, expanded weapon categories, additional objective variations, deeper progression systems and a stronger seasonal meta game; Early Access is expected to last "around 1 to 2 years" and the game is priced lower during Early Access [12]. The page does not mention Season 02 or a wipe [12].
 - The 7 Apr 2026 roadmap post names a "Black Market & Vault" and a "Player Skills & Challenge System" for Early Access, with no dates [2].
 
 # Scope
 
-Covers what BULKHEAD has said about Season 02 and the Early Access and 1.0 roadmap up to 2026-10-08, plus a graded list of third-party Season 02 claims. Excludes verified Season 1 mechanics (see season-reset-and-currencies, progression-and-role-tracks and destructibility-and-level-design) and the dated patch list (see patch-history). Posts were read from locally saved Steam News text snapshots made 2026-10-08. Video content (the Season 02 teaser video and the roadmap video) was not viewed.
+Covers what BULKHEAD has said about Season 02 and the Early Access and 1.0 roadmap up to 2026-10-08, plus a graded list of third-party Season 02 claims. Excludes verified Season 1 mechanics (see season-reset-and-currencies, progression-and-role-tracks and destructibility-and-level-design) and the dated patch list (see patch-history). Posts were read from locally saved Steam News text snapshots made 2026-10-08, and the store page was read from a browser-rendered live capture of 2026-10-08 [12]. Video content (the Season 02 teaser video and the roadmap video) was not viewed.
 
 # Definitions
 
@@ -71,8 +74,9 @@ As of 2026-10-08 (Update 0.1.2 plus hotfixes):
 - The 26 Sep 2026 post says "The team is knuckled down and working on Season 02 and beyond. More information dropping later next week" [5]. The 30 Sep 2026 post says "More information on Season 02 will be dropping next week" [3]. The latest official Steam post in the snapshot is dated 2 Oct 2026 and is a balance hotfix [4]; no Season 02 detail post was in the snapshot on 2026-10-08.
 - The 30 Sep 2026 post, headed "Looking Toward Season 02", says Season 02 "is planned to be a larger content update, with new map conditions, equipment, balance reworks and additional features" [3].
 - The 2 Oct 2026 hotfix post says IR Rangefinders will be disabled in the vendor "until Season 02, where they will require batteries to use," and the CIWS now destroys the Havoc in around 6 seconds instead of 12 [4]. This confirms, from an official source, an item meta-release-foundation attributed to a player-reported source.
-- Steam shows the game as Early Access, released Sep 10, 2026, with the Standard edition at USD 39.99 on the US store API and GBP 36.99 on the UK API (snapshot 2026-10-08) [12].
-- The Steam reviews summary file for 2026-10-08 records "Mostly Positive", 81,290 positive of 109,396 total reviews [12].
+- Steam shows the game as Early Access, released 10 Sep 2026, with the Standard edition at USD 39.99 on the US store API and GBP 36.99 on the UK API (snapshot 2026-10-08); the live page capture shows GBP 36.99, the Supporter Edition at GBP 45.99 and the Supporter Pack at GBP 11.99 [12].
+- The live store page capture of 2026-10-08 shows English reviews "Mostly Positive" (63,179) and 95,146 reviews in all languages, also "Mostly Positive" [12]. The saved reviews summary file for the same date recorded 81,290 positive of 109,396 total; the two all-language totals disagree (see Open Questions) [12].
+- The page's latest listed announcement is 2 Oct 2026, and the page text mentions neither Season 02 nor a wipe [12].
 
 # Detail
 
@@ -92,9 +96,25 @@ As of 2026-10-08 (Update 0.1.2 plus hotfixes):
 | 2026-09-30 | Update 0.1.2 | Season 02 "larger content update"; more information "next week"; the new Deploy flow is "the first step" to signpost Infantry Mode and Low-Level servers | [3] |
 | 2026-10-02 | Balance hotfix | IR Rangefinders return in Season 02 with batteries | [4] |
 
+## Store-page roadmap (Primary, distinct from Season 02)
+
+The live Steam store page, Early Access section (capture 2026-10-08), is a Primary statement of the longer roadmap. It is not dated to any season [12]:
+
+| Topic | Page wording (summary) | Source |
+|-------|------------------------|--------|
+| Content breadth | More maps, weapons, vehicles and gameplay variety | [12] |
+| Stated primary focus | "Deeper reasons to play beyond individual matches": more in-depth progression systems, a stronger seasonal meta game, and systems rewarding combat, support or logistics | [12] |
+| Gameplay additions | New vehicle types including fighter jets; expanded weapon categories; additional objective variations | [12] |
+| Ongoing priority | Balance, performance and stability | [12] |
+| Early Access duration | "around 1 to 2 years"; the page says the exact duration may change | [12] |
+| Pricing | Priced lower during Early Access, higher at full release; the price "may" rise closer to full release; no figure given | [12] |
+| Community | "Run seasonal updates that respond directly to player behaviour" (community involvement section) | [12] |
+
+The page says nothing specific about Season 02, its date, a progression wipe or cash converting to Gold Bars [12]. "Seasonal meta game" and "seasonal updates" are general intentions; they do not confirm any Season 02 claim in the register below. This list is a plan, not a delivery schedule.
+
 ## Roadmap to 1.0
 
-The roadmap post of 7 Apr 2026 states that the metagame is "our frontend experience that will enable you to continue earning, progressing and adding value to your account even when not in a match" [2]. The post lists two named systems, the Black Market & Vault and the Player Skills & Challenge System, with no season attached [2]. The post's text does not mention seasons, a wipe, or a conversion of cash to Gold Bars; third parties attribute those to the video embedded in it (see the rumour table) [2][15]. No official 1.0 date, Early Access duration or full-release price appears in the Steam posts in the snapshot. A podcast summary on a conflicted site quotes a developer as saying 1.0 is "roughly 23 months out" [17]; see Open Questions.
+The roadmap post of 7 Apr 2026 states that the metagame is "our frontend experience that will enable you to continue earning, progressing and adding value to your account even when not in a match" [2]. The post lists two named systems, the Black Market & Vault and the Player Skills & Challenge System, with no season attached [2]. The post's text does not mention seasons, a wipe, or a conversion of cash to Gold Bars; third parties attribute those to the video embedded in it (see the rumour table) [2][15]. No official 1.0 date or full-release price appears in the Steam posts in the snapshot; the store page gives an Early Access duration of "around 1 to 2 years" [12]. A podcast summary on a conflicted site quotes a developer as saying 1.0 is "roughly 23 months out" [17]; that is within the store page's range but is player-reported only.
 
 ## Terminology conflict
 
@@ -177,7 +197,9 @@ All values are those in force at Update 0.1.2 plus the 2 Oct 2026 hotfixes unles
 | Community server end-of-match cash bonus: 5% for one week from 14 Sep | Patch 0.11, 2026-09-14 | [7] |
 | Standard price: USD 39.99 / GBP 36.99 | Store API, 2026-10-08 | [12] |
 | Supporter Pack DLC: USD 12.99 / GBP 11.99 | Store API, 2026-10-08 | [12] |
-| Steam reviews: 81,290 of 109,396 positive, "Mostly Positive" | Reviews summary, 2026-10-08 | [12] |
+| Steam reviews: 63,179 English, 95,146 all languages, "Mostly Positive" | Live store page capture, 2026-10-08 | [12] |
+| Steam reviews (saved summary file): 81,290 of 109,396 positive; conflicts with the live capture total | Reviews summary, 2026-10-08 | [12] |
+| Early Access duration: around 1 to 2 years (may change) | Live store page capture, 2026-10-08 | [12] |
 | Copies sold: 3 million "in just over 2 weeks" | Post, 2026-09-26 | [5] |
 | Exploit policy: permanent bans possible without warning | Update 0.1.2, 2026-09-30 | [3] |
 | Economy stance: cash reset and timed bans; XP farming permanent ban | Patch 0.11, 2026-09-14 | [7] |
@@ -197,6 +219,7 @@ None found for Season 02. Server admin changes currently stated: scheduled daily
 # Risks & Caveats
 
 - This is a snapshot of 2026-10-08. The first official Season 02 post, due the week of 5 Oct 2026, may arrive any hour and supersede the register [3][5].
+- The store-page roadmap is a statement of intent with a stated 1 to 2 year, changeable horizon; it is not evidence that any item ships in Season 02 [12].
 - Video content (teaser, roadmap) carries claims this document cannot see. Wipe and conversion statements are attributed to a video by third parties and may be accurate or paraphrased [2][15].
 - Third-party pages were read through a fetch summary, not archived; wording is paraphrased where shown without quotation marks.
 - Rumour sources are commercially conflicted (Timesaver, MMOEXP) or undated (Dexerto) [15][16][17].
@@ -205,10 +228,9 @@ None found for Season 02. Server admin changes currently stated: scheduled daily
 
 - Does the 7 Apr 2026 video state a seasonal wipe and automatic conversion of cash to Gold Bars? Timesaver quotes it; the Steam text does not [2][15]. Resolve by viewing the video.
 - Is the "Black Market" the same store as the Gold Market [2][8][16]?
-- Is "roughly 23 months out" for 1.0 accurate, or a transcription slip on a seller site [17]? Early Access is described elsewhere only as a long road; no official duration found.
-- The foundation's store-page roadmap list (fighter jets, extra objective variants) is not in the saved store JSON, which has no Early Access section; re-verify from the live page [12].
+- Is the podcast's "roughly 23 months out" for 1.0 accurate [17]? It is consistent with the store page's "around 1 to 2 years" [12] but remains a seller-site quote.
 - The 2 Oct hotfix post says "tomorrow, Friday 2nd" in a post stamped 2 Oct 00:13 UTC; is the hotfix time 08:00 UTC on 2 Oct [11]?
-- Reviews: the foundation records 79% of 63,152 English reviews; the all-language snapshot is 81,290 of 109,396 (about 74%); these measure different sets [12].
+- Reviews: the live capture shows 63,179 English and 95,146 all-language reviews; the saved summary file shows 81,290 positive of 109,396 total. The all-language totals conflict (a different capture time or set is possible); re-check [12].
 - Launch time of Season 02 (rumour 16:00 UTC) [15].
 
 # References
@@ -226,7 +248,7 @@ None found for Season 02. Server admin changes currently stated: scheduled daily
 - [9] **BULKHEAD / Steam** — *Pre-Order Now* (2026-08-11). https://store.steampowered.com/news/app/1867240/view/1840310314354505. Accessed 2026-10-08.
 - [10] **BULKHEAD / Steam** — *WARDOGS Addressing Feedback* (2026-06-16). https://store.steampowered.com/news/app/1867240/view/1835236783575445. Accessed 2026-10-08.
 - [11] **BULKHEAD / Steam** — *WARDOGS | Security & Stability Hotfix* (2026-10-02). https://store.steampowered.com/news/app/1867240/view/1845383656384445. Accessed 2026-10-08.
-- [12] **Valve / BULKHEAD** — *WARDOGS Steam store page and storefront API snapshot* (2026-10-08). https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-08.
+- [12] **Valve / BULKHEAD** — *WARDOGS Steam store page, live capture 2026-10-08 (browser-rendered), and storefront API snapshot* (2026-10-08). https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-08.
 
 **Press & Secondary**
 
@@ -257,3 +279,4 @@ None found for Season 02. Server admin changes currently stated: scheduled daily
 |---------|------|--------|--------|-------------|
 | 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial pre-Season-02 baseline. | — |
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint, links (0 dead) and Steam post ids. Pre-Season-02 baseline. | Standing mandate (auto-approve on green QA) |
+| 1.0.1 | 2026-10-08 | Research Pipeline (revision worker) | Corrected against live store-page capture; added Primary store-page roadmap block (fighter jets, objective variations, 1 to 2 year Early Access, lower EA price, seasonal updates), removed the unverified-roadmap caveat and Open Question, replaced the no-duration claim, recorded live review totals and conflict with saved summary, noted page is silent on Season 02 and wipe; confidence stays Low. | Standing mandate (auto-approve on green QA) |

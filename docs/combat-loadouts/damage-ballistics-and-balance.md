@@ -1,7 +1,7 @@
 ---
 id: damage-ballistics-and-balance
 title: "Damage, Ballistics & Balance Changes"
-version: 1.0.0
+version: 1.0.1
 status: frozen
 confidence: Medium
 category: Combat & Loadouts
@@ -11,7 +11,7 @@ game_version: "Early Access Season 1 (pre-Season-02 baseline): 10 Sep 2026 chang
 document_type: depth
 created: 2026-10-08
 updated: 2026-10-08
-review_due: 2026-11-08
+review_due: 2026-10-22
 sources_verified: 2026-10-08
 supersedes: null
 related: [combat-loadouts-foundation, weapons-catalogue, gadgets-armor-and-equipment, patch-history]
@@ -23,7 +23,7 @@ tags: [combat, damage, ballistics, balance, patch-notes, baseline, early-access]
 | Field | Value |
 |-------|-------|
 | Document ID | damage-ballistics-and-balance |
-| Version | 1.0.0 |
+| Version | 1.0.1 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Combat & Loadouts |
@@ -31,7 +31,7 @@ tags: [combat, damage, ballistics, balance, patch-notes, baseline, early-access]
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
 | Updated | 2026-10-08 |
-| Review due | 2026-11-08 |
+| Review due | 2026-10-22 |
 
 # Executive Summary
 
@@ -45,7 +45,7 @@ Document confidence is Medium. Every balance entry rests on official Steam posts
 
 - Official stance: "WARDOGS is a hardcore shooter that doesn't forget it's a game", aiming to balance "gameplay depth and accessibility" (Feb 2026, Jun 2026) [3][4].
 - Official claim, pre-launch: "Real-world ballistics, audio and flight models" (21 May 2026 post summary) [2]. The video behind it was not available as text, so the specifics are unknown.
-- The Steam store page (snapshot 2026-10-08) says "tactical gunplay" and does not contain the phrase "realistic gunplay tuned for gameplay" that the foundation document attributes to it; see Open Questions [1].
+- The Steam store page (live capture 2026-10-08) states, under the Early Access current state, "Realistic gunplay balanced for gameplay rather than simulation", and its About This Game text says "tactical gunplay" [1]. This is the developer's most direct Primary statement of the realism-versus-gameplay position. It gives no numbers.
 - No official bullet drop, muzzle velocity, damage, headshot-multiplier or armor figure exists in any saved Steam post or in the store page [1][2][3][4][6][7][8][9].
 - Combat-relevant balance changes in the official record: Havoc 20mm/30mm damage-taken bug fix (30 Sep 2026) [8]; CIWS-versus-Havoc kill time roughly 12 s to roughly 6 s and IR Rangefinders removed from the vendor until Season 02 (2 Oct 2026) [9].
 - Season 1 changelog (10 Sep 2026) balance is progression-centred: 10 XP-band changes, 6 Career, 1 Medic, 1 Support and 10 Driver unlock-level moves, and 14 vendor price changes [6].
@@ -71,7 +71,7 @@ Excluded: per-weapon stat tables (see weapons-catalogue), gadget and armor detai
 - A 16 Jun 2026 devlog titled "Addressing Feedback" states "Every player's line between arcade and realistic is different. We've drawn ours" and that "This isn't just about Killcam. This is our approach going forward throughout Early Access & Beyond" [3]. The post text is two sentences; the substance is in a video not captured here.
 - A 21 May 2026 post, "Tactical Depth & Teamplay", lists "Real-world ballistics, audio and flight models" and "Every decision affects YOUR account balance" as the pillars of tactical depth, and says "every bullet fired, every loadout built" has consequences for the account balance [2].
 - The 6 Jun 2026 gameplay-trailer post says "Play it slow, tactical and methodical, OR embrace the hardcore shooter that doesn't forget it's a game" [12].
-- The Steam store page (snapshot 2026-10-08) describes "tactical gunplay and combined arms combat with building and destruction mechanics" and rockets that "destroy apartment blocks" [1].
+- The Steam store page (live capture 2026-10-08) lists, as the Early Access current state, "Realistic gunplay balanced for gameplay rather than simulation", and describes "tactical gunplay and combined arms combat with building and destruction mechanics" and rockets that "destroy apartment blocks" [1]. Its Mature Content Description reads "Wardogs contains killing with weapons and melee combat", so melee combat exists; no melee damage detail is published [1]. The page's planned-features answer lists "expanded weapon categories" and new vehicle types including fighter jets for the full version [1].
 - The latest official balance statement in the saved record is the 2 Oct 2026 hotfix post: "we agree with player sentiment" that IR Rangefinders are too overpowered, and "we acknowledge we overcorrected" the CIWS in "the previous patch" [9].
 - The 30 Sep 2026 post states that Season 02 "is planned to be a larger content update, with new map conditions, equipment, balance reworks and additional features" [8]. Season 02 is announced for 15 Oct 2026 [11].
 
@@ -81,13 +81,14 @@ Excluded: per-weapon stat tables (see weapons-catalogue), gadget and armor detai
 
 | Date (UTC) | Official post | Statement (quoted or closely paraphrased) | Source class |
 |------------|---------------|-------------------------------------------|--------------|
+| 2026-10-08 (capture) | Steam store page, "What is the current state of the Early Access version?" [1] | "Realistic gunplay balanced for gameplay rather than simulation"; About This Game: "tactical gunplay and combined arms combat" | Official (store page, Primary) |
 | 2026-02-18 | "WARDOGS - Top Questions" [4] | "MILSIM? ARCADE? WARDOGS is a hardcore shooter that doesn't forget it's a game. Aiming to balance gameplay depth and accessibility. Every decision matters. From moment-to-moment gunfights to Progression Unlocks." Setting described as "grounded militaristic gameplay"; Early Access feature list includes "Grounded Gunplay & Vehicles". Custom "WAR DYNAMICS FRAMEWORK" on UE5; the post says the team is "heavily conscious of performance & input latency" | Official |
 | 2026-03-03 | "Answering Your Questions" [5] | Video Q&A (100 players and 3 teams, monetisation, console release). The saved text has no combat content, so nothing on damage or ballistics can be cited from it | Official |
 | 2026-05-21 | "Tactical Depth & Teamplay" [2] | "Real-world ballistics, audio and flight models"; "every bullet fired, every loadout built, and every second-to-second choice has real consequences for your account balance" | Official (marketing register) |
 | 2026-06-06 | "Gameplay Trailer" [12] | "Play it slow, tactical and methodical, OR embrace the hardcore shooter that doesn't forget it's a game"; the game was shown in pre-alpha | Official |
 | 2026-06-16 | "Addressing Feedback" [3] | "Every player's line between arcade and realistic is different. We've drawn ours. This isn't just about Killcam." Approach applies "throughout Early Access & Beyond" | Official |
 
-Assessment: the developer's stated position is a deliberate middle between milsim and arcade, with the line left to the developer (High confidence that this is the stated position; evidence [3][4]). Where the line sits for any specific mechanic (damage falloff, recoil, time-to-kill) is not stated in text (Low confidence on any such inference; no evidence either way).
+Assessment: the developer's stated position is a deliberate middle between milsim and arcade, with the line left to the developer (High confidence that this is the stated position; evidence [1][3][4]). Where the line sits for any specific mechanic (damage falloff, recoil, time-to-kill) is not stated in text (Low confidence on any such inference; no evidence either way).
 
 The 16 Jun 2026 post names "Killcam" explicitly, which implies a killcam feature was a feedback topic. The post text does not say whether a killcam exists in the Early Access build or how it was changed [3]. This is recorded in Open Questions.
 
@@ -102,12 +103,13 @@ The 16 Jun 2026 post names "Killcam" explicitly, which implies a killcam feature
 
 | Topic | What is officially documented | Source |
 |-------|-------------------------------|--------|
-| Weapon damage values, headshot multipliers, falloff | Nothing | [1][2][3][4][6][8][9] |
+| Weapon damage values, headshot multipliers, falloff | Nothing (the store page gives only the qualitative "Realistic gunplay balanced for gameplay rather than simulation") | [1][2][3][4][6][8][9] |
 | Armor ratings, plate or vest damage reduction | Nothing. The Season 1 changelog mentions only a Sports Parachute, Large Backpack and ammo-type unlocks, not armor stats | [6] |
 | Ammo types | "762x54mm AP" and "556mm AP" exist as Career unlocks; their damage effect is not described | [6] |
 | Hit registration or netcode for hit validation | Revive validity checks are "fully server authoritative" (0.1.2). Hit validation itself is not described. The team states performance and input latency are priorities | [4][8] |
 | Buildable damage | "Crit spots" on buildables were fixed to stop reappearing in the same place or jumping to the far side of a structure; they "now favour a spot you can reach from where you're standing". Destruction rewards "scale with their build progress" | [8] |
 | Vehicle and air damage | Havoc bug "causing increased damage taken from 20mm and 30mm cannon fire" fixed (0.1.2); CIWS kill time on a Havoc about 12 s down to about 6 s (hotfix) | [8][9] |
+| Melee | Melee combat exists (store-page Mature Content Description: "killing with weapons and melee combat"); no damage or balance detail is published | [1] |
 | Killcam | Named in a devlog title context only | [3] |
 
 ## Chronological list of balance changes in each official patch post
@@ -283,7 +285,7 @@ None found for damage or ballistics. The 0.1.2 post lists admin features (schedu
 
 # Open Questions
 
-- **Store-page wording conflict.** The foundation document says the Steam page describes "realistic gunplay tuned for gameplay". The 2026-10-08 store snapshot has "tactical gunplay"; the nearest official wording is "hardcore shooter that doesn't forget it's a game" and "Grounded Gunplay" [1][4]. The foundation should be re-checked against the live page.
+- **Store-page wording (resolved in 1.0.1).** An earlier version of this document recorded a conflict with the foundation over the store-page wording, because the saved storefront-API JSON omitted several fields. The live capture of 2026-10-08 contains "Realistic gunplay balanced for gameplay rather than simulation" and "tactical gunplay" [1], so the foundation's quote was correct and no conflict remains. Residual point: the foundation's exact phrase "tuned for gameplay" differs by a word from the live "balanced for gameplay rather than simulation"; the live wording prevails.
 - **Post identifier conflict.** The foundation cites the Season 1 changelog under a different Steam post id than the one in the saved index (gid 1843481262690549) [6].
 - **Patch dating conflict.** The foundation dates the Season 1 changelog 10 Sep 2026; the saved post is stamped 2026-09-09 22:46 UTC (pre-load) [6]. The foundation also treats "0.11" as an unverified snippet; the official post exists as "Patch 0.11", published 12 Sep and deployed 14 Sep [7].
 - **Foundation says the official Steam text was not retrievable and patch content rests on press.** The saved official text now exists; where the foundation and this document differ, the official text prevails.
@@ -299,7 +301,7 @@ None found for damage or ballistics. The 0.1.2 post lists admin features (schedu
 
 **Primary Sources**
 
-- [1] **Valve / Bulkhead (Steam)** — *WARDOGS* store page (store snapshot dated 2026-10-08). https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-08.
+- [1] **Valve / Bulkhead (Steam)** — *WARDOGS* store page (live capture 2026-10-08, browser-rendered; supersedes the earlier storefront-API JSON, which omitted several fields). https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-08.
 - [2] **Bulkhead (Steam news)** — *WARDOGS - Tactical Depth & Teamplay* (21 May 2026). https://store.steampowered.com/news/app/1867240/view/1833334318569240. Accessed 2026-10-08.
 - [3] **Bulkhead (Steam news)** — *WARDOGS | Addressing Feedback* (16 Jun 2026). https://store.steampowered.com/news/app/1867240/view/1835236783575445. Accessed 2026-10-08.
 - [4] **Bulkhead (Steam news)** — *WARDOGS - TOP QUESTIONS* (18 Feb 2026). https://store.steampowered.com/news/app/1867240/view/1825093633182385. Accessed 2026-10-08.
@@ -338,3 +340,4 @@ None cited.
 |---------|------|--------|--------|-------------|
 | 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial draft, pre-Season-02 baseline. | — |
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint, links (0 dead) and Steam post ids. Pre-Season-02 baseline. | Standing mandate (auto-approve on green QA) |
+| 1.0.1 | 2026-10-08 | Research Pipeline (revision worker) | Corrected against live store-page capture; store page does say "Realistic gunplay balanced for gameplay rather than simulation" and "tactical gunplay", store-page wording conflict with foundation resolved and made Primary, melee combat and planned "expanded weapon categories" noted, reference [1] updated to live capture. | Standing mandate (auto-approve on green QA) |

@@ -1,7 +1,7 @@
 ---
 id: air-and-counter-air
 title: "Air Vehicles & Counter-Air"
-version: 1.0.1
+version: 1.0.2
 status: frozen
 confidence: Medium
 category: Vehicles & Outposts
@@ -11,7 +11,7 @@ game_version: "Early Access Update 0.1.2 (30 Sep 2026) plus 2 Oct 2026 security 
 document_type: depth
 created: 2026-10-08
 updated: 2026-10-08
-review_due: 2026-11-08
+review_due: 2026-10-22
 sources_verified: 2026-10-08
 supersedes: null
 related: [vehicles-outposts-foundation, vehicle-roster-and-prices, fob-and-base-building, gadgets-armor-and-equipment, damage-ballistics-and-balance]
@@ -23,7 +23,7 @@ tags: [helicopters, pilot-track, anti-air, ciws, havoc, ir-rangefinder, baseline
 | Field | Value |
 |-------|-------|
 | Document ID | air-and-counter-air |
-| Version | 1.0.1 |
+| Version | 1.0.2 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Vehicles & Outposts |
@@ -31,11 +31,11 @@ tags: [helicopters, pilot-track, anti-air, ciws, havoc, ir-rangefinder, baseline
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
 | Updated | 2026-10-08 |
-| Review due | 2026-11-08 |
+| Review due | 2026-10-22 |
 
 # Executive Summary
 
-This document goes deeper than the parent foundation on WARDOGS aircraft (all helicopters in Early Access) and the systems that counter them. The Steam page lists helicopters in Early Access and fighter jets only for the full release [1]. Official Steam posts name only a few air facts: the Havoc, the Z20 Lakota, flare deployables, a vehicle fly-through reward cap, a Havoc cannon-damage bug fix, and a 2 Oct 2026 hotfix that disabled IR Rangefinders in the vendor and cut the time for the CIWS to destroy a Havoc from about 12 s to about 6 s [2][3][4].
+This document goes deeper than the parent foundation on WARDOGS aircraft (all helicopters in Early Access) and the systems that counter them. The Steam store page (live capture 2026-10-08) says players can ferry supplies to teammates by helicopter, and that the fuller game plans "new vehicle types including fighter jets" [1]. Official Steam posts name only a few air facts: the Havoc, the Z20 Lakota, flare deployables, a vehicle fly-through reward cap, a Havoc cannon-damage bug fix, and a 2 Oct 2026 hotfix that disabled IR Rangefinders in the vendor and cut the time for the CIWS to destroy a Havoc from about 12 s to about 6 s [2][3][4].
 
 The official 2 Oct balance post settles a press conflict: there were two separate hotfixes that day, a no-gameplay security and stability hotfix and, later, a balance hotfix [3][5]. The official post says "IR Rangefinders" (its title says "IR Goggles") [3].
 
@@ -43,7 +43,7 @@ The roster, prices and Pilot levels come only from player-reported guides, which
 
 # Key Takeaways
 
-- Early Access air vehicles are helicopters. The earlier claim that fighter jets are planned for full release is unverified: it is not in the saved store data or any official post, and needs a live-page check.
+- Primary (Steam store page, live capture 2026-10-08): the developers plan "new vehicle types including fighter jets" as part of the fuller game; the page also names ferrying supplies to teammates by helicopter [1]. Air vehicles in guides and posts for Early Access are helicopters.
 - 2 Oct 2026, official: IR Rangefinders disabled in the vendor until Season 02, when they will require batteries; the CIWS now destroys the Havoc in around 6 s instead of 12 [3].
 - Official: Bulkhead says it "overcorrected" the CIWS in "the previous patch"; the post does not say which patch [3].
 - Update 0.1.2 (30 Sep 2026), official: vehicle fly-through exploit fixed with rewards capped, and a Havoc bug that raised damage taken from 20mm and 30mm cannon fire was fixed [2].
@@ -67,7 +67,7 @@ Covers helicopter and air roster, Pilot-track gating, anti-air (vehicle and base
 
 As of 2026-10-08.
 
-- The Steam page promotes helicopters that ferry supplies to teammates [1]. A claim of fighter jets planned for the full release is unverified (not in the saved store data or any official post).
+- The Steam store page (live capture 2026-10-08) promotes ferrying supplies to teammates by helicopter [1]. It also lists "new vehicle types including fighter jets" among planned additions for the fuller game, with no date or roster [1].
 - IR Rangefinders were to be disabled in the vendor within 12 hours of 2 Oct 2026 as regional servers restarted, "until Season 02, where they will require batteries to use". Bulkhead said it agreed with player sentiment that they were too overpowered. No client download or server downtime was required [3].
 - The CIWS destroys the Havoc in around 6 seconds, down from 12 [3].
 - Since the 10 Sep 2026 Season 1 changelog, flare deployables take more loadout room and all helicopters apply input damping on every input device [4].
@@ -128,7 +128,7 @@ The official post "IR Goggles & CIWS Balance Hotfix" (15:39 UTC) is separate fro
 
 ## Sling-loading
 
-Unconfirmed. The official posts, the Steam page and both vehicle guides never mention it; guides describe supply drops from the seat (`G` drops a crate) and say transports move "pallets" [1][8][9]. Treat external sling-loading as unconfirmed.
+Unconfirmed. The official posts, the Steam page and both vehicle guides never mention it; guides describe supply drops from the seat (`G` drops a crate) and say transports move "pallets" [8][9]; the store page's helicopter supply ferrying is not described as sling-loading [1]. Treat external sling-loading as unconfirmed.
 
 # Early Access Changes & Known Issues
 
@@ -155,13 +155,14 @@ None found. No server setting for air vehicles was seen.
 - Lakota unlock (Pilot 10 vs 25) and Gepard price are contested [8][9].
 - Does the roster include the MH-6 and six helicopters in total [8]? No official list.
 - Is external sling-loading present? Unconfirmed.
+- Fighter jets: planned per the store page [1], but no timing, roster or Season 02 inclusion is stated.
 - Foundation says the 2 Oct hotfix added no gameplay changes [5]; that is true only of the security hotfix.
 
 # References
 
 **Primary Sources**
 
-- [1] **Valve / Bulkhead** — *WARDOGS on Steam*. https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-08.
+- [1] **Valve / Bulkhead** — *WARDOGS on Steam* (store page, browser-rendered live capture 2026-10-08, snapshots/2026-10-08/store-page-live.txt). https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-08.
 - [2] **BULKHEAD** — *WARDOGS | Update 0.1.2 (Minor Patch)*, Steam announcement, 30 Sep 2026. https://store.steampowered.com/news/app/1867240/view/1845383656376490. Accessed 2026-10-08.
 - [3] **BULKHEAD** — *IR Goggles & CIWS Balance Hotfix*, Steam announcement, 2 Oct 2026. https://store.steampowered.com/news/app/1867240/view/1845383656386801. Accessed 2026-10-08.
 - [4] **BULKHEAD** — *Season 1 changelog (pre-load live)*, Steam announcement, 9 Sep 2026. https://store.steampowered.com/news/app/1867240/view/1843481262690549. Accessed 2026-10-08.
@@ -200,3 +201,4 @@ Steam News hub: https://store.steampowered.com/news/app/1867240 for Season 02 no
 | 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial draft; pre-Season-02 baseline. | — |
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint, links (0 dead) and Steam post ids. Pre-Season-02 baseline. | Standing mandate (auto-approve on green QA) |
 | 1.0.1 | 2026-10-08 | Orchestrator | Relabelled the fighter-jets claim as unverified (absent from the saved store data and all official posts). | Standing mandate (auto-approve on green QA) |
+| 1.0.2 | 2026-10-08 | Research Pipeline (revision worker) | Corrected against live store-page capture; restored fighter jets as Primary (store page, live capture 2026-10-08), added helicopter supply-ferrying wording, updated Key Takeaways, Current State, Executive Summary, Open Questions and reference [1]. | Standing mandate (auto-approve on green QA) |

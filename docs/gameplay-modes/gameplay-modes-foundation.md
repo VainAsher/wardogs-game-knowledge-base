@@ -1,7 +1,7 @@
 ---
 id: gameplay-modes-foundation
 title: "Gameplay & Modes: Foundation"
-version: 1.1.0
+version: 1.1.1
 status: frozen
 confidence: High
 category: Gameplay & Modes
@@ -39,7 +39,7 @@ tags:
 | Field | Value |
 |-------|-------|
 | Document ID | gameplay-modes-foundation |
-| Version | 1.1.0 |
+| Version | 1.1.1 |
 | Status | frozen |
 | Confidence | High |
 | Category | Gameplay & Modes |
@@ -51,22 +51,22 @@ tags:
 
 # Executive Summary
 
-WARDOGS is a 100-player, three-team tactical shooter in Steam Early Access since 10 September 2026 [1][2]. Its core mode is the Control Zone: three teams contest a randomised 2x2 km zone inside a 256 km2 map, the team with the most players inside earns points, and the first to 100 points wins [1][2]. A shifting Hot Zone inside it counts each player double and pays double cash [2]. Proximity or local voice chat is part of the design [1][2].
+WARDOGS is a 100-player, three-team tactical shooter in Steam Early Access since 10 September 2026 [1][2]. Its core mode is the Control Zone: three teams contest a randomised 2x2 km zone inside a 256 km2 map, the team with the most players inside earns points, and the first to 100 points wins [1][2]. A shifting Hot Zone inside it counts each player double and pays double cash [1][2]. Proximity voice chat is listed in the Early Access state and local voice chat in the game description, both on the store page [1][2].
 
 Progression is cash-based, with cash persisting from match to match and exchangeable for Gold Bars, plus XP across six role tracks (Career, Medic, Recon, Support, Driver, Pilot) that gate unlocks [2][3]. The developer states that each season gets a different XP curve and item order [3]. Season 02 is dated 15 October 2026 and described only as a larger content update; the official text says nothing about a wipe or rain [5][8].
 
-Confidence is High for the core claims, which now rest on the store page, the Top Questions post and the Season 1 changelog, the 0.11 and 0.1.2 posts and the two 2 Oct posts. Level caps, scoring tick, tower mechanics and the Season 02 wipe are not in official text and are kept as player-reported or press-reported.
+Confidence is High for the core claims, which rest on the live store page (live capture 2026-10-08), the Top Questions post and the Season 1 changelog, the 0.11 and 0.1.2 posts and the two 2 Oct posts. Level caps, scoring tick, tower mechanics and the Season 02 wipe are not in official text and are kept as player-reported or press-reported.
 
 # Key Takeaways
 
 - Format: up to 100 players in three teams (Lonestar, Valkyra, Manticore) on a 256 km2 map; Early Access launched with three maps, each with three variations [1][2][12].
 - Objective: a randomised 2x2 km Control Zone; the team with the most players inside earns points; first to 100 wins [1][2].
-- Hot Zone: a shifting sub-zone where players count as double and cash is doubled [2].
-- Voice: the store page says local voice chat and the developer FAQ says proximity chat [1][2]; the claim that it carries across all three teams rests on the Team17 press release [12].
+- Hot Zone: a shifting sub-zone where players count as double and cash is doubled [1][2].
+- Voice: the store page uses both phrases, "Online multiplayer with proximity voice chat" in its Early Access state list and "local voice chat" in About This Game, and the developer FAQ says proximity chat [1][2]; the claim that it carries across all three teams rests on the Team17 press release [12].
 - Progression: cash persists between matches and can be exchanged for Gold Bars [2]; XP accrues across six role tracks named Career, Medic, Recon, Support, Driver and Pilot [3].
 - Seasons: each season has its own XP curve and item order [3]; Season 02 is dated 15 Oct 2026 [8]. Official text states no wipe; a progression wipe is press-reported only [13].
 - Modes: the Control Zone is the only named core mode; Official servers run no modified modes, while Community servers can; since 0.1.2 a Deploy flow offers Official, Community, Infantry Mode and Low-Level servers [4][5].
-- 1.0: no date; the 7 Apr 2026 post commits to building a metagame (Black Market and Vault, Player Skills and Challenge System) during Early Access [10].
+- 1.0: no date; the store page plans around 1 to 2 years in Early Access, a higher full-release price and a broader feature set [1]; the 7 Apr 2026 post commits to building a metagame (Black Market and Vault, Player Skills and Challenge System) during Early Access [10].
 
 # Scope
 
@@ -86,13 +86,13 @@ See also `GLOSSARY.md`.
 
 All statements verified 2026-10-08 against the sources shown.
 
-- Early Access began 10 Sep 2026; the developer describes it as fully playable and representing the core vision [2]. Setting is the war-torn region of Kolchia [2].
+- Early Access began 10 Sep 2026; the developer describes it as fully playable and representing the core vision [2]. Setting is the war-torn region of Kolchia [2]; the store page describes the derelict industrial mountains of Eastern Europe and a destructible battlefield, and calls the game a militaristic sandbox [1].
 - Matches support up to 100 players split across three rival teams on a 256 km2 map; squad size is unlimited [2].
 - Teams fight for a randomised 2x2 km Control Zone; the team with the most players in the zone earns points and the first to 100 wins [1][2].
-- The Hot Zone counts players double and yields double cash [2].
+- The Hot Zone counts players double and yields double cash [1][2].
 - Every player starts with $10,000 and buys a loadout each life; teamplay actions such as reviving, transporting friendlies and controlling the objective earn cash; cash persists between matches [1].
 - Cash can be exchanged for Gold Bars, used for cosmetics in the Gold Market; the developer says cash and Gold Bars will never be sold for real money [2][9].
-- Voice: the store page lists local voice chat; the FAQ says proximity chat, including loudspeakers players can construct [1][2].
+- Voice: the store page says "Online multiplayer with proximity voice chat" in its Early Access state list and "local voice chat" in About This Game; the FAQ says proximity chat, including loudspeakers players can construct [1][2].
 - Launch content is three maps, each with three variations, with infantry and vehicle combat [12].
 - The Season 1 changelog (9 Sep 2026, pre-load) slowed the XP curve and moved unlocks; it also fixed voice dropping after a failed join, push-to-talk targeting and re-login recovery, and added a visible communication status [3].
 - Patch 0.11 (14 Sep 2026) split the server browser into Official and Community lists, removed filters from the Official list, and gave Community servers a 5% end-of-match cash bonus for one week [4].
@@ -112,7 +112,7 @@ All statements verified 2026-10-08 against the sources shown.
 | Zone | Randomised 2x2 km Control Zone per match | [1][2] |
 | Win condition | First team to 100 points | [1][2] |
 | Scoring basis | Team with the most players in the zone earns points | [1][2] |
-| Hot Zone | Shifting sub-zone; players count double; double cash | [2] |
+| Hot Zone | Shifting sub-zone; players count double; double cash | [1][2] |
 | Squads | Unlimited size; extra UI, comms and vehicle locking | [2] |
 | Maps | 3, each with 3 variations | [12] |
 
@@ -120,7 +120,7 @@ Player-reported mechanics (not stated in any official post): a tick of roughly o
 
 ## Cross-team voice chat
 
-The store page describes local voice chat and the developer FAQ calls it proximity chat [1][2]. The Team17 press release says it is audible across all three teams [12]. The Season 1 changelog lists fixes to voice cutting out after a failed join, stale channel rejoins, push-to-talk targeting and re-login, and a visible communication status [3].
+The store page uses both phrases: "Online multiplayer with proximity voice chat" in the Early Access state list and "local voice chat" in About This Game (live capture 2026-10-08); the developer FAQ also calls it proximity chat [1][2]. The two wordings describe the same feature and are not treated as a contradiction. Audibility across teams rests on the Team17 press release, which says it is audible across all three teams [12]. The Season 1 changelog lists fixes to voice cutting out after a failed join, stale channel rejoins, push-to-talk targeting and re-login, and a visible communication status [3].
 
 ## Progression and unlocks
 
@@ -143,7 +143,7 @@ The only core mode named in official text is the Control Zone [1][2]. Official s
 
 ## Planned for 1.0
 
-The 7 Apr 2026 post says the Metagame (the frontend experience to keep earning and progressing outside a match) is designed and will be built throughout Early Access, including the Black Market and Vault and a Player Skills and Challenge System [10]. The more detailed store-page list (more maps, weapons and vehicles, deeper progression, fighter jets, around one to two years of Early Access) is not in the saved store JSON and is cited to the live store page and Team17 press release only; re-verify before relying on it [1][12]. A third-party roadmap article adds new objective types and says no dated roadmap will be published, but does not say which items are official [14].
+The 7 Apr 2026 post says the Metagame (the frontend experience to keep earning and progressing outside a match) is designed and will be built throughout Early Access, including the Black Market and Vault and a Player Skills and Challenge System [10]. The store page (live capture 2026-10-08) plans to expand in several areas: more maps, weapons, vehicles and gameplay variety; more in-depth progression systems; a stronger seasonal meta game; new vehicle types including fighter jets; expanded weapon categories; and additional objective variations [1]. It expects Early Access to last around 1 to 2 years, with the duration liable to change, and plans to price the game lower during Early Access and higher at full release [1]. These are developer plans, not dated commitments. A third-party roadmap article adds new objective types and says no dated roadmap will be published, but does not say which items are official [14].
 
 # Early Access Changes & Known Issues
 
@@ -167,7 +167,7 @@ Official servers have no modified modes; Community servers support text search a
 - Season 02 (15 Oct 2026) is a larger update with balance reworks and a new XP curve per season, so the numbers here are a Season 01 baseline [3][5].
 - Official text states no Season 02 progression wipe and no rain; both are press or rumour only [8][13].
 - The hot-zone tick and tower mechanics, and the level cap, are player-reported [15][16][17].
-- The detailed 1.0 list and Early Access length are not in the saved store JSON [1].
+- The 1.0 list, Early Access length and pricing plan are developer intentions on the store page, undated and liable to change [1].
 
 # Open Questions
 
@@ -175,13 +175,13 @@ Official servers have no modified modes; Community servers support text search a
 - Whether any official mode exists beyond the Control Zone, and what Infantry Mode and Low-Level servers change.
 - Official level cap and the account-level formula.
 - Whether the 0.11 pipeline features (team switching controls, priority queues) have shipped.
-- Dated 1.0 plans and which roadmap features are official [14].
+- Dated 1.0 plans; the third-party roadmap article [14] is not attributed.
 
 # References
 
 **Primary Sources**
 
-- [1] **Valve / Bulkhead Studios** — *WARDOGS on Steam* (store page, snapshot 2026-10-08). https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-08.
+- [1] **Valve / Bulkhead Studios** — *WARDOGS on Steam* (store page, live capture 2026-10-08, browser-rendered). https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-08.
 - [2] **Bulkhead Studios** — *WARDOGS - TOP QUESTIONS* (Steam announcement, 18 Feb 2026). https://store.steampowered.com/news/app/1867240/view/1825093633182385. Accessed 2026-10-08.
 - [3] **Bulkhead Studios** — *Pre-Load Live & Season 1 Changelog* (Steam announcement, 9 Sep 2026). https://store.steampowered.com/news/app/1867240/view/1843481262690549. Accessed 2026-10-08.
 - [4] **Bulkhead Studios** — *Scheduled Maintenance & Patch 0.11* (Steam announcement, 12 Sep 2026). https://store.steampowered.com/news/app/1867240/view/1843481262698449. Accessed 2026-10-08.
@@ -230,3 +230,4 @@ Pure Xbox and Push Square coverage of the console plans are listed in `SOURCE_RE
 | 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial draft. | — |
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint and links (0 dead). | Standing mandate (auto-approve on green QA) |
 | 1.1.0 | 2026-10-08 | Research Pipeline (revision worker) | Revised against full official Steam text; official role-track names (Career not Assault); Season 1 changelog gid corrected; 2 Oct hotfix split into two official posts with balance detail confirmed; Hot Zone, 256 km2 map, Kolchia, Gold Bars and team names upgraded to Primary; Advanced Filters and Deploy flow from 0.1.2; Season 02 wipe downgraded to press-only; hosting partners confirmed; local voice chat wording fixed; confidence raised to High | Standing mandate (auto-approve on green QA) |
+| 1.1.1 | 2026-10-08 | Research Pipeline (revision worker) | Corrected against live store-page capture; voice chat recorded as both store-page phrases (proximity in the Early Access list, local in About This Game) and the contradiction dropped; roadmap bullets, 1 to 2 year Early Access, price plan, fighter jets now Primary and unverified caveats and matching open questions removed; $10,000 start, Hot Zone double cash, militaristic sandbox and Eastern Europe setting added from the page; confidence reassessed (High kept) | Standing mandate (auto-approve on green QA) |

@@ -1,7 +1,7 @@
 ---
 id: technical-servers-foundation
 title: "Technical & Servers: Foundation"
-version: 1.1.0
+version: 1.1.1
 status: frozen
 confidence: Medium
 category: Technical & Servers
@@ -23,7 +23,7 @@ tags: [technical, servers, community-servers, rcon, system-requirements, anti-ch
 | Field | Value |
 |-------|-------|
 | Document ID | technical-servers-foundation |
-| Version | 1.1.0 |
+| Version | 1.1.1 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Technical & Servers |
@@ -35,17 +35,20 @@ tags: [technical, servers, community-servers, rcon, system-requirements, anti-ch
 
 # Executive Summary
 
-This document covers what a player or server admin needs technically for WARDOGS (Bulkhead / Team17, Steam app 1867240) in Early Access: official system requirements, anti-cheat, platform support, the Community and Official server browsers, how community servers are hosted, the admin and RCON tooling, and modding status. Version 1.1.0 is revised against the full text of the official Steam posts and the store data snapshot of 2026-10-08, up to Season 1, patch 0.1.2 (30 September 2026) and the hotfixes of 2 October 2026 [1][7][8][9].
+This document covers what a player or server admin needs technically for WARDOGS (Bulkhead / Team17, Steam app 1867240) in Early Access: official system requirements, anti-cheat, platform support, the Community and Official server browsers, how community servers are hosted, the admin and RCON tooling, and modding status. Version 1.1.1 is revised against the full text of the official Steam posts, the store data snapshot of 2026-10-08 and the live Steam store page capture of 2026-10-08, up to Season 1, patch 0.1.2 (30 September 2026) and the hotfixes of 2 October 2026 [1][7][8][9].
 
 Headline facts. The store data lists Windows only, with Windows 10 64-bit minimum and a 1080p Low 60 fps (upscaled) target [1]. Patch 0.11 (deployed 14 September 2026) split the browser into Community and Official lists [6]. Bulkhead itself names three Approved Hosting Partners (QONZER, BisectHosting, xREALM) in its 8 September post, which resolves the earlier two-versus-three count conflict by dating [3]. Update 0.1.2 added a Deploy flow, restored Advanced Filters to the Official list and added scheduled restarts and RCON hardening for community servers [7]. The detailed RCON and ServerSettings.ini reference remains unofficial only, and predates 0.1.2 [14].
 
-Confidence is Medium. System requirements, patch contents and the approved-host list are now Primary. The kernel-level anti-cheat wording is not present in the store API snapshot and so is no longer rated Primary, and RCON and config detail, self-hosting status and netcode rest on unofficial material or are undocumented.
+The Steam store page (live capture 2026-10-08) states that the game uses kernel-level anti-cheat, names the product as Elytra, and requires agreement to a third-party EULA named WARDOGS EULA [1]. It also shows Steam Deck compatibility as Unsupported [1].
+
+Confidence is Medium. System requirements, anti-cheat naming, patch contents and the approved-host list are Primary. RCON and config detail, self-hosting status and netcode rest on unofficial material or are undocumented.
 
 # Key Takeaways
 
-- Minimum: Windows 10 64-bit, Core i5-8600 or Ryzen 5 3500, 16 GB RAM, GTX 1660 or RX 590, 50 GB storage, broadband, targeting 1080p Low at 60 fps (upscaled); recommended is Windows 11, an i7-12700K or Ryzen 7 5700X with an RTX 3070 or RX 6700 XT (store data, 2026-10-08) [1].
+- Minimum: Windows 10 64-bit, Core i5-8600 or Ryzen 5 3500, 16 GB RAM, GTX 1660 or RX 590, 50 GB storage, broadband, targeting 1080p Low at 60 fps (upscaled); recommended is Windows 11, an i7-12700K or Ryzen 7 5700X with an RTX 3070 or RX 6700 XT (Steam store page, live capture 2026-10-08) [1].
 - Platform flags in the store data are Windows true, Mac false, Linux false [1]. Linux is not officially supported: the developers said on 5 Sep 2026 they cannot commit to it and are still working on Proton compatibility (press report) [11].
-- Anti-cheat: Bulkhead's 8 Sep post deliberately says nothing about the technology ("you don't talk about anti-cheat") and points players to the in-game report function and community-hosted servers [3]. The "Kernel Level Anti-Cheat" line seen on the live store page in earlier reading is not in the 2026-10-08 store API snapshot; treat it as unconfirmed here [1].
+- Anti-cheat: the Steam store page (live capture 2026-10-08) shows "Uses Kernel Level Anti-Cheat: Elytra" and "Requires agreement to a 3rd-party EULA: WARDOGS EULA" [1]. Context: Bulkhead's 8 Sep post says nothing about the technology ("you don't talk about anti-cheat") and points players to the in-game report function and community-hosted servers [3].
+- Steam Deck compatibility is shown as Unsupported on the store page [1]. Bulkhead's Early Access estimate on the page is around 1 to 2 years, and the game is planned to be priced lower during Early Access (page lists GBP 36.99) [1].
 - Three Approved Hosting Partners (QONZER, BisectHosting, xREALM), named officially on 8 Sep 2026, sell community servers [3].
 - Patch 0.11 (announced 12 Sep, deployed 14 Sep 2026) split the browser into Community and Official, removed filters from Official, added text search for Community and made community server IDs persistent [6].
 - Update 0.1.2 (30 Sep 2026, maintenance 08:00 UTC for about one hour) added the Deploy flow (Official, Community, Infantry Mode, Low-Level), restored Advanced Filters to the Official list, and added scheduled daily restarts and an RCON AllowedHosts setting [7].
@@ -68,9 +71,9 @@ Covered: system requirements, graphics and stability changes, anti-cheat, platfo
 
 All statements below are at Season 1 / patch 0.1.2 plus hotfixes, checked 2026-10-08.
 
-- **Platform and requirements.** Windows only per the store platform flags; full specification is in Detail [1]. Early Access began on 10 Sep 2026 [1]. The expected Early Access duration previously stated in this document is not in the store API snapshot and is not asserted here.
-- **Languages and features.** Fourteen languages (English, French, Italian, German, Spanish - Spain, Japanese, Korean, Portuguese - Brazil, Russian, Simplified and Traditional Chinese, Polish, Turkish, Ukrainian; an asterisk marks the languages with full audio support) and Steam categories Multi-player, PvP, Online PvP and Steam Achievements [1].
-- **Anti-cheat.** Bulkhead's 8 Sep post says the most important thing players can do is use the in-game report function on official servers, and that community-hosted servers give "the ultimate protection" because admins can instantly ban bad actors [3]. The 9 Sep changelog added a report tracking system with weighted reports [4]. The product name and kernel-level nature are not stated in any official text read; see Open Questions.
+- **Platform and requirements.** Windows only per the store platform flags; full specification is in Detail [1]. Early Access began on 10 Sep 2026 [1]. The store page's Early Access section says Bulkhead expects WARDOGS to remain in Early Access for around 1 to 2 years, that the exact duration may change, and that the game is planned to be priced lower during Early Access with a higher price at full release (live capture 2026-10-08) [1]. Steam Deck compatibility is shown as Unsupported [1].
+- **Languages and features.** The store page shows 14 supported languages; English has interface, full audio and subtitles, French, Italian and German are listed in the page's first rows, and Spanish - Spain has interface and subtitles, with the rest behind "See all 14 supported languages" (the full list of Japanese, Korean, Portuguese - Brazil, Russian, Simplified and Traditional Chinese, Polish, Turkish and Ukrainian comes from the earlier store data snapshot) [1]. The features block lists Online PvP, Steam Achievements (10 on the page) and Accessibility Features (4), and the content line cites in-game chat and online interactivity [1].
+- **Anti-cheat.** Bulkhead's 8 Sep post says the most important thing players can do is use the in-game report function on official servers, and that community-hosted servers give "the ultimate protection" because admins can instantly ban bad actors [3]. The 9 Sep changelog added a report tracking system with weighted reports [4]. The Steam store page (live capture 2026-10-08) states "Uses Kernel Level Anti-Cheat: Elytra" and "Requires agreement to a 3rd-party EULA: WARDOGS EULA" [1]. No official text read describes how Elytra works, and this document makes no claim about its behaviour.
 - **Linux.** Not supported. Store flags show Linux false [1]. Press reported the developers' 5 Sep clarification [11].
 - **Server browser.** Two lists, Community and Official, since 0.11 [6]. 0.1.2 added Advanced Filters back to the Official list and a Deploy flow offering Official, Community, Infantry Mode or Low-Level servers [7]. Detail in server-hosting-and-browser.
 - **Community server availability.** Bulkhead's 8 Sep post says community hosted servers were available to pre-order through "our 3 Approved Hosting Partners; QONZER, BisectHosting and xREALM" ahead of the 10 Sep launch [3]. The hosts-only model itself (no self-hosting, server code withheld) is still known only from a fan site and a tracker, not from an official statement read [13][15].
@@ -78,7 +81,7 @@ All statements below are at Season 1 / patch 0.1.2 plus hotfixes, checked 2026-1
 
 # Detail
 
-## System requirements (store data, 2026-10-08)
+## System requirements (Steam store page, live capture 2026-10-08)
 
 | Item | Minimum | Recommended |
 |------|---------|-------------|
@@ -88,9 +91,9 @@ All statements below are at Season 1 / patch 0.1.2 plus hotfixes, checked 2026-1
 | GPU | Nvidia GTX 1660 or Radeon RX 590 | Nvidia RTX 3070 or Radeon RX 6700 XT |
 | Network | Broadband Internet connection | Broadband Internet connection |
 | Storage | 50 GB | 50 GB |
-| Target | 1080p Low, 60 fps (upscaled) | 1440p Medium 70+ fps native, or 4K Medium 60+ fps upscaled |
+| Additional notes (as shown) | 1080p Low @ 60fps (Upscaled) | 1440p Medium @ 70fps+ (Native) or 4k Medium @ 60fps+ (Upscaled) |
 
-Source for the table: [1]. Both columns state a 64-bit processor and operating system requirement. The Linux requirement fields are empty [1]. See system-requirements-and-performance for depth.
+Source for the table: [1]. Both columns state a 64-bit processor and operating system requirement. The page shows no Linux requirements [1]. See system-requirements-and-performance for depth.
 
 ## Performance and settings changes at launch (Season 1 changelog, 9 Sep 2026) [4]
 
@@ -169,26 +172,23 @@ Source warning: Bulkhead has published no server-admin manual that was found. On
 
 - Admin and RCON material is unofficial, predates 0.1.2 and may change per build; the endpoint removals on 14 Sep show churn [14].
 - The hosts-only and no-self-hosting claims are not confirmed by an official text read; only the three-host list is [3].
-- The kernel-level anti-cheat wording was observed on the live store page in the earlier reading but is absent from the 2026-10-08 store API snapshot, which carries only structured fields; a reader should recheck the live page [1].
 - The 2 Oct security hotfix content is undisclosed [8].
 - Commercial host and fan-site claims may predate current server tooling; see community-and-source-reliability.
 - Season 02 (15 Oct 2026) will likely change versions and admin tooling [10].
 
 # Open Questions
 
-- Which anti-cheat product is used, and is it kernel level? No official text read names it; a developer statement or a recheck of the live store page would resolve it.
 - Is there an official statement that self-hosting or a downloadable server is unavailable? Only unofficial relays were found.
 - Is there an official RCON or ServerSettings.ini document, and how did 0.1.2 change the unofficial reference?
 - Netcode characteristics (tick rate, lag compensation): no source found.
 - Will modding or Linux/Proton support ship, and when?
 - What was fixed in the 2 Oct security hotfix?
-- What is the officially stated Early Access duration? Not in the store API snapshot.
 
 # References
 
 **Primary Sources**
 
-- [1] **Valve / Bulkhead** — *WARDOGS on Steam (store data snapshot 2026-10-08)*. https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-08.
+- [1] **Valve / Bulkhead** — *WARDOGS on Steam (store page, live capture 2026-10-08, with the storefront API data snapshot of the same date)*. https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-08.
 - [2] **Valve / Bulkhead** — *WARDOGS Steam News Hub*. https://store.steampowered.com/news/app/1867240. Accessed 2026-10-08.
 - [3] **Bulkhead** — *The 11th Reason NOT To Buy WARDOGS* (8 Sep 2026). https://store.steampowered.com/news/app/1867240/view/1842846814456311. Accessed 2026-10-08.
 - [4] **Bulkhead** — *Pre-Load Live & Season 1 Changelog* (9 Sep 2026). https://store.steampowered.com/news/app/1867240/view/1843481262690549. Accessed 2026-10-08.
@@ -234,3 +234,4 @@ Source warning: Bulkhead has published no server-admin manual that was found. On
 | 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial draft. | — |
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint and links (0 dead). | Standing mandate (auto-approve on green QA) |
 | 1.1.0 | 2026-10-08 | Research Pipeline (revision worker) | Revised against full official Steam text; three Approved Hosting Partners confirmed officially (8 Sep), host-count conflict resolved by dating; patch 0.11, 0.1.2 and 2 Oct hotfixes now cited to official posts; system requirements from store data; anti-cheat wording downgraded to unconfirmed; RCON detail kept unofficial and Low | Standing mandate (auto-approve on green QA) |
+| 1.1.1 | 2026-10-08 | Research Pipeline (revision worker) | Corrected against live store-page capture; anti-cheat now Primary (Kernel Level Anti-Cheat: Elytra, WARDOGS EULA), removed from Risks and Open Questions as unconfirmed, 8 Sep remark kept as context; added Steam Deck Unsupported, 1-2 year Early Access estimate, lower Early Access price, GBP 36.99, exact system requirement notes, language and feature wording from the page; removed the Early Access duration open question | Standing mandate (auto-approve on green QA) |

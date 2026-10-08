@@ -1,7 +1,7 @@
 ---
 id: vehicles-outposts-foundation
 title: "Vehicles & Outposts: Foundation"
-version: 1.1.0
+version: 1.1.1
 status: frozen
 confidence: Medium
 category: Vehicles & Outposts
@@ -23,7 +23,7 @@ tags: [vehicles, fob, outposts, building, destruction, logistics, early-access]
 | Field | Value |
 |-------|-------|
 | Document ID | vehicles-outposts-foundation |
-| Version | 1.1.0 |
+| Version | 1.1.1 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Vehicles & Outposts |
@@ -37,7 +37,7 @@ tags: [vehicles, fob, outposts, building, destruction, logistics, early-access]
 
 WARDOGS pairs a combined-arms vehicle set (tanks, an artillery tank, helicopters, light ground vehicles) with player-built Forward Operating Bases (FOBs) and a destructible battlefield. Bulkhead's own posts confirm that Early Access includes "Grounded Gunplay & Vehicles" and "Destruction & Build Mechanics" [5], and the Steam page promotes tanks, an artillery tank, helicopters that ferry supplies, a buildable forward operating base and apartment blocks that rocket launchers can destroy [6].
 
-This revision replaces the v1.0.0 reliance on press summaries with the full official Steam text. The Season 1 changelog (9 Sep 2026) is the only official source for vehicle and hammer prices and unlock levels, and it lists changes only, not a full table [1]. Official values now confirmed: FOB vendor $7,500, Large Hammer vendor $2,400, Medium Hammer unlock $25,000, Large Hammer unlock $75,000 at Support level 8, Kodiak Flatbed Driver 10 for $35,000, Heavy Tank Driver 35, Artillery Tank Career 90 for $500,000 [1]. Update 0.1.2 fixed the vehicle fly-through exploit, reduced pallet rewards outside the FOB zone and scaled buildable-destruction rewards by build progress [2]. The 2 Oct balance hotfix made the CIWS destroy a Havoc in about 6 seconds instead of 12 [3].
+This revision replaces the v1.0.0 reliance on press summaries with the full official Steam text, and v1.1.1 corrects it against a browser-rendered capture of the live Steam store page (live capture 2026-10-08) [6]. That page lists "Vehicles, logistics systems, and support-focused gameplay" in the current Early Access state and says the developers plan "new vehicle types including fighter jets" for the fuller game [6]. The Season 1 changelog (9 Sep 2026) is the only official source for vehicle and hammer prices and unlock levels, and it lists changes only, not a full table [1]. Official values now confirmed: FOB vendor $7,500, Large Hammer vendor $2,400, Medium Hammer unlock $25,000, Large Hammer unlock $75,000 at Support level 8, Kodiak Flatbed Driver 10 for $35,000, Heavy Tank Driver 35, Artillery Tank Career 90 for $500,000 [1]. Update 0.1.2 fixed the vehicle fly-through exploit, reduced pallet rewards outside the FOB zone and scaled buildable-destruction rewards by build progress [2]. The 2 Oct balance hotfix made the CIWS destroy a Havoc in about 6 seconds instead of 12 [3].
 
 Still player-reported only: per-spawn vehicle prices, the build procedure, supply types, structure costs and which hammer tier builds what [7][8][9][10][11]. Document confidence is Medium: prices, levels and patch changes are official, but the roster is incomplete and the mechanics layer is guide-sourced. For depth see vehicle-roster-and-prices, fob-and-base-building and air-and-counter-air.
 
@@ -50,6 +50,7 @@ Still player-reported only: per-spawn vehicle prices, the build procedure, suppl
 - Official ground levels: URAL 3, Kodiak Assault 6, Dune Buggy 8, Kodiak Flatbed 10 ($35,000, was level 2 and $15,000), URAL Covered 18, URAL Attack 25, Humvee with minigun 30, Heavy Tank 35 [1].
 - Update 0.1.2 (30 Sep 2026): vehicle fly-through rewards capped; pallets deposited outside the FOB zone give reduced rewards; destroying buildables pays by build progress [2].
 - 2 Oct 2026 balance hotfix: the CIWS now destroys the Havoc in around 6 seconds as opposed to 12 [3].
+- The Steam page (live capture 2026-10-08) lists vehicles and logistics systems as present in Early Access and plans "new vehicle types including fighter jets" [6].
 - Per-spawn vehicle prices, the build procedure and the "free armoured spawn vehicle" are player-reported only [7][10]. Sling-loading is unconfirmed in every source.
 
 # Scope
@@ -70,7 +71,8 @@ Covers vehicle classes and named vehicles, how vehicles are bought, FOB construc
 All facts as of 2026-10-08, Update 0.1.2 plus the 2 Oct hotfixes.
 
 - Early Access includes "Grounded Gunplay & Vehicles" and "Destruction & Build Mechanics" [5]. Squads provide "vehicle locking" [5].
-- The store page promotes tanks, an artillery tank to bombard enemy positions, helicopters that can ferry supplies to teammates, and a forward operating base to fortify a chokepoint [6].
+- The store page promotes tanks, an artillery tank ("man an artillery tank and rain down destruction on the enemy"), helicopters that ferry supplies to teammates, and a forward operating base to fortify a chokepoint [6]. Its Early Access state list includes "Vehicles, logistics systems, and support-focused gameplay" [6].
+- Planned, not current: the store page's full-version section says the developers "plan broader gameplay additions such as new vehicle types including fighter jets" and more vehicles generally; no timing is given (Steam store page, live capture 2026-10-08) [6].
 - The FOB vendor price is $7,500 and the Large Hammer vendor price $2,400, both raised at Season 1 [1].
 - Update 0.1.2 states: "Fixed vehicle fly through exploit, rewards are now capped", "Any rewards for destroying buildables now scale with their build progress - so destroying a placed schematic no longer gives a full reward" and "Depositing pallets into a FOB outside the zone now awards reduced rewards" [2]. It also fixed a Havoc bug that raised damage taken from 20mm and 30mm cannon fire and blocked throwables from enclosed vehicle seats [2].
 - The 2 Oct 2026 security and stability hotfix announcement says a hotfix is planned for 08:00 UTC with about one hour of downtime; it lists no gameplay changes [4]. A separate 2 Oct balance hotfix disabled IR Rangefinders in the vendor until Season 02 and cut the CIWS time to destroy a Havoc from about 12 s to about 6 s [3].
@@ -142,14 +144,14 @@ None found specific to vehicles or FOBs. Update 0.1.2 added RCON and scheduled-r
 - The changelog lists changed values only, so unchanged vehicle prices and levels are absent from official text [1].
 - Guide figures mix beta and Season 1 values and conflict with each other and with the changelog; where they disagree, the official text wins [7][8][9][10].
 - Reading the changelog's track prices as unlock prices, and matching guide vehicle names to official names, are Inferred.
-- A fighter-jet and "more vehicles" roadmap line attributed to the Steam page in v1.0.0 is not in the saved store JSON snapshot, so it is not asserted here; see Open Questions.
+- The fighter-jet roadmap line is a stated plan on the live store page, not a shipped feature, and has no date [6]. The storefront-API JSON snapshot omits it; the live capture of 2026-10-08 is the authority.
 - Season 02 is due 15 Oct 2026 and is expected to rebalance prices and unlocks; this document will go stale quickly.
 
 # Open Questions
 
 - Spawn price of every vehicle and the Lakota, Little Bird and Havoc Pilot levels: no official source.
 - Whether the Havoc, Gepard and L2A6 are purchasable and at what values: no official text beyond the Havoc name [2][3].
-- Whether fighter jets are planned for the full release: the claim is not in the saved store snapshot; re-verify from the live Steam page.
+- Release timing and scope of the planned fighter jets and other new vehicle types: the store page gives none.
 - Vehicle versus FOB cost on destruction, and any refund: no source found.
 - Whether helicopters can sling-load pallets externally: unconfirmed in every source.
 - Medium Hammer unlock level, structure list, supply costs, structure health, build radius and FOB count limits: not published officially.
@@ -164,7 +166,7 @@ None found specific to vehicles or FOBs. Update 0.1.2 added RCON and scheduled-r
 - [3] **Bulkhead / Steam News** — *IR Goggles & CIWS Balance Hotfix*, 2 Oct 2026. https://store.steampowered.com/news/app/1867240/view/1845383656386801. Accessed 2026-10-08.
 - [4] **Bulkhead / Steam News** — *WARDOGS | Security & Stability Hotfix*, 2 Oct 2026. https://store.steampowered.com/news/app/1867240/view/1845383656384445. Accessed 2026-10-08.
 - [5] **Bulkhead / Steam News** — *WARDOGS - TOP QUESTIONS*, 18 Feb 2026. https://store.steampowered.com/news/app/1867240/view/1825093633182385. Accessed 2026-10-08.
-- [6] **Valve / Bulkhead** — *WARDOGS on Steam*. https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-08.
+- [6] **Valve / Bulkhead** — *WARDOGS on Steam* (browser-rendered live capture 2026-10-08). https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-08.
 
 **Press & Secondary**
 
@@ -203,3 +205,4 @@ The official Steam news feed at https://store.steampowered.com/news/app/1867240 
 | 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial draft. | — |
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint and links (0 dead). | Standing mandate (auto-approve on green QA) |
 | 1.1.0 | 2026-10-08 | Research Pipeline (revision worker) | Revised against full official Steam text; Kodiak Flatbed to Driver 10 and $35,000; Large Hammer level 8; Medium and Large Hammer unlock prices $25,000 and $75,000 and Large vendor $2,400; $800 and "Wardog track" removed; official track list; FOB $7,500 confirmed; 0.1.2 and 2 Oct CIWS hotfix cited from primary text; 2 Oct security hotfix relabelled as announcement with no listed gameplay changes; fighter-jet claim moved to Open Questions; links to depth docs added. | Standing mandate (auto-approve on green QA) |
+| 1.1.1 | 2026-10-08 | Research Pipeline (revision worker) | Corrected against live store-page capture; fighter-jet plan restored as Primary and removed from Open Questions and the unverified caveat; Early Access state (vehicles, logistics systems) and helicopter, FOB and artillery-tank text added; artillery wording aligned to page; new open question on jet timing | Standing mandate (auto-approve on green QA) |

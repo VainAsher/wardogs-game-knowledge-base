@@ -1,13 +1,13 @@
 ---
 id: combat-loadouts-foundation
 title: "Combat & Loadouts: Foundation"
-version: 1.1.0
+version: 1.1.1
 status: frozen
 confidence: Medium
 category: Combat & Loadouts
 topic: "Weapons, gadgets, classes, damage and ballistics"
 market: Global
-game_version: "Early Access Season 1, patch 0.1.2 (30 Sep 2026) plus the 2 Oct 2026 hotfixes; Steam store data and news snapshot 2026-10-08"
+game_version: "Early Access Season 1, patch 0.1.2 (30 Sep 2026) plus the 2 Oct 2026 hotfixes; Steam store data, live store-page capture and news snapshot 2026-10-08"
 document_type: foundation
 created: 2026-10-08
 updated: 2026-10-08
@@ -23,7 +23,7 @@ tags: [combat, weapons, loadouts, roles, ballistics, early-access]
 | Field | Value |
 |-------|-------|
 | Document ID | combat-loadouts-foundation |
-| Version | 1.1.0 |
+| Version | 1.1.1 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Combat & Loadouts |
@@ -37,7 +37,7 @@ tags: [combat, weapons, loadouts, roles, ballistics, early-access]
 
 WARDOGS has no fixed class selection at spawn. Each life, a player spends cash at a vendor to build a custom loadout of weapons, gear, utility and vehicles, starting from $10,000 [1]. Experience is earned on six role tracks, named in the official Season 1 changelog as Career, Medic, Recon, Support, Driver and Pilot, which gate which items can be bought [2]. "Assault" is a guide name, not an official one [10].
 
-The developer's stance on realism is a middle line: the store page says "tactical gunplay" [1], the February 2026 FAQ calls the game "a hardcore shooter that doesn't forget it's a game" with "Grounded Gunplay" as an Early Access feature [6], and a May 2026 post lists "real-world ballistics" among its pillars [7]. No official weapon list, damage value or ballistic parameter has been published. This revision replaces press summaries with the full official Steam text for the 9 Sep Season 1 changelog [2], the 30 Sep update 0.1.2 [3] and the 2 Oct balance hotfix [4].
+The developer's stance on realism is a middle line: the store page says "tactical gunplay" in About This Game and, under the Early Access current-state answer, "Realistic gunplay balanced for gameplay rather than simulation" (live capture 2026-10-08) [1], the February 2026 FAQ calls the game "a hardcore shooter that doesn't forget it's a game" with "Grounded Gunplay" as an Early Access feature [6], and a May 2026 post lists "real-world ballistics" among its pillars [7]. No official weapon list, damage value or ballistic parameter has been published. This revision replaces press summaries with the full official Steam text for the 9 Sep Season 1 changelog [2], the 30 Sep update 0.1.2 [3] and the 2 Oct balance hotfix [4].
 
 Document confidence is Medium: the structural model, role tracks, repricing and balance changes are official, but weapon-level names, prices and stats remain beta-era press or player-reported guides (see weapons-catalogue).
 
@@ -45,7 +45,7 @@ Document confidence is Medium: the structural model, role tracks, repricing and 
 
 - Loadouts are bought with cash each life from a vendor; players start with $10,000 and cash persists between matches (Steam page, checked 2026-10-08) [1].
 - There is no spawn-time class pick. Six role tracks (Career, Medic, Recon, Support, Driver, Pilot) are named in the official changelog of 9 Sep 2026 [2]; an account-wide WARDOG Level is player-reported only [10].
-- Official gunplay wording: "tactical gunplay" on the store page [1]; "a hardcore shooter that doesn't forget it's a game" and "Grounded Gunplay" (18 Feb 2026) [6]; "real-world ballistics" (21 May 2026) [7].
+- Official gunplay wording on the store page: "tactical gunplay" (About This Game) and "Realistic gunplay balanced for gameplay rather than simulation" (Early Access current state) (live capture 2026-10-08) [1]; "a hardcore shooter that doesn't forget it's a game" and "Grounded Gunplay" (18 Feb 2026) [6]; "real-world ballistics" (21 May 2026) [7].
 - Season 1 changelog (posted 9 Sep 2026, live for the 10 Sep launch) slowed role XP between levels 10 and 20, moved many unlocks and repriced hammers, scopes, the FOB and vehicles; the developer says each season gets a different XP curve and item order [2].
 - Patch 0.1.2 (30 Sep 2026) made revive validity server authoritative, scaled buildable-destruction rewards by build progress, barred throwables from enclosed vehicle seats and fixed a Havoc bug that raised damage taken from 20mm and 30mm cannon fire [3].
 - Balance hotfix (2 Oct 2026): IR Rangefinders were disabled in the vendor until Season 02, when they will need batteries, and the CIWS now destroys a Havoc in about 6 s instead of 12 s [4].
@@ -67,6 +67,8 @@ Excluded: vehicle combat detail (see vehicles-outposts-foundation), mode rules (
 # Current State
 
 - Each player starts with $10,000 and buys a custom loadout of weapons, gear, utility and vehicles each life; cash persists between matches (Steam page, 2026-10-08) [1].
+- The store page's Early Access current-state answer lists "Realistic gunplay balanced for gameplay rather than simulation" (live capture 2026-10-08) [1].
+- The store page's Mature Content Description says "Wardogs contains killing with weapons and melee combat", so melee combat exists; no melee weapon roster or stats are published (live capture 2026-10-08) [1].
 - Teamwork earns cash, including reviving squadmates, transporting friendlies to the zone and controlling the objective [1].
 - The store page describes "tactical gunplay and combined arms combat with building and destruction mechanics", sniping with a ghillie suit, rocket launchers that destroy apartment blocks and buildable forward operating bases [1].
 - Role tracks named in the official Season 1 changelog (posted 9 Sep 2026): Career, Medic, Recon, Support, Driver, Pilot [2]. The changelog also shows items moving between tracks (Heavy Tank from Career 35 to Driver 35; Music Tape H from Pilot 28 to Driver 23) [2].
@@ -104,7 +106,7 @@ Full ladders and price lists are in progression-unlock-tables and price-tables-s
 
 ## Damage and ballistics
 
-No official damage values, armor ratings or ballistic tables exist. The official statements are positional: "tactical gunplay" [1], "a hardcore shooter that doesn't forget it's a game" and "Grounded Gunplay" [6], and "real-world ballistics, audio and flight models" in a May 2026 post whose substance is in a video not captured as text [7]. Press from the closed beta reports that real bullet drop and travel time are modelled and that weapon weights differ (for example AMR 50 12.5 kg, LMGs 7.5 kg) [9]; this is not confirmed by the developer.
+No official damage values, armor ratings or ballistic tables exist. The official statements are positional: "tactical gunplay" and "Realistic gunplay balanced for gameplay rather than simulation" on the store page (live capture 2026-10-08) [1], "a hardcore shooter that doesn't forget it's a game" and "Grounded Gunplay" [6], and "real-world ballistics, audio and flight models" in a May 2026 post whose substance is in a video not captured as text [7]. Press from the closed beta reports that real bullet drop and travel time are modelled and that weapon weights differ (for example AMR 50 12.5 kg, LMGs 7.5 kg) [9]; this is not confirmed by the developer.
 
 Official combat-relevant fixes: update 0.1.2 fixed a Havoc bug causing increased damage from 20mm and 30mm cannon fire and fixed buildable "crit spots" reappearing in the same place or jumping to the far side of a structure, so they now favour a spot reachable from where the player stands [3]. The 2 Oct hotfix halved the CIWS kill time on a Havoc (about 12 s to about 6 s), which the developer calls correcting an overcorrection in the previous patch [4]. See damage-ballistics-and-balance for the full record.
 
@@ -121,17 +123,17 @@ Officially named: ghillie suit, rocket launchers and forward operating bases [1]
 | 2026-10-02 | Security and stability hotfix notice (08:00 UTC, about one hour downtime) | [5] |
 | 2026-10-02 | Balance hotfix: IR Rangefinders disabled in the vendor until Season 02 (batteries required on return); CIWS kills a Havoc in about 6 s instead of 12 s; no client download or downtime | [4] |
 
-Planned: Season 02 on 15 Oct 2026 with equipment and balance reworks [3][8]. The store page's Early Access roadmap (more weapons and categories, deeper progression, seasonal meta, fighter jets) is cited by sibling documents from the live page; it is not present in the saved store JSON [1]. Season 1 numbers may not persist across seasons because the developer says each season has its own curve and item order [2].
+Planned: Season 02 on 15 Oct 2026 with equipment and balance reworks [3][8]. The store page's Early Access roadmap, confirmed in the live capture 2026-10-08, plans "more maps, weapons, vehicles, and gameplay variety", "expanded weapon categories", deeper progression, a stronger seasonal meta game and fighter jets [1]. The earlier storefront-API JSON omitted this text. Season 1 numbers may not persist across seasons because the developer says each season has its own curve and item order [2].
 
 # Admin & Technical Notes
 
-None specific to loadouts. Patch 0.1.2 added admin features (scheduled daily restart, RCON AllowedHosts) unrelated to combat balance [3]. The live Steam page lists kernel-level anti-cheat (not in the saved store JSON) [1].
+None specific to loadouts. Patch 0.1.2 added admin features (scheduled daily restart, RCON AllowedHosts) unrelated to combat balance [3]. The live Steam page lists kernel-level anti-cheat (Elytra) (live capture 2026-10-08) [1].
 
 # Risks & Caveats
 
 - Weapon lists, prices and unlock levels beyond the few official items come from a beta-era press table and from guides [9][10].
 - The developer says item order and XP curves differ each season, so every Season 1 level and price is expected to change on 15 Oct 2026 [2][8].
-- Melee combat, mentioned in the previous version of this document as an official store-page claim, could not be confirmed in the saved store data and is moved to Open Questions.
+- Melee combat is confirmed to exist by the store page's Mature Content Description, but no melee weapons, damage or roster are published (live capture 2026-10-08) [1].
 - Guides use "Assault" and "WARDOG Level"; official text uses "Career" and no WARDOG Level [2][10].
 
 # Open Questions
@@ -139,7 +141,7 @@ None specific to loadouts. Patch 0.1.2 added admin features (scheduled daily res
 - Official full weapon roster, damage, headshot and armor values at the current build.
 - Whether the Career track is the guide's "Assault" track, and the official weapon-to-track mapping.
 - Exact death cost and re-buy pricing, and whether any insurance exists; no official post covers them.
-- Whether melee combat is a store-page feature (the saved store JSON does not mention it) and what the live Early Access roadmap text says.
+- Which melee weapons exist and how melee damage works; the store page confirms melee only in its Mature Content Description.
 - What the 6-10x scope prices and other Season 1 values become at Season 02, and what IR Rangefinder batteries will cost.
 - Whether "IR Goggles" and "IR Rangefinders" are the same item.
 - Patch numbering: the official post titles are "Patch 0.11" (14 Sep) and "Update 0.1.2" (30 Sep); no reading beyond that is supported.
@@ -149,7 +151,7 @@ None specific to loadouts. Patch 0.1.2 added admin features (scheduled daily res
 
 **Primary Sources**
 
-- [1] **Valve / Bulkhead (Steam)** — *WARDOGS* store page and storefront data (snapshot 2026-10-08). https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-08.
+- [1] **Valve / Bulkhead (Steam)** — *WARDOGS* store page, live browser capture 2026-10-08 (snapshots/2026-10-08/store-page-live.txt) and storefront data. https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-08.
 - [2] **Valve / Bulkhead (Steam)** — *Pre-Load Live & Season 1 Changelog* (posted 9 Sep 2026). https://store.steampowered.com/news/app/1867240/view/1843481262690549. Accessed 2026-10-08.
 - [3] **Valve / Bulkhead (Steam)** — *WARDOGS | Update 0.1.2 (Minor Patch)* (30 Sep 2026). https://store.steampowered.com/news/app/1867240/view/1845383656376490. Accessed 2026-10-08.
 - [4] **Valve / Bulkhead (Steam)** — *IR Goggles & CIWS Balance Hotfix* (2 Oct 2026). https://store.steampowered.com/news/app/1867240/view/1845383656386801. Accessed 2026-10-08.
@@ -189,3 +191,4 @@ None specific to loadouts. Patch 0.1.2 added admin features (scheduled daily res
 | 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial draft. | — |
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint and links (0 dead). | Standing mandate (auto-approve on green QA) |
 | 1.1.0 | 2026-10-08 | Research Pipeline (revision worker) | Revised against full official Steam text; corrected Season 1 changelog id (1843481262690549, 9 Sep); six official tracks (Career, Medic, Recon, Support, Driver, Pilot); official gunplay wording replaces "realistic but tuned for gameplay"; two 2 Oct hotfix posts and the official IR Rangefinder/CIWS balance change; corrected hammer unlock and vendor prices; unverifiable store claims (melee) moved to Open Questions | Standing mandate (auto-approve on green QA) |
+| 1.1.1 | 2026-10-08 | Research Pipeline (revision worker) | Corrected against live store-page capture; restored Primary quote 'Realistic gunplay balanced for gameplay rather than simulation' alongside 'tactical gunplay'; melee confirmed by Mature Content Description and removed from Open Questions (no melee roster published); roadmap 'more maps, weapons, vehicles' and 'expanded weapon categories' now cited from the page; Elytra kernel anti-cheat noted | Standing mandate (auto-approve on green QA) |

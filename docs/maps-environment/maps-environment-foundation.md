@@ -1,7 +1,7 @@
 ---
 id: maps-environment-foundation
 title: "Maps & Environment: Foundation"
-version: 1.1.0
+version: 1.1.1
 status: frozen
 confidence: Medium
 category: Maps & Environment
@@ -36,7 +36,7 @@ tags:
 | Field | Value |
 |-------|-------|
 | Document ID | maps-environment-foundation |
-| Version | 1.1.0 |
+| Version | 1.1.1 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Maps & Environment |
@@ -48,17 +48,18 @@ tags:
 
 # Executive Summary
 
-Officially, WARDOGS is set in war-torn "Kolchia", where the fight is over a resource called PV-1, in "derelict industrial mountains of Eastern Europe" on a destructible battlefield [1][3]. Bulkhead's own 18 Feb 2026 FAQ states that three teams fight over "a randomized 2x2km Control Zone within a 256km² map" [3]. The map size is therefore official, though pre-release and not repeated on the Steam page, which says only "larger maps" [1]. The count of "3 maps x 3 variations" appears only in the Team17 press release, and "variation" is never defined [2].
+Officially, WARDOGS is set in war-torn "Kolchia", where the fight is over a resource called PV-1, in "derelict industrial mountains of Eastern Europe" on a destructible battlefield [1][3]. Bulkhead's own 18 Feb 2026 FAQ states that three teams fight over "a randomized 2x2km Control Zone within a 256km² map" [3]. The Steam page repeats the 2x2 km zone, places it "within larger maps" and lists "large-scale maps with dynamic objective zones" as part of the current Early Access build, but does not give the 256 km² total, so that figure is official yet pre-release [1][3]. The count of "3 maps x 3 variations" appears only in the Team17 press release, and "variation" is never defined [2].
 
-The map names (Bakurani, Ozeti, Zestafona), their points of interest and relative sizes remain player-reported [14][15][16]. The official 0.1.2 post says only that Season 02 (15 Oct 2026) brings "new map conditions" [5]. Rain as a per-map weather state is press reporting of a Bulkhead post on X that is not in the saved official text [11][12]. No fourth map is announced.
+The map names (Bakurani, Ozeti, Zestafona), their points of interest and relative sizes remain player-reported [14][15][16]. The official 0.1.2 post says only that Season 02 (15 Oct 2026) brings "new map conditions" [5]. Rain as a per-map weather state is press reporting of a Bulkhead post on X that is not in the saved official text [11][12]. The Steam page says only that "more maps" are planned; no specific fourth map is announced [1].
 
-Confidence is Medium (raised from Low in v1.0.0). Scale, setting, destruction headlines and the sandbox usage rest on official text; the named detail and the weather detail do not, and are labelled accordingly. Depth is in launch-maps-reference and destructibility-and-level-design.
+Confidence is Medium (raised from Low in v1.0.0). Scale, setting, destruction headlines, the large-scale maps with dynamic objective zones and the sandbox usage rest on official text (the live Steam page, captured 2026-10-08); the named detail and the weather detail do not, and are labelled accordingly. Depth is in launch-maps-reference and destructibility-and-level-design.
 
 # Key Takeaways
 
-- Official (18 Feb 2026, pre-release): the Control Zone is a randomised 2x2 km area within a 256 km² map [3]. The Steam page (Season 01) says "randomized 2x2km Control Zones within larger maps" and gives no total [1].
+- Official (18 Feb 2026, pre-release): the Control Zone is a randomised 2x2 km area within a 256 km² map [3]. The Steam page (live capture 2026-10-08) says "randomized 2x2km Control Zones within larger maps" and gives no total [1].
 - Official: the setting is "Kolchia", a war-torn region where the conflict centres on PV-1, with "multiple locations and POIs" [3].
-- Official: "sandbox" means the player-driven build-and-destroy play space ("100% player-driven militaristic sandbox"), not a map type [1][8][9].
+- Official: "sandbox" means the player-driven build-and-destroy play space ("a large-scale, up to 100-player militaristic sandbox" on the Steam page; "100% player-driven militaristic sandbox" in the 21 May 2026 post), not a map type [1][8][9].
+- Official: the Steam page lists "large-scale maps with dynamic objective zones" in the current Early Access state and plans "more maps" and "additional objective variations" [1]. "Dynamic" is not defined.
 - Official destruction statements are headline-level: a "destructible battlefield", apartment blocks destroyable by rocket launchers, and "Destruction & Build Mechanics" in Early Access [1][3]. Nothing official covers terrain deformation or persistence.
 - The "3 maps x 3 variations" claim is from the Team17 press release only; "variation" is undefined [2].
 - The 16 Jul 2026 "Level Design & Performance" post is a video devlog; its text mentions Georgian reference gathering and wide-hardware optimisation only [4].
@@ -83,15 +84,16 @@ See also `GLOSSARY.md`.
 
 Verified 2026-10-08.
 
-- Official: the setting is "derelict industrial mountains of Eastern Europe" with a destructible battlefield, in the fictional region Kolchia (Steam page, Season 01; FAQ 18 Feb 2026) [1][3].
-- Official: the Control Zone is a randomised 2x2 km area within a 256 km² map (FAQ, 18 Feb 2026, pre-release). The Steam page repeats the 2x2 km zone and "larger maps" but not the total [1][3].
-- Official: players can destroy apartment blocks with rocket launchers and tear through towns in armoured tanks; players can build and fortify key locations, for example a forward operating base at a chokepoint (Steam page, Season 01) [1].
+- Official: the setting is "derelict industrial mountains of Eastern Europe" with a destructible battlefield (Steam page, live capture 2026-10-08) [1]. The name "Kolchia" and the PV-1 conflict come from the FAQ (18 Feb 2026), not the Steam page [3].
+- Official: the Steam page states the current Early Access build has "large-scale maps with dynamic objective zones" and a "100-player, three-team" experience [1].
+- Official: the Steam page says the full version is planned to include "more maps" and "additional objective variations", alongside new vehicle types including fighter jets; no map is named and no date given (live capture 2026-10-08) [1]. "Additional objective variations" is not defined and is not shown to be the press release's "variations" [2].
+- Official: the Control Zone is a randomised 2x2 km area within a 256 km² map (FAQ, 18 Feb 2026, pre-release). The Steam page repeats the 2x2 km zone "within larger maps" but not the total [1][3].
+- Official: players can destroy apartment blocks with rocket launchers and tear through towns in armoured tanks; players can build and fortify key locations, for example a forward operating base at a chokepoint (Steam page, live capture 2026-10-08) [1].
 - Official: Early Access includes "Destruction & Build Mechanics" (FAQ, 18 Feb 2026) [3].
 - Press release (Team17, 10 Sep 2026): three maps, each with three variations [2]. No official Steam post in the snapshot repeats this count.
 - Official: Season 02 is dated 15 Oct 2026 (22 Sep 2026 teaser, a video with a one-line text) and is described as "a larger content update, with new map conditions, equipment, balance reworks and additional features" (30 Sep 2026, patch 0.1.2 post) [5][7]. No rain statement appears in that official text.
 - Press: rain is "an additional weather state per map and not a dynamic event mid match", attributed by Vice to a Bulkhead post on X that was not viewed [11][12].
 - Official: patch 0.1.2 changed buildable-destruction rewards and buildable crit-spot behaviour; it has no map, terrain or weather entry [5]. The Season 1 changelog has one map-related fix (below) [6].
-- Not verified: v1.0.0 cited the live Steam page for "large-scale maps with dynamic objective zones" and a plan for more maps and fighter jets; neither appears in the saved store JSON of 2026-10-08 [1]. Treated as unconfirmed.
 
 # Detail
 
@@ -175,13 +177,13 @@ Community Server IDs persist between matches and restarts since the 12 Sep 2026 
 - Is the whole map square (16 km edge), and does 256 km² still describe the shipped maps?
 - Does destruction reach terrain, and does it persist?
 - What does "new map conditions" cover, and does rain affect visibility, vehicles or aircraft?
-- Does the live Steam page still promise more maps and fighter jets?
+- What do "dynamic objective zones" and the planned "additional objective variations" mean in practice?
 
 # References
 
 **Primary Sources**
 
-- [1] **Valve / Bulkhead Studios** — *WARDOGS on Steam* (store page; saved store JSON 2026-10-08). https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-08.
+- [1] **Valve / Bulkhead Studios** — *WARDOGS on Steam* (store page, live capture 2026-10-08, browser-rendered; the storefront-API JSON omits several fields). https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-08.
 - [2] **Team17 / Bulkhead** — *WARDOGS is coming to Steam Early Access on 10 September* (press release). https://www.gamedeveloper.com/press-release/wardogs-is-coming-to-steam-early-access-on-10-september. Accessed 2026-10-08.
 - [3] **Bulkhead Studios** — *WARDOGS - TOP QUESTIONS* (Steam news, 2026-02-18). https://store.steampowered.com/news/app/1867240/view/1825093633182385. Accessed 2026-10-08.
 - [4] **Bulkhead Studios** — *WARDOGS | Level Design & Performance* (Steam news, 2026-07-16, video post). https://store.steampowered.com/news/app/1867240/view/1838407329256924. Accessed 2026-10-08.
@@ -226,3 +228,4 @@ Steam News Hub for Season 02 details as they publish: https://store.steampowered
 | 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial draft. | — |
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint and links (0 dead). | Standing mandate (auto-approve on green QA) |
 | 1.1.0 | 2026-10-08 | Research Pipeline (revision worker) | Revised against full official Steam text; map size 256 km² and Kolchia setting upgraded to official; sandbox usage defined from official posts; 3x3 variations marked press-release-only; 0.1.2 text limited to "new map conditions"; rain relabelled press; unsupported live-page claims demoted; confidence Low to Medium. | Standing mandate (auto-approve on green QA) |
+| 1.1.1 | 2026-10-08 | Research Pipeline (revision worker) | Corrected against live store-page capture; restored as Primary the page claims of large-scale maps with dynamic objective zones, more maps and additional objective variations planned, 100-player militaristic sandbox, destructible battlefield and Eastern Europe setting; removed the not-verified caveat and the live-page Open Question; Kolchia attributed to the FAQ only; 256 km² kept as FAQ-only; 3x3 variations still press-release-only; confidence stays Medium (map names and POIs remain player-reported). | Standing mandate (auto-approve on green QA) |

@@ -1,7 +1,7 @@
 ---
 id: control-zone-and-match-flow
 title: "Control Zone & Match Flow"
-version: 1.0.0
+version: 1.0.1
 status: frozen
 confidence: Medium
 category: Gameplay & Modes
@@ -34,7 +34,7 @@ tags:
 | Field | Value |
 |-------|-------|
 | Document ID | control-zone-and-match-flow |
-| Version | 1.0.0 |
+| Version | 1.0.1 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Gameplay & Modes |
@@ -86,7 +86,7 @@ Verified 2026-10-08 against the sources shown.
 - The Hot Zone is a shifting sub-zone; players count double towards player count and it pays double cash [2].
 - Players start with $10,000 and buy a loadout each life; cash persists between matches [1][2].
 - Squad size is unlimited; squads get extra UI, communication tools and vehicle locking [2].
-- Proximity chat is confirmed by the developer; the store page calls it local voice chat [1][2].
+- The live store page uses both phrases: "proximity voice chat" in the Early Access state list and "local voice chat" in About This Game; the 18 Feb 2026 post says proximity chat [1][2].
 - Patch 0.1.2 (30 Sep 2026): revive validity checks are now fully server authoritative, vehicle fly-through rewards are capped, buildable-destruction rewards scale with build progress, and depositing pallets into a FOB outside the zone pays reduced rewards [7].
 - 2 Oct 2026 balance hotfix: IR Rangefinders disabled in the vendor until Season 02 (where they will require batteries); the CIWS destroys the Havoc in about 6 seconds instead of 12 [8].
 - Season 02 is dated 15 Oct 2026 and is described as a larger update with new map conditions, equipment, balance reworks and additional features [7][9].
@@ -197,7 +197,7 @@ Community servers can run modifiers; Official servers had no modified modes at 1
 - Respawn timer, spawn distribution, spawn protection: unpublished.
 - Team assignment and balancing rules: unpublished.
 - Official confirmation of the tower and master-code mechanic, the drill rig, and the M113 APC spawn.
-- Conflict with gameplay-modes-foundation: it says Official servers have no filters, while the 0.1.2 post says Advanced Filters were added back to the Official list [7]. It also says the Steam page lists "proximity voice chat"; the store page says "local voice chat" and the 18 Feb 2026 post says proximity chat [1][2].
+- Conflict with gameplay-modes-foundation: it says Official servers have no filters, while the 0.1.2 post says Advanced Filters were added back to the Official list [7]. Voice chat wording is no longer a conflict: the live store page (capture 2026-10-08) uses both "proximity voice chat" and "local voice chat" [1][2].
 - gameplay-modes-foundation treats the 2 Oct hotfix content as inconsistent in press; the official posts show two separate hotfixes, a security and stability one and a balance one [8][11].
 - The foundation's role-track names (Assault or Career) are not given in the official post, which says only six tracks "from Medic to Pilot" [2].
 - Match end flow and map rotation after 100 points.
@@ -245,3 +245,4 @@ Snapshots of all official posts are under `snapshots/2026-10-08/steam-news/`.
 |---------|------|--------|--------|-------------|
 | 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial draft: pre-Season-02 baseline. | — |
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint, links (0 dead) and Steam post ids. Pre-Season-02 baseline. | Standing mandate (auto-approve on green QA) |
+| 1.0.1 | 2026-10-08 | Orchestrator | Voice-chat wording reconciled with the live store-page capture (page uses both phrases). | Standing mandate (auto-approve on green QA) |

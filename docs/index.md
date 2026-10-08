@@ -7,7 +7,7 @@ Evidence-based, source-cited reference for WARDOGS (Bulkhead / Team17) - gamepla
 
 **29 documents** across **29 topics** — every factual claim carries a citation to a vendor or authoritative source, assessed gaps are labelled and confidence-rated, and links, citations and structure are checked automatically in CI.
 
-*Confidence: 4 High · 20 Medium · 5 Low.*  *Market: Global 29.*
+*Confidence: 3 High · 21 Medium · 5 Low.*  *Market: Global 29.*
 
 ## Class 1 — Category foundations
 
