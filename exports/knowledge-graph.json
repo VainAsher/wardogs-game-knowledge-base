@@ -1,4 +1,134 @@
 {
-  "nodes": [],
-  "edges": []
+  "nodes": [
+    {
+      "id": "gameplay-modes-foundation",
+      "title": "Gameplay & Modes: Foundation",
+      "topic": "Match structure, objectives, three-team model, progression",
+      "tier": "1",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Medium",
+      "path": "docs/gameplay-modes/gameplay-modes-foundation.md",
+      "category": "Gameplay & Modes",
+      "document_type": "foundation",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "combat-loadouts-foundation",
+        "economy-foundation",
+        "maps-environment-foundation",
+        "meta-release-foundation"
+      ]
+    },
+    {
+      "id": "combat-loadouts-foundation",
+      "title": "Combat & Loadouts: Foundation",
+      "topic": "Weapons, gadgets, classes, damage and ballistics",
+      "tier": "1",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Medium",
+      "path": "docs/combat-loadouts/combat-loadouts-foundation.md",
+      "category": "Combat & Loadouts",
+      "document_type": "foundation",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "gameplay-modes-foundation",
+        "economy-foundation",
+        "vehicles-outposts-foundation"
+      ]
+    },
+    {
+      "id": "economy-foundation",
+      "title": "Economy: Foundation",
+      "topic": "Account balance, costs, rewards, death penalty",
+      "tier": "1",
+      "market": "Global",
+      "version": "1.0.0",
+      "status": "frozen",
+      "confidence": "Medium",
+      "path": "docs/economy/economy-foundation.md",
+      "category": "Economy",
+      "document_type": "foundation",
+      "review_due": "2026-11-08",
+      "created": "2026-10-08",
+      "related": [
+        "gameplay-modes-foundation",
+        "combat-loadouts-foundation",
+        "vehicles-outposts-foundation",
+        "meta-release-foundation"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "gameplay-modes-foundation",
+      "to": "combat-loadouts-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "gameplay-modes-foundation",
+      "to": "economy-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "combat-loadouts-foundation",
+      "to": "economy-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "gameplay-modes-foundation",
+      "to": "maps-environment-foundation",
+      "rel": "related",
+      "target": "planned"
+    },
+    {
+      "from": "gameplay-modes-foundation",
+      "to": "meta-release-foundation",
+      "rel": "related",
+      "target": "planned"
+    },
+    {
+      "from": "combat-loadouts-foundation",
+      "to": "vehicles-outposts-foundation",
+      "rel": "related",
+      "target": "planned"
+    },
+    {
+      "from": "economy-foundation",
+      "to": "vehicles-outposts-foundation",
+      "rel": "related",
+      "target": "planned"
+    },
+    {
+      "from": "economy-foundation",
+      "to": "meta-release-foundation",
+      "rel": "related",
+      "target": "planned"
+    },
+    {
+      "from": "combat-loadouts-foundation",
+      "to": "gameplay-modes-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "economy-foundation",
+      "to": "gameplay-modes-foundation",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "economy-foundation",
+      "to": "combat-loadouts-foundation",
+      "rel": "related",
+      "target": "known"
+    }
+  ]
 }

@@ -41,3 +41,7 @@ plugins:
   - search
 nav:
   - Home: index.md
+  - "Class 1 — Category foundations":
+      - "Combat & Loadouts: Foundation": combat-loadouts/combat-loadouts-foundation.md
+      - "Economy: Foundation": economy/economy-foundation.md
+      - "Gameplay & Modes: Foundation": gameplay-modes/gameplay-modes-foundation.md

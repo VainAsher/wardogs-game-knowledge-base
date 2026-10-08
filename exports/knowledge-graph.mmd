@@ -1,1 +1,20 @@
 graph LR
+  subgraph Tier1["Tier 1"]
+    combat_loadouts_foundation["combat-loadouts-foundation"]
+    economy_foundation["economy-foundation"]
+    gameplay_modes_foundation["gameplay-modes-foundation"]
+  end
+  gameplay_modes_foundation -->|related| combat_loadouts_foundation
+  gameplay_modes_foundation -->|related| economy_foundation
+  combat_loadouts_foundation -->|related| economy_foundation
+  maps_environment_foundation(["maps-environment-foundation<br/>(planned)"])
+  gameplay_modes_foundation -.->|related| maps_environment_foundation
+  meta_release_foundation(["meta-release-foundation<br/>(planned)"])
+  gameplay_modes_foundation -.->|related| meta_release_foundation
+  vehicles_outposts_foundation(["vehicles-outposts-foundation<br/>(planned)"])
+  combat_loadouts_foundation -.->|related| vehicles_outposts_foundation
+  economy_foundation -.->|related| vehicles_outposts_foundation
+  economy_foundation -.->|related| meta_release_foundation
+  combat_loadouts_foundation -->|related| gameplay_modes_foundation
+  economy_foundation -->|related| gameplay_modes_foundation
+  economy_foundation -->|related| combat_loadouts_foundation

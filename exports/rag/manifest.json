@@ -1,0 +1,24 @@
+{
+  "documents": 3,
+  "chunks": 45,
+  "total_tokens_estimate": 8833,
+  "chunk_fields": [
+    "chunk_id",
+    "doc_id",
+    "section",
+    "section_index",
+    "text",
+    "tokens_estimate",
+    "source_path",
+    "id",
+    "title",
+    "topic",
+    "market",
+    "document_type",
+    "version",
+    "status",
+    "confidence",
+    "category"
+  ],
+  "note": "One chunk per top-level (#) section; document metadata travels with each chunk. Regenerate with scripts/build_rag.py."
+}

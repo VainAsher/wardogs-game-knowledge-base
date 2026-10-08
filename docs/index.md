@@ -5,9 +5,15 @@
 
 Evidence-based, source-cited reference for WARDOGS (Bulkhead / Team17) - gameplay, combat, vehicles, economy, maps and server administration.
 
-**0 documents** across **0 topics** — every factual claim carries a citation to a vendor or authoritative source, assessed gaps are labelled and confidence-rated, and links, citations and structure are checked automatically in CI.
+**3 documents** across **3 topics** — every factual claim carries a citation to a vendor or authoritative source, assessed gaps are labelled and confidence-rated, and links, citations and structure are checked automatically in CI.
 
-*Confidence: 0 High · 0 Medium · 0 Low.*  *Market: .*
+*Confidence: 0 High · 3 Medium · 0 Low.*  *Market: Global 3.*
+
+## Class 1 — Category foundations
+
+- [Combat & Loadouts: Foundation](combat-loadouts/combat-loadouts-foundation.md) — *Weapons, gadgets, classes, damage and ballistics* (Global)
+- [Economy: Foundation](economy/economy-foundation.md) — *Account balance, costs, rewards, death penalty* (Global)
+- [Gameplay & Modes: Foundation](gameplay-modes/gameplay-modes-foundation.md) — *Match structure, objectives, three-team model, progression* (Global)
 
 ## Knowledge graph
 
@@ -15,6 +21,25 @@ Evidence-based, source-cited reference for WARDOGS (Bulkhead / Team17) - gamepla
 
     ```mermaid
     graph LR
+      subgraph Tier1["Tier 1"]
+        combat_loadouts_foundation["combat-loadouts-foundation"]
+        economy_foundation["economy-foundation"]
+        gameplay_modes_foundation["gameplay-modes-foundation"]
+      end
+      gameplay_modes_foundation -->|related| combat_loadouts_foundation
+      gameplay_modes_foundation -->|related| economy_foundation
+      combat_loadouts_foundation -->|related| economy_foundation
+      maps_environment_foundation(["maps-environment-foundation<br/>(planned)"])
+      gameplay_modes_foundation -.->|related| maps_environment_foundation
+      meta_release_foundation(["meta-release-foundation<br/>(planned)"])
+      gameplay_modes_foundation -.->|related| meta_release_foundation
+      vehicles_outposts_foundation(["vehicles-outposts-foundation<br/>(planned)"])
+      combat_loadouts_foundation -.->|related| vehicles_outposts_foundation
+      economy_foundation -.->|related| vehicles_outposts_foundation
+      economy_foundation -.->|related| meta_release_foundation
+      combat_loadouts_foundation -->|related| gameplay_modes_foundation
+      economy_foundation -->|related| gameplay_modes_foundation
+      economy_foundation -->|related| combat_loadouts_foundation
     ```
 
 ## Machine-readable exports

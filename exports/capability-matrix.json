@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "id": "gameplay-modes-foundation",
+    "title": "Gameplay & Modes: Foundation",
+    "topic": "Match structure, objectives, three-team model, progression",
+    "tier": "1",
+    "market": "Global",
+    "document_type": "foundation",
+    "category": "Gameplay & Modes",
+    "version": "1.0.0",
+    "status": "frozen",
+    "confidence": "Medium",
+    "review_due": "2026-11-08",
+    "path": "docs/gameplay-modes/gameplay-modes-foundation.md"
+  },
+  {
+    "id": "combat-loadouts-foundation",
+    "title": "Combat & Loadouts: Foundation",
+    "topic": "Weapons, gadgets, classes, damage and ballistics",
+    "tier": "1",
+    "market": "Global",
+    "document_type": "foundation",
+    "category": "Combat & Loadouts",
+    "version": "1.0.0",
+    "status": "frozen",
+    "confidence": "Medium",
+    "review_due": "2026-11-08",
+    "path": "docs/combat-loadouts/combat-loadouts-foundation.md"
+  },
+  {
+    "id": "economy-foundation",
+    "title": "Economy: Foundation",
+    "topic": "Account balance, costs, rewards, death penalty",
+    "tier": "1",
+    "market": "Global",
+    "document_type": "foundation",
+    "category": "Economy",
+    "version": "1.0.0",
+    "status": "frozen",
+    "confidence": "Medium",
+    "review_due": "2026-11-08",
+    "path": "docs/economy/economy-foundation.md"
+  }
+]

@@ -4,6 +4,7 @@ Subject: WARDOGS (Bulkhead / Team17), a 100-player, 3-team tactical FPS in Steam
 Audience: players and server admins. Genre: **reference**. Region: Global.
 
 ## Rules (never relax)
+
 1. Evidence over model confidence. Every fact cites an authoritative source with a working link and states the game version/date it applies to.
 2. Early Access: facts churn per patch. Each doc carries `game_version` and `review_due`; a fact change cuts a new version with a revision note, never a silent edit.
 3. Community material (Reddit, wikis, videos) is labelled player-reported and never establishes a fact alone.

@@ -1,1 +1,4 @@
 id,title,topic,tier,market,document_type,category,version,status,confidence,review_due,path
+gameplay-modes-foundation,Gameplay & Modes: Foundation,"Match structure, objectives, three-team model, progression",1,Global,foundation,Gameplay & Modes,1.0.0,frozen,Medium,2026-11-08,docs/gameplay-modes/gameplay-modes-foundation.md
+combat-loadouts-foundation,Combat & Loadouts: Foundation,"Weapons, gadgets, classes, damage and ballistics",1,Global,foundation,Combat & Loadouts,1.0.0,frozen,Medium,2026-11-08,docs/combat-loadouts/combat-loadouts-foundation.md
+economy-foundation,Economy: Foundation,"Account balance, costs, rewards, death penalty",1,Global,foundation,Economy,1.0.0,frozen,Medium,2026-11-08,docs/economy/economy-foundation.md
