@@ -17,6 +17,7 @@ Primary (ranks 1-3) / Press & Secondary (5) / Player-Reported (4, 6).
 
 reddit.com, fandom.com, discord.com, x.com, twitter.com, youtube.com, store.steampowered.com (age-gate, rate limits).
 Hosts found to reliably 403 during re-verification are recorded here.
+Recorded 2026-10-30 (403 from GitHub Actions runners on the scheduled QA runs of 12, 19 and 26 Oct; 200 from a normal connection): keengamer.com, gfinityesports.com, gamebrief.net, gamingwithdaopa.ellatha.com. All are player-reported or press guides, so they never establish a fact alone; the checker reports them as WARN.
 
 ## Seed sources (from scoping search, 2026-10-08, to be re-verified by workers)
 

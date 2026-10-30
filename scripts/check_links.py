@@ -42,6 +42,15 @@ def clean_url(raw: str) -> str:
 BOT_BLOCK_HOSTS = {
     # Sites that legitimately 403 automated checkers but whose URLs are real.
     # Reported as WARN, not FAIL — a human should eyeball these periodically.
+    # WARDOGS guide/press hosts: 403 from GitHub Actions runners (scheduled QA, 2026-10-12/19/26)
+    # while the same URLs return 200 from a normal connection (checked 2026-10-30).
+    "www.keengamer.com",
+    "keengamer.com",
+    "www.gfinityesports.com",
+    "gfinityesports.com",
+    "www.gamebrief.net",
+    "gamebrief.net",
+    "gamingwithdaopa.ellatha.com",
     "www.consilium.europa.eu",
     "consilium.europa.eu",
     "www.gartner.com",
