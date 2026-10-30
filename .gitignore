@@ -3,3 +3,6 @@
 snapshots/*/steam-news/*.md
 snapshots/*/store-*.json
 snapshots/*/store-page-live.txt
+
+# Python bytecode
+__pycache__/
