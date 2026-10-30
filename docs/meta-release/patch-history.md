@@ -1,18 +1,18 @@
 ---
 id: patch-history
 title: "Patch & Update History"
-version: 1.1.0
+version: 1.2.0
 status: frozen
 confidence: High
 category: Meta & Release
-topic: "Dated per-patch changelog from closed beta through 0.1.2 and hotfixes, rebuilt from official Steam posts"
+topic: "Dated per-patch changelog from closed beta through Update 0.2.0 (Season 02) and hotfixes, from official Steam posts"
 market: Global
-game_version: "Early Access Update 0.1.2 plus the 2 Oct 2026 hotfixes"
+game_version: "Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30)"
 document_type: reference-data
 created: 2026-10-08
-updated: 2026-10-08
-review_due: 2026-10-22
-sources_verified: 2026-10-08
+updated: 2026-10-30
+review_due: 2026-11-20
+sources_verified: 2026-10-30
 supersedes: null
 related: [meta-release-foundation, technical-servers-foundation, economy-foundation, editions-pricing-platforms]
 tags: [patch-history, changelog, early-access]
@@ -23,21 +23,21 @@ tags: [patch-history, changelog, early-access]
 | Field | Value |
 |-------|-------|
 | Document ID | patch-history |
-| Version | 1.1.0 |
+| Version | 1.2.0 |
 | Status | frozen |
 | Confidence | High |
 | Category | Meta & Release |
-| Game version | Early Access Update 0.1.2 plus the 2 Oct 2026 hotfixes |
+| Game version | Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30) |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-10-08 |
-| Review due | 2026-10-22 |
+| Updated | 2026-10-30 |
+| Review due | 2026-11-20 |
 
 # Executive Summary
 
-This reference lists every dated WARDOGS build change posted by BULKHEAD on Steam News between the August 2026 closed beta and 8 October 2026. Version 1.1.0 is rebuilt from the full text of the official posts saved in the 2026-10-08 snapshot, replacing the 1.0.0 draft that was written from press summaries because the posts were then unreadable [1]. Every entry below is labelled Official and cites its Steam post. Press-only items are moved to a separate unconfirmed list.
+This reference lists every dated WARDOGS build change posted by BULKHEAD on Steam News between the August 2026 closed beta and 15 October 2026, when Update 0.2.0 (Season 02) was released. Version 1.2.0 adds the Season 02 Preview (9 Oct), the Season 02 Patch Notes (14 Oct) and the "Season 02 is now live" post (15 Oct) from the 2026-10-30 snapshot [19][20][21]. Earlier entries are unchanged from the 2026-10-08 snapshot [1]. Every entry is labelled Official and cites its Steam post. Press-only items are in a separate unconfirmed list.
 
-The official titles settle the version labels: "Patch 0.11" (post titled "SCHEDULED MAINTENANCE & PATCH 0.11") and "Update 0.1.2 (Minor Patch)" [9][10]. The two 2 Oct entries are two separate official posts: a security and stability hotfix announcement at 00:13 UTC and an IR Goggles and CIWS balance hotfix post at 15:39 UTC [11][12]. Season 02 is announced for 15 Oct 2026 and is not live [13].
+The official titles settle the version labels: "Patch 0.11", "Update 0.1.2 (Minor Patch)" and, for Season 02, the live post says "We have now released Update 0.2.0" [9][10][21]. The two 2 Oct entries are two separate official posts [11][12]. The 0.2.0 notes were posted 14 Oct, 14:59 UTC, with maintenance announced for 15 Oct 08:00 to 09:30 UTC, and the live post followed on 15 Oct at 09:59 UTC [20][21]. There are no official posts after 2026-10-15 in the 2026-10-30 snapshot; later hotfixes may exist.
 
 Confidence is High: the changelog rests entirely on first-party Steam posts. The weakest points (how the 2 Oct security hotfix was carried out, beta dates not stated in post text) are flagged inline.
 
@@ -49,15 +49,18 @@ Confidence is High: the changelog rests entirely on first-party Steam posts. The
 - The two 2 Oct posts are separate: a hotfix notice for 08:00 UTC with one hour of downtime (00:13 UTC post), and a balance hotfix (15:39 UTC post) that disables IR Rangefinders in the vendor until Season 02 and cuts the CIWS time to destroy a Havoc from about 12 s to about 6 s [11][12].
 - Season 1.0 slowed levels 10-20 (level 10 needs 35,000 XP instead of 25,000; level 20 needs 250,000 instead of 111,500) and repriced many vendor items (9 Sep 2026) [7].
 - Patch 0.11 split the browser into Community and Official, made Community Server IDs persistent and stated an economy-abuse sanctions policy (14 Sep 2026) [9].
-- Season 02 is announced for 15 Oct 2026 and is not live at 8 Oct 2026 [13].
+- Season 02 / Update 0.2.0 was released on 15 Oct 2026 (post 09:59 UTC, "Servers are back online") after a maintenance window announced for 08:00 to 09:30 UTC [20][21].
+- 0.2.0 added four weapons, a Molotov, four vehicles, three buildables and a rain preset; reworked suppression and calibre damage; cut the role-track XP curve (level 20: 250,000 to 111,500); and changed team switching, team-kill handling and ping limits [20]. The Wager Vendor is announced but "not available at Season 2 launch" [20].
+- Press only (PCGamesN, 16 to 27 Oct): a blue-team bonus removed, a possible early Season 3, two new approved hosts [22][23][24][25].
 
 # Scope
 
-Covers the closed beta posts, the open beta post, the pre-load and Season 1 changelog, Launch Stability Hotfix #1, Patch 0.11, Update 0.1.2, the 2 Oct 2026 hotfixes and the Season 02 teaser, as of 8 Oct 2026. Excludes marketing, sales and wishlist posts, and Season 02 content. Release dates, prices and platforms are in meta-release-foundation and editions-pricing-platforms; in-game economy rules are in economy-foundation; server administration is in technical-servers-foundation.
+Covers the closed beta posts, the open beta post, the pre-load and Season 1 changelog, Launch Stability Hotfix #1, Patch 0.11, Update 0.1.2, the 2 Oct 2026 hotfixes, the Season 02 teaser, Preview, Patch Notes and release post, as of the 2026-10-30 snapshot. Excludes marketing, sales and wishlist posts. Full 0.2.0 value tables belong to the owner documents named in the 0.2.0 section. Release dates, prices and platforms are in meta-release-foundation and editions-pricing-platforms; in-game economy rules are in economy-foundation; server administration is in technical-servers-foundation.
 
 # Definitions
 
-- **Official**: published by BULKHEAD on the WARDOGS Steam News feed and saved in the 2026-10-08 snapshot [1].
+- **Official**: published by BULKHEAD on the WARDOGS Steam News feed and saved in the 2026-10-08 or 2026-10-30 snapshot [1][20].
+- **Update 0.2.0**: the label in the 15 Oct live post for the Season 02 release [21].
 - **Season 1.0**: the label the 9 Sep changelog uses for its unlock-level changes [7].
 - **Patch 0.11**: the label in the title of the 12 Sep post that announced the 14 Sep update [9].
 - **WD-L020**: crash error that BULKHEAD attributes to Windows 11 update KB5124010 [10].
@@ -66,7 +69,7 @@ Covers the closed beta posts, the open beta post, the pre-load and Season 1 chan
 
 # Current State
 
-At 8 Oct 2026 the live build is Update 0.1.2 as changed by the 2 Oct 2026 hotfixes [10][11][12]. The balance hotfix needed no client download or server downtime and was due to reach all regions within 12 hours of its 15:39 UTC post as servers restarted [12]. Season 02 is planned for 15 Oct 2026 and is not live [13].
+At the 2026-10-30 snapshot the latest official build is Update 0.2.0 (Season 02), released 15 Oct 2026 [21]. No official post after 2026-10-15 was seen in the snapshot, so any later hotfix is unknown. Before it, the live build (8 Oct 2026) was Update 0.1.2 as changed by the 2 Oct 2026 hotfixes; the balance hotfix needed no client download or server downtime [10][11][12].
 
 # Detail
 
@@ -77,6 +80,7 @@ At 8 Oct 2026 the live build is Update 0.1.2 as changed by the 2 Oct 2026 hotfix
 | 9 Sep 2026 22:46 | Pre-Load Live & Season 1 Changelog | "Season 1.0 Unlocks" headings | [7] |
 | 12 Sep 2026 22:26 | SCHEDULED MAINTENANCE & PATCH 0.11 | Patch 0.11 | [9] |
 | 30 Sep 2026 06:57 | WARDOGS / Update 0.1.2 (Minor Patch) | Update 0.1.2 | [10] |
+| 15 Oct 2026 09:59 | WARDOGS / SEASON 02 IS NOW LIVE | Update 0.2.0 | [21] |
 
 The 1.0.0 draft wondered whether "0.11" meant "0.1.1". The official title is "PATCH 0.11", so this KB uses 0.11 as the official label. No snapshot post is titled 0.1.1. BULKHEAD gives no explanation for the numbering. Confidence High for the labels, which are quoted from the titles.
 
@@ -95,7 +99,10 @@ The 1.0.0 draft wondered whether "0.11" meant "0.1.1". The official title is "PA
 | 30 Sep 2026 | Update 0.1.2 (Minor Patch) | 06:57 | Official | [10] |
 | 2 Oct 2026 | Security & Stability Hotfix | 00:13 | Official | [11] |
 | 2 Oct 2026 | IR Goggles & CIWS Balance Hotfix | 15:39 | Official | [12] |
-| 15 Oct 2026 | Season 02 (teaser posted 22 Sep) | 22 Sep 16:53 | Official, not live | [13] |
+| 22 Sep 2026 | Season 02 Teaser (date 15 Oct) | 16:53 | Official | [13] |
+| 9 Oct 2026 | Season 02 Preview | 16:00 | Official | [19] |
+| 14 Oct 2026 | Season 02 Patch Notes | 14:59 | Official | [20] |
+| 15 Oct 2026 | Update 0.2.0 / Season 02 is now live | 09:59 | Official | [21] |
 
 ## Beta dates from the official posts
 
@@ -207,9 +214,48 @@ Posted 06:57 UTC; maintenance at 08:00 UTC, estimated one hour.
 - Balance hotfix [12]: IR Rangefinders disabled in the vendor until Season 02, where they will require batteries; the CIWS now destroys the Havoc in around 6 seconds instead of 12. BULKHEAD says it overcorrected the CIWS in the previous patch and hotfixed it "this morning".
 - Whether the 08:00 UTC security hotfix and the CIWS "this morning" hotfix are the same operation is not stated; the posts are treated as separate.
 
-## Season 02 teaser (Official, not live) [13]
+## Season 02 teaser (Official, historical) [13]
 
-Posted 22 Sep 2026 at 16:53 UTC: "WARDOGS Season 02 is coming", dated 15 October 2026, "Stay tuned for more details". The 0.1.2 post adds that Season 02 is a larger content update with new map conditions, equipment, balance reworks and additional features [10]. Nothing else is official.
+Posted 22 Sep 2026 at 16:53 UTC: "WARDOGS Season 02 is coming", dated 15 October 2026, "Stay tuned for more details". The 0.1.2 post adds that Season 02 is a larger content update with new map conditions, equipment, balance reworks and additional features [10]. Nothing else was official until the Preview of 9 Oct [19].
+
+## 9 Oct 2026, Season 02 Preview (Official) [19]
+
+Posted 16:00 UTC. A devlog recap and preview titled "Road to Season 2". It says Season 01 "is coming to a close", cites "3+ million sales and counting" (studio claim) and says full patch notes drop "early next week".
+
+- Previewed content: four weapons (TCX Spear, M14, PP-19 Bizon, Evo-3 Ultra), a Molotov, four vehicles (Wolf-110, Wolf-110 (Assault), T-72, Flakpanzer Gepard), three buildables (MG Nest, Large Shelter, Wooden Step), a rain preset, an experimental Wager Vendor, IR Rangefinder batteries and helmet changes.
+- Faction experiment: Lonestar (blue) gets Season 2 only cash and XP bonuses and multipliers and less visible uniforms; a vendor discount of 20% for a team at least 40 points behind second place; all faction spawns moved on Bakurani; hosts exploiting the faction bonus will be punished.
+- Also: a first pre-season press conference, a Golden Joystick Awards reminder and a 24-hour extension of the 100K Clip Contest.
+- The post says it is "the surface of what's coming" and that details could change. Names differ from the final notes (see below); the notes win.
+
+## 14 Oct 2026, Season 02 Patch Notes (Official) [20]
+
+Posted 14:59 UTC with a trailer. Maintenance window: 15 Oct between 08:00 and 09:30 UTC, "roughly 90 minutes of downtime". These are the full Update 0.2.0 notes; values live in the owner documents, so this entry lists headlines only.
+
+| Area | Headline change (0.2.0) | Owner document |
+|------|-------------------------|----------------|
+| Weapons | TCX-SPR [7.62x39mm], PP-19 Bizon [9x19mm], Evo-3 Ultra [.308 Win], M14 [.308 Win]; new optics, muzzle devices, magazines, bipods | weapons-catalogue |
+| Gear | Molotov (impact plus damage over time; burns foliage; reduced by rain); IR Range Finder on batteries (about 80 s); Level 4 Helmet muffled audio, restricted field of view, fogs when sprinting; Medical Bag durability 100 to 150 | gadgets-armor-and-equipment |
+| Vehicles | Wolf-110, Wolf-110 [M2 Browning], T-72B3, Flakpanzer Gepard; private inventories by default; Humvee handling reworked | vehicle-roster-and-prices |
+| Buildables | MG Nest, Large Shelter, Wooden Step; build costs, drill rig, Talon and Mortar rebalance | fob-and-base-building |
+| Weather | New rain preset; thunder synchronised across the server, masks footsteps; rain reduces spotting range and Molotov fire | maps-environment-foundation |
+| Cosmetics | Eight Gold Market camos; Black & Gold AK camo removed from the Gold Market | season-2-announcements |
+| Wager Vendor | "Not available at Season 2 launch. It will open later in Season 2"; not a permanent addition | season-2-announcements |
+| Match flow | Team switching restrictions once a team is more than 10 points ahead; Forgive/Punish team-kill vote; Squad Intent UI; rebuy last loadout; server seeding rewards; pre-match entertainment; region-based ping limits | control-zone-and-match-flow, server-hosting-and-browser |
+| Maps | All three team spawns on Bakurani moved and rebuilt | maps-environment-foundation |
+| Combat balance | Calibre base damage: .308 -25%, 7.62x54mmR -20%, 7.62x39mm -19%, .50 cal -16%; suppression rebuilt; Level 3/4 armour reduction 55% to 50% and 65% to 60%; parachute changes; weapon recoil passes | damage-ballistics-and-balance |
+| Progression | Role-track XP cut (level 10 35,000 to 25,000; level 20 250,000 to 111,500; level 50 1,500,000 to 1,150,000); unlocks reshuffled in every track | progression-unlock-tables |
+| Economy | Reward changes, logistics delivery streaks, destroyed-vehicle and buildable rewards, spotting about 30% lower, exploit fixes, vendor price changes | cash-rewards-and-costs, price-tables-season-1 |
+| Controller | Aim Assist strength slider, bind changes, fixes | none |
+| Misc | Steam Trading Cards and Point Shop items "being added within Season 2, pending Valve's approval"; assistance request ping timer 20 s to 60 s | none |
+
+- In-post update: the logistics streak values were first posted as base design values without the zone multiplier, then revised to the values players actually receive in the Control Zone [20].
+- Preview versus final names: T-72 became T-72B3, Leopard became L2A6, Wolf-110 (Assault) became Wolf-110 [M2 Browning], TCX Spear became TCX-SPR, Super Heavy Helmet became Level 4 Helmet [19][20].
+- The notes' "before" XP values for levels 25 to 50 (for example level 25: 365,000) differ from the 9 Sep changelog (325,000) [7][20]; the cause is not stated.
+- Not mentioned in the notes: a progression wipe, cash-to-Gold-Bar conversion, death-penalty rules, new named maps, RCON or ini settings, console or Linux statements, Season 3.
+
+## 15 Oct 2026, Season 02 is now live (Official) [21]
+
+Posted 09:59 UTC: "We have now released Update 0.2.0. Servers are back online." The post embeds a trailer and links to a patch notes address that is not in the snapshot; the 14 Oct post is cited here as the notes.
 
 ## Unconfirmed (press or player-reported only)
 
@@ -221,25 +267,31 @@ These items are not in the official snapshot text. They do not establish facts.
 | Second closed beta on 3-6 Sep 2026 | Gfinity changelog article [14] | Official posts give only the 1 Sep announcement and the open beta end of Sunday 08:00 UTC; no start date |
 | "September 29" as the 0.1.2 date | One secondary article citing a podcast [17] | Contradicted by the official post (30 Sep) |
 | Press name "Sea Whiz" for the Havoc anti-air change; claim that the 2 Oct security hotfix made no gameplay, balance, economy or UI changes | MMOEXP and InGameNews [17][15] | The official posts say CIWS and give no such statement for the security hotfix |
-| Season 02 wipe, rain, new weapons and other content | Timesaver.gg, which sells boosting services [18] | Only the date and the description in [10] and [13] are official |
+| Season 02 wipe, rain, new weapons and other content (pre-release) | Timesaver.gg, which sells boosting services [18] | Rain, four weapons and the Molotov are confirmed by [20]; a wipe is not mentioned in the notes. Scored in season-2-announcements |
+| A Season 2 blue-team bonus (5% cash, 2.5% XP) removed; Driver-track exploit with 24-hour bans for "less than a thousand" players; a mid-season update "0.25" with limited-mode servers (16 Oct) | PCGamesN [22] | Press only; no official post after 15 Oct in the snapshot. The 14 Oct notes list Lonestar cash and XP bonuses as Season 2 only [20] |
+| Season 3 possibly brought "significantly" forward; no progress reset that weekend (17 Oct) | PCGamesN [23] | Press only; no official Season 3 statement in the snapshot |
+| Roughly three-month seasons with a smaller midway update; Season 3 targeted for 12 Nov with an economy reset; limited servers (25 Oct) | PCGamesN [24] | Press only |
+| Two new approved server hosts, GG Host and 1of1 Servers (27 Oct) | PCGamesN [25] | Press only; no official host post after 8 Sep in the snapshot |
 
 # Early Access Changes & Known Issues
 
-- This whole document is the change record; see Detail. Official posts through 2 Oct 2026 are included.
-- Posted 14 Sep as not yet ready: community favouriting, tiered priority queues, Message of the Day, warmup activities, seeding AFK kick changes and team switching controls [9]. The 0.1.2 post lists none of them [10].
-- No other official patch or hotfix post exists in the snapshot between 14 Sep and 30 Sep 2026 [1].
-- IR Rangefinders are due back in Season 02 requiring batteries [12].
+- This whole document is the change record; see Detail. Official posts through 15 Oct 2026 are included.
+- Posted 14 Sep as not yet ready: community favouriting, tiered priority queues, Message of the Day, warmup activities, seeding AFK kick changes and team switching controls [9]. The 0.1.2 post lists none of them [10]. The 0.2.0 notes add team switching restrictions, server seeding rewards and pre-match entertainment [20]; favouriting, priority queues and Message of the Day are not mentioned in them.
+- No other official patch or hotfix post exists in the snapshot between 14 Sep and 30 Sep 2026, or after 15 Oct 2026 [1][21].
+- Update 0.2.0 (15 Oct 2026) supersedes many Season 1 values; IR Rangefinders now run on batteries [20].
+- 0.2.0 changed a fact this document recorded for Season 1: level 20 XP 250,000 became 111,500 (Season 1 (0.1.2): 250,000 -> Season 02 (0.2.0): 111,500) [7][20].
 
 # Admin & Technical Notes
 
-Admin-relevant entries: Community Server IDs persist and server names must sort alphabetically with single spaces (Patch 0.11, 14 Sep 2026) [9]; daily restart time in UTC, RCON AllowedHosts, RCON length caps, RCON Standard response default and ServerImageURL checks (Update 0.1.2, 30 Sep 2026) [10]. Config detail belongs in technical-servers-foundation.
+Admin-relevant entries: Community Server IDs persist and server names must sort alphabetically with single spaces (Patch 0.11, 14 Sep 2026) [9]; daily restart time in UTC, RCON AllowedHosts, RCON length caps, RCON Standard response default and ServerImageURL checks (Update 0.1.2, 30 Sep 2026) [10]. Update 0.2.0 (14 Oct 2026): official servers enforce region-based ping limits (high ping kicks, temporary rejoin restriction, ping tags and filters in the browser) and Community Server admins "will be able to configure their own ping limits" [20]. The notes give no setting names and do not mention RCON or ini changes. Config detail belongs in technical-servers-foundation.
 
 # Risks & Caveats
 
-- The snapshot is dated 2026-10-08; later posts, edits or removals are not reflected [1].
+- The latest snapshot is dated 2026-10-30 and holds no official post after 2026-10-15; later posts, edits or removals are not reflected [1][21].
 - Dates are Steam post times in UTC; the update itself ran at the stated maintenance times, not necessarily the post time.
 - The 20 Aug beta schedule is an image whose contents are not in the text [3].
-- Season 02 (15 Oct 2026) will supersede the Current State.
+- Press items (PCGamesN) were fetched on 2026-10-30, not archived, and are paraphrased [22][23][24][25].
+- The 14 Oct notes quote "before" XP values that differ from the 9 Sep changelog for levels 25 and above [7][20].
 - Items in the Unconfirmed list can conflict with the official text; the official text wins.
 
 # Open Questions
@@ -248,7 +300,9 @@ Admin-relevant entries: Community Server IDs persist and server names must sort 
 - Whether the 14 Aug closed beta notes were ever posted officially.
 - Whether the 2 Oct 08:00 UTC security hotfix ran as scheduled and whether it is the "this morning" hotfix cited in the balance post.
 - Why BULKHEAD labels the patches "0.11" and "0.1.2".
-- Whether any hotfix has shipped since the 2026-10-08 snapshot.
+- Whether any hotfix or mid-season update has shipped since 15 Oct 2026 (none seen in the 2026-10-30 snapshot).
+- When the Wager Vendor opens [20].
+- Whether Season 02 reset progression: not mentioned in the notes [20].
 
 # References
 
@@ -267,11 +321,19 @@ Admin-relevant entries: Community Server IDs persist and server names must sort 
 - [11] **BULKHEAD** — *WARDOGS / Security & Stability Hotfix* (Steam news, 2026-10-02 00:13 UTC). https://store.steampowered.com/news/app/1867240/view/1845383656384445. Accessed 2026-10-08.
 - [12] **BULKHEAD** — *IR Goggles & CIWS Balance Hotfix* (Steam news, 2026-10-02 15:39 UTC). https://store.steampowered.com/news/app/1867240/view/1845383656386801. Accessed 2026-10-08.
 - [13] **BULKHEAD** — *WARDOGS / Season 02 Teaser* (Steam news, 2026-09-22 16:53 UTC). https://store.steampowered.com/news/app/1867240/view/1844115010504839. Accessed 2026-10-08.
+- [19] **BULKHEAD** — *WARDOGS | Season 02 Preview* (Steam news, 2026-10-09 16:00 UTC). https://store.steampowered.com/news/app/1867240/view/1846018067933823. Accessed 2026-10-30.
+- [20] **BULKHEAD** — *WARDOGS | Season 02 Patch Notes* (Steam news, 2026-10-14 14:59 UTC). https://store.steampowered.com/news/app/1867240/view/1846651706674560. Accessed 2026-10-30.
+- [21] **BULKHEAD** — *WARDOGS | SEASON 02 IS NOW LIVE* (Steam news, 2026-10-15 09:59 UTC). https://store.steampowered.com/news/app/1867240/view/1846651706677015. Accessed 2026-10-30.
 
 **Press & Secondary**
 
 - [14] **Gfinity Esports** — *WARDOGS Season 1 changelog*. https://www.gfinityesports.com/article/wardogs-season-1-changelog-early-access-patch-notes. Accessed 2026-10-08.
 - [15] **InGameNews** — *WARDOGS update 0.1.2 and security hotfix: a comparative overview*. https://ingamenews.com/gaming-news/wardogs-update-0-1-2-and-security-hotfix-a-comparative-overview/. Accessed 2026-10-08.
+
+- [22] **PCGamesN** — *"We f***ed up:" Bulkhead admits Wardogs Season 2 "got a few things wrong"* (2026-10-16). https://www.pcgamesn.com/wardogs/season-2-mistakes-bulkhead-apology. Accessed 2026-10-30.
+- [23] **PCGamesN** — *Wardogs Season 3 could be brought "significantly" forward* (2026-10-17). https://www.pcgamesn.com/wardogs/season-3-early-start. Accessed 2026-10-30.
+- [24] **PCGamesN** — *"We've got to slow down," Wardogs developer admits after Season 2's rocky rollout* (2026-10-25). https://www.pcgamesn.com/wardogs/season-2-developer-thoughts. Accessed 2026-10-30.
+- [25] **PCGamesN** — *Wardogs adds two new server hosts* (2026-10-27). https://www.pcgamesn.com/wardogs/community-servers. Accessed 2026-10-30.
 
 **Player-Reported Evidence**
 
@@ -298,3 +360,4 @@ Admin-relevant entries: Community Server IDs persist and server names must sort 
 | 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial draft. | - |
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint and links (0 dead). | Standing mandate (auto-approve on green QA) |
 | 1.1.0 | 2026-10-08 | Research Pipeline (revision worker) | Rebuilt from full official Steam text; every entry cited to its Steam post and labelled Official; version labels taken from post titles (Patch 0.11, Update 0.1.2); 2 Oct entries resolved as two posts with UTC times; beta dates from official posts; press-only items moved to an Unconfirmed list; full Season 1 XP, price and unlock baseline values added; confidence raised to High. | Standing mandate (auto-approve on green QA) |
+| 1.2.0 | 2026-10-30 | Research Pipeline (virtual agent) | Added the Season 02 Preview (9 Oct), Patch Notes (14 Oct) and Update 0.2.0 release (15 Oct) entries from the 2026-10-30 snapshot, with headline changes and owner-document pointers; Season 02 teaser entry marked historical; four PCGamesN items (16-27 Oct) added to the Unconfirmed list as press-only; no official posts after 15 Oct seen. | — |

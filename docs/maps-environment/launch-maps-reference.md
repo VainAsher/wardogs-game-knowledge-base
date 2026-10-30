@@ -1,18 +1,18 @@
 ---
 id: launch-maps-reference
 title: "Launch Maps Reference"
-version: 1.1.0
+version: 1.2.0
 status: frozen
 confidence: Low
 category: Maps & Environment
 topic: "Per-map profiles: Bakurani, Ozeti, Zestafona and unconfirmed maps"
 market: Global
-game_version: "Early Access Season 01, patch 0.1.2 (30 Sep 2026) plus 2 Oct 2026 hotfixes"
+game_version: "Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30)"
 document_type: reference-data
 created: 2026-10-08
-updated: 2026-10-08
-review_due: 2026-10-22
-sources_verified: 2026-10-08
+updated: 2026-10-30
+review_due: 2026-11-20
+sources_verified: 2026-10-30
 supersedes: null
 related:
   - maps-environment-foundation
@@ -32,23 +32,23 @@ tags:
 | Field | Value |
 |-------|-------|
 | Document ID | launch-maps-reference |
-| Version | 1.1.0 |
+| Version | 1.2.0 |
 | Status | frozen |
 | Confidence | Low |
 | Category | Maps & Environment |
-| Game version | Early Access Season 01, patch 0.1.2 (30 Sep 2026) plus 2 Oct 2026 hotfixes |
+| Game version | Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30) |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-10-08 |
-| Review due | 2026-10-22 |
+| Updated | 2026-10-30 |
+| Review due | 2026-11-20 |
 
 # Executive Summary
 
 Officially, WARDOGS launched with three maps, each with three variations [2], and a randomised 2x2 km Control Zone inside a 256 km2 map, set in a war-torn region called "Kolchia" [1][10]. Revised 2026-10-08 against the full text of all 32 saved Steam posts: none of them, nor the Steam store data, names Bakurani, Ozeti, Zestafona, Jutari or Saburtulo, profiles a map, or explains rotation [1][10][11][12]. The per-map profiles below therefore remain player-reported: Bakurani, Ozeti and Zestafona, plus the unconfirmed Jutari and Saburtulo [3][4][5][6][7].
 
-Several community sources agree on the three names, their settings and the existence of roughly three rotating areas per map. They disagree on play-area size, control-zone counts and whether a fourth map exists. Rain is the only announced Season 02 environment change [8].
+Several community sources agree on the three names, their settings and the existence of roughly three rotating areas per map. They disagree on play-area size, control-zone counts and whether a fourth map exists. Update 0.2.0 (Season 02, released 15 Oct 2026) officially adds a rain weather preset and moves and rebuilds all three team spawns on Bakurani, each with purpose-built routes to the zone; the notes name Bakurani but add no new named map [16][17][18]. Player-reported Bakurani details written before 15 Oct 2026 may be outdated.
 
-Confidence stays Low: the per-map names and profiles, which are the point of this document, are player-reported and the sources conflict. The official text only upgrades the generic map facts (256 km2 map, 2x2 km zone, "Kolchia"), which other documents already use.
+Confidence stays Low (the 0.2.0 facts are official but do not change this): the per-map names and profiles, which are the point of this document, are player-reported and the sources conflict. The official text only upgrades the generic map facts (256 km2 map, 2x2 km zone, "Kolchia"), which other documents already use.
 
 # Key Takeaways
 
@@ -60,7 +60,7 @@ Confidence stays Low: the per-map names and profiles, which are the point of thi
 - Conflict: the official Control Zone is 2x2 km [1][10]; allthings.how describes 500 m radius play circles (550 m on Ozeti) with an 85 m capture ring [3][6]. Not reconciled.
 - Conflict: control-zone counts range from one ring per map [3] to 171 named zones across all maps [4] to three or four positions per map [5].
 - Jutari (Sniper Showdown, 350 m) and Saburtulo are listed by one site only and are not confirmed playable [3].
-- Season 02 (15 Oct 2026) adds rain as a per-map weather state, not a mid-match event; no new map was mentioned [8].
+- Official (Update 0.2.0, 14 to 15 Oct 2026): a rain weather preset was added; all three Bakurani team spawns were "moved and rebuilt, each with purpose-built routes to the zone" [17][18]. The notes name no new map and give no new spawn positions [17]. The press detail that rain is fixed per match is still press-only [8][17].
 
 # Scope
 
@@ -76,7 +76,7 @@ Covers per-map profiles for the community-listed maps, the unconfirmed maps, rot
 
 # Current State
 
-Verified 2026-10-08 against patch 0.1.2.
+Verified 2026-10-30 against Update 0.2.0 (official posts 9 to 15 Oct 2026); items dated 2026-10-08 are the unchanged Season 1 (0.1.2) baseline.
 
 - Official: three maps with three variations each; "large-scale maps with dynamic objective zones"; Eastern European derelict industrial mountains; Control Zones are randomised 2x2 km areas within larger maps (Sep 2026) [1][2].
 - Official: the map is stated as 256 km2 (about 16 km x 16 km if square; the shape is not stated) in a pre-release post of 18 Feb 2026; the Steam page itself gives no total size [1][10].
@@ -84,11 +84,14 @@ Verified 2026-10-08 against patch 0.1.2.
 - Official: no snapshot Steam post (32 searched, including the closed beta schedule and recap, Top Questions, trailers, the Season 02 teaser and the 0.1.2 notes) and neither store data file names any map [1][10][11][12][13][14][15].
 - Player-reported: the three playable maps are Bakurani, Ozeti and Zestafona [3][4][5][7].
 - Player-reported: allthings.how lists Bakurani Outskirts (Jutari) and Saburtulo as not confirmed playable; its introduction mentions "four playable battlegrounds" while its detailed sections list three [3].
-- Press quote of Bulkhead: Season 02 rain is "an additional weather state per map and not a dynamic event mid match"; Season 02 is dated 15 Oct 2026 [8][13]; the official 0.1.2 post says Season 02 brings "new map conditions" but names no map [12].
+- Official (0.2.0): the Season 02 notes list a "New Rain Weather Preset" (see Season 02 weather below) and "Bakurani Spawns Moved" with "New spawns and routes on Bakurani" [17]. The 15 Oct 2026 post states Update 0.2.0 was released and servers were back online [18]. Official posts through 2026-10-15 name no new map; none were seen after that date in the 2026-10-30 snapshot [16][17][18].
+- Press quote of Bulkhead (pre-release): rain is "an additional weather state per map and not a dynamic event mid match" [8]. The official notes do not state this; treat it as press-only [8][17]. The official 0.1.2 post (30 Sep 2026) had said only "new map conditions" [12][13].
 
 # Detail
 
-## Map profiles (all player-reported, Season 01)
+## Map profiles (all player-reported, Season 01 baseline)
+
+Update 0.2.0 moved and rebuilt all three team spawns on Bakurani [17]. The Bakurani column below was collected before that change (accessed 2026-10-08) and does not describe the new spawns or routes; the notes do not say which areas were affected [17].
 
 | Attribute | Bakurani | Ozeti | Zestafona |
 |-----------|----------|-------|-----------|
@@ -140,9 +143,14 @@ No other source read mentions either name; the guides from xgamingserver.com, ga
 | Tower count | Bakurani 7 plus 4 abandoned [4] | Bakurani 5 drill towers [7] | Not reconciled |
 | Bakurani rotation | Default picked twice as often [3] | No weighting documented [5][7] | Single source |
 
-## Season 02 weather
+## Season 02 weather and Bakurani (Update 0.2.0)
 
-Rain is reported by press as one extra weather state per map, set for the whole match; it does not change mid match, and the effect on visibility or gameplay was not stated [8]. The coverage mentions no new map [8]. Nothing else about the Season 02 environment is taken as fact here.
+Official, from the Season 02 patch notes (14 Oct 2026) and the release post (15 Oct 2026) [17][18]:
+
+- Rain preset: surfaces, vehicles and characters look wet; rain sounds differ by surface and by whether you are under cover, indoors, in a vehicle or in the open; a destroyed roof lets rain visibly through; thunder in heavier rain is synchronised across the server, heard by everyone at the same moment from the same direction, and loud enough to mask footsteps; spotting range is affected by rain; Molotov fire is reduced by rain, and Molotovs can burn destructible foliage [17]. The 9 Oct 2026 preview says the preset changes "visibility, engagement ranges and sound" [16].
+- Large Shelter: a buildable "for covering key assets or keeping the rain off" (medium hammer and above, 250 build supply) [17].
+- Bakurani: all three team spawns moved and rebuilt with purpose-built routes to the zone, intended to give a more balanced match [17]. The notes do not mention spawn changes on Ozeti or Zestafona.
+- Not stated: numeric rain effects, how a match gets the preset, whether rain can change mid match, and any new named map. The press claim of a fixed per-match state [8] is not in the official text.
 
 # Early Access Changes & Known Issues
 
@@ -152,9 +160,11 @@ Rain is reported by press as one extra weather state per map, set for the whole 
 | 2026-09-10 | Launch with three maps, three variations each | [2] |
 | 2026-09-23 | Gamebrief directory snapshot: three maps; no fourth named | [5] |
 | 2026-09-30 | 0.1.2 notes: Season 02 to bring "new map conditions" | [12] |
-| 2026-10-15 | Season 02 due; rain as a per-map weather state | [8][13] |
+| 2026-10-09 | Season 02 preview: rain preset, Bakurani spawn move, Large Shelter described | [16] |
+| 2026-10-14 | Season 02 patch notes (0.2.0): rain weather preset; Bakurani spawns moved and rebuilt; Large Shelter; no new named map | [17] |
+| 2026-10-15 | Update 0.2.0 released, servers back online. Pre-release rain claims now officially confirmed | [18] |
 
-No map-specific patch entry or known-issue list was found for patch 0.1.2 or the 2 Oct hotfixes in the sources read. Community map data is described by its own publishers as Early Access data that may change [5][7].
+Season 1 (0.1.2) to Season 02 (0.2.0): Bakurani spawns changed and a rain preset was added [17]. No map-specific patch entry was found for patch 0.1.2 or the 2 Oct hotfixes, no known-issue list for the new Bakurani spawns was found, and no official post after 2026-10-15 is in the 2026-10-30 snapshot. Community map data is described by its own publishers as Early Access data that may change [5][7].
 
 # Admin & Technical Notes
 
@@ -164,7 +174,7 @@ Gamebrief notes that patch 0.11 confirmed server-level map changes and persisten
 
 - Almost every figure is player-reported; several publishers sell hosting or boosting services (xgamingserver.com, boostroom.com), a conflict of interest.
 - Guide sites may draw on one another, so agreement may not be independent. Assessment (Low): agreement on names is not verification.
-- Early Access: areas, rotation and weather can change, and Season 02 lands 15 Oct 2026.
+- Early Access: areas, rotation and weather can change each patch. Update 0.2.0 changed Bakurani spawns after the community guides here were captured (2026-10-08), so Bakurani guide details may be outdated [17].
 - The official 256 km2 and "Kolchia" statements date from February 2026, seven months before launch, and may not describe the shipped maps [10].
 - Absence of map names in the official posts read is not proof Bulkhead never used them elsewhere (in-game, Discord, the community site); only the saved Steam posts and store data were searched.
 - A search summary said one guide version marks Jutari as playable; I rely only on the fetched wording [3].
@@ -175,7 +185,9 @@ Gamebrief notes that patch 0.11 confirmed server-level map changes and persisten
 - Is the 500 m play circle a real mechanic, or a misreading of the 2x2 km Control Zone? An in-game measurement would resolve it.
 - Do Jutari and Saburtulo exist in the build?
 - Do "three variations" equal the three live areas?
-- Does rain change visibility, vehicles or aircraft?
+- How much does rain change spotting range, and does it affect aircraft? The notes give no numbers. Is rain fixed for a match? Only the press says so.
+- Did the 0.2.0 Bakurani spawn rebuild change the area rotation or points of interest? No official post says.
+- Will a further named map be added? Nothing official names one; rumours stay unconfirmed.
 - What is the true control-zone count per map?
 
 # References
@@ -191,6 +203,9 @@ Gamebrief notes that patch 0.11 confirmed server-level map changes and persisten
 - [13] **Bulkhead Studios** — *WARDOGS Season 02 Teaser* (Steam news, 22 Sep 2026). https://store.steampowered.com/news/app/1867240/view/1844115010504839. Accessed 2026-10-08.
 - [14] **Bulkhead Studios** — *WARDOGS Closed Beta Schedule* (Steam news, 20 Aug 2026). https://store.steampowered.com/news/app/1867240/view/1841579228666871. Accessed 2026-10-08.
 - [15] **Bulkhead Studios** — *WARDOGS Beta Recap & Next Steps* (Steam news, 24 Aug 2026). https://store.steampowered.com/news/app/1867240/view/1841579228676589. Accessed 2026-10-08.
+- [16] **Bulkhead Studios** — *WARDOGS Season 02 Preview* (Steam news, 2026-10-09). https://store.steampowered.com/news/app/1867240/view/1846018067933823. Accessed 2026-10-30.
+- [17] **Bulkhead Studios** — *WARDOGS Season 02 Patch Notes* (Steam news, 2026-10-14). https://store.steampowered.com/news/app/1867240/view/1846651706674560. Accessed 2026-10-30.
+- [18] **Bulkhead Studios** — *WARDOGS Season 02 is now LIVE* (Steam news, 2026-10-15). https://store.steampowered.com/news/app/1867240/view/1846651706677015. Accessed 2026-10-30.
 
 **Press & Secondary**
 
@@ -224,3 +239,4 @@ Steam News Hub for Season 02 details: https://store.steampowered.com/news/app/18
 | 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial draft. | — |
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint and links (0 dead). | Standing mandate (auto-approve on green QA) |
 | 1.1.0 | 2026-10-08 | Research Pipeline (revision worker) | Revised against full official Steam text; added official 256 km2 map size and "Kolchia" setting (Top Questions, 18 Feb 2026), recorded that no official post names any map, resolved the whole-map-size conflict, kept per-map profiles player-reported at Low confidence, added Steam post citations [10]-[15]. | Standing mandate (auto-approve on green QA) |
+| 1.2.0 | 2026-10-30 | Research Pipeline (virtual agent) | Cluster G revision for Update 0.2.0: rain preset and Bakurani spawn move/rebuild promoted to official; Large Shelter noted; per-match rain claim kept as press-only; Bakurani profile flagged as pre-0.2.0; no new named map; Season 02 due wording replaced; new sources [16]-[18]. | — |

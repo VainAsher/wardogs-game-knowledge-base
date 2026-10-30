@@ -1,18 +1,18 @@
 ---
 id: editions-pricing-platforms
 title: "Editions, Pricing & Platforms"
-version: 1.1.1
+version: 1.2.0
 status: frozen
 confidence: Medium
 category: Meta & Release
 topic: "Editions, regional pricing, Supporter Pack contents, platform roadmap, Early Access policy"
 market: Global
-game_version: "Early Access Update 0.1.2 plus hotfixes to 2 Oct 2026"
+game_version: "Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30)"
 document_type: reference-data
 created: 2026-10-08
-updated: 2026-10-08
-review_due: 2026-10-22
-sources_verified: 2026-10-08
+updated: 2026-10-30
+review_due: 2026-11-20
+sources_verified: 2026-10-30
 supersedes: null
 related: [meta-release-foundation, economy-foundation, patch-history, system-requirements-and-performance]
 tags: [pricing, editions, platforms, early-access]
@@ -23,27 +23,27 @@ tags: [pricing, editions, platforms, early-access]
 | Field | Value |
 |-------|-------|
 | Document ID | editions-pricing-platforms |
-| Version | 1.1.1 |
+| Version | 1.2.0 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Meta & Release |
-| Game version | Early Access Update 0.1.2 plus hotfixes to 2 Oct 2026 |
+| Game version | Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30) |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-10-08 |
-| Review due | 2026-10-22 |
+| Updated | 2026-10-30 |
+| Review due | 2026-11-20 |
 
 # Executive Summary
 
-WARDOGS is sold on Steam as two purchase options plus a separate DLC: the Standard game (package 671715), the Supporter Edition (package 1746527) and the Supporter Pack DLC (app 4809960) [1][2]. In the 2026-10-08 store snapshot the US prices are USD 39.99, 49.99 and 12.99 and the UK prices are GBP 36.99, 45.99 and 11.99, with no discount active [1][2]. The Supporter Pack is cosmetic content (camos, a scoreboard icon, two bobbleheads). The developer's stated policy is that it is the only monetisation during Early Access and that in-game cash, gold bars and camos will never be sold [2][4].
+WARDOGS is sold on Steam as two purchase options plus a separate DLC: the Standard game (package 671715), the Supporter Edition (package 1746527) and the Supporter Pack DLC (app 4809960) [1][2]. In the 2026-10-08 store snapshot the US prices are USD 39.99, 49.99 and 12.99 and the UK prices are GBP 36.99, 45.99 and 11.99, with no discount active [1][2]. A second storefront snapshot on 2026-10-30, after Update 0.2.0 (15 Oct 2026), shows the same US and UK prices, the same Windows-only platform flags and no discount for the base game and the Supporter Pack [19]. Store prices did not change with Season 02. The Supporter Pack is cosmetic content (camos, a scoreboard icon, two bobbleheads). The developer's stated policy is that it is the only monetisation during Early Access and that in-game cash, gold bars and camos will never be sold [2][4].
 
-Steam lists Windows only and the live store page shows Steam Deck compatibility as "Unsupported" [1][18]. The official Steam posts in the snapshot say nothing about Linux, Xbox or PS5; those statements (Xbox and PS5 "sometime in 2028", Linux unsupported with Proton work ongoing) come from press reports and are labelled as such [13][14][15][16]. The store page's own Early Access section says the developers plan a lower price during Early Access and a higher price at full release, and expect Early Access to last around 1 to 2 years [18]. Official Steam posts record 1.25 million copies sold on 11 Sep, 2 million on 15 Sep and 3 million on 26 Sep 2026 [5][6][7]. Reviews on 2026-10-08 differ by source: the reviews API gave 81,290 positive of 109,396 (74.3%) while the live store page showed 95,146 total in all languages, both "Mostly Positive"; the gap is unexplained [11][18].
+Steam lists Windows only and the live store page shows Steam Deck compatibility as "Unsupported" [1][18]. The official Steam posts in the snapshot say nothing about Linux, Xbox or PS5; those statements (Xbox and PS5 "sometime in 2028", Linux unsupported with Proton work ongoing) come from press reports and are labelled as such [13][14][15][16]. The store page's own Early Access section says the developers plan a lower price during Early Access and a higher price at full release, and expect Early Access to last around 1 to 2 years [18]. Official Steam posts record 1.25 million copies sold on 11 Sep, 2 million on 15 Sep and 3 million on 26 Sep 2026 [5][6][7]; the Season 02 Preview of 9 Oct says "3+ million sales and counting" (studio claim, no new figure) [20]. Reviews on 2026-10-08 differ by source: the reviews API gave 81,290 positive of 109,396 (74.3%) while the live store page showed 95,146 total in all languages, both "Mostly Positive"; the gap is unexplained [11][18].
 
 Confidence is Medium. Prices, DLC contents, sales milestones, the monetisation and pricing policy and review counts rest on official Steam data. The console and Linux claims rest on press only and cap the document.
 
 # Key Takeaways
 
-- Steam purchase options: Standard (USD 39.99 / GBP 36.99), Supporter Edition (USD 49.99 / GBP 45.99) and the Supporter Pack DLC (USD 12.99 / GBP 11.99), all undiscounted on 2026-10-08 [1][2].
+- Steam purchase options: Standard (USD 39.99 / GBP 36.99), Supporter Edition (USD 49.99 / GBP 45.99) and the Supporter Pack DLC (USD 12.99 / GBP 11.99), all undiscounted on 2026-10-08 and, for the base game and Supporter Pack, unchanged on 2026-10-30 [1][2][19].
 - The Supporter Edition was announced on 11 Aug 2026 alongside pre-orders, which granted guaranteed Closed Beta access [4].
 - Supporter Pack contents: three "Starter Weapon" camos (Valkyra A-91, Lonestar Bushmaster, Manticore KH-2002), a Littlebird Helicopter "Taxi" camo, a hideable scoreboard Supporter Icon, a Grenade Bobblehead and a Helmet Bobblehead [2][4]. The cosmetic-only character is the developer's own statement.
 - Developer policy: no monetisation during Early Access except this pack; cash and gold bars never sold; camos never directly purchasable [2][4]. Earlier FAQ: "No Battlepass. No Pay to Win" [9].
@@ -54,7 +54,7 @@ Confidence is Medium. Prices, DLC contents, sales milestones, the monetisation a
 
 # Scope
 
-Covers editions, Steam regional prices at a date stamp, Supporter Pack contents, the Early Access pricing and monetisation statements, platform status and roadmap, sales milestones and the review score snapshot. Excludes in-game cash prices (see economy-foundation), patch contents (see patch-history) and hardware requirements (see system-requirements-and-performance). Game version: Update 0.1.2 plus hotfixes to 2 Oct 2026.
+Covers editions, Steam regional prices at a date stamp, Supporter Pack contents, the Early Access pricing and monetisation statements, platform status and roadmap, sales milestones and the review score snapshot. Excludes in-game cash prices (see economy-foundation), patch contents (see patch-history) and hardware requirements (see system-requirements-and-performance). Game version: Update 0.2.0 (Season 02); price values were last checked 2026-10-30 (US and GB only).
 
 # Definitions
 
@@ -131,6 +131,7 @@ On 5 Sep 2026 the developers were reported to say "We do not officially support 
 | 1.25 million copies sold | 11 Sep 2026 | [5] |
 | 2 million copies sold | 15 Sep 2026 | [6] |
 | 3 million copies sold, "in just over 2 weeks since launching into Early Access" | 26 Sep 2026 | [7] |
+| "3+ million sales and counting" (no new number; studio claim) | 9 Oct 2026 | [20] |
 | Peak 428,666 concurrent on Steam | about 13 Sep 2026 (press) | [17] |
 
 Earlier drafts used press figures ("over 1 million" on 13 Sep and "3 million at 18 days"). The official posts supersede them: 3 million was announced 26 Sep, 16 days after the 10 Sep launch, not 18 [7][17]. The 1.25 million post carries no detail beyond the figure and an apology for delays [5]. The 2 million post's numbers snapshot is an image and was not read [6].
@@ -141,7 +142,8 @@ Earlier drafts used press figures ("over 1 million" on 13 Sep and "3 million at 
 - 5 Sep 2026: developers clarified Linux is unsupported at launch (press) [15].
 - 10 to 11 Sep 2026: Early Access launch, console 2028 reports (press) and the 1.25 million post [5][13][14].
 - 15 Sep and 26 Sep 2026: 2 million and 3 million posts [6][7].
-- No price change since launch was observed; the storefronts showed no discount on 2026-10-08 [1][2].
+- No price change since launch was observed; the storefronts showed no discount on 2026-10-08 [1][2]. The 2026-10-30 snapshot (after Update 0.2.0) shows the same US and GB prices and platform flags; only store art changed, and the description text is unchanged [19].
+- 9 Oct 2026: Season 02 Preview repeats the "3+ million" sales claim [20]. The 0.2.0 notes mention Steam Trading Cards and Point Shop items being added within Season 2, pending Valve's approval; they do not mention Linux, console or edition changes [20].
 
 # Admin & Technical Notes
 
@@ -150,7 +152,7 @@ None found. Community Server hosting is covered in technical-servers-foundation.
 # Risks & Caveats
 
 - The store page says the price may be raised closer to full release and is higher at full release; current prices are Early Access prices [18].
-- Prices are a single-day snapshot and Steam can alter regional prices or add sales without notice [1][2][3].
+- Prices are two dated snapshots (2026-10-08 and 2026-10-30, US and GB only) and Steam can alter regional prices or add sales without notice [1][2][3][19]. Non-US/GB rows were not re-fetched.
 - Review counts move continuously; the 74.3% is the API all-language figure and is not comparable with English-only figures; the store page's all-language total (95,146) disagrees with the API total (109,396) for unexplained reasons [11][18].
 - Console and Linux statements are press reports of developer statements, not found in the official Steam posts; treat as unconfirmed by official text.
 - The cosmetic-only claim is a developer statement; pack contents may expand later [2].
@@ -164,6 +166,7 @@ None found. Community Server hosting is covered in technical-servers-foundation.
 - Whether Proton or Linux support will ship: unconfirmed (Steam Deck is officially Unsupported now [18]).
 - Why the store page's all-language review total (95,146) differs from the API total (109,396) on the same day: unexplained.
 - The "stair stepped pricing" steps: described in a video devlog, not in post text.
+- Whether the Trading Cards and Point Shop items mentioned in the 0.2.0 notes shipped: pending Valve approval at 14 Oct 2026; not checked.
 - Full-release price and 1.0 date: unpublished; only "around 1 to 2 years" and "higher price at full release" are stated [18].
 
 # References
@@ -184,6 +187,8 @@ None found. Community Server hosting is covered in technical-servers-foundation.
 - [12] **Team17 / BULKHEAD** — *WARDOGS is coming to Steam Early Access on 10 September* (press release). https://www.gamedeveloper.com/press-release/wardogs-is-coming-to-steam-early-access-on-10-september. Accessed 2026-10-08.
 
 - [18] **Valve / BULKHEAD** — *WARDOGS on Steam, rendered live store page (live capture 2026-10-08, snapshots/2026-10-08/store-page-live.txt)*. https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-08.
+- [19] **Valve (Steam storefront)** — *WARDOGS and Supporter Pack store data, US and GB (snapshots/2026-10-30/store-app-us.json, store-app-gb.json, store-dlc-supporter-pack-us.json and -gb.json; price and platform fields compared with 2026-10-08)*. https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-30.
+- [20] **BULKHEAD (Steam news)** — *WARDOGS | Season 02 Preview* (9 Oct 2026) and *Season 02 Patch Notes* (14 Oct 2026). https://store.steampowered.com/news/app/1867240/view/1846018067933823 and https://store.steampowered.com/news/app/1867240/view/1846651706674560. Accessed 2026-10-30.
 
 **Press & Secondary**
 
@@ -216,3 +221,4 @@ None cited.
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint and links (0 dead). | Standing mandate (auto-approve on green QA) |
 | 1.1.0 | 2026-10-08 | Research Pipeline (revision worker) | Revised against official Steam posts and store snapshot; prices, packages and DLC contents now from snapshots, sales figures replaced with official posts (1.25M, 2M, 3M), all-language review counts, console and Linux labelled press-only, confidence re-rated. | Standing mandate (auto-approve on green QA) |
 | 1.1.1 | 2026-10-08 | Research Pipeline (revision worker) | Corrected against live store-page capture; Steam Deck status now Unsupported (official), prices confirmed, official Early Access pricing policy and 1 to 2 year estimate added, store-page vs API review discrepancy recorded, interactive elements, 14 languages and Elytra anti-cheat added. | Standing mandate (auto-approve on green QA) |
+| 1.2.0 | 2026-10-30 | Research Pipeline (virtual agent) | Store prices, platform flags and discount status re-checked against the 2026-10-30 storefront snapshot (US and GB, base game and Supporter Pack): unchanged after Update 0.2.0; Preview "3+ million sales" studio claim added; Trading Cards and Point Shop mention noted as pending; no Linux, console or edition statements in the 0.2.0 notes. Confidence stays Medium (console and Linux claims remain press-only). | — |

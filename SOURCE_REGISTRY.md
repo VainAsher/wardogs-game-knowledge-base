@@ -114,3 +114,12 @@ Cite as `https://store.steampowered.com/news/app/1867240/view/<gid>`. The link c
 | 2026-09-30 | 1845383656376490 | WARDOGS / Update 0.1.2 (Minor Patch)  |
 | 2026-10-02 | 1845383656384445 | WARDOGS / Security & Stability Hotfix |
 | 2026-10-02 | 1845383656386801 | IR Goggles & CIWS Balance Hotfix |
+| 2026-10-09 | 1846018067933823 | WARDOGS / Season 02 Preview |
+| 2026-10-14 | 1846651706674560 | WARDOGS / Season 02 Patch Notes |
+| 2026-10-15 | 1846651706677015 | WARDOGS / SEASON 02 IS NOW LIVE |
+
+## Sources added by Cluster G (2026-10-30)
+
+Snapshot `snapshots/2026-10-30/` (84 feed items, 35 official). No official post after 2026-10-15 was seen.
+Press & Secondary (PCGamesN, cited as press only, never alone): 2026-10-10 blue team article; 2026-10-16 Season 2 apology; 2026-10-17 Season 3 early start; 2026-10-25 developer thoughts; 2026-10-27 community servers (GG Host, 1of1 Servers, unconfirmed). PlayGround.ru feed items are not used.
+In-game verifiable data (rank 3): `client-install-inspection` records a read-only inspection of the Windows install (Steam build id 25937608, client CL-516586).

@@ -5,9 +5,9 @@
 
 Evidence-based, source-cited reference for WARDOGS (Bulkhead / Team17) - gameplay, combat, vehicles, economy, maps and server administration.
 
-**29 documents** across **29 topics** — every factual claim carries a citation to a vendor or authoritative source, assessed gaps are labelled and confidence-rated, and links, citations and structure are checked automatically in CI.
+**30 documents** across **30 topics** — every factual claim carries a citation to a vendor or authoritative source, assessed gaps are labelled and confidence-rated, and links, citations and structure are checked automatically in CI.
 
-*Confidence: 3 High · 21 Medium · 5 Low.*  *Market: Global 29.*
+*Confidence: 4 High · 22 Medium · 4 Low.*  *Market: Global 30.*
 
 ## Class 1 — Category foundations
 
@@ -32,7 +32,8 @@ Evidence-based, source-cited reference for WARDOGS (Bulkhead / Team17) - gamepla
 - [Community Channels & Source Reliability Register](meta-release/community-and-source-reliability.md) — *Official channels, community hubs, and a reliability rating for every source class and outlet used* (Global)
 - [Editions, Pricing & Platforms](meta-release/editions-pricing-platforms.md) — *Editions, regional pricing, Supporter Pack contents, platform roadmap, Early Access policy* (Global)
 - [Patch & Update History](meta-release/patch-history.md) — *Dated per-patch changelog from closed beta through 0.1.2 and hotfixes, rebuilt from official Steam posts* (Global)
-- [Season 02: Announced Changes (Pre-Release Baseline)](meta-release/season-2-announcements.md) — *Everything officially and unofficially said about Season 02 and the 1.0 roadmap before launch* (Global)
+- [Season 02: Pre-Release Claims Scored Against Update 0.2.0](meta-release/season-2-announcements.md) — *Everything officially and unofficially said about Season 02 and the 1.0 roadmap before launch* (Global)
+- [Windows Client Install Inspection (Update 0.2.0)](technical-servers/client-install-inspection.md) — *Installed client: build id, executables, packaging, third-party components, size* (Global)
 - [RCON & Server Administration](technical-servers/rcon-and-server-admin.md) — *RCON interface, ServerSettings, admin tooling, security hardening* (Global)
 - [Server Hosting & Server Browser](technical-servers/server-hosting-and-browser.md) — *Official vs community servers, approved hosts, regions, browser behaviour, restarts* (Global)
 - [System Requirements, Performance & Crashes](technical-servers/system-requirements-and-performance.md) — *Hardware requirements, Linux/Proton, anti-cheat, crash codes, performance fixes* (Global)
@@ -44,7 +45,7 @@ Evidence-based, source-cited reference for WARDOGS (Bulkhead / Team17) - gamepla
 - [Gadgets, Armor & Equipment](combat-loadouts/gadgets-armor-and-equipment.md) — *Gadgets, armor, backpacks, ammo types, sidearms, optics and IR gear* (Global)
 - [Weapons Catalogue](combat-loadouts/weapons-catalogue.md) — *Firearms and launchers: roster, prices, unlock levels, attachments* (Global)
 - [Season 1 Price Tables](economy/price-tables-season-1.md) — *Complete in-game price list as of Season 1 plus later patch changes* (Global)
-- [Progression Unlock Tables (Season 1)](gameplay-modes/progression-unlock-tables.md) — *Level-by-level unlocks per role and account* (Global)
+- [Progression Unlock Tables (Season 1 and Season 02)](gameplay-modes/progression-unlock-tables.md) — *Level-by-level unlocks per role and account* (Global)
 - [Vehicle Roster & Prices](vehicles-outposts/vehicle-roster-and-prices.md) — *Land and air vehicles: roster, price, unlock level, crew, role* (Global)
 
 ## Knowledge graph
@@ -65,6 +66,7 @@ Evidence-based, source-cited reference for WARDOGS (Bulkhead / Team17) - gamepla
       subgraph Tier2["Tier 2"]
         air_and_counter_air["air-and-counter-air"]
         cash_rewards_and_costs["cash-rewards-and-costs"]
+        client_install_inspection["client-install-inspection"]
         community_and_source_reliability["community-and-source-reliability"]
         control_zone_and_match_flow["control-zone-and-match-flow"]
         damage_ballistics_and_balance["damage-ballistics-and-balance"]
@@ -248,6 +250,27 @@ Evidence-based, source-cited reference for WARDOGS (Bulkhead / Team17) - gamepla
       vehicles_outposts_foundation -->|related| progression_unlock_tables
       vehicles_outposts_foundation -->|related| destructibility_and_level_design
       vehicles_outposts_foundation -->|related| patch_history
+      client_install_inspection -->|related| technical_servers_foundation
+      client_install_inspection -->|related| system_requirements_and_performance
+      client_install_inspection -->|related| patch_history
+      client_install_inspection -->|related| server_hosting_and_browser
+      vehicles_outposts_foundation -->|related| cash_rewards_and_costs
+      control_zone_and_match_flow -->|related| server_hosting_and_browser
+      control_zone_and_match_flow -->|related| price_tables_season_1
+      progression_unlock_tables -->|related| cash_rewards_and_costs
+      progression_unlock_tables -->|related| price_tables_season_1
+      cash_rewards_and_costs -->|related| fob_and_base_building
+      cash_rewards_and_costs -->|related| progression_unlock_tables
+      price_tables_season_1 -->|related| progression_unlock_tables
+      death_penalty_and_rebuy -->|related| season_reset_and_currencies
+      season_reset_and_currencies -->|related| price_tables_season_1
+      season_reset_and_currencies -->|related| cash_rewards_and_costs
+      season_reset_and_currencies -->|related| progression_unlock_tables
+      vehicle_roster_and_prices -->|related| cash_rewards_and_costs
+      air_and_counter_air -->|related| progression_unlock_tables
+      air_and_counter_air -->|related| cash_rewards_and_costs
+      season_2_announcements -->|related| community_and_source_reliability
+      community_and_source_reliability -->|related| season_2_announcements
     ```
 
 ## Machine-readable exports

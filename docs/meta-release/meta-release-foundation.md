@@ -1,18 +1,18 @@
 ---
 id: meta-release-foundation
 title: "Meta & Release: Foundation"
-version: 1.1.1
+version: 1.2.0
 status: frozen
 confidence: Medium
 category: Meta & Release
 topic: "Early Access roadmap, patch history, platforms and pricing, community"
 market: Global
-game_version: "Early Access Update 0.1.2 (30 Sep 2026) plus hotfixes to 2 Oct 2026; Season 02 scheduled 15 Oct 2026"
+game_version: "Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30)"
 document_type: foundation
 created: 2026-10-08
-updated: 2026-10-08
-review_due: 2026-10-22
-sources_verified: 2026-10-08
+updated: 2026-10-30
+review_due: 2026-11-20
+sources_verified: 2026-10-30
 supersedes: null
 related: [gameplay-modes-foundation, economy-foundation, technical-servers-foundation, maps-environment-foundation, patch-history, editions-pricing-platforms, season-2-announcements, community-and-source-reliability, season-reset-and-currencies]
 tags: [release, early-access, patch-history, pricing, platforms, roadmap, community]
@@ -23,40 +23,43 @@ tags: [release, early-access, patch-history, pricing, platforms, roadmap, commun
 | Field | Value |
 |-------|-------|
 | Document ID | meta-release-foundation |
-| Version | 1.1.1 |
+| Version | 1.2.0 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Meta & Release |
-| Game version | Early Access Update 0.1.2 (30 Sep 2026) plus hotfixes to 2 Oct 2026; Season 02 scheduled 15 Oct 2026 |
+| Game version | Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30) |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-10-08 |
-| Review due | 2026-10-22 |
+| Updated | 2026-10-30 |
+| Review due | 2026-11-20 |
 
 # Executive Summary
 
 WARDOGS is a 100-player, three-team tactical shooter developed by BULKHEAD (Derby, UK) and published by Team17 [1][2]. It entered Steam Early Access on 10 September 2026 at a Standard price of GBP 36.99 (UK) and USD 39.99 (US) [1][5]. A launch-day official post says consoles are coming in 2028 [18]. The launch was preceded by two closed betas: 21 to 23 Aug, then Closed Beta 02, announced 1 Sep and opened to everyone on 5 Sep [6][11][12].
 
-Official Steam posts now confirm the full patch sequence: the Season 1 changelog (posted 9 Sep, at pre-load), Launch Stability Hotfix #1 (10 Sep), Patch 0.11 (announced 12 Sep, scheduled for 14 Sep), Update 0.1.2 (30 Sep), a security and stability hotfix (2 Oct) and an IR Rangefinder and CIWS balance hotfix (2 Oct) [17][19][21][25][26][27]. BULKHEAD announced 1.25 million copies sold on 11 Sep, 2 million on 15 Sep and 3 million on 26 Sep [20][22][24]. Season 02 is scheduled for 15 October 2026; the only official content text is "a larger content update, with new map conditions, equipment, balance reworks and additional features" [23][25]. The live Steam page shows English reviews "Mostly Positive" (63,179) and 95,146 reviews in all languages, while the review API returned 109,396 on the same day; that gap is unexplained [1][33].
+Official Steam posts now confirm the full patch sequence: the Season 1 changelog (posted 9 Sep, at pre-load), Launch Stability Hotfix #1 (10 Sep), Patch 0.11 (announced 12 Sep, scheduled for 14 Sep), Update 0.1.2 (30 Sep), a security and stability hotfix (2 Oct) and an IR Rangefinder and CIWS balance hotfix (2 Oct) [17][19][21][25][26][27]. BULKHEAD announced 1.25 million copies sold on 11 Sep, 2 million on 15 Sep and 3 million on 26 Sep [20][22][24]. Season 02 was released as Update 0.2.0 on 15 October 2026 (live post 09:59 UTC, "Servers are back online") after a Preview on 9 October and full Patch Notes on 14 October [34][35][36]. The Preview repeats the studio's own claim of "3+ million sales and counting" [34]. The live Steam page shows English reviews "Mostly Positive" (63,179) and 95,146 reviews in all languages, while the review API returned 109,396 on the same day; that gap is unexplained [1][33].
 
-Confidence is Medium. Dates, prices, patch contents, sales milestones, the Early Access statement and the Season 02 statement rest on official Steam posts and the live store page, but the headline all-language review count conflicts between the page (95,146) and the API (109,396) with no explanation. Press is used only where no official text exists (console platform names, beta-participant figures) and is labelled. Season 02 content beyond the official text is unknown and is not asserted.
+Confidence is Medium. Dates, prices, patch contents, sales milestones, the Early Access statement and the Season 02 statement rest on official Steam posts and the live store page, but the headline all-language review count conflicts between the page (95,146) and the API (109,396) with no explanation. Press is used only where no official text exists (console platform names, beta-participant figures) and is labelled. The 0.2.0 notes do not mention a progression wipe or a cash-to-Gold-Bar conversion, so those stay unconfirmed; no official post after 15 October appears in the 2026-10-30 snapshot. Press (PCGamesN, 16 to 27 Oct) is used only as labelled press [37][38][39][40]. Store prices were unchanged between the 2026-10-08 and 2026-10-30 storefront snapshots [1].
 
 # Key Takeaways
 
 - Developer is BULKHEAD, publisher is Team17; Steam Early Access launched Thursday 10 Sep 2026 [1][2][18].
 - PC (Windows) is the only live platform; the official launch post says "coming to consoles in 2028", and press names PS5 and Xbox [18][3][28].
-- Steam lists Standard at GBP 36.99 / USD 39.99, Supporter Edition at GBP 45.99 / USD 49.99 and the cosmetic-only Supporter Pack DLC at GBP 11.99 / USD 12.99 (store data, 2026-10-08) [1][5]. Contents are in editions-pricing-platforms.
+- Steam lists Standard at GBP 36.99 / USD 39.99, Supporter Edition at GBP 45.99 / USD 49.99 and the cosmetic-only Supporter Pack DLC at GBP 11.99 / USD 12.99 (store data, 2026-10-08; unchanged in the 2026-10-30 snapshot) [1][5]. Contents are in editions-pricing-platforms.
 - Sales milestones are official posts: 1.25 million (11 Sep), 2 million (15 Sep), 3 million (26 Sep) [20][22][24].
 - Patches: Season 1 changelog (9 Sep), Launch Hotfix #1 (10 Sep), 0.11 (scheduled 14 Sep), 0.1.2 (30 Sep), security hotfix (2 Oct), balance hotfix (2 Oct) [17][19][21][25][26][27].
 - The 2 Oct balance hotfix is official: IR Rangefinders are disabled in the vendor until Season 02, then need batteries; CIWS now destroys a Havoc in about 6 s instead of 12 s [27].
-- Season 02 is dated 15 Oct 2026. Official text gives no wipe, no weather and no launch time; those appear only in player-reported or press claims [23][25][31].
+- Season 02 / Update 0.2.0 was released on 15 Oct 2026: maintenance 08:00 to 09:30 UTC, live post 09:59 UTC [35][36]. It added four weapons, a Molotov, four vehicles, three buildables and a rain preset, and cut the role-track XP curve (level 20: 250,000 to 111,500) [35].
+- The 0.2.0 notes do not mention a progression wipe or a cash-to-Gold-Bar conversion; before launch those appeared only in player-reported or press claims [31][32][35]. Graded outcomes are in season-2-announcements.
+- The Wager Vendor is "not available at Season 2 launch" and will open later in Season 2 [35]. Lonestar (blue) has Season 2 only cash and XP bonuses [35].
+- Press only (PCGamesN, 16 to 27 Oct 2026): a blue-team bonus removed, Season 3 possibly early, two new approved hosts [37][38][39][40].
 - Steam reviews are "Mostly Positive": English 63,179 and all languages 95,146 on the live page; the review API on the same day gave 81,290 positive of 109,396, a discrepancy that is unexplained (2026-10-08) [1][33].
 - The Early Access page says the developers expect about 1 to 2 years in Early Access, with the price lower during Early Access and higher at full release (live capture 2026-10-08) [1].
 - Steam Deck compatibility is listed as Unsupported (live capture 2026-10-08) [1].
 
 # Scope
 
-Covers who makes and publishes WARDOGS, the release timeline to 8 Oct 2026, dated patch history, platforms, editions and prices, the developer's stated roadmap, official community channels and review reception. Depth lives in patch-history (per-patch lists), editions-pricing-platforms (regional prices, Supporter Pack contents, platform roadmap), season-2-announcements (Season 02 claims graded), community-and-source-reliability (channels and outlet ratings) and season-reset-and-currencies (season structure and currencies); this document does not duplicate them. In-game cash and item prices are in economy-foundation. Mode rules, server administration and map content are in gameplay-modes-foundation, technical-servers-foundation and maps-environment-foundation.
+Covers who makes and publishes WARDOGS, the release timeline to 15 Oct 2026 (snapshot 2026-10-30), dated patch history, platforms, editions and prices, the developer's stated roadmap, official community channels and review reception. Depth lives in patch-history (per-patch lists), editions-pricing-platforms (regional prices, Supporter Pack contents, platform roadmap), season-2-announcements (Season 02 claims graded), community-and-source-reliability (channels and outlet ratings) and season-reset-and-currencies (season structure and currencies); this document does not duplicate them. In-game cash and item prices are in economy-foundation. Mode rules, server administration and map content are in gameplay-modes-foundation, technical-servers-foundation and maps-environment-foundation.
 
 # Definitions
 
@@ -117,6 +120,9 @@ The Steam store page and Steam News hub for app 1867240 are the primary announce
 | 15 Sep 2026 | 2 million copies sold | [22] |
 | 22 Sep 2026 | Season 02 teaser: 15 Oct 2026 | [23] |
 | 26 Sep 2026 | 3 million copies sold in "just over 2 weeks"; Golden Joystick nomination for Best Early Access Game 2026 | [24] |
+| 9 Oct 2026 | Season 02 Preview and press conference; "3+ million sales and counting" (studio claim) | [34] |
+| 14 Oct 2026 | Season 02 Patch Notes posted; maintenance announced for 15 Oct | [35] |
+| 15 Oct 2026 | Update 0.2.0 (Season 02) released, 09:59 UTC post | [36] |
 
 The beta sequence resolves the earlier open question: the 21 to 23 Aug Closed Beta and Closed Beta 02 (announced 1 Sep, opened to everyone on 5 Sep, ended 6 Sep 08:00 UTC) were separate events [6][11][12]. The 3 to 6 Sep dates in the Gfinity changelog that v1.0.0 relied on match Closed Beta 02; the official posts are the authority for its window.
 
@@ -134,15 +140,21 @@ All rows rest on the official Steam posts. Full per-change lists are in patch-hi
 | 30 Sep 2026 | Update 0.1.2 (Minor Patch) | Fix for crash WD-L020 linked to Windows 11 update KB5124010; server-authoritative revive checks, vehicle fly-through reward cap, buildable and FOB pallet reward limits; new Deploy flow; admin daily restart, RCON AllowedHosts and message caps; zero-tolerance exploit warning | [25] |
 | 2 Oct 2026 | Security and stability hotfix | Announced 2 Oct 00:13 UTC for 08:00 UTC the same day; "minor security and stability issues"; about one hour downtime | [26] |
 | 2 Oct 2026 | IR Goggles and CIWS balance hotfix | IR Rangefinders disabled in the vendor until Season 02, where they will require batteries; CIWS destroys the Havoc in about 6 s instead of 12 s ("we overcorrected"); no client download or downtime | [27] |
-| 15 Oct 2026 | Season 02 | Scheduled; see below | [23][25] |
+| 9 Oct 2026 | Season 02 Preview | Devlog; four weapons, Molotov, four vehicles, three buildables, rain, experimental Wager Vendor, faction experiment | [34] |
+| 14 Oct 2026 | Season 02 Patch Notes | Full 0.2.0 notes; maintenance 15 Oct 08:00 to 09:30 UTC | [35] |
+| 15 Oct 2026 | Update 0.2.0 (Season 02) | Released, servers back online | [36] |
 
 The 0.11 post is an announcement dated 12 Sep with maintenance scheduled for 14 Sep; the saved posts include no separate deployed notice. The 2 Oct balance post is titled "IR Goggles" but its body names IR Rangefinders [27].
 
-## Season 02 (scheduled)
+## Season 02 (released 15 Oct 2026)
 
-BULKHEAD's "Season 02 Teaser" post of 22 Sep 2026 gives 15 Oct 2026 and a trailer; it states no launch time [23]. The 0.1.2 post calls Season 02 "a larger content update, with new map conditions, equipment, balance reworks and additional features" and promised more information "next week" [25]; the 26 Sep post made a similar promise [24]. The live store page carries no Season 02 text; its recent-events list ends at the 0.1.2 and 3 Million Sales posts with "Latest: Oct 2" [1]. No Season 02 detail post exists in the saved feed as of 2026-10-08, and the latest official post is the 2 Oct balance hotfix [27]. That hotfix also confirms IR Rangefinders return in Season 02 with batteries [27].
+BULKHEAD's "Season 02 Teaser" of 22 Sep 2026 gave 15 Oct 2026 and a trailer [23]; the 0.1.2 post described Season 02 as "a larger content update, with new map conditions, equipment, balance reworks and additional features" [25]. The Preview of 9 Oct 2026 (16:00 UTC) previewed the content and promised notes "early next week" [34]. The Patch Notes of 14 Oct 2026 (14:59 UTC) gave a maintenance window of 08:00 to 09:30 UTC on 15 Oct, about 90 minutes of downtime [35]. The live post of 15 Oct (09:59 UTC) reads "We have now released Update 0.2.0. Servers are back online." [36]
 
-Official text contains no progression wipe, no cash-to-Gold-Bar conversion and no weather or rain statement. Those appear only in a boosting-seller article and a community wiki, and are player-reported and unverified [31][32]. Assessment: treat everything beyond the official lines as unconfirmed; confidence in the official lines is High, in any further Season 02 content Low. Graded rumours are in season-2-announcements, and the currency model is in season-reset-and-currencies.
+Headline content (Update 0.2.0, 14-15 Oct 2026, final names from the notes): four weapons (TCX-SPR, PP-19 Bizon, Evo-3 Ultra, M14); a Molotov; four vehicles (Wolf-110, Wolf-110 [M2 Browning], T-72B3, Flakpanzer Gepard); three buildables (MG Nest, Large Shelter, Wooden Step); a rain weather preset; IR Rangefinder batteries; a combat, suppression, build, economy and role-track XP rebalance; team switching limits, a Forgive/Punish team-kill vote, region-based ping limits; and a faction experiment with Season 2 only Lonestar bonuses [35]. Values live in the owner documents (see patch-history for the pointer table). The Wager Vendor "is not available at Season 2 launch" and is "not a permanent addition" [35].
+
+Not mentioned in the notes: a progression wipe, a cash-to-Gold-Bar conversion, death-penalty rules, new named maps, RCON or ini changes, console or Linux statements and Season 3 timing [35]. Absence from the notes is not a denial. The pre-release wipe, rain and Gold Bar claims came from a boosting-seller article and a community wiki [31][32]; rain was confirmed, the wipe and conversion are not mentioned. Graded rumours are in season-2-announcements, and the currency model is in season-reset-and-currencies. Assessment: confidence in the official 0.2.0 lines is High; in any wipe or Season 3 claim Low.
+
+Press only (PCGamesN, fetched 2026-10-30): on 16 Oct a blue-team bonus (5% cash, 2.5% XP) was reported removed and a mid-season update promised [37]; on 17 Oct Season 3 was reported as possibly coming "significantly" forward [38]; on 25 Oct a roughly three-month season cadence and a Season 3 target of 12 Nov were reported [39]; on 27 Oct two new approved hosts (GG Host, 1of1 Servers) were reported [40]. None of these is in an official post in the snapshot.
 
 # Early Access Changes & Known Issues
 
@@ -151,6 +163,7 @@ Official text contains no progression wipe, no cash-to-Gold-Bar conversion and n
 - Patch 0.11 apologised for the server browser and Community Server handling and set a one-week 5% Community-server cash bonus (scheduled 14 Sep 2026) [21].
 - 0.1.2 fixed a Windows 11 crash and tightened exploit rewards (30 Sep 2026) [25].
 - IR Rangefinders are disabled in the vendor until Season 02 and will require batteries on return; CIWS time to kill on the Havoc was cut to about 6 s (2 Oct 2026) [27].
+- Update 0.2.0 (15 Oct 2026) changed many Season 1 and 0.1.2 values; IR Rangefinders now run on batteries, and the Wager Vendor is announced but not live at launch [35].
 - Pre-launch, BULKHEAD published a "10 Reasons NOT to Buy WARDOGS" video and an "11th Reason" post on anti-cheat and community servers [6][13].
 
 # Admin & Technical Notes
@@ -165,13 +178,16 @@ Release-relevant server changes: split Official and Community server browsers, p
 - The pre-order post's "stair stepped pricing" and the press release's "priced lower" statement come with no full-release price [2][6].
 - Sales milestones are developer announcements with round figures and images only [20][22][24].
 - Press items (console platform names, the 245,118 and nearly 500,000 beta figures, the 17,000 review count) are secondary [28][29][30].
-- Season 02 will supersede much of the 0.1.2 state on 15 Oct 2026; review is due 22 Oct for that reason.
+- Season 02 superseded much of the 0.1.2 state on 15 Oct 2026. No official post after that date is in the 2026-10-30 snapshot; later hotfixes may exist and are not reflected.
+- Press items (PCGamesN) are paraphrased fetch summaries, not archived [37][38][39][40].
 
 # Open Questions
 
 - Official WARDOGS Discord invite, X handle and the other social link targets: the page lists the platforms but the URLs were not captured; resolve by opening the links on the Steam page.
 - Why the live page counts 95,146 all-language reviews while the review API reports 109,396: unexplained; a re-capture of both, or Valve's purchase-type filter, could resolve it.
-- Season 02 launch time, content and wipe policy: await the promised detail posts or the patch notes.
+- Whether Season 02 reset progression or converted cash to Gold Bars: not mentioned in the 0.2.0 notes; a BULKHEAD post would resolve it.
+- When the Wager Vendor opens, and Season 3 timing: not officially stated (press only).
+- Review totals were not re-captured on 2026-10-30.
 - Full-release price and 1.0 date: not published beyond the 1 to 2 year estimate [1][2][6].
 - Console edition, price and crossplay detail: not published [18].
 
@@ -206,6 +222,9 @@ Release-relevant server changes: split Official and Community server browsers, p
 - [25] **BULKHEAD** — *WARDOGS / Update 0.1.2 (Minor Patch)* (Steam post, 30 Sep 2026). https://store.steampowered.com/news/app/1867240/view/1845383656376490. Accessed 2026-10-08.
 - [26] **BULKHEAD** — *WARDOGS / Security & Stability Hotfix* (Steam post, 2 Oct 2026). https://store.steampowered.com/news/app/1867240/view/1845383656384445. Accessed 2026-10-08.
 - [27] **BULKHEAD** — *IR Goggles & CIWS Balance Hotfix* (Steam post, 2 Oct 2026). https://store.steampowered.com/news/app/1867240/view/1845383656386801. Accessed 2026-10-08.
+- [34] **BULKHEAD** — *WARDOGS | Season 02 Preview* (Steam post, 9 Oct 2026). https://store.steampowered.com/news/app/1867240/view/1846018067933823. Accessed 2026-10-30.
+- [35] **BULKHEAD** — *WARDOGS | Season 02 Patch Notes* (Steam post, 14 Oct 2026). https://store.steampowered.com/news/app/1867240/view/1846651706674560. Accessed 2026-10-30.
+- [36] **BULKHEAD** — *WARDOGS | Season 02 is now live* (Steam post, 15 Oct 2026). https://store.steampowered.com/news/app/1867240/view/1846651706677015. Accessed 2026-10-30.
 - [33] **Valve (Steam review API)** — *Review summary for WARDOGS, same day as the live capture* (saved at snapshots/2026-10-08/reviews-summary.json). https://store.steampowered.com/appreviews/1867240?json=1. Accessed 2026-10-08.
 
 **Press & Secondary**
@@ -213,6 +232,11 @@ Release-relevant server changes: split Official and Community server browsers, p
 - [28] **Pure Xbox** — *WARDOGS is coming to Xbox in 2028 and is available today with Steam Early Access*. https://www.purexbox.com/news/2026/09/wardogs-is-coming-to-xbox-in-2028-and-is-available-today-with-steam-early-access. Accessed 2026-10-08.
 - [29] **Push Square** — *Multiplayer shooter WARDOGS confirmed for PS5 as Early Access launch goes nuclear*. https://www.pushsquare.com/news/2026/09/multiplayer-shooter-wardogs-confirmed-for-ps5-as-early-access-launch-goes-nuclear. Accessed 2026-10-08.
 - [30] **CoGConnected** — *WARDOGS has officially sold over 1 million copies*. https://cogconnected.com/2026/09/wardogs-has-officially-sold-over-over-1-million-copies/. Accessed 2026-10-08.
+
+- [37] **PCGamesN** — *"We f***ed up:" Bulkhead admits Wardogs Season 2 "got a few things wrong"* (2026-10-16). https://www.pcgamesn.com/wardogs/season-2-mistakes-bulkhead-apology. Accessed 2026-10-30.
+- [38] **PCGamesN** — *Wardogs Season 3 could be brought "significantly" forward* (2026-10-17). https://www.pcgamesn.com/wardogs/season-3-early-start. Accessed 2026-10-30.
+- [39] **PCGamesN** — *"We've got to slow down," Wardogs developer admits after Season 2's rocky rollout* (2026-10-25). https://www.pcgamesn.com/wardogs/season-2-developer-thoughts. Accessed 2026-10-30.
+- [40] **PCGamesN** — *Wardogs adds two new server hosts* (2026-10-27). https://www.pcgamesn.com/wardogs/community-servers. Accessed 2026-10-30.
 
 **Player-Reported Evidence**
 
@@ -244,3 +268,4 @@ Release-relevant server changes: split Official and Community server browsers, p
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint and links (0 dead). | Standing mandate (auto-approve on green QA) |
 | 1.1.0 | 2026-10-08 | Research Pipeline (revision worker) | Revised against full official Steam text: Season 1 changelog dated 9 Sep (pre-load); closed beta dates resolved (21-23 Aug, Closed Beta 02 announced 1 Sep, open 5 Sep); official 400,000 peak and sales milestones (1.25M, 2M, 3M); USD prices and Supporter Pack terms from store data; 2 Oct balance hotfix upgraded to official; Season 02 limited to official text; reviews switched to all-language 109,396 (about 74%); confidence raised to High | Standing mandate (auto-approve on green QA) |
 | 1.1.1 | 2026-10-08 | Research Pipeline (revision worker) | Corrected against live store-page capture; restored Primary Early Access statement (1 to 2 years, lower price during Early Access, roadmap incl. fighter jets), removed them from Open Questions; recorded English 63,179 and page all-language 95,146 versus API 109,396 and flagged the discrepancy as unexplained; added Steam Deck Unsupported, listed social links, no Season 02 text on page; confidence lowered to Medium | Standing mandate (auto-approve on green QA) |
+| 1.2.0 | 2026-10-30 | Research Pipeline (virtual agent) | Revised for Update 0.2.0: Season 02 section rewritten from scheduled to released (Preview 9 Oct, Patch Notes 14 Oct, live post 15 Oct), timeline and patch tables extended, headline 0.2.0 content summarised with owner-document pointers, wipe and Gold Bar conversion stated as not mentioned in the notes, studio "3+ million" claim noted, PCGamesN 16-27 Oct items added as press only, store prices unchanged per 2026-10-30 snapshot. Confidence stays Medium. | — |

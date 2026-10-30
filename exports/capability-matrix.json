@@ -7,10 +7,10 @@
     "market": "Global",
     "document_type": "foundation",
     "category": "Gameplay & Modes",
-    "version": "1.1.1",
+    "version": "1.2.0",
     "status": "frozen",
     "confidence": "High",
-    "review_due": "2026-10-22",
+    "review_due": "2026-11-20",
     "path": "docs/gameplay-modes/gameplay-modes-foundation.md"
   },
   {
@@ -21,10 +21,10 @@
     "market": "Global",
     "document_type": "foundation",
     "category": "Combat & Loadouts",
-    "version": "1.1.1",
+    "version": "1.2.0",
     "status": "frozen",
     "confidence": "Medium",
-    "review_due": "2026-10-22",
+    "review_due": "2026-11-20",
     "path": "docs/combat-loadouts/combat-loadouts-foundation.md"
   },
   {
@@ -35,10 +35,10 @@
     "market": "Global",
     "document_type": "foundation",
     "category": "Economy",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "status": "frozen",
     "confidence": "Medium",
-    "review_due": "2026-10-22",
+    "review_due": "2026-11-20",
     "path": "docs/economy/economy-foundation.md"
   },
   {
@@ -49,10 +49,10 @@
     "market": "Global",
     "document_type": "foundation",
     "category": "Vehicles & Outposts",
-    "version": "1.1.1",
+    "version": "1.2.0",
     "status": "frozen",
     "confidence": "Medium",
-    "review_due": "2026-10-22",
+    "review_due": "2026-11-20",
     "path": "docs/vehicles-outposts/vehicles-outposts-foundation.md"
   },
   {
@@ -63,10 +63,10 @@
     "market": "Global",
     "document_type": "foundation",
     "category": "Maps & Environment",
-    "version": "1.1.1",
+    "version": "1.2.0",
     "status": "frozen",
     "confidence": "Medium",
-    "review_due": "2026-10-22",
+    "review_due": "2026-11-20",
     "path": "docs/maps-environment/maps-environment-foundation.md"
   },
   {
@@ -77,10 +77,10 @@
     "market": "Global",
     "document_type": "foundation",
     "category": "Technical & Servers",
-    "version": "1.1.1",
+    "version": "1.2.0",
     "status": "frozen",
     "confidence": "Medium",
-    "review_due": "2026-10-22",
+    "review_due": "2026-11-20",
     "path": "docs/technical-servers/technical-servers-foundation.md"
   },
   {
@@ -91,10 +91,10 @@
     "market": "Global",
     "document_type": "foundation",
     "category": "Meta & Release",
-    "version": "1.1.1",
+    "version": "1.2.0",
     "status": "frozen",
     "confidence": "Medium",
-    "review_due": "2026-10-22",
+    "review_due": "2026-11-20",
     "path": "docs/meta-release/meta-release-foundation.md"
   },
   {
@@ -105,10 +105,10 @@
     "market": "Global",
     "document_type": "depth",
     "category": "Technical & Servers",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "status": "frozen",
     "confidence": "Medium",
-    "review_due": "2026-10-22",
+    "review_due": "2026-11-20",
     "path": "docs/technical-servers/server-hosting-and-browser.md"
   },
   {
@@ -119,10 +119,10 @@
     "market": "Global",
     "document_type": "depth",
     "category": "Technical & Servers",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "status": "frozen",
     "confidence": "Low",
-    "review_due": "2026-10-22",
+    "review_due": "2026-11-20",
     "path": "docs/technical-servers/rcon-and-server-admin.md"
   },
   {
@@ -133,11 +133,25 @@
     "market": "Global",
     "document_type": "depth",
     "category": "Technical & Servers",
-    "version": "1.1.1",
+    "version": "1.2.0",
     "status": "frozen",
     "confidence": "Medium",
-    "review_due": "2026-10-22",
+    "review_due": "2026-11-20",
     "path": "docs/technical-servers/system-requirements-and-performance.md"
+  },
+  {
+    "id": "client-install-inspection",
+    "title": "Windows Client Install Inspection (Update 0.2.0)",
+    "topic": "Installed client: build id, executables, packaging, third-party components, size",
+    "tier": "2",
+    "market": "Global",
+    "document_type": "reference-data",
+    "category": "Technical & Servers",
+    "version": "1.0.0",
+    "status": "frozen",
+    "confidence": "Medium",
+    "review_due": "2026-11-20",
+    "path": "docs/technical-servers/client-install-inspection.md"
   },
   {
     "id": "patch-history",
@@ -147,10 +161,10 @@
     "market": "Global",
     "document_type": "reference-data",
     "category": "Meta & Release",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "status": "frozen",
     "confidence": "High",
-    "review_due": "2026-10-22",
+    "review_due": "2026-11-20",
     "path": "docs/meta-release/patch-history.md"
   },
   {
@@ -161,10 +175,10 @@
     "market": "Global",
     "document_type": "reference-data",
     "category": "Meta & Release",
-    "version": "1.1.1",
+    "version": "1.2.0",
     "status": "frozen",
     "confidence": "Medium",
-    "review_due": "2026-10-22",
+    "review_due": "2026-11-20",
     "path": "docs/meta-release/editions-pricing-platforms.md"
   },
   {
@@ -175,10 +189,10 @@
     "market": "Global",
     "document_type": "reference-data",
     "category": "Maps & Environment",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "status": "frozen",
     "confidence": "Low",
-    "review_due": "2026-10-22",
+    "review_due": "2026-11-20",
     "path": "docs/maps-environment/launch-maps-reference.md"
   },
   {
@@ -189,10 +203,10 @@
     "market": "Global",
     "document_type": "depth",
     "category": "Gameplay & Modes",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "status": "frozen",
     "confidence": "Medium",
-    "review_due": "2026-11-08",
+    "review_due": "2026-11-20",
     "path": "docs/gameplay-modes/control-zone-and-match-flow.md"
   },
   {
@@ -203,24 +217,24 @@
     "market": "Global",
     "document_type": "depth",
     "category": "Gameplay & Modes",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "status": "frozen",
     "confidence": "Medium",
-    "review_due": "2026-10-22",
+    "review_due": "2026-11-20",
     "path": "docs/gameplay-modes/progression-and-role-tracks.md"
   },
   {
     "id": "progression-unlock-tables",
-    "title": "Progression Unlock Tables (Season 1)",
+    "title": "Progression Unlock Tables (Season 1 and Season 02)",
     "topic": "Level-by-level unlocks per role and account",
     "tier": "3",
     "market": "Global",
     "document_type": "reference-data",
     "category": "Gameplay & Modes",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "status": "frozen",
     "confidence": "Medium",
-    "review_due": "2026-10-16",
+    "review_due": "2026-11-20",
     "path": "docs/gameplay-modes/progression-unlock-tables.md"
   },
   {
@@ -231,10 +245,10 @@
     "market": "Global",
     "document_type": "reference-data",
     "category": "Combat & Loadouts",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "status": "frozen",
     "confidence": "Low",
-    "review_due": "2026-11-08",
+    "review_due": "2026-11-20",
     "path": "docs/combat-loadouts/weapons-catalogue.md"
   },
   {
@@ -245,10 +259,10 @@
     "market": "Global",
     "document_type": "reference-data",
     "category": "Combat & Loadouts",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "status": "frozen",
     "confidence": "Medium",
-    "review_due": "2026-11-08",
+    "review_due": "2026-11-20",
     "path": "docs/combat-loadouts/gadgets-armor-and-equipment.md"
   },
   {
@@ -259,10 +273,10 @@
     "market": "Global",
     "document_type": "depth",
     "category": "Combat & Loadouts",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "status": "frozen",
     "confidence": "Medium",
-    "review_due": "2026-10-22",
+    "review_due": "2026-11-20",
     "path": "docs/combat-loadouts/damage-ballistics-and-balance.md"
   },
   {
@@ -273,10 +287,10 @@
     "market": "Global",
     "document_type": "depth",
     "category": "Economy",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "status": "frozen",
-    "confidence": "Medium",
-    "review_due": "2026-11-08",
+    "confidence": "High",
+    "review_due": "2026-11-20",
     "path": "docs/economy/cash-rewards-and-costs.md"
   },
   {
@@ -287,10 +301,10 @@
     "market": "Global",
     "document_type": "reference-data",
     "category": "Economy",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "status": "frozen",
     "confidence": "High",
-    "review_due": "2026-11-08",
+    "review_due": "2026-11-20",
     "path": "docs/economy/price-tables-season-1.md"
   },
   {
@@ -301,10 +315,10 @@
     "market": "Global",
     "document_type": "depth",
     "category": "Economy",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "status": "frozen",
     "confidence": "Low",
-    "review_due": "2026-11-08",
+    "review_due": "2026-11-20",
     "path": "docs/economy/death-penalty-and-rebuy.md"
   },
   {
@@ -315,10 +329,10 @@
     "market": "Global",
     "document_type": "depth",
     "category": "Economy",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "status": "frozen",
     "confidence": "Medium",
-    "review_due": "2026-11-08",
+    "review_due": "2026-11-20",
     "path": "docs/economy/season-reset-and-currencies.md"
   },
   {
@@ -329,10 +343,10 @@
     "market": "Global",
     "document_type": "reference-data",
     "category": "Vehicles & Outposts",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "status": "frozen",
     "confidence": "Medium",
-    "review_due": "2026-11-08",
+    "review_due": "2026-11-20",
     "path": "docs/vehicles-outposts/vehicle-roster-and-prices.md"
   },
   {
@@ -343,10 +357,10 @@
     "market": "Global",
     "document_type": "depth",
     "category": "Vehicles & Outposts",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "status": "frozen",
     "confidence": "Medium",
-    "review_due": "2026-11-08",
+    "review_due": "2026-11-20",
     "path": "docs/vehicles-outposts/fob-and-base-building.md"
   },
   {
@@ -357,10 +371,10 @@
     "market": "Global",
     "document_type": "depth",
     "category": "Vehicles & Outposts",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "status": "frozen",
     "confidence": "Medium",
-    "review_due": "2026-10-22",
+    "review_due": "2026-11-20",
     "path": "docs/vehicles-outposts/air-and-counter-air.md"
   },
   {
@@ -371,24 +385,24 @@
     "market": "Global",
     "document_type": "depth",
     "category": "Maps & Environment",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "status": "frozen",
     "confidence": "Medium",
-    "review_due": "2026-11-08",
+    "review_due": "2026-11-20",
     "path": "docs/maps-environment/destructibility-and-level-design.md"
   },
   {
     "id": "season-2-announcements",
-    "title": "Season 02: Announced Changes (Pre-Release Baseline)",
+    "title": "Season 02: Pre-Release Claims Scored Against Update 0.2.0",
     "topic": "Everything officially and unofficially said about Season 02 and the 1.0 roadmap before launch",
     "tier": "2",
     "market": "Global",
     "document_type": "depth",
     "category": "Meta & Release",
-    "version": "1.0.1",
+    "version": "2.0.0",
     "status": "frozen",
-    "confidence": "Low",
-    "review_due": "2026-10-22",
+    "confidence": "Medium",
+    "review_due": "2026-11-20",
     "path": "docs/meta-release/season-2-announcements.md"
   },
   {
@@ -399,10 +413,10 @@
     "market": "Global",
     "document_type": "depth",
     "category": "Meta & Release",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "status": "frozen",
     "confidence": "Medium",
-    "review_due": "2026-10-22",
+    "review_due": "2026-11-20",
     "path": "docs/meta-release/community-and-source-reliability.md"
   }
 ]

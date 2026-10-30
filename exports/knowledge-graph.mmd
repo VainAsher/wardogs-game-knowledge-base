@@ -11,6 +11,7 @@ graph LR
   subgraph Tier2["Tier 2"]
     air_and_counter_air["air-and-counter-air"]
     cash_rewards_and_costs["cash-rewards-and-costs"]
+    client_install_inspection["client-install-inspection"]
     community_and_source_reliability["community-and-source-reliability"]
     control_zone_and_match_flow["control-zone-and-match-flow"]
     damage_ballistics_and_balance["damage-ballistics-and-balance"]
@@ -194,3 +195,24 @@ graph LR
   vehicles_outposts_foundation -->|related| progression_unlock_tables
   vehicles_outposts_foundation -->|related| destructibility_and_level_design
   vehicles_outposts_foundation -->|related| patch_history
+  client_install_inspection -->|related| technical_servers_foundation
+  client_install_inspection -->|related| system_requirements_and_performance
+  client_install_inspection -->|related| patch_history
+  client_install_inspection -->|related| server_hosting_and_browser
+  vehicles_outposts_foundation -->|related| cash_rewards_and_costs
+  control_zone_and_match_flow -->|related| server_hosting_and_browser
+  control_zone_and_match_flow -->|related| price_tables_season_1
+  progression_unlock_tables -->|related| cash_rewards_and_costs
+  progression_unlock_tables -->|related| price_tables_season_1
+  cash_rewards_and_costs -->|related| fob_and_base_building
+  cash_rewards_and_costs -->|related| progression_unlock_tables
+  price_tables_season_1 -->|related| progression_unlock_tables
+  death_penalty_and_rebuy -->|related| season_reset_and_currencies
+  season_reset_and_currencies -->|related| price_tables_season_1
+  season_reset_and_currencies -->|related| cash_rewards_and_costs
+  season_reset_and_currencies -->|related| progression_unlock_tables
+  vehicle_roster_and_prices -->|related| cash_rewards_and_costs
+  air_and_counter_air -->|related| progression_unlock_tables
+  air_and_counter_air -->|related| cash_rewards_and_costs
+  season_2_announcements -->|related| community_and_source_reliability
+  community_and_source_reliability -->|related| season_2_announcements

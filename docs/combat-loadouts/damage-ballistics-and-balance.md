@@ -1,21 +1,21 @@
 ---
 id: damage-ballistics-and-balance
 title: "Damage, Ballistics & Balance Changes"
-version: 1.0.1
+version: 1.1.0
 status: frozen
 confidence: Medium
 category: Combat & Loadouts
 topic: "Damage model, ballistics, hit registration, and the balance-change history"
 market: Global
-game_version: "Early Access Season 1 (pre-Season-02 baseline): 10 Sep 2026 changelog through the 2 Oct 2026 balance hotfix; Season 02 due 15 Oct 2026"
+game_version: "Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30); Season 1 baseline kept as history"
 document_type: depth
 created: 2026-10-08
-updated: 2026-10-08
-review_due: 2026-10-22
-sources_verified: 2026-10-08
+updated: 2026-10-30
+review_due: 2026-11-20
+sources_verified: 2026-10-30
 supersedes: null
 related: [combat-loadouts-foundation, weapons-catalogue, gadgets-armor-and-equipment, patch-history]
-tags: [combat, damage, ballistics, balance, patch-notes, baseline, early-access]
+tags: [combat, damage, ballistics, balance, patch-notes, season-1, season-02, update-0-2-0, suppression, early-access]
 ---
 
 # Document Control
@@ -23,59 +23,145 @@ tags: [combat, damage, ballistics, balance, patch-notes, baseline, early-access]
 | Field | Value |
 |-------|-------|
 | Document ID | damage-ballistics-and-balance |
-| Version | 1.0.1 |
+| Version | 1.1.0 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Combat & Loadouts |
-| Game version | Season 1 baseline, through the 2 Oct 2026 balance hotfix (pre-Season-02) |
+| Game version | Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30) |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-10-08 |
-| Review due | 2026-10-22 |
+| Updated | 2026-10-30 |
+| Review due | 2026-11-20 |
 
 # Executive Summary
 
-The developer has never published a damage table, ballistic table, hit-registration description or armor rating for WARDOGS. What exists officially is a philosophy: the game is "a hardcore shooter that doesn't forget it's a game", with "real-world ballistics, audio and flight models" claimed in a May 2026 devlog summary [2][3][4]. No official text says what that means in numbers, and no official text mentions bullet drop or bullet travel time.
+The developer still has not published a damage table, ballistic table or hit-registration description for WARDOGS. What changed with Update 0.2.0 (patch notes 14 Oct 2026, release 15 Oct 2026) is that the "Combat Balance" section of the notes states relative damage changes and some armour and suppression percentages for the first time [15][17]. These are percentages and rules, not absolute per-shot damage.
 
-The official balance record is a short list of patch posts. The only post with a large, itemised balance section is the Season 1 changelog of 9 to 10 Sep 2026, and it is almost entirely progression and economy tuning (XP bands, unlock levels, prices), not weapon damage [6]. Combat-damage changes are rare: one Havoc cannon-damage bug fix in update 0.1.2 [8], and a 2 Oct 2026 hotfix that shortened the time the CIWS takes to destroy a Havoc from about 12 s to about 6 s and disabled IR Rangefinders in the vendor [9].
+The 0.2.0 damage rework cuts base damage by calibre (.308 Win -25%, 7.62x54mmR -20%, 7.62x39mm -19%, .50 Cal -16%, applied to every weapon using the round, including vehicle weapons), evens out and slightly lowers assault-rifle torso damage, aligns LMG body damage with assault rifles, adjusts DMR hit-location values, raises sniper-rifle hit-location damage, lowers Level 3 and Level 4 armour and helmet damage reduction (55% to 50%, 65% to 60%), and rebuilds suppression around shared falloff curves per weapon, with Level 3 and 4 helmets reducing suppression by 68% and 80% [15].
 
-Document confidence is Medium. Every balance entry rests on official Steam posts (High), but the realism, ballistics and hit-registration sections rest on a few sentences of marketing-register text plus one beta-era press report, and the main conclusion is that the topic is largely undocumented.
+Season 1 material (the 10 Sep 2026 changelog through the 2 Oct 2026 hotfix) is kept as dated history. Document confidence is Medium: the Season 02 changes are Primary and itemised, but no absolute damage values exist, the realism and hit-registration sections rest on marketing-register text, and the ballistics claim rests on one beta-era press report. No official post after 15 Oct 2026 appears in the 2026-10-30 snapshot.
 
 # Key Takeaways
 
-- Official stance: "WARDOGS is a hardcore shooter that doesn't forget it's a game", aiming to balance "gameplay depth and accessibility" (Feb 2026, Jun 2026) [3][4].
-- Official claim, pre-launch: "Real-world ballistics, audio and flight models" (21 May 2026 post summary) [2]. The video behind it was not available as text, so the specifics are unknown.
-- The Steam store page (live capture 2026-10-08) states, under the Early Access current state, "Realistic gunplay balanced for gameplay rather than simulation", and its About This Game text says "tactical gunplay" [1]. This is the developer's most direct Primary statement of the realism-versus-gameplay position. It gives no numbers.
-- No official bullet drop, muzzle velocity, damage, headshot-multiplier or armor figure exists in any saved Steam post or in the store page [1][2][3][4][6][7][8][9].
-- Combat-relevant balance changes in the official record: Havoc 20mm/30mm damage-taken bug fix (30 Sep 2026) [8]; CIWS-versus-Havoc kill time roughly 12 s to roughly 6 s and IR Rangefinders removed from the vendor until Season 02 (2 Oct 2026) [9].
-- Season 1 changelog (10 Sep 2026) balance is progression-centred: 10 XP-band changes, 6 Career, 1 Medic, 1 Support and 10 Driver unlock-level moves, and 14 vendor price changes [6].
-- The developer says each season will have "a different XP curve with different item orders", so these baseline values are expected to change at Season 02 [6][8][11].
+- Official, Update 0.2.0 (14 Oct 2026): calibre base damage reductions of .308 Win -25%, 7.62x54mmR -20%, 7.62x39mm -19%, .50 Cal -16%, affecting infantry and vehicle weapons [15].
+- Official, 0.2.0: Level 3 armour and helmets damage reduction 55% to 50%; Level 4 65% to 60%; Level 3 and 4 helmets reduce suppression by 68% and 80% [15].
+- Official, 0.2.0: suppression rebuilt around shared falloff curves per weapon, stronger near-miss suppression from small and medium calibres, rate of fire accounted for, less screen shake [15].
+- Official, 0.2.0: assault-rifle body shots slightly weaker, LMG body damage matches assault rifles, DMR headshots and upper-body hits slightly weaker, sniper hit-location damage increased, Scout Rifle headshots one-shot unhelmeted targets [15].
+- Official stance: "WARDOGS is a hardcore shooter that doesn't forget it's a game" (Feb 2026, Jun 2026) [3][4]; store page: "Realistic gunplay balanced for gameplay rather than simulation" (live capture 2026-10-08) [1].
+- Still no official absolute damage, headshot-multiplier, muzzle velocity or bullet-drop figure in any saved post [1][2][3][4][6][8][9][15].
+- Season 1 combat balance (history): Havoc cannon-damage bug fix (30 Sep 2026) [8]; CIWS versus Havoc about 12 s to about 6 s (2 Oct 2026) [9].
 
 # Scope
 
-Covers what the developer has officially said about realism versus gameplay tuning, what is documented about bullet drop and travel, hit-registration and damage statements, and a chronological list of every balance-relevant change in each official Steam patch post up to 2 Oct 2026. It is a pre-Season-02 baseline: the Detail section carries a "Baseline values" table so a later diff can be mechanical.
+Covers what the developer has officially said about realism versus gameplay tuning, what is documented about bullet drop and travel, hit-registration and damage statements, and a chronological list of every balance-relevant change in each official Steam patch post up to the 0.2.0 notes of 14 Oct 2026. The Season 1 baseline tables are retained as history so that the diff to Season 02 is mechanical.
 
-Excluded: per-weapon stat tables (see weapons-catalogue), gadget and armor detail (see gadgets-armor-and-equipment), the full release timeline (see patch-history), and server, anti-cheat and stability fixes except where they touch damage or balance. Sources are the saved official Steam posts and store snapshot dated 2026-10-08; press is used only where it adds something the posts lack and is labelled.
+Covers the Update 0.2.0 combat-balance rules (damage, armour, suppression, bow, slugs, turrets, recoil and per-weapon changes) as the current state, with the Season 1 baseline kept for diffing. Excluded: per-weapon prices and unlocks (see weapons-catalogue), gadget and armour item detail such as the Molotov, rangefinder and medical bag (see gadgets-armor-and-equipment), the full release timeline (see patch-history), build and economy changes (see their owning documents), and server, anti-cheat and stability fixes except where they touch damage or balance. Sources are the saved official Steam posts and store snapshot dated 2026-10-08 and 2026-10-30; press is used only where it adds something the posts lack and is labelled.
 
 # Definitions
 
 - **Balance change**: a change the developer itself files under balance, XP bands, economy, unlocks, or a combat-affecting fix (see Detail for the exact filter).
-- **Baseline values**: the figures as of this document's game version, kept so Season 02 changes can be diffed.
+- **Baseline values**: the Season 1 figures (through 2 Oct 2026), kept as history so Season 02 changes can be diffed.
+- **Archetype**: the weapon class used in the 0.2.0 notes (assault rifle, DMR, LMG, sniper rifle, SMG) [15].
+- **Suppression**: the screen and aim effect of near-miss fire; rebuilt in 0.2.0 [15].
+- **Hit-location damage**: damage by body region (head, upper, middle and lower torso); adjusted per archetype in 0.2.0 [15].
 - **CIWS**: close-in weapon system, named in the 2 Oct 2026 hotfix post as an anti-Havoc defence; its mechanics are not described officially [9].
 - **Havoc**: an aircraft named in the 0.1.2 and 2 Oct 2026 posts; the posts do not describe it further [8][9].
 - **Crit spot**: a damage-weak point on a buildable, referenced in the 0.1.2 bug-fix list [8].
 
 # Current State
 
+- Official, Update 0.2.0 (released 15 Oct 2026; notes posted 14 Oct 2026): the "Damage Update" reduces calibre base damage and rebalances archetypes; "Suppression Improvements" rebuilds suppression; detail in the Season 02 section below [15][17].
+- Official, 0.2.0: the notes say the calibre reductions affect "every weapon that uses these rounds, including infantry & vehicle weapons" [15].
+- Official: no post after 15 Oct 2026 is in the 2026-10-30 snapshot; later hotfixes are neither confirmed nor ruled out.
 - The developer describes the game as "a hardcore shooter that doesn't forget it's a game", "balance gameplay depth and accessibility", with the line "Play YOUR way" (post of 18 Feb 2026) [4].
 - A 16 Jun 2026 devlog titled "Addressing Feedback" states "Every player's line between arcade and realistic is different. We've drawn ours" and that "This isn't just about Killcam. This is our approach going forward throughout Early Access & Beyond" [3]. The post text is two sentences; the substance is in a video not captured here.
 - A 21 May 2026 post, "Tactical Depth & Teamplay", lists "Real-world ballistics, audio and flight models" and "Every decision affects YOUR account balance" as the pillars of tactical depth, and says "every bullet fired, every loadout built" has consequences for the account balance [2].
 - The 6 Jun 2026 gameplay-trailer post says "Play it slow, tactical and methodical, OR embrace the hardcore shooter that doesn't forget it's a game" [12].
 - The Steam store page (live capture 2026-10-08) lists, as the Early Access current state, "Realistic gunplay balanced for gameplay rather than simulation", and describes "tactical gunplay and combined arms combat with building and destruction mechanics" and rockets that "destroy apartment blocks" [1]. Its Mature Content Description reads "Wardogs contains killing with weapons and melee combat", so melee combat exists; no melee damage detail is published [1]. The page's planned-features answer lists "expanded weapon categories" and new vehicle types including fighter jets for the full version [1].
-- The latest official balance statement in the saved record is the 2 Oct 2026 hotfix post: "we agree with player sentiment" that IR Rangefinders are too overpowered, and "we acknowledge we overcorrected" the CIWS in "the previous patch" [9].
-- The 30 Sep 2026 post states that Season 02 "is planned to be a larger content update, with new map conditions, equipment, balance reworks and additional features" [8]. Season 02 is announced for 15 Oct 2026 [11].
+- Before 0.2.0, the latest balance statement was the 2 Oct 2026 hotfix post: "we agree with player sentiment" that IR Rangefinders are too overpowered, and "we acknowledge we overcorrected" the CIWS in "the previous patch" [9]. In 0.2.0 the Infrared Range Finder runs on batteries, a battery lasting around 80 s of active use [15].
+- The 30 Sep 2026 post said Season 02 "is planned to be a larger content update, with new map conditions, equipment, balance reworks and additional features" [8]; the 22 Sep 2026 Season 02 teaser had announced the season [11]; the 0.2.0 notes delivered the balance reworks [15], and the preview post of 9 Oct 2026 announced them in advance (it used pre-release names such as "Heavy and Super Heavy helmets") [16]. The notes' final names prevail.
 
 # Detail
+
+## Season 02 (Update 0.2.0) combat balance
+
+All rows are official, from the Season 02 patch notes posted 2026-10-14 and live from 2026-10-15 [15][17]. The notes give relative changes; absolute damage is not stated. Where the notes give a Season 1 value it is shown as "Season 1 (0.1.2) -> Season 02 (0.2.0)".
+
+The developer's stated reasoning: high-calibre rounds such as .308 and 7.62x54mmR were built for sniper rifles, where slow fire rate and small magazines balance big damage per shot, but in assault rifles, DMRs and LMGs they did "close to sniper damage at a much faster fire rate". The update "brings them closer to the other weapons in their archetype"; the FAL keeps the highest damage per shot among assault rifles but sits closer to the TCX-SPR and M4 [15].
+
+### Calibre base damage reductions
+
+The notes say these affect every weapon that uses the round, "including infantry & vehicle weapons" [15].
+
+| Calibre | Base damage change |
+|---------|--------------------|
+| .308 Winchester | -25% |
+| 7.62x54mmR | -20% |
+| 7.62x39mm | -19% |
+| .50 Cal | -16% |
+
+Vehicle weapons named as affected: Little Bird AH-6M Minigun, Z20 Lakota Minigun, Humvee Minigun [15]. Which individual infantry weapons use each round is in weapons-catalogue.
+
+### Archetype hit-location changes
+
+| Archetype or item | Season 02 (0.2.0) change |
+|-------------------|--------------------------|
+| DMRs | Hit-location damage adjusted for the new calibre values; headshots and upper-body hits slightly weaker, so DMRs sit between assault rifles and snipers [15] |
+| Assault rifles | Upper, middle and lower torso damage made more even; body shots do slightly less damage [15] |
+| LMGs | Body damage now matches assault rifles; LMGs are meant to win through sustained fire and magazine size [15] |
+| Sniper rifles | Hit-location damage increased to offset the base damage reduction [15] |
+| Scout Rifle | Headshots now one-shot targets with no helmet; a Level 1 helmet takes two headshots [15] |
+| Heavy and Artillery top machine turrets | Previously used the helicopter cannon's hit-location values; now use the assault-rifle and LMG values, so they do less damage to infantry depending on hit location [15] |
+
+### Armour and helmets
+
+| Item | Season 1 (0.1.2) | Season 02 (0.2.0) |
+|------|------------------|-------------------|
+| Level 3 armour and helmets, damage reduction | 55% | 50% [15] |
+| Level 4 armour and helmets, damage reduction | 65% | 60% [15] |
+| Level 3 helmet, suppression reduction | not stated | 68% [15] |
+| Level 4 helmet, suppression reduction | not stated | 80% [15] |
+| Level 4 helmet, other effects | none stated | Muffled audio, muffled proximity chat, restricted field of view, fogs over when sprinting [15] |
+
+The preview post of 9 Oct 2026 used "Heavy and Super Heavy" helmet names; the final notes use Level 3 and Level 4 [15][16]. Vendor prices of these items are in price-tables-season-1; item detail is in gadgets-armor-and-equipment.
+
+### Slugs and bow versus armour
+
+- 12 gauge slugs: damage against armour now scales with armour tier instead of one flat reduction [15].
+- Compound Bow: arrow trajectory has a shorter drop-off; slightly more effective against lower-tier armour than Season 1; bow damage against armour scales with armour tier [15].
+
+### Suppression rebuild
+
+The notes say suppression "was inconsistent and often unnoticeable" and has been rebuilt around shared falloff curves per weapon [15].
+
+- Near-miss suppression from small and medium calibres is considerably stronger.
+- Rate of fire is accounted for, so fast-firing small and medium weapons (such as SMGs and pistols) do not suppress disproportionately.
+- Suppression screen shake is reduced to offset the stronger effects.
+- Level 3 helmets reduce suppression by 68%; Level 4 helmets by 80%.
+
+No numeric suppression strengths or falloff curves are published [15].
+
+### Recoil and per-weapon adjustments
+
+| Weapon | Change in 0.2.0 |
+|--------|-----------------|
+| MP5 | Recoil pattern updated to be more horizontal, "as it was too easy to use" [15] |
+| Super-45 | Damage fall-off increased beyond 50 m (its effective range), pushing it into close quarters [15] |
+| DMRs | New recoil pass across all DMRs to match their power curve [15] |
+| MGL-40 | Muzzle velocity -25%; stronger damage fall-off at the 40mm outer radius; much more inaccuracy and sway, slower ADS speed and a reload penalty when used on the Little Bird bench [15] |
+| Mosin | New PU 91/30 (3.5x) scope; no access to other optics until future customisation features [15] |
+
+Prices and unlock levels for these weapons are in weapons-catalogue.
+
+### Related 0.2.0 items touching combat
+
+- Molotov: a thrown incendiary dealing impact damage plus damage over time to anyone standing in the flames; rain reduces molotov fire [15]. Detail in gadgets-armor-and-equipment.
+- Infrared Range Finder: runs on batteries, about 80 s of active use, draining faster if toggled quickly [15].
+- Medical Bag durability 100 -> 150 [15].
+- Parachutes: take longer to open, do not open below about 10 m, and opening below roughly 50 m while falling fast means fall damage [15].
+- Vanguard CIWS: reduced damage to the Spawn Vehicle (2.25x longer to kill it); CIWS cannon damage against structures retuned to shred light cover and struggle against heavy fortifications [15].
+- Helicopter cockpit glass now works both ways, so shooting out through it damages the vehicle like incoming fire [15].
+- Some weapon inspects are silent, which the developer says is known [15].
 
 ## What the developer has said about realism versus tuning
 
@@ -103,9 +189,9 @@ The 16 Jun 2026 post names "Killcam" explicitly, which implies a killcam feature
 
 | Topic | What is officially documented | Source |
 |-------|-------------------------------|--------|
-| Weapon damage values, headshot multipliers, falloff | Nothing (the store page gives only the qualitative "Realistic gunplay balanced for gameplay rather than simulation") | [1][2][3][4][6][8][9] |
-| Armor ratings, plate or vest damage reduction | Nothing. The Season 1 changelog mentions only a Sports Parachute, Large Backpack and ammo-type unlocks, not armor stats | [6] |
-| Ammo types | "762x54mm AP" and "556mm AP" exist as Career unlocks; their damage effect is not described | [6] |
+| Weapon damage values, headshot multipliers, falloff | Still no absolute values. 0.2.0 gives relative base-damage changes by calibre, qualitative hit-location changes by archetype, and the Super-45 falloff beyond 50 m and MGL-40 outer-radius falloff changes (Season 02 section) | [1][2][3][4][6][8][9][15] |
+| Armor ratings, plate or vest damage reduction | From 0.2.0: Level 3 armour and helmets 55% to 50%, Level 4 65% to 60% damage reduction. Not published for other tiers (a Level 1 helmet exists; its reduction is not stated). Season 1 changelog gave no armour stats | [6][15] |
+| Ammo types | AP ("762x54mm AP", "556mm AP") and, from 0.2.0, flesh-damage (HP) ammo (5.45x39mm, 9x19mm, 5.56mm, .308 Win) exist as unlocks; their damage effect is not described | [6][15] |
 | Hit registration or netcode for hit validation | Revive validity checks are "fully server authoritative" (0.1.2). Hit validation itself is not described. The team states performance and input latency are priorities | [4][8] |
 | Buildable damage | "Crit spots" on buildables were fixed to stop reappearing in the same place or jumping to the far side of a structure; they "now favour a spot you can reach from where you're standing". Destruction rewards "scale with their build progress" | [8] |
 | Vehicle and air damage | Havoc bug "causing increased damage taken from 20mm and 30mm cannon fire" fixed (0.1.2); CIWS kill time on a Havoc about 12 s down to about 6 s (hotfix) | [8][9] |
@@ -266,19 +352,22 @@ All as-of version: Season 1 changelog, 10 Sep 2026.
 | 2026-09-12/14 | Patch 0.11: no combat balance; cash exploits fixed; community-server bonus | [7] |
 | 2026-09-30 | Update 0.1.2: server-authoritative revives, reward caps, crit-spot fix, Havoc cannon-damage bug fix | [8] |
 | 2026-10-02 | Hotfix: IR Rangefinders removed from vendor until Season 02; CIWS time-to-kill on Havoc about 12 s to about 6 s | [9] |
-| 2026-10-15 (planned) | Season 02, with "balance reworks" and a different XP curve and item order per season | [8][11][6] |
+| 2026-10-09 | Season 02 Preview: announced the rework using pre-release names (Heavy and Super Heavy helmets) | [16] |
+| 2026-10-14 | Season 02 patch notes: Damage Update (calibre reductions, archetype and armour changes), suppression rebuild, bow, slug, turret, recoil and per-weapon changes | [15] |
+| 2026-10-15 | Update 0.2.0 released, servers back online | [17] |
 
-Known issues: none listed in the saved posts as open combat bugs. The 2 Oct 2026 post concedes a previous CIWS tuning "overcorrected" [9].
+Known issues: the 0.2.0 notes state that some weapon inspects are silent and that this is known [15]. The 2 Oct 2026 post conceded a previous CIWS tuning "overcorrected" [9]. No other open combat bugs are listed in the saved posts.
 
 # Admin & Technical Notes
 
-None found for damage or ballistics. The 0.1.2 post lists admin features (scheduled restarts, RCON restrictions) that are unrelated to balance [8]. No server-side setting for damage, ballistics or friendly fire is documented in the saved posts.
+None found for damage or ballistics; the 0.2.0 notes list no server-side damage or suppression setting. The 0.1.2 post lists admin features (scheduled restarts, RCON restrictions) that are unrelated to balance [8]. No server-side setting for damage, ballistics or friendly fire is documented in the saved posts.
 
 # Risks & Caveats
 
 - The documented balance record is thin and mostly progression tuning; do not read it as a weapon-balance history [6].
 - The 21 May 2026 "real-world ballistics" claim is pre-launch marketing; its video content was not captured [2].
-- Numbers here are Season 1 values and are expected to change at Season 02 (15 Oct 2026) [6][11].
+- Season 1 tables are history; the 0.2.0 values are current only as of 15 Oct 2026 and may change per hotfix or at the next season [6][15].
+- The 0.2.0 notes give percentages and rules but no absolute damage; do not derive per-shot damage from them without the Season 1 base values, which the developer never published.
 - The Season 1 changelog mixes price rises and cuts (for example Z20 Lakota and URAL fall to $35,000 while the Large Hammer rises). The values are recorded as posted, and the Support Large Hammer price ($25,000 to $75,000) and the vendor Large Hammer price ($1,600 to $2,400) are both listed without the post saying how they relate [6].
 - Press coverage of the same posts (for example the Gfinity and BisectHosting reproductions cited by the foundation) may omit lines; this document uses the saved official text.
 - Posts are marketing and ops text, written by the developer; no independent test of any statement has been done.
@@ -294,7 +383,10 @@ None found for damage or ballistics. The 0.1.2 post lists admin features (schedu
 - Damage values, headshot multipliers, armor ratings and ammo-type (AP) effects: not published.
 - Hit registration model (client-side, server-authoritative or hybrid) for gunfire: not stated.
 - What the "Killcam" change in the 16 Jun 2026 devlog was, and whether killcam exists in Early Access [3].
-- Whether the Season 02 changes (IR Rangefinder batteries, "balance reworks") will reset the Season 1 XP and price tables [8][9].
+- Whether Season 02 reset account progression: the 0.2.0 notes do not mention a wipe or reset, so it is unconfirmed either way [15].
+- Whether the "-25%" style calibre reductions are multiplicative on the previous base damage (the notes say "base damage reductions" without a formula) [15].
+- Which weapons the Level 3 and 4 suppression reductions (68%, 80%) are measured against; the notes give no baseline [15].
+- The armour reduction for Level 1 and 2 items and for other tiers is not stated.
 - A Russian-language press headline in the Steam news index (30 Sep 2026) reports a developer saying balance will not be fixed by the start of Season 2; the article body was not captured, so it is not used here.
 
 # References
@@ -313,6 +405,9 @@ None found for damage or ballistics. The 0.1.2 post lists admin features (schedu
 - [10] **Bulkhead (Steam news)** — *Launch Stability Hotfix #1* (10 Sep 2026). https://store.steampowered.com/news/app/1867240/view/1843481262693332. Accessed 2026-10-08.
 - [11] **Bulkhead (Steam news)** — *WARDOGS | Season 02 Teaser* (22 Sep 2026). https://store.steampowered.com/news/app/1867240/view/1844115010504839. Accessed 2026-10-08.
 - [12] **Bulkhead (Steam news)** — *WARDOGS - Gameplay Trailer* (6 Jun 2026). https://store.steampowered.com/news/app/1867240/view/1834602721194537. Accessed 2026-10-08.
+- [15] **Bulkhead (Steam news)** — *WARDOGS | Season 02 Patch Notes* (14 Oct 2026). https://store.steampowered.com/news/app/1867240/view/1846651706674560. Accessed 2026-10-30.
+- [16] **Bulkhead (Steam news)** — *WARDOGS | Season 02 Preview* (9 Oct 2026). https://store.steampowered.com/news/app/1867240/view/1846018067933823. Accessed 2026-10-30.
+- [17] **Bulkhead (Steam news)** — *WARDOGS | SEASON 02 IS NOW LIVE* (15 Oct 2026). https://store.steampowered.com/news/app/1867240/view/1846651706677015. Accessed 2026-10-30.
 - [14] **Bulkhead (Steam news)** — *WARDOGS | Security & Stability Hotfix* (2 Oct 2026). https://store.steampowered.com/news/app/1867240/view/1845383656384445. Accessed 2026-10-08.
 
 **Press & Secondary**
@@ -341,3 +436,4 @@ None cited.
 | 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial draft, pre-Season-02 baseline. | — |
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint, links (0 dead) and Steam post ids. Pre-Season-02 baseline. | Standing mandate (auto-approve on green QA) |
 | 1.0.1 | 2026-10-08 | Research Pipeline (revision worker) | Corrected against live store-page capture; store page does say "Realistic gunplay balanced for gameplay rather than simulation" and "tactical gunplay", store-page wording conflict with foundation resolved and made Primary, melee combat and planned "expanded weapon categories" noted, reference [1] updated to live capture. | Standing mandate (auto-approve on green QA) |
+| 1.1.0 | 2026-10-30 | Research Pipeline (virtual agent) | Revised for Update 0.2.0 from the official Season 02 patch notes, preview and live posts: calibre base damage reductions, DMR/AR/LMG/Scout Rifle/slug/bow/turret changes, Level 3 and 4 armour and helmet changes, suppression rebuild, MP5/Super-45/MGL-40/Mosin recoil and per-weapon changes, Little Bird bench MGL penalty, molotov and rangefinder battery summary; Season 1 baseline kept as history; forward-looking Season 02 sentences replaced by the known outcome. | — |

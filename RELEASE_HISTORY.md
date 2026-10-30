@@ -6,3 +6,4 @@
 - cluster-d-v1.0.0 (2026-10-08): 16 pre-Season-02 baseline depth docs.
 - cluster-e-v1.1.0 (2026-10-08): official-text revision of all pre-snapshot docs; 29-document pre-Season-02 baseline.
 - baseline-pre-season-2-v2 (2026-10-08): 29-doc baseline corrected against the live store page.
+- cluster-g-v1.2.0 (2026-10-30): 28 docs revised for Season 02 / Update 0.2.0; client-install-inspection added; 30-document baseline.

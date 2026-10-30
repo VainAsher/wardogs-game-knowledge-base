@@ -1,21 +1,21 @@
 ---
 id: community-and-source-reliability
 title: "Community Channels & Source Reliability Register"
-version: 1.0.1
+version: 1.1.0
 status: frozen
 confidence: Medium
 category: Meta & Release
 topic: "Official channels, community hubs, and a reliability rating for every source class and outlet used"
 market: Global
-game_version: "Early Access Update 0.1.2 (30 Sep 2026) plus hotfixes to 2 Oct 2026; pre-Season-02 baseline (Season 02 due 15 Oct 2026)"
+game_version: "Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30)"
 document_type: depth
 created: 2026-10-08
-updated: 2026-10-08
-review_due: 2026-10-22
-sources_verified: 2026-10-08
+updated: 2026-10-30
+review_due: 2026-11-20
+sources_verified: 2026-10-30
 supersedes: null
-related: [meta-release-foundation, patch-history, editions-pricing-platforms]
-tags: [community, sources, reliability, reviews, baseline, official-channels]
+related: [meta-release-foundation, patch-history, editions-pricing-platforms, season-2-announcements]
+tags: [community, sources, reliability, reviews, baseline, official-channels, season-02, rumour-scoring]
 ---
 
 # Document Control
@@ -23,22 +23,24 @@ tags: [community, sources, reliability, reviews, baseline, official-channels]
 | Field | Value |
 |-------|-------|
 | Document ID | community-and-source-reliability |
-| Version | 1.0.1 |
+| Version | 1.1.0 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Meta & Release |
-| Game version | Early Access Update 0.1.2 (30 Sep 2026) plus hotfixes to 2 Oct 2026; pre-Season-02 baseline |
+| Game version | Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30) |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-10-08 |
-| Review due | 2026-10-22 |
-| Sources verified | 2026-10-08 |
+| Updated | 2026-10-30 |
+| Review due | 2026-11-20 |
+| Sources verified | 2026-10-30 |
 
 # Executive Summary
 
 This document does two jobs. First, it lists the channels BULKHEAD and Team17 are confirmed to use for WARDOGS, based on the official Steam posts saved locally on 2026-10-08. Second, it rates every outlet and site cited anywhere in this knowledge base for reliability, commercial conflict of interest and track record against the official text. It is the basis for future staleness and trust decisions.
 
 The Steam store page (browser-rendered live capture of 2026-10-08) and the Steam News hub are the only channels whose address and content are fully verified. Official posts confirm that a community Discord and "socials" exist [6][11], and that a Twitch show and a contest site were used [9][22], and the live store page links Discord, X, TikTok, Facebook, Instagram and QQ [1], but neither the snapshots nor the capture contain a Discord invite or X handle. On 2026-10-08 the live page showed English "Mostly Positive" (63,179) and "Total reviews in all languages: 95,146" [1], while the storefront review API showed 109,396 reviews (81,290 positive, 74.3% computed) [3]; the two all-language totals disagree and the cause is unexplained.
+
+Season 02 gave a first test of the outlets against official text. Update 0.2.0 (released 15 Oct 2026) was documented in the Season 02 Preview (9 Oct), Patch Notes (14 Oct) and the live post (15 Oct) [58][59][60]. Scored against them, pre-release press and seller claims split: confirmed items were mostly specific, concrete content (rain, four weapons, a Molotov, an anti-air vehicle), while every claim about a progression wipe, cash-to-Gold-Bar conversion, Gold Bar persistence or the Black Market is not mentioned in the notes. The full scorecard is in season-2-announcements; this document records what it means for reliability grades. The Preview also repeats the studio's "3+ million sales and counting" (9 Oct), a self-reported figure [58].
 
 Confidence is Medium. The channel and review facts rest on official or first-party data (High on their own). The outlet ratings are judgements. I did not re-open every outlet page this session, so track-record notes compare claims already recorded in other KB documents against the official posts, and each rating states that basis.
 
@@ -51,12 +53,15 @@ Confidence is Medium. The channel and review facts rest on official or first-par
 - The live page names the anti-cheat as Elytra (kernel level) and shows Steam Deck compatibility as Unsupported [1].
 - Steam post bodies are now readable from the local snapshot, so patch facts can rest on official text. The earlier "bodies do not render" caveat in other documents is resolved for the 32 official posts.
 - Official text confirms, against earlier uncertainty: the 2 Oct balance hotfix (IR Rangefinders disabled until Season 02, CIWS about 6 s instead of 12 s) [21], the 30 Sep date for 0.1.2 [19], and three approved hosts named on 8 Sep [22].
-- Official text does not support any Season 02 "progression wipe" claim. The teaser gives only a date (15 Oct 2026) and a trailer [17].
+- Season 02 outcome (0.2.0): the official notes do not mention a progression wipe or a cash-to-Gold-Bar conversion, so those pre-release claims stay unconfirmed; the only support after launch is press paraphrase (PCGamesN 17 and 25 Oct) [59][62][63]. Absence from the notes is not a denial.
+- How press rumours scored against the 0.2.0 notes: 12 of 29 pre-release claims confirmed, 3 partly, 2 contradicted, 10 not mentioned, 2 press-only (season-2-announcements). Specific content claims held up; wipe and currency claims did not gain support [59].
+- The 2026-10-30 feed index lists 84 items, 35 official; the three new official posts are the Preview, Patch Notes and the live post, and later items are press (PCGamesN, SteamDB, PlayGround.ru). No official post after 2026-10-15 was seen. PlayGround.ru items are not used in this KB.
+- Press (PCGamesN, 16 to 27 Oct 2026, fetched 2026-10-30, not archived): a removed blue-team bonus and Driver-track exploit bans, a possibly early Season 3, slower season cadence and two new approved hosts. These are press only and never establish a fact alone [61][62][63][64].
 - Commercial sellers (boosting, hosting) and single-source outlets are rated lowest; their claims are leads, never facts (see the register).
 
 # Scope
 
-Covers confirmed official channels, the Steam review snapshot, and a reliability register for every host cited in `docs/` as of 2026-10-08 plus outlets seen in the Steam news feed. Excludes in-game mechanics (see the category foundation documents), patch contents (see patch-history) and prices (see editions-pricing-platforms). Not covered: I did not verify accounts on X, YouTube, Twitch or Discord directly; they are named only where an official post names them.
+Covers confirmed official channels, the Steam review snapshot, and a reliability register for every host cited in `docs/` as of 2026-10-08 (extended on 2026-10-30 with the Season 02 scoring and PCGamesN) plus outlets seen in the Steam news feed. Excludes in-game mechanics (see the category foundation documents), patch contents (see patch-history) and prices (see editions-pricing-platforms). Not covered: I did not verify accounts on X, YouTube, Twitch or Discord directly; they are named only where an official post names them.
 
 # Definitions
 
@@ -65,7 +70,7 @@ Covers confirmed official channels, the Steam review snapshot, and a reliability
 - **Player-reported**: fan sites, guides, wikis, hosts, sellers (ranks 4 and 6). Never establishes a fact alone.
 - **COI**: commercial conflict of interest, meaning the publisher sells something the article promotes (boosting, hosting, cash).
 - **Reliability grade**: R1 matches official text and is usable as a secondary confirmation; R2 usable with corroboration; R3 lead only, label player-reported; R4 do not cite for facts. Grades are Assessment, not fact.
-- **Baseline**: values recorded before the Season 02 wipe window so later diffs are mechanical.
+- **Baseline**: values recorded on 2026-10-08, before Season 02, so later diffs are mechanical. After 15 Oct 2026 they are history, not current values.
 
 # Current State
 
@@ -74,7 +79,7 @@ Covers confirmed official channels, the Steam review snapshot, and a reliability
 | Channel | Status | Evidence |
 |---------|--------|----------|
 | Steam store page, app 1867240 | Confirmed (live capture 2026-10-08). Developer BULKHEAD, publisher Team17, released 10 Sep 2026, Early Access; names anti-cheat Elytra; Steam Deck: Unsupported | [1][2] |
-| Steam News hub / community announcements | Confirmed. The feed carries 65 items; 32 are from the official announcement feed, the rest are outside outlets (PCGamesN, SteamDB, PlayGround.ru, GamingOnLinux, Rock, Paper, Shotgun) | [2] |
+| Steam News hub / community announcements | Confirmed. The 2026-10-08 feed carried 65 items, 32 official; the 2026-10-30 index lists 84 items, 35 official. The rest are outside outlets (PCGamesN, SteamDB, PlayGround.ru, GamingOnLinux, Rock, Paper, Shotgun) | [2][59] |
 | Team17 WARDOGS page and Team17 support | Confirmed. The store record lists Team17 support at team17.com/support; the Team17 game page lists WARDOGS | [4][5] |
 | Press release distribution | Team17 press release (via Game Developer) | [23] |
 | Community Discord | Existence confirmed: linked from the store page, which also says developers engage there; "10k+ members" (9 Feb 2026) and used for playtest announcements; invite URL not captured | [1][6][7] |
@@ -132,8 +137,11 @@ Every row is a value a later snapshot can diff mechanically.
 | Community Discord size: "10k+" | 9 Feb 2026 | [6] |
 | Approved hosting partners: 3 (QONZER, BisectHosting, xREALM) | 8 Sep 2026 | [22] |
 | Season 02 start: 15 Oct 2026 (no time given) | 22 Sep 2026 | [17] |
-| Latest patch: Update 0.1.2, 30 Sep 2026, maintenance 08:00 UTC for about 1 hour | 30 Sep 2026 | [19] |
-| Latest hotfixes: 2 Oct 2026 security/stability at 08:00 UTC (1 hour); balance hotfix posted 15:39 UTC | 2 Oct 2026 | [20][21] |
+| Season 02 released as Update 0.2.0; maintenance 15 Oct 08:00 to 09:30 UTC; live post 09:59 UTC | 14-15 Oct 2026 | [59][60] |
+| Official sales claim in the Preview: "3+ million sales and counting" (studio claim) | 9 Oct 2026 | [58] |
+| Steam news feed items 84, of which 35 official | 2026-10-30 snapshot | [2] |
+| Pre-Season-02 patch: Update 0.1.2, 30 Sep 2026, maintenance 08:00 UTC for about 1 hour (history; latest official build is now 0.2.0) | 30 Sep 2026 | [19] |
+| Pre-Season-02 hotfixes (history): 2 Oct 2026 security/stability at 08:00 UTC (1 hour); balance hotfix posted 15:39 UTC | 2 Oct 2026 | [20][21] |
 
 Note the 1.25 million, 2 million and 3 million sales figures are the studio's own claims in its own posts; no independent audit is available.
 
@@ -167,7 +175,7 @@ Grades: R1 reliable against official text, R2 usable with corroboration, R3 lead
 | Team17 press release (gamedeveloper.com) | Official, republished | Publisher marketing | Dates and price claims agree with the Steam page; 21-23 Aug beta matches the official post [7][23] | R1 |
 | Gfinity Esports | Press | None found | Season 1 changelog matches the official 9 Sep pre-load post on XP bands and prices, but labels it 10 Sep (the official post is dated 9 Sep) [12][24]. 0.1.2 notes match the official 30 Sep text [19][25]. Its 3-6 Sep beta dating is consistent with the official Closed Beta 02 and open-beta posts [10][11] | R1 |
 | MP1st | Press | None found | 0.1.2 date (30 Sep) and 08:00 UTC window match [19][26] | R1 |
-| Vice | Press | None found | 0.1.2 notes: 30 Sep, same window [19][27]. The Season 2 "rain" article cites a BULKHEAD statement that is not in the saved official posts [28] | R2 |
+| Vice | Press | None found | 0.1.2 notes: 30 Sep, same window [19][27]. The Season 2 "rain" article cites a BULKHEAD statement that is not in the saved official posts [28]; the rain preset it reported was confirmed by the notes, its "not mid-match" claim is not mentioned in them [59] | R2 |
 | InGameNews | Press | None found | Timestamps accurate: 0.1.2 at 06:57 UTC and the hotfix post at 00:13 UTC match the official posts to the minute [19][20][29]. Its ambiguity over whether the hotfix was scheduled is resolved by the official post: scheduled for 08:00 UTC, one hour [20] | R1 |
 | PlayDay | Press | None found | 0.11 notes match the official 12 Sep post on browser split, persistent IDs and the 5% bonus [15][30] | R1 |
 | Push Square, Pure Xbox | Press | None found | 1.25 million sold by 11 Sep matches the official post [14][31][32]; Xbox/PS5 2028 is not testable on Steam | R1 |
@@ -175,20 +183,34 @@ Grades: R1 reliable against official text, R2 usable with corroboration, R3 lead
 | CoGConnected, GosuGamers | Press | None found | "Over 1 million" and "3 million in just over two weeks" agree with the official posts [14][18][35][36] | R1 |
 | Gameluster | Press | None found | 1 million wishlists agrees with the official 14 Aug post [2][37] | R1 |
 | PCGamesN, Rock Paper Shotgun, PlayGround.ru, SteamDB | Press / stats, seen in the feed only | None found | Bodies were not saved, so no track record could be tested; not cited as facts in this KB [2] | Not rated |
-| KeenGamer | Press and guides | None found | Season 2 "confirmed features, rumors" mixes both labels in the title; progression guide is player-reported [38][39] | R3 |
-| Dexerto wiki | Community wiki on a press brand | None found | Its Season 2 wiki asserts a wipe and Black Market that the official teaser does not state [17][40] | R3 |
+| KeenGamer | Press and guides | None found | Season 2 "confirmed features, rumors" mixes both labels in the title; progression guide is player-reported. Its anti-air vehicle and Molotov rumours were confirmed by the 0.2.0 notes; its economy and armour reassessment hedges were consistent with them [38][39][59] | R3 |
+| Dexerto wiki | Community wiki on a press brand | None found | Its Season 2 wiki asserted a wipe and Black Market; the 0.2.0 notes mention neither (they name the Gold Market) [40][59] | R3 |
 | allthings.how | Guide site | None found | Maps/Control Zone figures conflict with the official 2x2 km Control Zone; "four playable battlegrounds" intro contradicts its own list [41][42] | R3 |
 | Gamebrief | Guide site | None found | Maps/vehicle guides agree with the three-launch-maps count; no official counterpart for numbers [43] | R3 |
-| Timesaver.gg | Seller blog | Yes (boosting/cash seller) | 2 Oct hotfix: IR rangefinder disabled and CIWS 12 s to 6 s agree with the official post [21][44]. Season 2 article: wipe, Gold Bar conversion and 16:00 UTC time are not in the teaser [17][45] | R3 for hotfix (verified), R4 for Season 2 |
-| MMOEXP | Seller blog, single podcast | Yes (currency seller) | Dates the 0.1.2 patch to 29 Sep; the official post says 30 Sep [19][46]. Season 2 wipe claim not supported [17] | R4 |
+| Timesaver.gg | Seller blog | Yes (boosting/cash seller) | 2 Oct hotfix: IR rangefinder disabled and CIWS 12 s to 6 s agree with the official post [21][44]. Season 2 article, scored against the 0.2.0 notes: rain and new weapons held; the 16:00 UTC launch time was contradicted (maintenance 08:00 to 09:30 UTC) and "grind not eased" was contradicted (level 20 XP cut); wipe and Gold Bar conversion are not mentioned in the notes [45][59][60] | R3 for hotfix (verified), R4 for Season 2 |
+| MMOEXP | Seller blog, single podcast | Yes (currency seller) | Dates the 0.1.2 patch to 29 Sep; the official post says 30 Sep [19][46]. Season 2 wipe claim not supported [17]. Its podcast-sourced weapons claim was confirmed by the notes; its honeypot AK, new ammo, rain-fogging visor and season length claims were not mentioned in the notes [46][59] | R4 |
 | BisectHosting blog | Provider | Yes (approved host partner) | 0.1.2 admin notes (restart time, RCON) match the official text [19][22][47] | R2 |
 | XGamingServer, Boostroom, Supercraft | Hosting / boosting sellers | Yes | Map guides and prices uncorroborated; hosting prices are pre-approval and not official [48][49][50] | R4 |
 | wardogs-game.com, wardogs.tech, wardogservers.com, warcon (GitHub) | Unofficial fan and tool sites | Mixed (tracker/tool publishers) | Host count (two to three) is dated, not wrong, and the official 8 Sep post confirms three [22][51][52][53][54] | R3 |
 | Neonsect | Fan guide | None found | Its three named hosts match the official 8 Sep post exactly [22][55] | R2 |
 | wardogswiki.com | Unofficial wiki | Unknown | Season 2 page not corroborated by the teaser [17][56] | R3 |
 | Gaming with Daopa | Community repost | Unknown | Closed-beta notes dated 14 Aug are not in the saved official feed; unverified [2][57] | R4 |
+| PCGamesN (Season 02 coverage, 10 to 27 Oct) | Press | None found | Its 10 Oct blue-team article matches the official faction experiment (Bakurani spawn changes, Lonestar bonuses, 20% discount for a losing team) [58][59][65]. The 16, 17, 25 and 27 Oct items (bonus removal, early Season 3, cadence, new hosts) have no official counterpart in the snapshot and cannot be tested [61][62][63][64] | R2 for what the notes confirm; items without an official counterpart are leads only |
 
 Assessment: ranking the outlets by agreement with official text, wire and aggregator press (Gfinity, MP1st, InGameNews, PlayDay, Push Square) is dependable on dates and patch contents; sellers and wikis are dependable only when an official post confirms the specific claim. Confidence High for the agreement findings (compared line by line to official text), Medium for the COI judgements (inferred from what each site sells).
+
+## Season 02 rumour scoring (reliability lessons)
+
+Scored on 2026-10-30 against the official Preview, Patch Notes and live post [58][59][60]; the claim-by-claim table is in season-2-announcements.
+
+| Source type | Pre-release behaviour | Outcome against 0.2.0 | Lesson |
+|-------------|----------------------|-----------------------|--------|
+| Official posts (teaser, 0.1.2, hotfix) | Date, "larger content update", IR Rangefinder batteries | All five official-confirmed claims confirmed | Official forward statements held |
+| Press (Vice, KeenGamer) | Rain, a wipe, Gold Bar conversion | Rain confirmed; wipe and conversion not mentioned in the notes | Content claims reliable when concrete; currency and wipe claims relayed from a video or unnamed source were not supported |
+| Seller blogs (Timesaver, MMOEXP) | Mix of inference and podcast items | Weapons confirmed; launch time and grind claims contradicted; honeypot, ammo, season length not mentioned or press-only | Keep R3/R4; use only where an official post confirms the item |
+| Wiki (Dexerto) | Black Market, wipe | Notes name the Gold Market only | Undated wikis stay R3 |
+
+Assessment: concrete, falsifiable content claims (named weapons, a Molotov, an anti-air vehicle) were mostly right, which fits a leak or a seen preview; claims about currency, wipes and later seasons had no support in the notes. Confidence Medium: it rests on a single set of notes and on "not mentioned".
 
 ## Where earlier KB documents are corrected or sharpened by official text
 
@@ -198,7 +220,7 @@ Assessment: ranking the outlets by agreement with official text, wire and aggreg
 | Security hotfix (2 Oct) | Ambiguous whether scheduled or completed | Post at 00:13 UTC announces a planned 08:00 UTC fix on "Friday 2nd", one hour [20] | Resolved: scheduled |
 | Closed beta dates | Open question whether 21-23 Aug and 3-6 Sep were one beta | Two betas: 21-23 Aug closed beta [7][8][9]; Closed Beta 02 announced 1 Sep, opened to all on 5 Sep until Sunday 08:00 UTC [10][11] | Resolved: two betas |
 | Season 1 changelog date | 10 Sep | Official "Pre-Load Live & Season 1 Changelog" is dated 9 Sep [12] | Date should read 9 Sep for the notes, 10 Sep for launch |
-| Season 02 wipe | Reported by Dexerto and Timesaver | Teaser contains only the date and a trailer; the 0.1.2 post says Season 02 has "new map conditions, equipment, balance reworks and additional features" [17][19] | Wipe remains unconfirmed |
+| Season 02 wipe | Reported by Dexerto and Timesaver | Teaser contained only the date; the 0.2.0 Patch Notes (14 Oct) do not mention a wipe or a cash-to-Gold-Bar conversion [17][19][59] | Still unconfirmed by official text; press (PCGamesN) paraphrases a wipe or economy reset after launch [62][63] |
 | Hosting partners | Fan guide says QONZER, BisectHosting, xREALM | Official post names the same three on 8 Sep [22] | Confirmed |
 
 # Early Access Changes & Known Issues
@@ -206,7 +228,8 @@ Assessment: ranking the outlets by agreement with official text, wire and aggreg
 - 10 Sep 2026: launch stability hotfix #1 forced a client restart and batch re-entry after join, kick and queue problems [13].
 - 12 Sep 2026: the studio publicly said community servers had been "underserved" and shipped 0.11 [15].
 - 2 Oct 2026: two hotfixes in one day (security/stability at 08:00 UTC; balance hotfix at 15:39 UTC) [20][21].
-- Season 02 on 15 Oct 2026 will change many baseline values; re-run this register after it, including review counts and the 65/32 feed counts [17].
+- 2026-10-09 to 15: Season 02 Preview, Patch Notes and release of Update 0.2.0 changed many baseline values; the baseline table is history. Review counts were not re-captured on 2026-10-30 [58][59][60].
+- Store page (2026-10-30 API snapshot): prices unchanged; page description text unchanged, art changed; API recommendation total 128,183 (a different metric from the page review totals; do not equate them).
 
 # Admin & Technical Notes
 
@@ -216,7 +239,7 @@ The official admin-facing channels are the Steam announcements for the Approved 
 
 - Grades are judgements frozen at 2026-10-08 and the outlets will change; a single wrong article lowers a grade only if repeated.
 - I did not re-open each outlet's page this session; outlet notes rely on claims already recorded in other KB documents and the official posts. The grade for an outlet I compared only on one fact (for example Vice) is correspondingly weak.
-- Steam feed items from non-official feeds (PCGamesN and others) were not saved, so they could not be tested.
+- Steam feed items from non-official feeds were not saved. Five PCGamesN articles (10, 16, 17, 25 and 27 Oct) were fetched on 2026-10-30 and summarised; they are not archived and are paraphrased [61][62][63][64][65]. PlayGround.ru items are not used.
 - Review counts and positive share change daily; the baseline is a snapshot, not a trend. The page and API figures may differ partly through timing or method; that is a guess, not a finding.
 - The live capture records link labels (Discord, X and others), not their target URLs, and omits account-specific lines by design.
 - Studio sales and concurrency numbers are self-reported and unaudited.
@@ -227,7 +250,8 @@ The official admin-facing channels are the Steam announcements for the Approved 
 - Official WARDOGS Discord invite URL, X handle and the TikTok, Facebook, Instagram and QQ addresses: the live store page links them [1] but the capture did not record targets. Capturing the link hrefs would resolve this.
 - Why the store page's "Total reviews in all languages" (95,146) differs from the review API total (109,396) [1][3].
 - Whether the Vice "rain will not change mid-match" statement exists in an official post (it is not in the saved Steam feed; it may come from X or Discord).
-- Whether Dexerto, Timesaver and wardogswiki.com describe a Season 02 wipe from a real developer statement or from speculation; the 15 Oct notes will decide.
+- Whether Dexerto, Timesaver and wardogswiki.com described a Season 02 wipe from a real developer statement or from speculation: the 14 Oct notes do not mention one, so it remains unconfirmed by official text.
+- Whether any official post after 2026-10-15 corrects or extends the notes (none seen in the 2026-10-30 snapshot).
 - Whether the Gaming with Daopa 14 Aug closed-beta notes are genuine developer notes; no matching official post is saved.
 
 # References
@@ -257,6 +281,9 @@ The official admin-facing channels are the Steam announcements for the Approved 
 - [21] **BULKHEAD** — *IR Goggles & CIWS Balance Hotfix* (Steam post, 2 Oct 2026). https://store.steampowered.com/news/app/1867240/view/1845383656386801. Accessed 2026-10-08.
 - [22] **BULKHEAD** — *The 11th Reason NOT To Buy WARDOGS* (Steam post, 8 Sep 2026; names wardogs100k.com and the three Approved Hosting Partners). https://store.steampowered.com/news/app/1867240/view/1842846814456311. Accessed 2026-10-08.
 - [23] **Team17 / BULKHEAD** — *WARDOGS is coming to Steam Early Access on 10 September* (press release). https://www.gamedeveloper.com/press-release/wardogs-is-coming-to-steam-early-access-on-10-september. Accessed 2026-10-08.
+- [58] **BULKHEAD** — *WARDOGS | Season 02 Preview* (Steam post, 9 Oct 2026). https://store.steampowered.com/news/app/1867240/view/1846018067933823. Accessed 2026-10-30.
+- [59] **BULKHEAD** — *WARDOGS | Season 02 Patch Notes* (Steam post, 14 Oct 2026). https://store.steampowered.com/news/app/1867240/view/1846651706674560. Accessed 2026-10-30.
+- [60] **BULKHEAD** — *WARDOGS | Season 02 is now live* (Steam post, 15 Oct 2026). https://store.steampowered.com/news/app/1867240/view/1846651706677015. Accessed 2026-10-30.
 
 **Press & Secondary**
 
@@ -275,6 +302,12 @@ The official admin-facing channels are the Steam announcements for the Approved 
 - [36] **GosuGamers** — *WARDOGS sells 3 million copies in just over two weeks*. https://www.gosugamers.net/entertainment/news/79260-wardogs-sells-3-million-copies-in-just-over-two-weeks-after-early-access-launch. Accessed 2026-10-08.
 - [37] **Gameluster** — *Wardogs hits one million wishlists*. https://gameluster.com/wardogs-million-wishlists/. Accessed 2026-10-08.
 - [38] **KeenGamer** — *WARDOGS Season 2: confirmed features, rumors, changes*. https://www.keengamer.com/articles/guides/wardogs-season-2-confirmed-features-rumors-changes/. Accessed 2026-10-08.
+
+- [61] **PCGamesN** — *"We f***ed up:" Bulkhead admits Wardogs Season 2 "got a few things wrong"* (2026-10-16). https://www.pcgamesn.com/wardogs/season-2-mistakes-bulkhead-apology. Accessed 2026-10-30.
+- [62] **PCGamesN** — *Wardogs Season 3 could be brought "significantly" forward* (2026-10-17). https://www.pcgamesn.com/wardogs/season-3-early-start. Accessed 2026-10-30.
+- [63] **PCGamesN** — *"We've got to slow down," Wardogs developer admits after Season 2's rocky rollout* (2026-10-25). https://www.pcgamesn.com/wardogs/season-2-developer-thoughts. Accessed 2026-10-30.
+- [64] **PCGamesN** — *Wardogs adds two new server hosts* (2026-10-27). https://www.pcgamesn.com/wardogs/community-servers. Accessed 2026-10-30.
+- [65] **PCGamesN** — *Wardogs' blue team is a laughing stock* (2026-10-10). https://www.pcgamesn.com/wardogs/blue-team-changes. Accessed 2026-10-30.
 
 **Player-Reported Evidence** — labelled as such in the text.
 
@@ -308,6 +341,7 @@ The official admin-facing channels are the Steam announcements for the Approved 
 - meta-release-foundation
 - patch-history
 - editions-pricing-platforms
+- season-2-announcements
 
 # Revision History
 
@@ -316,3 +350,4 @@ The official admin-facing channels are the Steam announcements for the Approved 
 | 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial draft: official channels, review baseline, outlet reliability register. | — |
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint, links (0 dead) and Steam post ids. Pre-Season-02 baseline. | Standing mandate (auto-approve on green QA) |
 | 1.0.1 | 2026-10-08 | Research Pipeline (revision worker) | Corrected against live store-page capture; review figures recorded with scope (page 63,179 English and 95,146 all-language versus API 109,396), 95,146 no longer called "recommendations"; methodology lesson added; official channels updated (Discord, X, TikTok, Facebook, Instagram, QQ, YouTube engagement); Steam Deck Unsupported; anti-cheat Elytra; second package named Supporter Edition | Standing mandate (auto-approve on green QA) |
+| 1.1.0 | 2026-10-30 | Research Pipeline (virtual agent) | Recorded how pre-release press and seller claims scored against the Update 0.2.0 notes (new scoring section and register updates); added the Preview "3+ million sales" claim (9 Oct, studio claim) and the 2026-10-30 feed counts (84 items, 35 official); added PCGamesN as an outlet (press only, 10 to 27 Oct); baseline table marked as history; wipe and Gold Bar conversion stay unconfirmed (not mentioned in the notes). | — |

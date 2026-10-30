@@ -61,7 +61,8 @@ nav:
       - "Community Channels & Source Reliability Register": meta-release/community-and-source-reliability.md
       - "Editions, Pricing & Platforms": meta-release/editions-pricing-platforms.md
       - "Patch & Update History": meta-release/patch-history.md
-      - "Season 02: Announced Changes (Pre-Release Baseline)": meta-release/season-2-announcements.md
+      - "Season 02: Pre-Release Claims Scored Against Update 0.2.0": meta-release/season-2-announcements.md
+      - "Windows Client Install Inspection (Update 0.2.0)": technical-servers/client-install-inspection.md
       - "RCON & Server Administration": technical-servers/rcon-and-server-admin.md
       - "Server Hosting & Server Browser": technical-servers/server-hosting-and-browser.md
       - "System Requirements, Performance & Crashes": technical-servers/system-requirements-and-performance.md
@@ -71,5 +72,5 @@ nav:
       - "Gadgets, Armor & Equipment": combat-loadouts/gadgets-armor-and-equipment.md
       - "Weapons Catalogue": combat-loadouts/weapons-catalogue.md
       - "Season 1 Price Tables": economy/price-tables-season-1.md
-      - "Progression Unlock Tables (Season 1)": gameplay-modes/progression-unlock-tables.md
+      - "Progression Unlock Tables (Season 1 and Season 02)": gameplay-modes/progression-unlock-tables.md
       - "Vehicle Roster & Prices": vehicles-outposts/vehicle-roster-and-prices.md

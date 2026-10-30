@@ -1,21 +1,21 @@
 ---
 id: season-2-announcements
-title: "Season 02: Announced Changes (Pre-Release Baseline)"
-version: 1.0.1
+title: "Season 02: Pre-Release Claims Scored Against Update 0.2.0"
+version: 2.0.0
 status: frozen
-confidence: Low
+confidence: Medium
 category: Meta & Release
-topic: "Everything officially and unofficially said about Season 02 and the 1.0 roadmap before launch"
+topic: "What was said about Season 02 before launch, scored against the official Update 0.2.0 notes (14-15 Oct 2026)"
 market: Global
-game_version: "Early Access Update 0.1.2 plus 2 Oct 2026 hotfixes (pre-Season 02 baseline, snapshot 2026-10-08; Season 02 due 15 Oct 2026)"
+game_version: "Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30)"
 document_type: depth
 created: 2026-10-08
-updated: 2026-10-08
-review_due: 2026-10-22
-sources_verified: 2026-10-08
+updated: 2026-10-30
+review_due: 2026-11-20
+sources_verified: 2026-10-30
 supersedes: null
-related: [meta-release-foundation, season-reset-and-currencies, patch-history, progression-and-role-tracks, destructibility-and-level-design]
-tags: [season-02, roadmap, baseline, rumours, wipe, pre-release]
+related: [meta-release-foundation, season-reset-and-currencies, patch-history, progression-and-role-tracks, destructibility-and-level-design, community-and-source-reliability]
+tags: [season-02, update-0-2-0, scorecard, rumours, wipe, outcome]
 ---
 
 # Document Control
@@ -23,60 +23,59 @@ tags: [season-02, roadmap, baseline, rumours, wipe, pre-release]
 | Field | Value |
 |-------|-------|
 | Document ID | season-2-announcements |
-| Version | 1.0.1 |
+| Version | 2.0.0 |
 | Status | frozen |
-| Confidence | Low |
+| Confidence | Medium |
 | Category | Meta & Release |
-| Game version | Update 0.1.2 plus 2 Oct 2026 hotfixes (baseline); Season 02 scheduled 15 Oct 2026 |
+| Game version | Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30) |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-10-08 |
-| Review due | 2026-10-22 |
+| Updated | 2026-10-30 |
+| Review due | 2026-11-20 |
 
 # Executive Summary
 
-This is a snapshot taken on 2026-10-08 (revised the same day against a live capture of the Steam store page), one week before Season 02, of everything said about Season 02 and the longer Early Access roadmap. It exists so that after launch the real patch notes can be diffed against what was promised and what was rumoured. It deepens meta-release-foundation; it does not repeat its release timeline.
+This document records what was claimed about Season 02 before launch and scores each claim against the official Update 0.2.0 text. The pre-release baseline was taken on 2026-10-08. The official outcome posts are the Season 02 Preview (9 Oct 2026) [18], the Season 02 Patch Notes (14 Oct 2026) [19] and the "Season 02 is now live" post (15 Oct 2026, 09:59 UTC), which says Update 0.2.0 was released and servers were back online [20]. Season 02 therefore started on the announced date, 15 October 2026 [1][20]. It deepens meta-release-foundation; the dated release list is in patch-history.
 
-Officially, very little is confirmed. BULKHEAD's Steam post of 22 Sep 2026 gives only the date, 15 October 2026, and a video [1]. The 30 Sep 2026 Update 0.1.2 post describes Season 02 as "a larger content update, with new map conditions, equipment, balance reworks and additional features" [3], and the 2 Oct 2026 hotfix post says IR Rangefinders return in Season 02 and will need batteries [4]. Two promised "next week" detail posts had not appeared in the Steam News snapshot by 8 Oct 2026 [3][5].
+Scorecard result: of 29 pre-release claims, 12 are confirmed by the official notes, 3 are partly confirmed, 2 are contradicted, 10 are not mentioned in the notes and 2 are supported only by press. All five claims graded Official-confirmed before launch were confirmed. Of the 19 graded Rumour, 6 were confirmed, 2 partly confirmed, 2 contradicted, 8 not mentioned and 1 is press-only. The five Press-graded claims split: rain was confirmed, the rain preset wording partly, the wipe is press-only, and the cash-to-Gold-Bar conversion and Gold Bar persistence are not mentioned in the notes.
 
-The live store page's Early Access section (Primary) gives the longer roadmap: more maps, weapons, vehicles and gameplay variety, deeper progression systems, a stronger seasonal meta game, fighter jets, expanded weapon categories, additional objective variations, and Early Access of "around 1 to 2 years" [12]. It says nothing specific about Season 02 or a progression wipe [12].
-
-Almost everything else about Season 02 (rain, a progression wipe, cash converting to Gold Bars, new weapons) is press or rumour. Confidence is Low for Season 02 specifics: the core content claims are pre-release and come from press and from commercial sources that sell boosting or in-game cash. A table below grades each rumour so it can be scored after launch.
+The notes do not mention a progression wipe, a cash-to-Gold-Bar conversion, a death-penalty rule change or a launch of the Black Market. Their absence from the notes is not proof that they did not happen; it means no official source in the snapshot states them. Later press (PCGamesN, 17 and 25 Oct) speaks of a Season 2 wipe or economy reset and of a Season 3 target; that is press only [22][23]. Confidence is Medium: outcomes rest on Primary posts, but the "not mentioned" and press-only verdicts rest on absence of text, and two verdicts rest on press.
 
 # Key Takeaways
 
-- Official as of 2026-10-08: Season 02 starts 15 October 2026; no launch time, patch notes or feature list has been published [1][3].
-- Official: Season 02 is a "larger content update" with new map conditions, equipment, balance reworks and additional features [3].
-- Official: IR Rangefinders are disabled in the vendor until Season 02 and will "require batteries to use" afterwards [4].
-- Official: "Each season we will have a different XP curve with different item orders" (Season 1.0 changelog, 9 Sep 2026) [6].
-- Press, not official text in the snapshot: rain as a per-map weather preset, and a progression wipe in which leftover cash converts to Gold Bars [13][14].
-- Rumour (single podcast, seller site): four new weapons, new ammo types, a fogging helmet visor, no fixed season length [17].
-- Official (live store page, capture 2026-10-08): the Early Access roadmap names new vehicle types including fighter jets, expanded weapon categories, additional objective variations, deeper progression systems and a stronger seasonal meta game; Early Access is expected to last "around 1 to 2 years" and the game is priced lower during Early Access [12]. The page does not mention Season 02 or a wipe [12].
-- The 7 Apr 2026 roadmap post names a "Black Market & Vault" and a "Player Skills & Challenge System" for Early Access, with no dates [2].
+- Official, 2026-10-15: Update 0.2.0 released, servers back online (post 09:59 UTC); maintenance was announced for 15 Oct 08:00 to 09:30 UTC, about 90 minutes of downtime [19][20].
+- Confirmed by the notes (0.2.0): four new weapons (TCX-SPR, PP-19 Bizon, Evo-3 Ultra, M14), a Molotov, four vehicles (Wolf-110, Wolf-110 [M2 Browning], T-72B3, Flakpanzer Gepard), three buildables (MG Nest, Large Shelter, Wooden Step), a rain weather preset, IR Rangefinder batteries (about 80 s of use) and a role-track XP rework [19].
+- Not mentioned in the notes: a progression wipe, a cash-to-Gold-Bar conversion, a conversion rate, Gold Bar persistence, the Black Market, new ammo types, the "honeypot" AK and a HammerGun [19].
+- Contradicted by the notes: a 16:00 UTC launch time (the maintenance window was 08:00 to 09:30 UTC) and "grind not eased" (level 20 now needs 111,500 XP, down from 250,000, "less than half the playtime") [19].
+- Wager Vendor: announced in the Preview as an experimental feature; the notes say it is not available at launch, will open later in Season 2 and is not a permanent addition [18][19].
+- Faction experiment: Lonestar (the blue team) gets Season 2 only cash and XP bonuses; a 20% vendor discount goes to a team at least 40 points behind second place; Bakurani spawns moved [18][19].
+- Preview names differ from the final notes (T-72 became T-72B3, Leopard became L2A6, Wolf-110 (Assault) became Wolf-110 [M2 Browning], TCX Spear became TCX-SPR, Super Heavy Helmet became Level 4 Helmet); this KB uses the final names [18][19].
+- Press only: PCGamesN reported on 16 Oct that a blue-team bonus (5% cash, 2.5% XP) was removed and on 17 and 25 Oct that Season 3 may come early, around 12 Nov [21][22][23].
 
 # Scope
 
-Covers what BULKHEAD has said about Season 02 and the Early Access and 1.0 roadmap up to 2026-10-08, plus a graded list of third-party Season 02 claims. Excludes verified Season 1 mechanics (see season-reset-and-currencies, progression-and-role-tracks and destructibility-and-level-design) and the dated patch list (see patch-history). Posts were read from locally saved Steam News text snapshots made 2026-10-08, and the store page was read from a browser-rendered live capture of 2026-10-08 [12]. Video content (the Season 02 teaser video and the roadmap video) was not viewed.
+Covers what BULKHEAD said about Season 02 before launch, the official 0.2.0 outcome through the last official post in the 2026-10-30 snapshot (15 Oct 2026), and a scored table of 29 third-party and official pre-release claims. There are no official posts after 2026-10-15 in the snapshot; later hotfixes may exist and are not covered. Excludes verified Season 1 mechanics (see season-reset-and-currencies, progression-and-role-tracks and destructibility-and-level-design), the dated patch list (see patch-history) and full value tables, which belong to the owner documents (prices in price-tables-season-1, rewards in cash-rewards-and-costs, unlocks in progression-unlock-tables, weapons in weapons-catalogue, vehicles in vehicle-roster-and-prices). Video content (teaser, devlog, press conference, trailer) was not viewed. Press articles were fetched on 2026-10-30; they were not saved as snapshots.
 
 # Definitions
 
-- **Baseline**: the pre-Season-02 state, so that later versions can diff against it.
-- **Official-confirmed**: stated in a BULKHEAD Steam post.
-- **Press**: reported by a news outlet, not confirmed by a Steam post in the snapshot.
-- **Rumour**: unattributed, single-source, speculative or from a commercially conflicted site.
+- **Baseline**: the pre-Season-02 state (2026-10-08), kept so outcomes can be diffed against it.
+- **Confirmed**: stated in an official Steam post in the snapshot (Preview, Patch Notes or live post).
+- **Partly confirmed**: part of the claim is stated and part is contradicted or unstated.
+- **Contradicted**: an official post states something that conflicts with the claim.
+- **Not mentioned**: no official post in the snapshot states or denies it. This is not a denial.
+- **Press-only**: reported by an outlet after launch; no official post in the snapshot states it.
 - **Gold Bars**: endgame currency obtained by exchanging cash, used for cosmetics [8].
 
 # Current State
 
-As of 2026-10-08 (Update 0.1.2 plus hotfixes):
+As of 2026-10-30, the last official post in the snapshot is the "Season 02 is now live" post of 2026-10-15; none seen in the 2026-10-30 snapshot after that date [20].
 
-- BULKHEAD's "WARDOGS Season 02 Teaser" was posted 22 Sep 2026 and reads, in full text: "WARDOGS Season 02 is coming. 15th October 2026. Stay tuned for more details," with an embedded video [1].
-- The 26 Sep 2026 post says "The team is knuckled down and working on Season 02 and beyond. More information dropping later next week" [5]. The 30 Sep 2026 post says "More information on Season 02 will be dropping next week" [3]. The latest official Steam post in the snapshot is dated 2 Oct 2026 and is a balance hotfix [4]; no Season 02 detail post was in the snapshot on 2026-10-08.
-- The 30 Sep 2026 post, headed "Looking Toward Season 02", says Season 02 "is planned to be a larger content update, with new map conditions, equipment, balance reworks and additional features" [3].
-- The 2 Oct 2026 hotfix post says IR Rangefinders will be disabled in the vendor "until Season 02, where they will require batteries to use," and the CIWS now destroys the Havoc in around 6 seconds instead of 12 [4]. This confirms, from an official source, an item meta-release-foundation attributed to a player-reported source.
-- Steam shows the game as Early Access, released 10 Sep 2026, with the Standard edition at USD 39.99 on the US store API and GBP 36.99 on the UK API (snapshot 2026-10-08); the live page capture shows GBP 36.99, the Supporter Edition at GBP 45.99 and the Supporter Pack at GBP 11.99 [12].
-- The live store page capture of 2026-10-08 shows English reviews "Mostly Positive" (63,179) and 95,146 reviews in all languages, also "Mostly Positive" [12]. The saved reviews summary file for the same date recorded 81,290 positive of 109,396 total; the two all-language totals disagree (see Open Questions) [12].
-- The page's latest listed announcement is 2 Oct 2026, and the page text mentions neither Season 02 nor a wipe [12].
+- BULKHEAD's Preview of 9 Oct 2026 (16:00 UTC) says Season 01 "is coming to a close", reports "3+ million sales and counting", previews the new content and says full notes would drop "early next week" [18]. The 3+ million figure is the studio's own claim and matches the 26 Sep post [5][18].
+- The Patch Notes of 14 Oct 2026 give a maintenance window on 15 Oct between 08:00 and 09:30 UTC (about 90 minutes) and the full 0.2.0 changes [19].
+- The live post of 15 Oct 2026 (09:59 UTC) reads "We have now released Update 0.2.0. Servers are back online." [20]
+- The Season 2 notes add eight Gold Market camos in four families (Black & Gold on the Little Bird, Season 2 exclusive; Chocolate Chip; Two-Tone Desert; Digital Wood) and remove the Black & Gold AK camo from the Gold Market (0.2.0) [19].
+- The Wager Vendor "is not available at Season 2 launch. It will open later in Season 2" and is "not a permanent addition" (0.2.0) [19].
+- Steam store page: standard prices are unchanged between the 2026-10-08 and 2026-10-30 storefront snapshots (see editions-pricing-platforms); the page description text did not change, only art, and the API recommendation total moved from 95,106 to 128,183, a different metric from the page review totals [12].
 
 # Detail
 
@@ -95,6 +94,11 @@ As of 2026-10-08 (Update 0.1.2 plus hotfixes):
 | 2026-09-26 | 3 million sales | Working on "Season 02 and beyond"; more information "later next week" | [5] |
 | 2026-09-30 | Update 0.1.2 | Season 02 "larger content update"; more information "next week"; the new Deploy flow is "the first step" to signpost Infantry Mode and Low-Level servers | [3] |
 | 2026-10-02 | Balance hotfix | IR Rangefinders return in Season 02 with batteries | [4] |
+| 2026-10-09 | Season 02 Preview | Four weapons, Molotov, four vehicles, three buildables, rain preset, experimental Wager Vendor, faction experiment; full notes "early next week" | [18] |
+| 2026-10-14 | Season 02 Patch Notes | Full 0.2.0 notes; maintenance 15 Oct 08:00 to 09:30 UTC | [19] |
+| 2026-10-15 | Season 02 is now live | Update 0.2.0 released, servers back online | [20] |
+
+Rows dated before 2026-10-09 are the pre-release record, kept as history. Their outcome is scored in the next section.
 
 ## Store-page roadmap (Primary, distinct from Season 02)
 
@@ -114,49 +118,69 @@ The page says nothing specific about Season 02, its date, a progression wipe or 
 
 ## Roadmap to 1.0
 
-The roadmap post of 7 Apr 2026 states that the metagame is "our frontend experience that will enable you to continue earning, progressing and adding value to your account even when not in a match" [2]. The post lists two named systems, the Black Market & Vault and the Player Skills & Challenge System, with no season attached [2]. The post's text does not mention seasons, a wipe, or a conversion of cash to Gold Bars; third parties attribute those to the video embedded in it (see the rumour table) [2][15]. No official 1.0 date or full-release price appears in the Steam posts in the snapshot; the store page gives an Early Access duration of "around 1 to 2 years" [12]. A podcast summary on a conflicted site quotes a developer as saying 1.0 is "roughly 23 months out" [17]; that is within the store page's range but is player-reported only.
+The roadmap post of 7 Apr 2026 states that the metagame is "our frontend experience that will enable you to continue earning, progressing and adding value to your account even when not in a match" [2]. The post lists two named systems, the Black Market & Vault and the Player Skills & Challenge System, with no season attached [2]. The post's text does not mention seasons, a wipe, or a conversion of cash to Gold Bars; third parties attribute those to the video embedded in it (see the scorecard) [2][15]. No official 1.0 date or full-release price appears in the Steam posts in the snapshot; the store page gives an Early Access duration of "around 1 to 2 years" [12]. A podcast summary on a conflicted site quotes a developer as saying 1.0 is "roughly 23 months out" [17]; that is within the store page's range but is player-reported only.
 
 ## Terminology conflict
 
 Official text uses "GOLD MARKET" for the cosmetic store that Gold Bars buy from (18 Feb 2026) [8] and "The Black Market & Vault" for a planned metagame feature (7 Apr 2026) [2]. Dexerto says Gold Bars buy "exclusive cosmetics from the Black Market" [16]. Whether these are one store or two is not resolved by any official source.
 
-## Season 02 claim register
+## Season 02 scorecard: pre-release claims against Update 0.2.0
 
-Grades: **Official-confirmed** (stated in a Steam post in the snapshot), **Press** (reported by an outlet, official primary not seen), **Rumour** (unattributed, single-source, speculative or conflicted site). Columns show each source's stance: Y states it, H hedges or says unconfirmed, - silent. Timesaver = Timesaver.gg, published and updated 5 Oct 2026 [15]; Dexerto wiki page, undated [16]; KeenGamer, 29 Sep 2026 [14]; MMOEXP, 5 Oct 2026, from a podcast of 2 Oct 2026 [17]; Vice, 23 Sep 2026 [13].
+Pre-release sources: Timesaver = Timesaver.gg, 5 Oct 2026 [15]; Dexerto wiki, undated [16]; KeenGamer, 29 Sep 2026 [14]; MMOEXP, 5 Oct 2026, from a podcast [17]; Vice, 23 Sep 2026 [13]. "Pre" is the grade this KB gave the claim on 2026-10-08 (OC = Official-confirmed, Press, Rumour). "Outcome" is scored against the official Preview, Patch Notes and live post [18][19][20].
 
-| # | Claim | Timesaver | Dexerto | KeenGamer | MMOEXP | Vice | Grade | Basis |
-|---|-------|-----------|---------|-----------|--------|------|-------|-------|
-| 1 | Season 02 starts Thursday 15 Oct 2026 | Y | Y | Y | Y | Y | Official-confirmed | [1] |
-| 2 | Launch time 16:00 UTC | H (guess from Season 1) | H (unknown) | - | - | - | Rumour | Timesaver calls it unconfirmed [15] |
-| 3 | Season 1 ends when Season 02 begins | Y | - | - | - | - | Rumour | Inference only [15] |
-| 4 | Season 02 is a larger update with new map conditions, equipment, balance reworks, features | - | H ("even more content") | - | - | - | Official-confirmed | [3] |
-| 5 | IR Rangefinders return needing batteries | Y | - | - | Y | - | Official-confirmed | [4] |
-| 6 | Each season has a different XP curve and item order | Y | - | H | - | Y | Official-confirmed (principle); specifics unannounced | [6] |
-| 7 | Rain is a new weather state | Y (teaser image) | Y (inference) | Y | Y | Y | Press | Vice cites a BULKHEAD X post [13]; X post and teaser video not viewed |
-| 8 | Rain is a per-map preset, not a mid-match change | - | - | Y | - | Y | Press | Vice, attributed to BULKHEAD on X [13]; KeenGamer [14] |
-| 9 | Rain changes visibility, audio or vehicle handling | H | Y (speculation) | H | H | H | Rumour | Developer silent per Vice [13] |
-| 10 | Rain/fog weather built in-house, would not ship if it hurt performance | - | - | - | Y | - | Rumour | Single podcast [17] |
-| 11 | First progression wipe: levels, XP and purchases reset | Y | Y | Y | Y ("wipe confirmed 15 Oct") | Y | Press | Attributed to the 7 Apr video; Steam text of that post does not say it [2][13][15] |
-| 12 | All six role tracks reset | Y (own statement) | - | - | - | - | Rumour | Inference [15] |
-| 13 | Leftover cash converts to Gold Bars at reset | Y | Y | Y | - | Y | Press | Same attribution as row 11 [13][14][15][16] |
-| 14 | Gold Bar conversion rate | H | - | H | - | H | Rumour (rate unpublished) | All say not announced [13][14][15] |
-| 15 | Gold Bars and Gold Bar cosmetics persist across seasons | Y | - | Y (intent) | Y | Y | Press | [13][14][15][17] |
-| 16 | Black and gold AK is an exception, used as a cheater "honeypot" | - | - | - | Y | - | Rumour | Single podcast [17] |
-| 17 | Black Market sells cosmetics for Gold Bars in Season 02 | - | Y | - | - | - | Rumour | Black Market is official only as a roadmap name [2][16] |
-| 18 | Four new weapons, one per role (recon one an M14) | - | - | - | Y | - | Rumour | Single podcast [17] |
-| 19 | New ammo types with different effects | - | - | - | Y | - | Rumour | [17] |
-| 20 | Level 4 helmet gets a letterbox visor that fogs in rain | - | - | - | Y | - | Rumour | [17] |
-| 21 | New mobile anti-air vehicle | - | - | H (teased) | - | - | Rumour | [14] |
-| 22 | Molotovs or incendiary grenades | - | - | Y (rumour) | - | - | Rumour | [14] |
-| 23 | Economy rebalance, prices, FOB cost changes | H | - | H | - | - | Rumour | KeenGamer: not announced [14] |
-| 24 | Armour and equipment tiers reassessed; infantry versus anti-armour cost balance | - | - | H | - | - | Rumour | [14] |
-| 25 | No fixed season length ("a month, 6 weeks, three months") | - | - | - | Y | - | Rumour | Podcast quote of a developer [17] |
-| 26 | Later wipes will "look very different"; "more persistence" wanted | - | - | - | Y | - | Rumour | Podcast [17] |
-| 27 | A melee "HammerGun" concept | Y (player concept) | - | - | - | - | Rumour | Not a developer statement [15] |
-| 28 | Official Season 02 details and a developer vlog due the week of 5 Oct | - | - | - | Y | Y (lead-up) | Official-confirmed (intent) | "next week" [3][5]; not delivered by 2026-10-08 |
-| 29 | Grind not eased; faster levelling unconfirmed | H | - | - | - | - | Rumour | Inference from Season 1 [15] |
+| # | Claim | Pre | Outcome | Evidence (0.2.0 / 2026-10-09 to 15) |
+|---|-------|-----|---------|--------------------------------------|
+| 1 | Season 02 starts Thursday 15 Oct 2026 | OC | Confirmed | Notes and live post [19][20] |
+| 2 | Launch time 16:00 UTC | Rumour | Contradicted | Maintenance 08:00 to 09:30 UTC; live post 09:59 UTC [19][20] |
+| 3 | Season 1 ends when Season 02 begins | Rumour | Confirmed | Preview: Season 01 "is coming to a close" [18] |
+| 4 | Larger update with new map conditions, equipment, balance reworks, features | OC | Confirmed | Rain preset, new weapons and gear, combat and economy rebalance [19] |
+| 5 | IR Rangefinders return needing batteries | OC | Confirmed | About 80 s per battery; vendor price $1,200 to $3,200 [19] |
+| 6 | Each season has a different XP curve and item order | OC | Confirmed | Role-track XP curve reworked; many unlocks moved [19] |
+| 7 | Rain is a new weather state | Press | Confirmed | "New Rain Weather Preset" [18][19] |
+| 8 | Rain is a per-map preset, not a mid-match change | Press | Partly confirmed | "Preset" wording confirmed; the notes do not say whether it changes mid-match [18][19] |
+| 9 | Rain changes visibility, audio or vehicle handling | Rumour | Partly confirmed | Visibility, sound, spotting range, Molotov fire and footstep masking by thunder stated; vehicle handling not mentioned [18][19] |
+| 10 | Weather built in-house, would not ship if it hurt performance | Rumour | Not mentioned | No statement [18][19] |
+| 11 | First progression wipe: levels, XP and purchases reset | Press | Press-only | Not in the notes; PCGamesN 17 and 25 Oct refer to a Season 2 wipe or economy reset [22][23] |
+| 12 | All six role tracks reset | Rumour | Not mentioned | The notes name seven tracks (WARDOG, Assault, Medic, Recon, Support, Pilot, Driver) and change their unlocks; no reset is stated [19] |
+| 13 | Leftover cash converts to Gold Bars at reset | Press | Not mentioned | No statement [19] |
+| 14 | Gold Bar conversion rate | Rumour | Not mentioned | No statement [19] |
+| 15 | Gold Bars and Gold Bar cosmetics persist across seasons | Press | Not mentioned | No statement; new Gold Market camos were added [19] |
+| 16 | Black and gold AK is an exception, used as a cheater honeypot | Rumour | Not mentioned | The notes say the Black & Gold AK Camo was removed from the Gold Market; no honeypot statement [19] |
+| 17 | Black Market sells cosmetics for Gold Bars in Season 02 | Rumour | Not mentioned | The notes name the Gold Market only [19] |
+| 18 | Four new weapons, one per role (recon one an M14) | Rumour | Confirmed | TCX-SPR (Assault), PP-19 Bizon (Medic), Evo-3 Ultra (Support), M14 (Recon) [19] |
+| 19 | New ammo types with different effects | Rumour | Not mentioned | The notes add attachments and magazines; no new ammo types stated [19] |
+| 20 | Level 4 helmet gets a letterbox visor that fogs in rain | Rumour | Partly confirmed | Level 4 Helmet gets muffled audio, restricted field of view and fogs when sprinting (not stated as rain); "letterbox" not mentioned [19] |
+| 21 | New mobile anti-air vehicle | Rumour | Confirmed | Flakpanzer Gepard, anti-air vehicle [19] |
+| 22 | Molotovs or incendiary grenades | Rumour | Confirmed | Molotov added; burns foliage; rain reduces its fire [19] |
+| 23 | Economy rebalance, prices, FOB cost changes | Rumour | Confirmed | Vendor prices, build supply costs and rewards changed; FOB vendor price not stated [19] |
+| 24 | Armour and equipment tiers reassessed; infantry versus anti-armour cost balance | Rumour | Confirmed | Level 3 and 4 damage reduction 55% to 50% and 65% to 60%; armour and helmet prices raised [19] |
+| 25 | No fixed season length | Rumour | Press-only | Not in the notes; PCGamesN 25 Oct reports roughly three-month seasons ahead [23] |
+| 26 | Later wipes will "look very different"; "more persistence" wanted | Rumour | Not mentioned | No statement [18][19] |
+| 27 | A melee "HammerGun" concept | Rumour | Not mentioned | No statement [19] |
+| 28 | Official Season 02 details and a developer vlog due the week of 5 Oct | OC | Confirmed | Devlog and press conference in the Preview, 9 Oct [18] |
+| 29 | Grind not eased; faster levelling unconfirmed | Rumour | Contradicted | Level 20 now takes "less than half the playtime" of Season 1; XP to level 20 250,000 to 111,500 [19] |
 
-Assessment: of 29 claims, 5 grade Official-confirmed (rows 1, 4, 5, 6 in principle, 28 as intent), 5 grade Press (rows 7, 8, 11, 13, 15), and 19 are rumour. Confidence in this grading is Medium; the source stances were read from fetched summaries of the third-party pages on 2026-10-08, not archived copies.
+Tally: Confirmed 12 (rows 1, 3, 4, 5, 6, 7, 18, 21, 22, 23, 24, 28); Partly confirmed 3 (8, 9, 20); Contradicted 2 (2, 29); Not mentioned 10 (10, 12, 13, 14, 15, 16, 17, 19, 26, 27); Press-only 2 (11, 25). Total 29.
+
+Assessment: pre-release claims that matched an official post were all confirmed, and the commercial-seller claims split. MMOEXP's single-podcast items were confirmed on weapons (row 18) and unsupported on the honeypot AK, new ammo, fogging in rain and season length (rows 16, 19, 20, 25). Timesaver's 16:00 UTC guess (row 2) and "grind not eased" (row 29) were wrong. Every wipe and Gold Bar conversion claim (rows 11 to 15) lacks official support in the notes. Confidence Medium: the verdicts are line-by-line against Primary text, but "not mentioned" depends on the notes being complete and the videos were not viewed.
+
+## What Update 0.2.0 delivered (summary, owners elsewhere)
+
+| Area | 0.2.0 outcome (official) | Owner document |
+|------|--------------------------|----------------|
+| Weapons | TCX-SPR [7.62x39mm], PP-19 Bizon [9x19mm], Evo-3 Ultra [.308 Win], M14 [.308 Win] plus optics, muzzle devices, magazines, bipods | weapons-catalogue |
+| Throwable | Molotov: impact damage plus damage over time, burns destructible foliage, reduced by rain | gadgets-armor-and-equipment |
+| Vehicles | Wolf-110, Wolf-110 [M2 Browning], T-72B3, Flakpanzer Gepard | vehicle-roster-and-prices |
+| Buildables | MG Nest, Large Shelter, Wooden Step | fob-and-base-building |
+| Weather | Rain preset: wet surfaces, rain sound by location, rain through destroyed roofs, synchronised thunder that masks footsteps, spotting range affected | maps-environment-foundation |
+| Balance | Calibre base damage cuts (.308 -25%, 7.62x54mmR -20%, 7.62x39mm -19%, .50 cal -16%), suppression rebuilt, armour reduction lowered, build and drill rig rebalance | damage-ballistics-and-balance |
+| Economy | Vendor prices, reward and logistics streak changes, spotting rewards about 30% lower, exploit fixes | cash-rewards-and-costs, price-tables-season-1 |
+| Progression | Role-track XP curve cut (level 20: 250,000 to 111,500), unlocks reshuffled across tracks | progression-unlock-tables |
+| Match flow | Team switching limits above 10 points, Forgive/Punish team-kill vote, Squad Intent UI, server seeding rewards, region-based ping limits | control-zone-and-match-flow, server-hosting-and-browser |
+| Faction experiment | Lonestar Season 2 cash and XP bonuses, 20% vendor discount for a team 40+ points behind second place, Bakurani spawns moved | maps-environment-foundation |
+| Not at launch | Wager Vendor (opens later in Season 2); Steam Trading Cards and Point Shop items "within Season 2, pending Valve's approval" | this document |
+
+All rows: Update 0.2.0, posted 2026-10-14, released 2026-10-15 [19][20]. The logistics streak values in the notes were revised after first posting to include the zone multiplier (an in-post update); use the owner document for the revised values [19].
 
 ## Source reliability notes
 
@@ -164,7 +188,7 @@ Timesaver.gg and MMOEXP sell boosting services and in-game cash respectively, so
 
 ## Baseline values
 
-All values are those in force at Update 0.1.2 plus the 2 Oct 2026 hotfixes unless another version is shown. Values from the Season 1.0 changelog were re-stated by BULKHEAD's later posts only where noted.
+History: these are the Season 1 / Update 0.1.2 plus 2 Oct 2026 hotfix values recorded on 2026-10-08. Update 0.2.0 (15 Oct 2026) changed several (XP to levels 10, 15 and 20, IR Rangefinder, role-track unlock levels, many prices); see the owner documents for current values. Values from the Season 1.0 changelog were re-stated by BULKHEAD's later posts only where noted.
 
 | Value | As-of version | Source |
 |-------|---------------|--------|
@@ -209,29 +233,37 @@ All values are those in force at Update 0.1.2 plus the 2 Oct 2026 hotfixes unles
 - 2026-09-22: Season 02 date announced [1].
 - 2026-09-30: Season 02 described as a larger update; "next week" detail promised [3].
 - 2026-10-02: IR Rangefinder removal and CIWS fix; IR Rangefinders to return with batteries in Season 02 [4].
-- The foundation's statement that the IR Rangefinder removal rests on a player-reported source is superseded: it is in a BULKHEAD post [4].
+- 2026-10-09: Season 02 Preview, devlog and press conference [18].
+- 2026-10-14: Season 02 Patch Notes; maintenance announced for 15 Oct 08:00 to 09:30 UTC [19].
+- 2026-10-15: Update 0.2.0 released (post 09:59 UTC). Season 1 / 0.1.2 values in the baseline table above are history; 0.2.0 changed many of them [20].
+- 0.2.0 versus Season 1 baseline: XP to level 10, 15 and 20 went from 35,000, 110,000 and 250,000 (9 Sep 2026 changelog) to 25,000, 54,750 and 111,500 [6][19]. For levels 25 to 50 the 0.2.0 notes quote "before" values (level 25: 365,000, level 50: 1,500,000) that differ from the 9 Sep changelog (325,000 and 1,000,000); the cause is not stated [6][19].
+- The Wager Vendor is announced but not live at launch [19].
 - The security hotfix post of 2 Oct 2026 (00:13 UTC) announces a hotfix at 08:00 UTC, expected downtime one hour, and calls it "tomorrow, Friday 2nd"; the post's own timestamp is already 2 Oct [11]. See Open Questions.
 
 # Admin & Technical Notes
 
-None found for Season 02. Server admin changes currently stated: scheduled daily restart time, RCON AllowedHosts and RCON defaults in Update 0.1.2 [3]. Whether Season 02 changes community server configuration is unannounced.
+The 0.2.0 notes say Community Server admins "will be able to configure their own ping limits" and that official servers enforce region-based ping limits (initial values lenient); they give no config key names [19]. Community server hosts seen exploiting the faction bonus "will be punished" [19]. RCON and ini changes are not mentioned in the notes. PCGamesN (27 Oct 2026) reports two newly approved hosts, GG Host and 1of1 Servers, and that community servers remain a work in progress; that is press only [24].
 
 # Risks & Caveats
 
-- This is a snapshot of 2026-10-08. The first official Season 02 post, due the week of 5 Oct 2026, may arrive any hour and supersede the register [3][5].
-- The store-page roadmap is a statement of intent with a stated 1 to 2 year, changeable horizon; it is not evidence that any item ships in Season 02 [12].
-- Video content (teaser, roadmap) carries claims this document cannot see. Wipe and conversion statements are attributed to a video by third parties and may be accurate or paraphrased [2][15].
-- Third-party pages were read through a fetch summary, not archived; wording is paraphrased where shown without quotation marks.
-- Rumour sources are commercially conflicted (Timesaver, MMOEXP) or undated (Dexerto) [15][16][17].
+- Snapshot 2026-10-30; no official post after 2026-10-15 was seen. Later hotfixes, a mid-season update or a Wager Vendor opening may exist [19][20].
+- "Not mentioned" is a statement about the notes, not about the game. Anything a video or an in-game screen states is invisible here.
+- Video content (Preview devlog, press conference, trailer) was not viewed [18][19].
+- The press items (PCGamesN) were summarised through a fetch tool, not archived; wording is paraphrased [21][22][23][24].
+- The Preview is explicitly "the surface of what's coming" and differs from the final notes in names; the notes win [18][19].
+- Third-party pre-release pages were read through fetch summaries on 2026-10-08 and may have been edited since [13][14][15][16][17].
+- The "live" post links to a patch-notes address that is not in the snapshot; this KB cites the 14 Oct post as the notes [19][20].
 
 # Open Questions
 
-- Does the 7 Apr 2026 video state a seasonal wipe and automatic conversion of cash to Gold Bars? Timesaver quotes it; the Steam text does not [2][15]. Resolve by viewing the video.
-- Is the "Black Market" the same store as the Gold Market [2][8][16]?
-- Is the podcast's "roughly 23 months out" for 1.0 accurate [17]? It is consistent with the store page's "around 1 to 2 years" [12] but remains a seller-site quote.
-- The 2 Oct hotfix post says "tomorrow, Friday 2nd" in a post stamped 2 Oct 00:13 UTC; is the hotfix time 08:00 UTC on 2 Oct [11]?
-- Reviews: the live capture shows 63,179 English and 95,146 all-language reviews; the saved summary file shows 81,290 positive of 109,396 total. The all-language totals conflict (a different capture time or set is possible); re-check [12].
-- Launch time of Season 02 (rumour 16:00 UTC) [15].
+- Did Season 02 include a progression wipe or a cash-to-Gold-Bar conversion? The notes do not mention either; only press refers to a wipe or economy reset [19][22][23]. A BULKHEAD post or an in-game notice would resolve it.
+- Is the "Black Market" the same store as the Gold Market [2][8][16]? The notes only use "Gold Market".
+- When does the Wager Vendor open, and will it be pulled? Preview: it may be pulled "if it turns out to be too exploitable" [18][19].
+- Why do the 0.2.0 notes quote higher Season 1 XP values for levels 25 to 50 than the 9 Sep changelog [6][19]?
+- Season 3 timing (press: around 12 Nov, possibly early) and any mid-season "2.5" update: press only [22][23].
+- Does the 7 Apr 2026 video state a seasonal wipe [2][15]? Video not viewed.
+- Reviews: the 2026-10-08 live capture total (95,146) and API total (109,396) conflicted [12]; not re-captured on 2026-10-30.
+- The 2 Oct hotfix post says "tomorrow, Friday 2nd" in a post stamped 2 Oct 00:13 UTC [11].
 
 # References
 
@@ -249,11 +281,18 @@ None found for Season 02. Server admin changes currently stated: scheduled daily
 - [10] **BULKHEAD / Steam** — *WARDOGS Addressing Feedback* (2026-06-16). https://store.steampowered.com/news/app/1867240/view/1835236783575445. Accessed 2026-10-08.
 - [11] **BULKHEAD / Steam** — *WARDOGS | Security & Stability Hotfix* (2026-10-02). https://store.steampowered.com/news/app/1867240/view/1845383656384445. Accessed 2026-10-08.
 - [12] **Valve / BULKHEAD** — *WARDOGS Steam store page, live capture 2026-10-08 (browser-rendered), and storefront API snapshot* (2026-10-08). https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-08.
+- [18] **BULKHEAD / Steam** — *WARDOGS | Season 02 Preview* (2026-10-09 16:00 UTC). https://store.steampowered.com/news/app/1867240/view/1846018067933823. Accessed 2026-10-30.
+- [19] **BULKHEAD / Steam** — *WARDOGS | Season 02 Patch Notes* (2026-10-14 14:59 UTC). https://store.steampowered.com/news/app/1867240/view/1846651706674560. Accessed 2026-10-30.
+- [20] **BULKHEAD / Steam** — *WARDOGS | Season 02 is now live* (2026-10-15 09:59 UTC). https://store.steampowered.com/news/app/1867240/view/1846651706677015. Accessed 2026-10-30.
 
 **Press & Secondary**
 
 - [13] **Vice** — *WARDOGS Season 2 rain and progression wipe* (2026-09-23). https://www.vice.com/en/article/wardogs-season-2-rain-progression-wipe/. Accessed 2026-10-08.
 - [14] **KeenGamer** — *WARDOGS Season 2: confirmed features, rumors and changes* (2026-09-29). https://www.keengamer.com/articles/guides/wardogs-season-2-confirmed-features-rumors-changes/. Accessed 2026-10-08.
+- [21] **PCGamesN** — *"We f***ed up:" Bulkhead admits Wardogs Season 2 "got a few things wrong"* (2026-10-16). https://www.pcgamesn.com/wardogs/season-2-mistakes-bulkhead-apology. Accessed 2026-10-30.
+- [22] **PCGamesN** — *Wardogs Season 3 could be brought "significantly" forward* (2026-10-17). https://www.pcgamesn.com/wardogs/season-3-early-start. Accessed 2026-10-30.
+- [23] **PCGamesN** — *"We've got to slow down," Wardogs developer admits after Season 2's rocky rollout* (2026-10-25). https://www.pcgamesn.com/wardogs/season-2-developer-thoughts. Accessed 2026-10-30.
+- [24] **PCGamesN** — *Wardogs adds two new server hosts* (2026-10-27). https://www.pcgamesn.com/wardogs/community-servers. Accessed 2026-10-30.
 
 **Player-Reported Evidence**
 
@@ -263,7 +302,7 @@ None found for Season 02. Server admin changes currently stated: scheduled daily
 
 # Further Reading
 
-- The next version of this document should be diffed row by row against the Season 02 patch notes.
+- patch-history for the dated 0.2.0 entry; community-and-source-reliability for how outlets scored.
 
 # Related Documents
 
@@ -272,6 +311,7 @@ None found for Season 02. Server admin changes currently stated: scheduled daily
 - patch-history
 - progression-and-role-tracks
 - destructibility-and-level-design
+- community-and-source-reliability
 
 # Revision History
 
@@ -280,3 +320,5 @@ None found for Season 02. Server admin changes currently stated: scheduled daily
 | 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial pre-Season-02 baseline. | — |
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint, links (0 dead) and Steam post ids. Pre-Season-02 baseline. | Standing mandate (auto-approve on green QA) |
 | 1.0.1 | 2026-10-08 | Research Pipeline (revision worker) | Corrected against live store-page capture; added Primary store-page roadmap block (fighter jets, objective variations, 1 to 2 year Early Access, lower EA price, seasonal updates), removed the unverified-roadmap caveat and Open Question, replaced the no-duration claim, recorded live review totals and conflict with saved summary, noted page is silent on Season 02 and wipe; confidence stays Low. | Standing mandate (auto-approve on green QA) |
+| 2.0.0 | 2026-10-30 | Research Pipeline (virtual agent) | Retitled and rebuilt for Update 0.2.0: the pre-release rumour register is now a scored outcome table (12 confirmed, 3 partly, 2 contradicted, 10 not mentioned, 2 press-only); added Preview (9 Oct), Patch Notes (14 Oct) and live post (15 Oct) as Primary; Season 1 / 0.1.2 baseline retained as dated history; press follow-ups (PCGamesN 16-27 Oct) labelled press-only; wipe and Gold Bar conversion kept as not mentioned in the notes. Confidence stays below High because verdicts rest on absence of text and press. | — |
+

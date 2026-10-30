@@ -47,4 +47,14 @@
 | WAR DYNAMICS FRAMEWORK | Bulkhead's custom Unreal Engine 5 enhancements for 100-player combat | steam-news 1825093633182385 |
 | Reliability grade (R1-R4) | KB judgement of a source against official text: R1 reliable to R4 do not cite alone | community-and-source-reliability |
 | Baseline value | A number stamped with the game version it was true for, so later seasons can be diffed mechanically | - |
-
+| Forgive / Punish | Victim's vote after a team kill (Update 0.2.0); Punish marks lead to kicks and escalating bans | steam-news 1846651706674560 |
+| Squad Intent | Pre-defined squad-leader intent shown on the squad list before joining (Update 0.2.0) | steam-news 1846651706674560 |
+| Server seeding | Joining and populating an empty server; rewarded with cash and a vendor discount once the match begins (Update 0.2.0) | steam-news 1846651706674560 |
+| Delivery streak | Logistics bonus added per consecutive delivery in a row, up to a cap (Update 0.2.0) | steam-news 1846651706674560 |
+| Build supply cost | Supplies a buildable consumes; from 0.2.0 the destroyed-buildable cash reward matches it | steam-news 1846651706674560 |
+| Hit-location damage | Damage by body region (head, upper, middle, lower torso), adjusted per weapon archetype in 0.2.0 | steam-news 1846651706674560 |
+| Archetype | Weapon class used in the 0.2.0 notes: assault rifle, DMR, LMG, sniper rifle, SMG | steam-news 1846651706674560 |
+| Total XP required | The 0.2.0 notes' name for the XP needed to reach a role-track level (the Season 1 changelog called these XP bands) | steam-news 1846651706674560 |
+| Flakpanzer Gepard | Anti Air Vehicle added in Update 0.2.0 | steam-news 1846651706674560 |
+| Talon 9K-SAM | Base-built surface-to-air missile emplacement named in the 0.2.0 notes | steam-news 1846651706674560 |
+| Build id | Steam's integer identifier for a published build of the app depot (observed 25937608 at Update 0.2.0) | client-install-inspection |

@@ -1,21 +1,21 @@
 ---
 id: weapons-catalogue
 title: "Weapons Catalogue"
-version: 1.0.0
+version: 1.1.0
 status: frozen
 confidence: Low
 category: Combat & Loadouts
 topic: "Firearms and launchers: roster, prices, unlock levels, attachments"
 market: Global
-game_version: "Early Access Season 1, patch 0.1.2 plus 2 Oct 2026 IR Goggles & CIWS hotfix (pre-Season-02 baseline; Season 02 due 15 Oct 2026)"
+game_version: "Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30)"
 document_type: reference-data
 created: 2026-10-08
-updated: 2026-10-08
-review_due: 2026-11-08
-sources_verified: 2026-10-08
+updated: 2026-10-30
+review_due: 2026-11-20
+sources_verified: 2026-10-30
 supersedes: null
 related: [combat-loadouts-foundation, gadgets-armor-and-equipment, damage-ballistics-and-balance, progression-unlock-tables, price-tables-season-1]
-tags: [weapons, prices, unlocks, attachments, baseline, season-1, early-access]
+tags: [weapons, prices, unlocks, attachments, season-1, season-02, update-0-2-0, early-access]
 ---
 
 # Document Control
@@ -23,39 +23,39 @@ tags: [weapons, prices, unlocks, attachments, baseline, season-1, early-access]
 | Field | Value |
 |-------|-------|
 | Document ID | weapons-catalogue |
-| Version | 1.0.0 |
+| Version | 1.1.0 |
 | Status | frozen |
 | Confidence | Low |
 | Category | Combat & Loadouts |
-| Game version | Season 1, patch 0.1.2 plus 2 Oct 2026 hotfix (pre-Season-02 baseline) |
+| Game version | Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30) |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-10-08 |
-| Review due | 2026-11-08 |
+| Updated | 2026-10-30 |
+| Review due | 2026-11-20 |
 
 # Executive Summary
 
-This is a pre-Season-02 baseline of the WARDOGS firearm and launcher roster. Season 02 is announced for 15 October 2026 and the developer says each season has its own XP curve and item order [1][2], so every number here is stamped to Season 1 and expected to change.
+This is the WARDOGS firearm and launcher roster revised for Season 02 (Update 0.2.0, released 15 Oct 2026) [13][15]. The official Season 02 patch notes (posted 14 Oct 2026) add four weapons, a new attachment set, and itemised vendor price changes and unlock changes for many existing weapons [13]. These are the first official per-weapon prices and unlock levels in the record. The Season 1 values are kept below as dated history ("Season 1 (0.1.2): X -> Season 02 (0.2.0): Y").
 
-Official text names very few weapons. It confirms the Deagle (level 90 reduced to 85), the PP-19 Vityaz 50-round drum magazine (Medic level 33 reduced to 29), 7.62x54mm and 5.56mm armour-piercing ammunition (levels 82 and 83), the starter rifles Bushmaster, A-91 and KH-2002 (named only through camos), rocket launchers in general, and the IR Rangefinders disabled on 2 October 2026 [1][4][9][10]. It publishes no weapon prices, damage or attachment lists. The full roster of 34 firearms and launchers, with prices and unlock levels, comes from press and player-reported guides, which are kept separate from official rows below.
+The four new weapons are the TCX-SPR (7.62x39mm assault rifle, $3,200), the PP-19 Bizon (9x19mm SMG, $1,000), the Evo-3 Ultra (.308 Win LMG, $7,250) and the M14 (.308 Win marksman rifle, $7,400) [13]. The preview post of 9 Oct 2026 called the first "TCX Spear" and the M14 a "DMR"; this document uses the final-notes names [13][14].
 
-Confidence is Low: the weapon-level numbers rest on guides dated 12 to 17 September 2026 that partly disagree, one of them from a hosting seller.
+Confidence stays Low. Every Season 02 change is Primary (patch notes), but the underlying Season 1 roster for weapons the notes do not mention (M4 and M500 prices, categories, ammo) rests on guides dated 12 to 17 September 2026 that partly disagree, one from a hosting seller. The rubric rates a document by its weakest evidence. No official post after 15 Oct 2026 appears in the 2026-10-30 snapshot.
 
 # Key Takeaways
 
-- Official, Season 1 (10 Sep 2026): Deagle unlock moved from level 90 to 85; PP-19 50-round drum from Medic 33 to 29; 7.62x54mm AP from level 83 to 82; 5.56mm AP from level 85 to 83 [1].
-- Official, 2 Oct 2026: IR Rangefinders were disabled in the vendor until Season 02, when they will need batteries [4].
-- Official, 10 Sep 2026: Season 1 repriced scopes, not guns: Recon 6-10x MRAD $25,000 to $40,000 and 6-10x MOA $30,000 to $45,000 [1].
-- Guide-only: a 34-row roster across assault rifles, SMGs, shotguns, LMGs, marksman and sniper rifles, a bow, sidearms and launchers (player-reported, 13 Sep 2026) [8].
-- Each weapon has up to three gates: a level, a one-time unlock fee, and a per-life vendor price (player-reported) [6][8].
-- The T-21 ($600) and AMP-9 ($900) need no unlock, and the three faction rifles are free (player-reported) [8].
-- Guides disagree on several figures (T-21 fire rate, M249 range, faction-rifle pricing); conflicts are listed in Open Questions.
+- Official, Update 0.2.0 (14-15 Oct 2026): four new weapons, TCX-SPR (assault rifle), PP-19 Bizon (SMG), Evo-3 Ultra (LMG), M14 (marksman rifle), with vendor prices $3,200, $1,000, $7,250 and $7,400 [13].
+- Official, 0.2.0: vendor prices rose for T-21, AMP-9, MP5, Super-45, Scout Rifle TD, Compound Bow, GGX 18, BMR-308, MGL-40 and AMR 50, and fell for AK74, Deagle, Galil, RPG-7, MAAWS, PKM and FAL [13].
+- Official, 0.2.0: the AK74 is unlocked by default, the T-21 now needs Assault level 3 ($10k), the M4 moved from level 20 to 28 and the TCX-SPR (Assault 20) takes its slot; the PKM unlocks at Support 15 (was 30) [13].
+- Official, 0.2.0: .308 Winchester -25%, 7.62x54mmR -20%, 7.62x39mm -19% and .50 Cal -16% base damage, applied to every weapon that uses those rounds, including vehicle weapons (see damage-ballistics-and-balance) [13].
+- Official, 0.2.0: Mosin gets a PU 91/30 3.5x scope (Recon 10, $12.5k unlock, $780) and loses access to other optics; MGL-40 muzzle velocity -25% and extra penalties on the Little Bird bench [13].
+- Official, Season 1 (10 Sep 2026): Deagle 90 to 85, PP-19 drum 33 to 29, 7.62x54mm AP 83 to 82, 5.56mm AP 85 to 83, repriced Recon scopes [1]; several of these were superseded in 0.2.0 [13].
+- Guide-only (Season 1): the 34-row roster with categories and ammo is player-reported (13 Sep 2026) [8]; conflicts are in Open Questions.
 
 # Scope
 
-Covers firearms, the bow and launchers (including the anti-air launcher) that players carry, with price, unlock, category, ammo and documented attachments at Season 1. Game version: Season 1 patch 0.1.2 and the 2 October hotfix.
+Covers firearms, the bow and launchers (including the anti-air launcher) that players carry, with price, unlock, category, ammo and documented attachments. Game version: Season 02, Update 0.2.0 (15 Oct 2026), with Season 1 (0.1.2) values kept as history.
 
-Excluded: grenades, armour and gadgets (gadgets-armor-and-equipment), damage models and ballistics (damage-ballistics-and-balance), the full unlock ladder (progression-unlock-tables), non-weapon prices (price-tables-season-1), and vehicle weapons and artillery. Damage and RPM figures from guides are shown only as player-reported context.
+Excluded: grenades, armour and gadgets (gadgets-armor-and-equipment), damage models and ballistics (damage-ballistics-and-balance), the full unlock ladder (progression-unlock-tables), non-weapon prices (price-tables-season-1), and vehicle weapons and artillery. Damage and RPM figures from guides are shown only as player-reported Season 1 context; the calibre damage changes of 0.2.0 are owned by damage-ballistics-and-balance.
 
 # Definitions
 
@@ -66,16 +66,119 @@ Excluded: grenades, armour and gadgets (gadgets-armor-and-equipment), damage mod
 
 # Current State
 
+- Official: Update 0.2.0 was released on 15 Oct 2026 with servers back online [15]; the full notes were posted on 14 Oct 2026 [13].
+- Official, 0.2.0: four new weapons were added, TCX-SPR [7.62x39mm] assault rifle, PP-19 Bizon [9x19mm] SMG, Evo-3 Ultra [.308 Win] LMG and M14 [.308 Win] marksman rifle, with new optics, muzzle devices, magazines and bipods [13].
 - Official: each player starts with $10,000 and buys a custom loadout each life; rocket launchers can destroy apartment blocks; a ghillie suit is purchasable (Steam page, 2026-10-08) [9].
-- Official: the Season 1 changelog values below are from the Steam post of 9 Sep 2026 [1].
-- Official: the Supporter Edition camos cover three "Starter Weapon" rifles: Valkyra A-91, Lonestar Bushmaster, Manticore KH-2002 [10].
-- Official: the 2 Oct 2026 hotfix disabled IR Rangefinders in the vendor until Season 02 [4].
-- Official: patch 0.1.2 (30 Sep 2026) lists no weapon stat or price change; it fixed throwables use from enclosed vehicle seats, the adaptive crosshair while aiming down sights, and buildable crit spots [3].
-- Official: Season 02 is announced for 15 October 2026 [2], described as a larger update with new equipment and balance reworks [3].
+- Official: the Supporter Edition camos cover three "Starter Weapon" rifles: Valkyra A-91, Lonestar Bushmaster, Manticore KH-2002 [10]. The 0.2.0 notes do not mention these three rifles.
+- Official, 0.2.0: Gold Market camos were added for the Evo-3 Ultra, M14, TCX-SPR (Chocolate Chip), Galil and Mosin (Two-Tone Desert), and M500 (Digital Wood); the Black & Gold AK camo was removed from the Gold Market [13].
+- Official, 0.2.0: Infrared Range Finders now run on batteries (about 80 s of active use) [13]; they had been disabled in the vendor by the 2 Oct 2026 hotfix [4]. Whether they were re-enabled in the vendor is not stated in the notes (the notes list an Infrared Range Finder price of $3,200).
+- Official: no official post after 15 Oct 2026 is present in the 2026-10-30 snapshot; later hotfixes are neither confirmed nor ruled out.
 
 # Detail
 
-## Baseline values (official)
+## Season 02 (Update 0.2.0) new weapons
+
+Source for every row: official patch notes, posted 2026-10-14 [13]. Prices are per-life vendor prices; unlock is the account purchase after the level gate. Level is on the named role track.
+
+| Weapon | Archetype | Calibre | Vendor price | Unlock (track level, fee) | Standard magazine |
+|--------|-----------|---------|--------------|---------------------------|-------------------|
+| TCX-SPR | Assault rifle | 7.62x39mm | $3,200 | Assault 20, $100k | 28 RND ($50), unlocked with the rifle |
+| PP-19 Bizon | SMG | 9x19mm | $1,000 | Unlocked by default (Medic track) | 53 RND ($200), unlocked by default |
+| Evo-3 Ultra | LMG | .308 Win | $7,250 | Support 30, $200k | Evolys 50 RND Box ($110), unlocked with the LMG |
+| M14 | Marksman rifle (DMR) | .308 Win | $7,400 | Recon 25, $100k | 10 RND ($60), unlocked with the rifle |
+
+Naming: the 9 Oct 2026 preview called the first weapon "TCX Spear" and labelled the M14 a "DMR" [14]; the final notes use "TCX-SPR" and "Marksman Rifle" [13]. Weapon stats (damage, RPM, range) are not stated for any new weapon.
+
+New attachments named in the notes (vendor price; unlock level and fee) [13]:
+
+| Attachment | For | Price | Unlock |
+|------------|-----|-------|--------|
+| Cross Rifle Muzzle Brake | TCX-SPR | $780 | Assault 32, $35k |
+| Clutch Lok Muzzle Brake | TCX-SPR | $1,100 | Assault 37, $37.5k |
+| SRD762TI-QD Suppressor | TCX-SPR | $1,350 | Assault 40, $40k |
+| Evolys Bipod | Evo-3 Ultra | $1,450 | Support 33, $75k |
+| SL7i-BL Suppressor | Evo-3 Ultra | $1,400 | Support 40, $35k |
+| Leatherwood ART II | M14 | $950 | Recon 27, $35k |
+| M14 Bipod | M14 | $1,480 | Recon 29, $25k |
+| M14 20 RND Magazine | M14 | $110 | Recon 31, $27.5k |
+| M14 30 RND Magazine | M14 | $180 | Recon 36, $50k |
+| .30 Cal SS Phosphate Muzzle Brake | M14 | $950 | Recon 37, $22.5k |
+| .30 Cal Steel Black Flash Hider | M14 | $730 | Recon 42, $27.5k |
+| PU 91/30 Scope (3.5x) | Mosin | $780 | Recon 10, $12.5k |
+| Compact P-1 Red Dot | General | $480 | WARDOG 21, $12.5k |
+
+## Season 02 vendor price changes for existing weapons
+
+Season 1 (0.1.2) values: the 0.2.0 notes state the old figure themselves, and it matches the guide roster below [8] in every case [13].
+
+| Weapon | Season 1 (0.1.2) | Season 02 (0.2.0) |
+|--------|------------------|-------------------|
+| T-21 | $600 | $1,200 |
+| AMP-9 | $900 | $1,375 |
+| MP5 | $1,500 | $1,800 |
+| Super-45 | $2,600 | $5,600 |
+| Scout Rifle TD | $1,100 | $1,200 |
+| Compound Bow | $800 | $1,350 |
+| GGX 18 | $800 | $1,000 |
+| BMR-308 | $6,000 | $6,250 |
+| MGL-40 | $6,000 | $7,500 |
+| AMR 50 | $8,800 | $14,800 |
+| AK74 | $1,600 | $800 |
+| Deagle | $900 | $750 |
+| Galil | $2,200 | $2,000 |
+| RPG-7 | $2,000 | $1,800 |
+| MAAWS | $2,600 | $2,400 |
+| PKM | $4,500 | $4,100 |
+| FAL | $6,500 | $6,000 |
+
+Prices not listed (for example M4, M500, SKS, SVD, Mosin, SV98, MK22, M249 SAW, MP43, PP-19 Vityaz, Judge, GGX 17, M1911, 9K333 Verba) are not mentioned in the notes; this document does not infer that they are unchanged. The full vendor price table is owned by price-tables-season-1. Attachment prices: most muzzles, grips and foregrips dropped by up to a third in 0.2.0 [13].
+
+## Season 02 unlock changes for existing weapons
+
+Format "Season 1 -> Season 02", from the notes [13]. "Wardog" is the notes' "WARDOG Progression Track". The full ladder is owned by progression-unlock-tables.
+
+| Weapon | Level change | Unlock fee change |
+|--------|--------------|-------------------|
+| AK74 | Assault 3 -> unlocked by default (with 30 RND mag) | $10k -> none |
+| T-21 | unlocked by default -> Assault 3 | none -> $10k (STANAG 30 RND magazine free with it) |
+| M4 | Assault 20 -> 28 ("TCX-SPR takes its place") | $100k -> $150k |
+| FAL | not stated | $200k -> $250k |
+| AMP-9 | unlocked by default -> Medic 20 | none -> $75k |
+| MP5 | Medic 15 -> 4 | $75k -> $25k |
+| PP-19 Vityaz | Medic 4 -> 15 | $25k -> $50k |
+| Super-45 | not stated | $150k -> $200k |
+| BMR-308 | Recon 30 -> 20 | not stated |
+| SV98 | Recon 19 -> 18 | not stated |
+| MK22 | Recon 25 -> 30 | not stated |
+| Compound Bow | Recon 17 -> 16 | $75k -> $150k |
+| PKM | Support 30 -> 15 | $150k -> $100k |
+| M249 | Support 15 -> 20 | $100k -> $150k |
+| MAAWS | Support 20 -> 18 | $125k -> $100k |
+| MGL-40 | not stated | $200k -> $250k |
+| 9K333 Verba | Support 16 -> 14 | not stated |
+| Judge | Wardog 18 -> 1 | $15k -> $5k |
+| GGX 17 | Wardog 1 -> 18 | $5k -> $15k |
+| Deagle | Wardog 85 -> 65 | not stated |
+| GGX 18 | Wardog 70 -> 85 | $50k -> $125k |
+
+Discrepancy: the notes give the Compound Bow's Season 1 unlock fee as $75k, while the guide roster lists $125k [8]. The notes are Primary and prevail for the 0.2.0 transition; the guide fee may have been wrong or changed in an unlisted patch.
+
+## Season 02 per-weapon balance changes
+
+All from the 0.2.0 notes [13]; numeric damage effects are covered in damage-ballistics-and-balance.
+
+- Calibre base damage: .308 Win -25%, 7.62x54mmR -20%, 7.62x39mm -19%, .50 Cal -16%, for every weapon using the round, including vehicle weapons. By the guide calibre column and the notes' calibres for new weapons, this covers FAL, Evo-3 Ultra, M14, BMR-308 and MK22 (.308); PKM, SVD, Mosin and SV98 (7.62x54mm); SKS and TCX-SPR (7.62x39mm); AMR 50 (.50) [8][13]. The weapon-to-calibre mapping is the KB's inference from those columns.
+- MP5: recoil pattern made more horizontal, "as it was too easy to use".
+- Super-45: damage fall-off increased beyond 50 m, its effective range, pushing it into a close-quarters role.
+- DMRs: a new recoil pass across all DMRs.
+- MGL-40: muzzle velocity -25%; stronger damage fall-off in the 40mm outer radius; more inaccuracy and sway, slower ADS speed and a reload penalty when used on the Little Bird bench.
+- Mosin: new PU 91/30 (3.5x) scope; no access to other optics until future customisation features.
+- Scout Rifle: headshots one-shot targets with no helmet; a Level 1 helmet takes two headshots.
+- Compound Bow: shorter arrow drop-off, slightly more effective against lower-tier armour, and armour damage scales with armour tier.
+- 12 gauge slugs: damage against armour scales with armour tier.
+- Heavy and Artillery turrets: hit-location values now the same as assault rifles and LMGs.
+
+## Season 1 baseline values (official, history)
 
 | Value | As-of version | Source |
 |-------|---------------|--------|
@@ -88,9 +191,9 @@ Excluded: grenades, armour and gadgets (gadgets-armor-and-equipment), damage mod
 | Starting cash: $10,000 | Steam page, 8 Oct 2026 | Official [9] |
 | IR Rangefinders: disabled in vendor until Season 02 | Hotfix, 2 Oct 2026 | Official [4] |
 | CIWS: destroys the Havoc in about 6 s (was 12 s) | Hotfix, 2 Oct 2026 | Official [4] |
-| Level 10 XP 35,000 (was 25,000); level 20 XP 250,000 (was 111,500) | Season 1.0, 10 Sep 2026 | Official [1] |
+| Level 10 XP 35,000 (was 25,000); level 20 XP 250,000 (was 111,500) | Season 1.0, 10 Sep 2026 | Official [1]; the 0.2.0 notes state 35,000 -> 25,000 and 250,000 -> 111,500 for Season 02 [13] |
 
-## Official rows: weapons named in official text
+## Official rows: weapons named in official text (Season 1 evidence)
 
 | Item | Class | What official text says | Source |
 |------|-------|-------------------------|--------|
@@ -102,7 +205,9 @@ Excluded: grenades, armour and gadgets (gadgets-armor-and-equipment), damage mod
 | Rocket launchers | Launcher | Can destroy apartment blocks; no model named | [9] |
 | IR Rangefinders | Optic | Disabled until Season 02; will need batteries | [4] |
 
-## Guide-only roster (Season 1, player-reported; no official price or level except as noted)
+## Guide-only roster (Season 1 / 0.1.2 history, player-reported; no official price or level except as noted)
+
+Season 02 changes to this table are in the sections above; rows are left unedited so the Season 1 values stay as history.
 
 Price is the per-life vendor price. Track, level and unlock fee come from the allthings.how tier list (13 Sep 2026) [8]. Ammo and category come from the allthings.how beta list (24 Aug 2026) [5].
 
@@ -174,17 +279,20 @@ Cross-checks. The Deagle level 85 in the tier list [8] matches the official chan
 | 2026-09-10 | Season 1 changelog: Deagle 90 to 85, PP-19 drum 33 to 29, AP ammo levels lowered, MRAD and MOA scopes repriced, XP curve slowed | [1] |
 | 2026-09-30 | Patch 0.1.2: no weapon stat or price change listed | [3] |
 | 2026-10-02 | IR Rangefinders disabled in vendor until Season 02; CIWS time to kill Havoc halved | [4] |
-| 2026-10-15 | Season 02 due; developer says item order differs each season | [1][2] |
+| 2026-10-09 | Preview post named "TCX Spear" and called the M14 a "DMR"; final notes use TCX-SPR | [14] |
+| 2026-10-14 | Season 02 patch notes: four new weapons, 17 price changes on existing weapons, unlock level and fee changes, calibre damage reductions, MP5/Super-45/MGL-40/Mosin/DMR/bow/Scout Rifle changes | [13] |
+| 2026-10-15 | Update 0.2.0 released, servers back online; developer had said item order differs each season | [1][2][15] |
 
 # Admin & Technical Notes
 
-None found. Community-server weapon restrictions were not found in official text.
+None found for weapons. Community-server weapon restrictions were not found in official text.
 
 # Risks & Caveats
 
 - Almost every weapon price and level comes from guides written within days of launch; some may be beta prices.
 - One source is a hosting seller with unstated method [11], used only as corroboration.
-- Official text was not found to cover weapon stat changes after 2 Oct 2026.
+- No official post after 15 Oct 2026 is in the 2026-10-30 snapshot; hotfixes after that date are neither confirmed nor ruled out.
+- The 0.2.0 notes give no damage, RPM or range for any weapon; the guide figures in the performance table are Season 1 and the calibre reductions make them stale.
 - Name forms vary between sources (Wardog versus Career level).
 
 # Open Questions
@@ -195,7 +303,9 @@ None found. Community-server weapon restrictions were not found in official text
 - Deagle: the official changelog groups it with Career items [1] while the guide lists it under Wardog level [8]; whether these are the same line is unconfirmed.
 - The beta list says 33 weapons but contains 34 rows [5]; the foundation reports 37 expected at launch [5]. The official count is unknown.
 - The foundation doc reports four beta tracks; official text says 6 tracks [7], and guide track assignments [8] supersede the beta mapping where they differ.
-- Which Season 1 values survive the Season 02 wipe.
+- Whether Season 02 reset account progression: the patch notes do not mention a wipe or reset, so it is unconfirmed either way [13].
+- Whether Infrared Range Finders were re-enabled in the vendor at 0.2.0: the notes give them batteries and a price but do not say the 2 Oct 2026 vendor disable was lifted [4][13].
+- Whether the starter rifles (Bushmaster, A-91, KH-2002) and other unlisted weapons changed price in 0.2.0: the notes do not list them.
 
 # References
 
@@ -207,6 +317,9 @@ None found. Community-server weapon restrictions were not found in official text
 - [4] **Valve / Bulkhead (Steam)** — *IR Goggles & CIWS Balance Hotfix* (2 Oct 2026). https://store.steampowered.com/news/app/1867240/view/1845383656386801. Accessed 2026-10-08.
 - [7] **Valve / Bulkhead (Steam)** — *WARDOGS - TOP QUESTIONS* (18 Feb 2026, pre-release). https://store.steampowered.com/news/app/1867240/view/1825093633182385. Accessed 2026-10-08.
 - [9] **Valve / Bulkhead (Steam)** — *WARDOGS* store page. https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-08.
+- [13] **Valve / Bulkhead (Steam)** — *WARDOGS | Season 02 Patch Notes* (14 Oct 2026). https://store.steampowered.com/news/app/1867240/view/1846651706674560. Accessed 2026-10-30.
+- [14] **Valve / Bulkhead (Steam)** — *WARDOGS | Season 02 Preview* (9 Oct 2026). https://store.steampowered.com/news/app/1867240/view/1846018067933823. Accessed 2026-10-30.
+- [15] **Valve / Bulkhead (Steam)** — *WARDOGS | SEASON 02 IS NOW LIVE* (15 Oct 2026). https://store.steampowered.com/news/app/1867240/view/1846651706677015. Accessed 2026-10-30.
 - [10] **Valve / Bulkhead (Steam)** — *PRE-ORDER NOW!* (11 Aug 2026), Supporter Edition camos. https://store.steampowered.com/news/app/1867240/view/1840310314354505. Accessed 2026-10-08.
 
 **Press & Secondary**
@@ -238,3 +351,4 @@ None found. Community-server weapon restrictions were not found in official text
 |---------|------|--------|--------|-------------|
 | 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial baseline draft. | — |
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint, links (0 dead) and Steam post ids. Pre-Season-02 baseline. | Standing mandate (auto-approve on green QA) |
+| 1.1.0 | 2026-10-30 | Research Pipeline (virtual agent) | Revised for Update 0.2.0 from the official Season 02 patch notes, preview and live posts: four new weapons with prices and unlocks, new attachments, 17 weapon price changes, unlock level and fee changes, calibre damage reductions, MP5/Super-45/MGL-40/Mosin/DMR/bow/Scout Rifle/slug changes, Gold Market camos; Season 1 values kept as history. | — |

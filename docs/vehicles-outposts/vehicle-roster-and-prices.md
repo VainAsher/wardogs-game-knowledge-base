@@ -1,21 +1,21 @@
 ---
 id: vehicle-roster-and-prices
 title: "Vehicle Roster & Prices"
-version: 1.0.0
+version: 1.1.0
 status: frozen
 confidence: Medium
 category: Vehicles & Outposts
 topic: "Land and air vehicles: roster, price, unlock level, crew, role"
 market: Global
-game_version: "Early Access Update 0.1.2 (30 Sep 2026) plus 2 Oct 2026 hotfixes; pre-Season-02 baseline (Season 1 launch changelog of 10 Sep 2026)"
+game_version: "Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30)"
 document_type: reference-data
 created: 2026-10-08
-updated: 2026-10-08
-review_due: 2026-11-08
-sources_verified: 2026-10-08
+updated: 2026-10-30
+review_due: 2026-11-20
+sources_verified: 2026-10-30
 supersedes: null
-related: [vehicles-outposts-foundation, air-and-counter-air, fob-and-base-building, price-tables-season-1, progression-unlock-tables]
-tags: [vehicles, prices, unlock-levels, baseline, season-1, pre-season-02]
+related: [vehicles-outposts-foundation, air-and-counter-air, fob-and-base-building, price-tables-season-1, progression-unlock-tables, cash-rewards-and-costs]
+tags: [vehicles, prices, unlock-levels, season-2, update-0-2-0, season-1-history]
 ---
 
 # Document Control
@@ -23,184 +23,226 @@ tags: [vehicles, prices, unlock-levels, baseline, season-1, pre-season-02]
 | Field | Value |
 |-------|-------|
 | Document ID | vehicle-roster-and-prices |
-| Version | 1.0.0 |
+| Version | 1.1.0 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Vehicles & Outposts |
-| Game version | Update 0.1.2 (30 Sep 2026) plus 2 Oct 2026 hotfixes; pre-Season-02 baseline |
+| Game version | Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30) |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-10-08 |
-| Review due | 2026-11-08 |
+| Updated | 2026-10-30 |
+| Review due | 2026-11-20 |
 
 # Executive Summary
 
-This is a pre-Season-02 baseline of every vehicle named in official WARDOGS text. The only official vehicle prices and unlock levels are in the Season 1 changelog posted on Steam on 9 Sep 2026 [1]. It names about a dozen vehicle entries and lists only the values it changed. It gives no complete roster, no crew sizes and no spawn prices. Everything else (spawn prices, the Gepard, the L2A6, the Havoc's price, the Lakota's level) is guide-only [5][6].
+Update 0.2.0 (Season 02, released 15 Oct 2026) is the first official source that states vehicle spawn prices, and it states both the old and new value for most of them [1][2]. The Season 02 patch notes (posted 14 Oct 2026) add four vehicles (Wolf-110, Wolf-110 [M2 Browning], T-72B3 and Flakpanzer Gepard), raise the vendor price of 10 listed existing vehicles (Kodiak [M249], two armed Humvees, two Ural Defenders, the L2A6 and four helicopters; plain and unarmed variants are not listed), move several Driver and Pilot unlock levels and costs, make purchased-vehicle inventories private by default, and fix a list of vehicle bugs [1]. Season 1 (0.1.2) values are kept below as dated history.
 
-Where official text and the guides disagree, the official text wins and the conflict is recorded. The main findings: the guides' "Kodiak (pickup)" matches the official Kodiak Flatbed (Driver 10, $35,000 after the 10 Sep change) [1]. The official Lakota price is $35,000 but no official Lakota level exists, so the guides' Pilot 10 and Pilot 25 stay unresolved [1][5][6]. The Gepard and L2A6 do not appear in any official post retrieved.
+The notes use the vehicle names "Ural Defender", "Ural Defender [M249]", "Humvee [Minigun]", "L2A6" and "SPH-2", while the Season 1 changelog used "URAL Covered", "URAL Attack", "Heavy Tank" and "Artillery Tank" [3]. Matching the two name sets is Inferred from identical levels and prices (see the reconciliation table). The notes still publish no crew or seat counts.
 
-Document confidence is Medium: the numbers that exist are official, but the roster is incomplete and the spawn-price column is player-reported only. Season 02 (due 15 Oct 2026) is expected to change these values.
+Document confidence is Medium: every number below comes from official posts, but the name mapping is inferred, several unlock levels are not stated, and crew sizes are unpublished. The 2026-10-30 snapshot contains no official post after 2026-10-15 [2], so later hotfixes are neither assumed nor excluded.
 
 # Key Takeaways
 
-- The Season 1 changelog (9 Sep 2026) is the only official price and level source for vehicles; it lists changes only, not a full table [1].
-- Official ground entries: Dune Buggy (Driver 8, $25,000), URAL (Driver 3, $35,000), URAL Covered (Driver 18), URAL Attack (Driver 25), Kodiak Assault (Driver 6), Kodiak Flatbed (Driver 10, $35,000), Humvee with minigun (Driver 30), Heavy Tank (Driver 35), Artillery Tank (Career 90, $500,000) [1].
-- Official air entries: Little Bird with miniguns ($50,000, Pilot track) and Z20 Lakota ($35,000, Pilot track); a Havoc is named in 0.1.2 and the 2 Oct hotfix [1][2][3].
-- Artillery Tank moved from Career 55 and $400,000 to Career 90 and $500,000; Heavy Tank moved from Career 35 to Driver 35 (10 Sep 2026) [1].
-- Gepard and L2A6 appear only in guides; neither name is in any official post retrieved [5][6].
-- Crew sizes and seat counts are not published officially; only turret operators and "enclosed vehicle seats" are mentioned [1][2].
-- Spawn (per-life) prices are guide-only and the two guides disagree [5][6].
+- Four vehicles are new in 0.2.0: Wolf-110 (Driver 8, $50,000 unlock, $2,200 spawn), Wolf-110 [M2 Browning] (Driver 16, $125,000, $7,800), T-72B3 (Driver 20, $250,000, $16,000) and Flakpanzer Gepard (Driver 25, $300,000, $14,000) [1].
+- Spawn-price rises in 0.2.0 include L2A6 $14,000 to $22,000, Havoc $18,000 to $28,000, Humvee [Minigun] $4,500 to $10,000 and Little Bird AH-6M [Miniguns] $7,000 to $12,000 [1].
+- Little Bird AH-6M [Miniguns] now unlocks at Pilot 8 for $125,000 (was Pilot 4, $50,000); the Havoc unlock is $650,000 (was $500,000) [1].
+- Inventories of purchased vehicles are private to the driver and their squad by default; free team-spawn vehicles stay open to everyone [1].
+- The notes do not state crew or seat counts, and do not state every unlock level (for example the L2A6, Lakota and Havoc levels) [1].
+- Full unlock-level detail belongs to progression-unlock-tables; the vendor price list belongs to price-tables-season-1.
 
 # Scope
 
-Covers land and air vehicles: names, track, unlock level, unlock price, spawn price, role and crew where known, as of the pre-Season-02 build. Excludes FOB and hammer costs (see fob-and-base-building), air combat and anti-air mechanics (see air-and-counter-air), the full price list (see price-tables-season-1) and the XP curve (see progression-unlock-tables). No naval vehicles appear in any retrieved source. Fighter jets are planned for the full release only [4].
+Covers land and air vehicles: names, track, unlock level, unlock price, spawn price, role and crew where known, as of Update 0.2.0 (15 Oct 2026), with Season 1 values kept as history. Excludes FOB and hammer costs (see fob-and-base-building), air combat and anti-air mechanics (see air-and-counter-air), the full price list (see price-tables-season-1), reward values (see cash-rewards-and-costs) and the full unlock tables and XP curve (see progression-unlock-tables). No naval vehicles appear in any retrieved source. Fighter jets are planned for the full release only [4].
 
 # Definitions
 
-- **Unlock price**: the one-time cost on a progression track. The changelog's "Economy Changes" lists items as "Driver, URAL: $50,000 to $35,000" without defining the figure; reading these as unlock prices is Inferred from the track label and the guides [1][6].
-- **Spawn price**: the per-purchase cost at the Vehicle Vendor. Guide-only [5][6].
-- **Track**: Driver (ground), Pilot (air), Career (heavy items) and Support, Recon and Medic for other gear [1].
+- **Unlock price**: the one-time cost on a progression track, listed in the patch notes as "to unlock" (for example "Humvee $25k → $75k to unlock") [1].
+- **Spawn price**: the per-purchase cost at the Vehicle Vendor, listed under "Vendor Price Changes" in the notes [1].
+- **Track**: Driver (ground), Pilot (air), WARDOG, Assault, Medic, Recon and Support [1].
 - **Official / guide-only / Inferred**: row labels used below. Inferred means the identity or value is deduced, not stated.
 
 # Current State
 
-As of Update 0.1.2 plus the 2 Oct 2026 hotfixes:
+As of Update 0.2.0 (15 Oct 2026):
 
-- The changelog states "Artillery moved to Career level 90, and Heavy Tank moved to Driver level 35", and that Driver was "rejigged to give a satisfying escalation through attack vehicles" (9 Sep 2026) [1].
-- Official ground unlock levels: URAL 3, Kodiak Assault 6, Dune Buggy 8, Kodiak Flatbed 10, URAL Covered 18, URAL Attack 25, Humvee with minigun 30, Heavy Tank 35 [1].
-- Official unlock prices: Dune Buggy $25,000, URAL $35,000, Kodiak Flatbed $35,000, Artillery Tank $500,000, Little Bird with miniguns $50,000, Z20 Lakota $35,000 [1].
-- Update 0.1.2 (30 Sep 2026) capped rewards from the vehicle fly-through exploit, fixed a Havoc taking too much damage from 20mm and 30mm cannon fire, and blocked throwables from enclosed vehicle seats [2].
-- The 2 Oct 2026 hotfix made the CIWS destroy the Havoc in about 6 seconds instead of 12, with no downtime or client download [3].
-- Each player starts their journey with $10,000 and buys a loadout per life from weapons, gear, utility and vehicles [4].
+- Season 02 went live on 15 Oct 2026 after a maintenance window of 08:00 to 09:30 UTC [1][2].
+- Four new vehicles were added: Wolf-110 ("a fast, light wheeled transport"), Wolf-110 [M2 Browning] ("with a ring-mounted M2 Browning"), T-72B3 ("a main battle tank. Slower than the L2A6, but cheaper and slightly more fuel-efficient") and Flakpanzer Gepard ("Anti Air Vehicle") [1].
+- The Driver track gives armed-vehicle players more options before the L2A6: Wolf-110 [M2 Browning] at level 16, T-72B3 at level 20 and Flakpanzer Gepard at level 25. The SPH-2 moved into the Driver track at level 31 from WARDOG level 90 [1].
+- Purchased-vehicle inventories are private to the driver and their squad by default. A new setting opens them to everyone once the vehicle is fully unlocked. Inventories of vehicles that spawn free for each team stay open to everyone regardless of the setting [1].
+- 30mm cannon ammo takes a 2x2 inventory slot (was 1x1); backpack stacks are capped at 50 and vehicle storage stacks stay at 200 [1].
+- The calibre base-damage cuts (.308 -25%, 7.62x54mmR -20%, 7.62x39mm -19%, .50 Cal -16%) apply to vehicle weapons, named as the Little Bird AH-6M Minigun, Z20 Lakota Minigun and Humvee Minigun [1].
+- Each player starts with $10,000 per the Steam page (verified 2026-10-08; the 2026-10-30 store snapshot is not re-read here for this value) [4].
 
 # Detail
 
-## Baseline values
+## Season 02 (0.2.0) roster
 
-All values are as of the Season 1 launch changelog (10 Sep 2026) unless stated. "Source" is the reference number.
+Names follow the 0.2.0 patch notes [1]. "Season 1 name" is the Inferred match to the Season 1 changelog [3]. Crew and seat counts are not published for any row. Where the notes give no value the cell says "not stated".
+
+| Vehicle (0.2.0 name) | Season 1 name (Inferred) | Track and level | Unlock price | Spawn price | Source |
+|----------------------|--------------------------|-----------------|--------------|-------------|--------|
+| Wolf-110 (new) | none | Driver 8 | $50,000 | $2,200 | Official [1] |
+| Wolf-110 [M2 Browning] (new) | none | Driver 16 | $125,000 | $7,800 | Official [1] |
+| T-72B3 (new) | none | Driver 20 | $250,000 | $16,000 | Official [1] |
+| Flakpanzer Gepard (new) | none | Driver 25 | $300,000 | $14,000 | Official [1] |
+| Dune Buggy | Dune Buggy | Driver 9 | not stated (S1: $25,000 [3]) | not stated | Official [1] |
+| Humvee | Humvee (guide-only in S1) | Driver 14 | $75,000 | not stated | Official [1] |
+| Humvee [M249] | Humvee M249 (guide-only in S1) | Driver 24 | not stated | $8,500 | Official [1] |
+| Humvee [Minigun] | Humvee with minigun | Driver level not stated (S1: 30 [3]) | not stated | $10,000 | Official [1] |
+| Ural Defender | URAL Covered | Driver 15 | not stated | $7,200 | Official [1]; match Inferred |
+| Ural Defender [M249] | URAL Attack | Driver 22 | $100,000 | $9,500 | Official [1]; match Inferred |
+| Kodiak [M249] | Kodiak Assault | not stated (S1: Driver 6 [3]) | not stated | $6,750 | Official [1]; match Inferred |
+| L2A6 | Heavy Tank | not stated (S1: Driver 35 [3]) | not stated | $22,000 | Official [1]; match Inferred |
+| SPH-2 | Artillery Tank | Driver 31 | $350,000 | not stated | Official [1]; match Inferred |
+| Little Bird AH-6M [Miniguns] | Little Bird with miniguns | Pilot 8 | $125,000 | $12,000 | Official [1] |
+| Little Bird AH-6R [Rockets] | AH-6R (guide-only in S1) | not stated | not stated | $18,800 | Official [1] |
+| Z20 Lakota [Miniguns] | Z20 Lakota | Pilot level not stated | $85,000 | $15,000 | Official [1] |
+| Havoc | Havoc | Pilot level not stated | $650,000 | $28,000 | Official [1] |
+
+The notes also name the plain Kodiak, Ural, Bobcat, MH-6 and Z20 Lakota (unarmed) in the vehicle-destroyed reward list but give no price, level or unlock for them [1]. Armed-variant reward values and the spotting changes belong to cash-rewards-and-costs.
+
+## Season 1 to Season 02 value changes
+
+"Season 1 (0.1.2)" values are the "old" figure quoted by the 0.2.0 notes; Season 1 launch changelog values are in the next section [1][3].
+
+| Vehicle | Spawn price, S1 to 0.2.0 | Unlock level, S1 to 0.2.0 | Unlock price, S1 to 0.2.0 |
+|---------|--------------------------|---------------------------|---------------------------|
+| Dune Buggy | not stated | 8 to 9 | not stated |
+| Humvee | not stated | 15 to 14 | $25,000 to $75,000 |
+| Humvee [M249] | $3,750 to $8,500 | 20 to 24 | not stated |
+| Humvee [Minigun] | $4,500 to $10,000 | not stated | not stated |
+| Ural Defender | $6,000 to $7,200 | 18 to 15 | not stated |
+| Ural Defender [M249] | $6,750 to $9,500 | 25 to 22 | $125,000 to $100,000 |
+| Kodiak [M249] | $3,750 to $6,750 | not stated | not stated |
+| L2A6 | $14,000 to $22,000 | not stated | not stated |
+| SPH-2 | not stated | WARDOG 90 to Driver 31 | $500,000 to $350,000 |
+| Little Bird AH-6M [Miniguns] | $7,000 to $12,000 | 4 to 8 | $50,000 to $125,000 |
+| Little Bird AH-6R [Rockets] | $12,500 to $18,800 | not stated | not stated |
+| Z20 Lakota [Miniguns] | $8,000 to $15,000 | not stated | $75,000 to $85,000 |
+| Havoc | $18,000 to $28,000 | not stated | $500,000 to $650,000 |
+| Large Crate | not stated | 16 to 17 | not stated |
+
+Source for every row: Season 02 patch notes, 14 Oct 2026 (Update 0.2.0) [1]. The two music-tape lines in the Driver and Pilot tracks ("reshuffled between the Driver and Pilot tracks") are not vehicles and are left out [1]. Progression-unlock-tables owns the complete track lists.
+
+## Season 1 baseline values (history)
+
+Values from the Season 1 launch changelog (9 Sep 2026, effective 10 Sep 2026) and updates through 2 Oct 2026. Where 0.2.0 changed a value, the current figure is in the tables above [1][3].
 
 | Value | As-of version | Source |
 |-------|---------------|--------|
-| Dune Buggy: Driver level 8, unlock $25,000 (was level 10, $35,000) | S1 changelog, 10 Sep 2026 | [1] |
-| URAL: Driver level 3, unlock $35,000 (was level 4, $50,000) | S1 changelog | [1] |
-| URAL Covered: Driver level 18 (was 30) | S1 changelog | [1] |
-| URAL Attack: Driver level 25 (was 40) | S1 changelog | [1] |
-| Kodiak Assault: Driver level 6 (was 8) | S1 changelog | [1] |
-| Kodiak Flatbed: Driver level 10, unlock $35,000 (was level 2, $15,000) | S1 changelog | [1] |
-| Humvee with minigun: Driver level 30 (was 35) | S1 changelog | [1] |
-| Heavy Tank: Driver level 35 (was Career level 35) | S1 changelog | [1] |
-| Artillery Tank: Career level 90, unlock $500,000 (was level 55, $400,000) | S1 changelog | [1] |
-| Little Bird with miniguns: Pilot, unlock $50,000 (was $25,000); level not stated | S1 changelog | [1] |
-| Z20 Lakota: Pilot, unlock $35,000 (was $50,000); level not stated | S1 changelog | [1] |
-| Pilot small armoured supply crate: $10,000 (was $5,000) | S1 changelog | [1] |
-| Large Supply Crate: Driver level 16 (was 20) | S1 changelog | [1] |
-| Player kill using an air vehicle: 250 XP (was 300) | S1 changelog | [1] |
-| Starting cash: $10,000 | Steam page, 2026-10-08 | [4] |
-| CIWS time to destroy a Havoc: about 6 s (was about 12 s) | Hotfix 2 Oct 2026 | [3] |
-| Fly-through exploit rewards: capped (value unpublished) | Update 0.1.2, 30 Sep 2026 | [2] |
+| Dune Buggy: Driver level 8, unlock $25,000 (was level 10, $35,000) | S1 changelog, 10 Sep 2026 | [3] |
+| URAL: Driver level 3, unlock $35,000 (was level 4, $50,000) | S1 changelog | [3] |
+| URAL Covered: Driver level 18 (was 30) | S1 changelog | [3] |
+| URAL Attack: Driver level 25 (was 40) | S1 changelog | [3] |
+| Kodiak Assault: Driver level 6 (was 8) | S1 changelog | [3] |
+| Kodiak Flatbed: Driver level 10, unlock $35,000 (was level 2, $15,000) | S1 changelog | [3] |
+| Humvee with minigun: Driver level 30 (was 35) | S1 changelog | [3] |
+| Heavy Tank: Driver level 35 (was Career level 35) | S1 changelog | [3] |
+| Artillery Tank: Career level 90, unlock $500,000 (was level 55, $400,000) | S1 changelog | [3] |
+| Little Bird with miniguns: Pilot, unlock $50,000 (was $25,000); level not stated | S1 changelog | [3] |
+| Z20 Lakota: Pilot, unlock $35,000 (was $50,000); level not stated | S1 changelog | [3] |
+| Large Supply Crate: Driver level 16 (was 20) | S1 changelog | [3] |
+| CIWS time to destroy a Havoc: about 6 s (was about 12 s) | Hotfix 2 Oct 2026 | [5] |
 
-## Official roster (changelog-named)
+Season 1 spawn prices came only from two player guides before 0.2.0 [8][9]. The "old" prices quoted in the 0.2.0 notes (for example Kodiak [M249] $3,750, Humvee [Minigun] $4,500, Havoc $18,000, Z20 Lakota [Miniguns] $8,000) match those guides, so the guides' Season 1 spawn prices are now corroborated by an official source for those rows [1][8][9].
 
-Crew and seat counts are not published for any row. "Role" is Inferred from the vehicle name and the guides, not stated officially.
+Two Season 1 unlock figures conflict with the 0.2.0 "old" values and are left as recorded: the Season 1 changelog gave Z20 Lakota unlock "$35,000" [3], while the 0.2.0 notes say "$75k → $85k" [1]; and the Little Bird unlock was $50,000 in both [1][3]. The changelog's $35,000 may have been a different item or a later change; no source says which (see Open Questions).
 
-| Vehicle | Class | Track and level | Unlock price | Spawn price | Role (Inferred) | Label |
-|---------|-------|-----------------|--------------|-------------|-----------------|-------|
-| Dune Buggy | Land | Driver 8 [1] | $25,000 [1] | not published | light mobility | Official [1] |
-| URAL | Land | Driver 3 [1] | $35,000 [1] | $6,000 [6] | transport truck | Official [1]; spawn guide-only |
-| URAL Covered | Land | Driver 18 [1] | not stated | not published | covered troop truck | Official [1] |
-| URAL Attack | Land | Driver 25 [1] | not stated | not published | armed truck | Official [1] |
-| Kodiak Assault | Land | Driver 6 [1] | not stated ($50,000 in guide [6]) | $3,750 [5][6] | armed light vehicle | Official level [1]; price guide-only |
-| Kodiak Flatbed | Land | Driver 10 [1] | $35,000 [1] | $2,500 [5] or $3,000 [6] | cargo pickup | Official [1]; spawn guide-only, conflict |
-| Humvee with minigun | Land | Driver 30 [1] | not stated | $4,500 [5] | armed utility | Official level [1]; spawn guide-only |
-| Heavy Tank | Land | Driver 35 [1] | not stated | about $14,000 [5] | main battle tank | Official level [1]; spawn guide-only |
-| Artillery Tank | Land | Career 90 [1] | $500,000 [1] | about $8,000 [5] | indirect fire | Official [1]; spawn guide-only |
-| Little Bird with miniguns | Air | Pilot, level not stated [1] | $50,000 [1] | $7,000 [6] | light attack helicopter | Official [1]; spawn guide-only |
-| Z20 Lakota | Air | Pilot, level not stated [1] | $35,000 [1] | $7,400 [5] or $8,000 [6] | utility helicopter | Official [1]; spawn guide-only, conflict |
-| Havoc | Air | not stated officially | not stated | about $18,000 [5] | attack helicopter | Official name only [2][3]; rest guide-only |
+## Reconciliation of names and guide-only rows
 
-The changelog also mentions a "Music Tape H" item (Driver level 23, $2,500), which is not a vehicle and is left out of the roster [1].
+| Item | Evidence | Resolution |
+|------|----------|------------|
+| URAL Covered = Ural Defender | Both Driver 18 in S1; notes say "Ural Defender LVL 18 → LVL 15" [1][3] | Inferred match by level |
+| URAL Attack = Ural Defender [M249] | Both Driver 25 in S1; notes "LVL 25 → LVL 22" [1][3] | Inferred match by level |
+| Heavy Tank = L2A6 | Notes say T-72B3 is "slower than the L2A6" and name the L2A6 at $14,000 to $22,000 [1]; S1 guide linked L2A6 to about $14,000 [8] | Inferred; no post equates them |
+| Artillery Tank = SPH-2 | S1 Career 90, $500,000 [3]; notes "SPH-2 ... moved from WARDOG LVL 90", "$500k → $350k" [1] | Inferred by level and price |
+| Kodiak Assault = Kodiak [M249] | S1 spawn guide $3,750 [8][9]; notes Kodiak [M249] $3,750 to $6,750 [1] | Inferred |
+| Kodiak Flatbed = Kodiak (Pickup) | Notes list "Pickup" as a Kodiak variant in destroyed rewards [1] | Inferred |
+| Flakpanzer Gepard | S1: guide-only, "Wardog track" [9] | Now official: Driver 25 [1]; the guide's "Wardog" track was wrong |
+| AH-6M, AH-6R | S1: guide-only [9] | Now official names with prices [1] |
+| Bobcat (quad) | S1 guide: about $500 [8][9] | Named in the notes (destroyed reward $250 to $100) but no price stated [1] |
+| Team armoured spawn vehicle | S1 guide only [9] | Notes refer to a "Spawn Vehicle" (SV) and a "spawn vehicle" restriction, no price [1] |
 
-## Guide-only rows
+## Role notes (official, 0.2.0)
 
-These names appear in the guides and in no official post retrieved. They are not established facts.
+- Tracked vehicles feel weightier, "less floaty when in the air, less bouncy on landing" [1].
+- Humvee handling is reworked: less stiff over terrain, slower build to top speed, better at climbing terrain [1].
+- Dune Buggy brakes are less effective, slightly increasing skid and drift [1].
+- Explosives and placeables can no longer be used from enclosed vehicle seats [1].
+- Heavy and Artillery top machine turrets now use the assault rifle and LMG hit-location values on infantry, instead of the helicopter-cannon values [1].
+- Reduced Vanguard CIWS damage to the Spawn Vehicle: it takes 2.25x longer to kill it [1].
+- Team switching: after a team is more than 10 points ahead, a player who switches or joins in progress cannot use the spawn vehicle until reaching the control zone for the first time [1].
+- Season 1 history: turret operator rotation speed cap, helicopter input damping, Lakota balance pass (10 Sep 2026) [3].
 
-| Vehicle | Class | Guide values | Label |
-|---------|-------|--------------|-------|
-| Bobcat (quad) | Land | about $500, no unlock [5][6] | Guide-only |
-| Humvee base and M249 | Land | $3,000 and $3,750; Driver 15 and 20 [5][6] | Guide-only |
-| Flakpanzer Gepard | Land, anti-air | $10,000 [6] or about $8,000 [5]; "Wardog" track [6] | Guide-only |
-| L2A6 | Land | about $14,000, "unconfirmed" [5] | Guide-only |
-| AH-6M | Air | $7,000; Pilot 4, $50,000 [6] | Guide-only; likely the Little Bird (Inferred) |
-| AH-6R (rockets) | Air | $12,500; Pilot 20, $250,000 [6] | Guide-only |
-| Team armoured spawn vehicle | Land | unlocked at 20 team points [6] | Guide-only |
+## Vehicle bug fixes in 0.2.0
 
-## Reconciliation of the foundation's conflicts
+All from the Season 02 patch notes, 14 Oct 2026 [1].
 
-| Vehicle | Foundation guide values | Official text | Resolution |
-|---------|-------------------------|---------------|------------|
-| Kodiak (pickup) | Driver 10, $35,000 [6]; $3,000 or $2,500 spawn | "Kodiak Flatbed: level 2 to level 10", "$15,000 to $35,000" [1] | The guide's "pickup" equals the Flatbed (Inferred by matching level and price). Unlock figures confirmed; spawn price still guide-only. |
-| Kodiak M249 / Assault | Driver 6, $50,000 [6] | "Kodiak Assault: level 8 to level 6" [1] | Level confirmed. The $50,000 is not in the changelog, so it stays guide-only. |
-| Z20 Lakota | Pilot 10 [5]; Pilot 25 [6]; $35,000 | Pilot track, "$50,000 to $35,000"; no level [1] | Price confirmed. Level is unresolved because the official text gives none and the guides disagree. |
-| Flakpanzer Gepard | $10,000 or about $8,000; "Wardog track" | Not mentioned | Guide-only. Official track names are Driver, Pilot, Career, Support, Recon and Medic [1]; "Wardog" is not one of them, which suggests the guide means Career (Inferred). |
-| L2A6 | about $14,000 as the heavy tank | Only "Heavy Tank", Driver 35 [1] | Whether the Heavy Tank is the L2A6 is Inferred only; no official post uses the name. |
-| URAL Defender and M249 | Driver 18 and 25 [6] | "URAL Covered" level 18, "URAL Attack" level 25 [1] | Levels match, names differ; the guide names are likely the same variants (Inferred). |
-| Humvee minigun | Driver 30 [6] | Driver 30 [1] | Agrees. |
-| Artillery | $500,000, Career 90 | $500,000, Career 90 [1] | Agrees. |
-
-## Role notes (official)
-
-Vehicle turrets now have a maximum operator rotation speed, helicopter input damping applies to every input device, the Lakota had a balance pass, a pitch fix and a 6 dB chase camera rattle reduction, and a DPI issue affecting tank aiming was fixed (10 Sep 2026) [1]. The Steam page promotes tanks, an artillery tank and helicopters that ferry supplies to teammates [4]. Vehicle roles beyond these are Inferred from names.
+- Humvee gunner no longer faces the wrong direction after entering.
+- Gunner fire desync and inconsistent firing audio fixed.
+- Helicopter cockpit glass now works both ways: shooting out through it damages the vehicle the same as incoming fire.
+- Tanks no longer launch themselves from their own turret collision.
+- Vehicles no longer sink into the ground when ramming at speed.
+- Wheeled vehicles no longer get stuck driving forward out of a backward roll.
+- Gamepad: vehicle spinning after closing the tac map, inconsistent ADS on vehicle weapons, and crouching and seat swapping in mounted turrets fixed.
+- A vehicle's smoke screen and flares now appear for late joiners.
+- Exiting a vehicle places the player on the ground rather than pushing through it.
 
 # Early Access Changes & Known Issues
 
-- 10 Sep 2026, Season 1 launch changelog: the price and level moves in the Baseline values table; air-vehicle kill XP cut from 300 to 250 [1].
-- 30 Sep 2026, Update 0.1.2: fly-through exploit rewards capped; Havoc damage-intake bug from 20mm and 30mm cannons fixed; throwables blocked from enclosed vehicle seats [2].
-- 2 Oct 2026, hotfix: CIWS time to destroy a Havoc halved from about 12 to about 6 seconds; the developer says it "overcorrected" in the previous patch [3].
+- 10 Sep 2026, Season 1 launch changelog: the price and level moves in the Season 1 baseline table; air-vehicle kill XP cut from 300 to 250 [3].
+- 30 Sep 2026, Update 0.1.2: fly-through exploit rewards capped; Havoc damage-intake bug from 20mm and 30mm cannons fixed; throwables blocked from enclosed vehicle seats [6].
+- 2 Oct 2026, hotfix: CIWS time to destroy a Havoc halved from about 12 to about 6 seconds [5].
+- 14 Oct 2026 (patch notes) and 15 Oct 2026 (live): Update 0.2.0 adds four vehicles, changes vehicle prices and unlock levels as tabled above, makes purchased-vehicle inventories private by default, reworks Humvee, tracked-vehicle and Dune Buggy handling, applies the calibre damage cuts to vehicle weapons, and fixes the bugs listed above [1][2].
+- Preview versus final naming: the 9 Oct preview called the new vehicles "T-72", "Leopard" and "Wolf-110 (Assault)"; the final notes use T-72B3, L2A6 and Wolf-110 [M2 Browning]. This document follows the final notes [1][7].
+- None seen in the 2026-10-30 snapshot: no official post after 2026-10-15 is saved, so hotfixes after that date are unknown.
 - Planned: fighter jets and more vehicles by full release [4].
-- Season 02 (due 15 Oct 2026) will change these values; this document is the baseline for a diff.
 
 # Admin & Technical Notes
 
-None found. No server setting for vehicle availability or prices appears in the official posts retrieved.
+None found. No server setting for vehicle availability or prices appears in the official posts retrieved. The inventory-sharing option is a player setting available once a vehicle is fully unlocked [1].
 
 # Risks & Caveats
 
-- The changelog lists changed values only, so vehicles whose price or level did not change are absent from official text.
-- Spawn prices and several unlock levels rest on two player guides [5][6] that disagree; they were not re-fetched for this document and are carried forward from the foundation.
-- Reading the changelog's track prices as unlock prices is Inferred.
-- Vehicle identity matches between guide and official names are Inferred.
-- Season 02 may wipe or rebalance every value here.
+- The notes list changed values only, so vehicles whose price or level did not change are absent from official text.
+- Name mapping between the Season 1 changelog and the 0.2.0 notes is Inferred.
+- Season 1 spawn prices came from player guides [8][9]; only rows that the 0.2.0 notes restate as "old" values are corroborated.
+- The notes' Pilot track text says the Little Bird "now unlocks later and costs more", which matches the table; the Season 1 changelog's separate Lakota $35,000 figure conflicts with the 0.2.0 "$75k" old value.
+- Official patches can change any value here at any time; the review date is 2026-11-20.
 
 # Open Questions
 
-- The Lakota's Pilot level (10 or 25), and the Little Bird's level (one guide says 4): resolve in game or from Season 02 notes.
-- Whether the Havoc, Gepard and L2A6 exist as purchasable items and at what values.
+- Unlock levels not stated in the 0.2.0 notes: L2A6, Humvee [Minigun], Kodiak variants, Ural, Z20 Lakota [Miniguns], Havoc, AH-6R. Resolve in game or from a later full table.
 - Crew and seat counts for every vehicle: unpublished.
-- Spawn prices for every vehicle: no official source.
-- The foundation said official post bodies did not render and cited press for these figures; the primary text now confirms them. The foundation's "Wardog track" for the Gepard has no official counterpart.
-- Whether the changelog's track prices are unlock prices or purchase prices.
+- Spawn prices of the plain Kodiak, Ural, Humvee, Dune Buggy, Bobcat, MH-6, plain Z20 Lakota and SPH-2: not stated in the notes.
+- Why the Season 1 changelog gave Z20 Lakota an unlock of $35,000 while the 0.2.0 old value is $75,000.
+- Whether a team armoured spawn vehicle has a purchase price: the notes mention a Spawn Vehicle only in rules text.
+- Whether any hotfix after 2026-10-15 changed these values: none seen in the 2026-10-30 snapshot.
 
 # References
 
 **Primary Sources**
 
-- [1] **Bulkhead / Valve Steam News** — *Pre-Load Live & Season 1 Changelog*, 9 Sep 2026. https://store.steampowered.com/news/app/1867240/view/1843481262690549. Accessed 2026-10-08.
-- [2] **Bulkhead / Valve Steam News** — *WARDOGS Update 0.1.2 (Minor Patch)*, 30 Sep 2026. https://store.steampowered.com/news/app/1867240/view/1845383656376490. Accessed 2026-10-08.
-- [3] **Bulkhead / Valve Steam News** — *IR Goggles & CIWS Balance Hotfix*, 2 Oct 2026. https://store.steampowered.com/news/app/1867240/view/1845383656386801. Accessed 2026-10-08.
+- [1] **BULKHEAD** — *WARDOGS | Season 02 Patch Notes*, Steam announcement, 14 Oct 2026. https://store.steampowered.com/news/app/1867240/view/1846651706674560. Accessed 2026-10-30.
+- [2] **BULKHEAD** — *WARDOGS | Season 02 is now live*, Steam announcement, 15 Oct 2026. https://store.steampowered.com/news/app/1867240/view/1846651706677015. Accessed 2026-10-30.
+- [3] **Bulkhead / Valve Steam News** — *Pre-Load Live & Season 1 Changelog*, 9 Sep 2026. https://store.steampowered.com/news/app/1867240/view/1843481262690549. Accessed 2026-10-08.
 - [4] **Valve / Bulkhead** — *WARDOGS on Steam*. https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-08.
+- [5] **Bulkhead / Valve Steam News** — *IR Goggles & CIWS Balance Hotfix*, 2 Oct 2026. https://store.steampowered.com/news/app/1867240/view/1845383656386801. Accessed 2026-10-08.
+- [6] **Bulkhead / Valve Steam News** — *WARDOGS Update 0.1.2 (Minor Patch)*, 30 Sep 2026. https://store.steampowered.com/news/app/1867240/view/1845383656376490. Accessed 2026-10-08.
+- [7] **BULKHEAD** — *WARDOGS | Season 02 Preview*, Steam announcement, 9 Oct 2026. https://store.steampowered.com/news/app/1867240/view/1846018067933823. Accessed 2026-10-30.
 
 **Press & Secondary**
 
-None cited directly; the foundation's press reproduction of the changelog is superseded by [1].
+None cited directly.
 
 **Player-Reported Evidence**
 
-- [5] **GameBrief** — *WARDOGS vehicles guide 2026*. https://www.gamebrief.net/blog/wardogs-vehicles-guide-2026. Accessed 2026-10-08.
-- [6] **allthings.how** — *WARDOGS: how to get a vehicle, prices and unlock levels*. https://allthings.how/wardogs-how-to-get-a-vehicle-prices-and-unlock-levels/. Accessed 2026-10-08.
+- [8] **GameBrief** — *WARDOGS vehicles guide 2026*. https://www.gamebrief.net/blog/wardogs-vehicles-guide-2026. Accessed 2026-10-08.
+- [9] **allthings.how** — *WARDOGS: how to get a vehicle, prices and unlock levels*. https://allthings.how/wardogs-how-to-get-a-vehicle-prices-and-unlock-levels/. Accessed 2026-10-08.
 
 # Further Reading
 
-The official Steam news feed at https://steamcommunity.com/app/1867240/allnews/ for Season 02 notes.
+The official Steam news feed at https://steamcommunity.com/app/1867240/allnews/ for later notes.
 
 # Related Documents
 
@@ -209,6 +251,7 @@ The official Steam news feed at https://steamcommunity.com/app/1867240/allnews/ 
 - fob-and-base-building
 - price-tables-season-1
 - progression-unlock-tables
+- cash-rewards-and-costs
 
 # Revision History
 
@@ -216,3 +259,4 @@ The official Steam news feed at https://steamcommunity.com/app/1867240/allnews/ 
 |---------|------|--------|--------|-------------|
 | 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial draft. Pre-Season-02 baseline. | — |
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint, links (0 dead) and Steam post ids. Pre-Season-02 baseline. | Standing mandate (auto-approve on green QA) |
+| 1.1.0 | 2026-10-30 | Research Pipeline (virtual agent) | Revised for Update 0.2.0: added Wolf-110, Wolf-110 [M2 Browning], T-72B3, Flakpanzer Gepard; Season 02 spawn prices and unlock changes; private vehicle inventories; handling changes; vehicle bug fixes; kept Season 1 values as history; replaced forward-looking Season 02 statements with the outcome. | — |
