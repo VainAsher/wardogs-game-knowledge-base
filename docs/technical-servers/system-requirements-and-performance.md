@@ -1,7 +1,7 @@
 ---
 id: system-requirements-and-performance
 title: "System Requirements, Performance & Crashes"
-version: 1.2.0
+version: 1.2.1
 status: frozen
 confidence: Medium
 category: Technical & Servers
@@ -23,7 +23,7 @@ tags: [system-requirements, performance, crashes, linux, proton, anti-cheat, dls
 | Field | Value |
 |-------|-------|
 | Document ID | system-requirements-and-performance |
-| Version | 1.2.0 |
+| Version | 1.2.1 |
 | Status | frozen |
 | Confidence | Medium (High for the specification table) |
 | Category | Technical & Servers |
@@ -43,7 +43,7 @@ Confidence is Medium overall. The specification table, anti-cheat disclosure, St
 
 # Key Takeaways
 
-- Specification (live store page capture 2026-10-08; store API US and GB identical): minimum Windows 10, Core i5 8600 or Ryzen 5 3500, 16 GB RAM, GTX 1660 or RX 590, 50 GB, 1080p Low at 60 fps (upscaled); recommended Windows 11, Core i7 12700k or Ryzen 7 5700x, 16 GB RAM, RTX 3070 or RX 6700 XT, 50 GB, 1440p Medium at 70 fps+ (native) or 4K Medium at 60 fps+ (upscaled) [1].
+- Specification (live store page capture 2026-10-08; store API US and GB identical): minimum Windows 10, Core i5 8600 or Ryzen 5 3500, 16 GB RAM, GTX 1660 or RX 590, 50 GB, 1080p Low at 60 fps (upscaled); recommended Windows 11, Core i7 12700k or Ryzen 7 5700x, 16 GB RAM, RTX 3070 or RX 6700 XT, 50 GB, 1440p Medium at 70 fps+ (native) or 4K Medium at 60 fps+ (upscaled) [1]. A fresh browser capture on 2026-10-30 shows identical requirements, the same "Uses Kernel Level Anti-Cheat: Elytra" line and "STEAM DECK COMPATIBILITY: Unsupported" [1].
 - Both tiers say "Requires a 64-bit processor and operating system"; no DirectX version, VRAM figure or SSD/HDD statement is given [1].
 - The store API reports platforms Windows true, Mac false, Linux false, and empty Mac and Linux requirement blocks; the live page shows "STEAM DECK COMPATIBILITY: Unsupported" [1].
 - Anti-cheat: the live page states "Uses Kernel Level Anti-Cheat: Elytra" and "Requires agreement to a 3rd-party EULA: WARDOGS EULA" [1].
@@ -171,7 +171,7 @@ No official post gives dedicated server hardware or performance requirements. Fo
 
 **Primary Sources**
 
-- [1] **Valve / Bulkhead** — *WARDOGS on Steam* (live capture 2026-10-08 of the rendered store page, plus store API snapshots, US and GB). https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-08.
+- [1] **Valve / Bulkhead** — *WARDOGS on Steam* (live captures 2026-10-08 and 2026-10-30 of the rendered store page, plus store API snapshots, US and GB). https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-08 and 2026-10-30.
 - [2] **Bulkhead** — *Pre-load live Season 1 changelog*, Steam announcement, 2026-09-09. https://store.steampowered.com/news/app/1867240/view/1843481262690549. Accessed 2026-10-08.
 - [3] **Bulkhead** — *Launch Stability Hotfix #1*, Steam announcement, 2026-09-10. https://store.steampowered.com/news/app/1867240/view/1843481262693332. Accessed 2026-10-08.
 - [4] **Bulkhead** — *Scheduled Maintenance & Patch 0.11*, Steam announcement, 2026-09-12. https://store.steampowered.com/news/app/1867240/view/1843481262698449. Accessed 2026-10-08.
@@ -212,3 +212,4 @@ No official post gives dedicated server hardware or performance requirements. Fo
 | 1.1.0 | 2026-10-08 | Research Pipeline (revision worker) | Revised against full official Steam text and store snapshot; spec table now from store API (US/GB identical), press patch summaries replaced by official posts, WD-L020/KB5124010 officially attributed, Linux and anti-cheat positions clarified, confidence re-rated | Standing mandate (auto-approve on green QA) |
 | 1.1.1 | 2026-10-08 | Research Pipeline (revision worker) | Corrected against live store-page capture; anti-cheat now Primary and named (Elytra, plus WARDOGS EULA), Steam Deck labelled Unsupported, Additional Notes quoted exactly with upscaling confirmed in targets, 14 languages and English audio, removed unverified caveats and matching Open Questions | Standing mandate (auto-approve on green QA) |
 | 1.2.0 | 2026-10-30 | Research Pipeline (virtual agent) | Revised for Update 0.2.0: requirements confirmed unchanged against the 2026-10-30 store data (US); 0.2.0 notes add only general performance and stability wording and no crash codes; 15 Oct 08:00-09:30 UTC maintenance recorded; references 11 and 12 now cited | — |
+| 1.2.1 | 2026-10-30 | Research Pipeline (virtual agent) | Fresh browser capture of the live store page (2026-10-30): requirements, Elytra and Steam Deck lines unchanged since 2026-10-08. | — |

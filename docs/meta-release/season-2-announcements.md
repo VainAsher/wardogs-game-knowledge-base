@@ -1,7 +1,7 @@
 ---
 id: season-2-announcements
 title: "Season 02: Pre-Release Claims Scored Against Update 0.2.0"
-version: 2.0.0
+version: 2.0.1
 status: frozen
 confidence: Medium
 category: Meta & Release
@@ -23,7 +23,7 @@ tags: [season-02, update-0-2-0, scorecard, rumours, wipe, outcome]
 | Field | Value |
 |-------|-------|
 | Document ID | season-2-announcements |
-| Version | 2.0.0 |
+| Version | 2.0.1 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Meta & Release |
@@ -223,6 +223,7 @@ History: these are the Season 1 / Update 0.1.2 plus 2 Oct 2026 hotfix values rec
 | Supporter Pack DLC: USD 12.99 / GBP 11.99 | Store API, 2026-10-08 | [12] |
 | Steam reviews: 63,179 English, 95,146 all languages, "Mostly Positive" | Live store page capture, 2026-10-08 | [12] |
 | Steam reviews (saved summary file): 81,290 of 109,396 positive; conflicts with the live capture total | Reviews summary, 2026-10-08 | [12] |
+| Steam reviews after Season 02: English 83,965 (73% positive), all languages 128,224 (Mixed); last 30 days Mixed, 54% positive of 43,444 | Live store page capture, 2026-10-30 | [12] |
 | Early Access duration: around 1 to 2 years (may change) | Live store page capture, 2026-10-08 | [12] |
 | Copies sold: 3 million "in just over 2 weeks" | Post, 2026-09-26 | [5] |
 | Exploit policy: permanent bans possible without warning | Update 0.1.2, 2026-09-30 | [3] |
@@ -262,7 +263,7 @@ The 0.2.0 notes say Community Server admins "will be able to configure their own
 - Why do the 0.2.0 notes quote higher Season 1 XP values for levels 25 to 50 than the 9 Sep changelog [6][19]?
 - Season 3 timing (press: around 12 Nov, possibly early) and any mid-season "2.5" update: press only [22][23].
 - Does the 7 Apr 2026 video state a seasonal wipe [2][15]? Video not viewed.
-- Reviews: the 2026-10-08 live capture total (95,146) and API total (109,396) conflicted [12]; not re-captured on 2026-10-30.
+- Reviews: the 2026-10-08 live capture total (95,146) and API total (109,396) conflicted [12]; the live page was re-captured on 2026-10-30 (all languages 128,224, Mixed), but the review API could not be re-fetched on 2026-10-30 (the endpoint returned an HTML page instead of JSON, both from a script and in the browser).
 - The 2 Oct hotfix post says "tomorrow, Friday 2nd" in a post stamped 2 Oct 00:13 UTC [11].
 
 # References
@@ -280,7 +281,7 @@ The 0.2.0 notes say Community Server admins "will be able to configure their own
 - [9] **BULKHEAD / Steam** — *Pre-Order Now* (2026-08-11). https://store.steampowered.com/news/app/1867240/view/1840310314354505. Accessed 2026-10-08.
 - [10] **BULKHEAD / Steam** — *WARDOGS Addressing Feedback* (2026-06-16). https://store.steampowered.com/news/app/1867240/view/1835236783575445. Accessed 2026-10-08.
 - [11] **BULKHEAD / Steam** — *WARDOGS | Security & Stability Hotfix* (2026-10-02). https://store.steampowered.com/news/app/1867240/view/1845383656384445. Accessed 2026-10-08.
-- [12] **Valve / BULKHEAD** — *WARDOGS Steam store page, live capture 2026-10-08 (browser-rendered), and storefront API snapshot* (2026-10-08). https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-08.
+- [12] **Valve / BULKHEAD** — *WARDOGS Steam store page, live captures 2026-10-08 and 2026-10-30 (browser-rendered), and storefront API snapshots* (2026-10-08, 2026-10-30). https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-08 and 2026-10-30.
 - [18] **BULKHEAD / Steam** — *WARDOGS | Season 02 Preview* (2026-10-09 16:00 UTC). https://store.steampowered.com/news/app/1867240/view/1846018067933823. Accessed 2026-10-30.
 - [19] **BULKHEAD / Steam** — *WARDOGS | Season 02 Patch Notes* (2026-10-14 14:59 UTC). https://store.steampowered.com/news/app/1867240/view/1846651706674560. Accessed 2026-10-30.
 - [20] **BULKHEAD / Steam** — *WARDOGS | Season 02 is now live* (2026-10-15 09:59 UTC). https://store.steampowered.com/news/app/1867240/view/1846651706677015. Accessed 2026-10-30.
@@ -321,4 +322,4 @@ The 0.2.0 notes say Community Server admins "will be able to configure their own
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint, links (0 dead) and Steam post ids. Pre-Season-02 baseline. | Standing mandate (auto-approve on green QA) |
 | 1.0.1 | 2026-10-08 | Research Pipeline (revision worker) | Corrected against live store-page capture; added Primary store-page roadmap block (fighter jets, objective variations, 1 to 2 year Early Access, lower EA price, seasonal updates), removed the unverified-roadmap caveat and Open Question, replaced the no-duration claim, recorded live review totals and conflict with saved summary, noted page is silent on Season 02 and wipe; confidence stays Low. | Standing mandate (auto-approve on green QA) |
 | 2.0.0 | 2026-10-30 | Research Pipeline (virtual agent) | Retitled and rebuilt for Update 0.2.0: the pre-release rumour register is now a scored outcome table (12 confirmed, 3 partly, 2 contradicted, 10 not mentioned, 2 press-only); added Preview (9 Oct), Patch Notes (14 Oct) and live post (15 Oct) as Primary; Season 1 / 0.1.2 baseline retained as dated history; press follow-ups (PCGamesN 16-27 Oct) labelled press-only; wipe and Gold Bar conversion kept as not mentioned in the notes. Confidence stays below High because verdicts rest on absence of text and press. | — |
-
+| 2.0.1 | 2026-10-30 | Research Pipeline (virtual agent) | Fresh browser capture of the live store page (2026-10-30): all Primary store-page claims unchanged since 2026-10-08 (Elytra, Steam Deck Unsupported, fighter jets, 1 to 2 years, gunplay quote, proximity and local voice chat, GBP prices); review figures recorded alongside the 2026-10-08 values; the review API could not be re-fetched. | — |

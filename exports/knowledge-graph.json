@@ -156,7 +156,8 @@
         "rcon-and-server-admin",
         "system-requirements-and-performance",
         "patch-history",
-        "community-and-source-reliability"
+        "community-and-source-reliability",
+        "client-install-inspection"
       ]
     },
     {
@@ -165,7 +166,7 @@
       "topic": "Early Access roadmap, patch history, platforms and pricing, community",
       "tier": "1",
       "market": "Global",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "status": "frozen",
       "confidence": "Medium",
       "path": "docs/meta-release/meta-release-foundation.md",
@@ -231,7 +232,7 @@
       "topic": "Hardware requirements, Linux/Proton, anti-cheat, crash codes, performance fixes",
       "tier": "2",
       "market": "Global",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "status": "frozen",
       "confidence": "Medium",
       "path": "docs/technical-servers/system-requirements-and-performance.md",
@@ -242,7 +243,8 @@
       "related": [
         "technical-servers-foundation",
         "rcon-and-server-admin",
-        "meta-release-foundation"
+        "meta-release-foundation",
+        "client-install-inspection"
       ]
     },
     {
@@ -293,7 +295,7 @@
       "topic": "Editions, regional pricing, Supporter Pack contents, platform roadmap, Early Access policy",
       "tier": "2",
       "market": "Global",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "status": "frozen",
       "confidence": "Medium",
       "path": "docs/meta-release/editions-pricing-platforms.md",
@@ -653,7 +655,7 @@
       "topic": "Everything officially and unofficially said about Season 02 and the 1.0 roadmap before launch",
       "tier": "2",
       "market": "Global",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "status": "frozen",
       "confidence": "Medium",
       "path": "docs/meta-release/season-2-announcements.md",
@@ -676,7 +678,7 @@
       "topic": "Official channels, community hubs, and a reliability rating for every source class and outlet used",
       "tier": "2",
       "market": "Global",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "status": "frozen",
       "confidence": "Medium",
       "path": "docs/meta-release/community-and-source-reliability.md",
@@ -1680,6 +1682,18 @@
     {
       "from": "vehicles-outposts-foundation",
       "to": "cash-rewards-and-costs",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "technical-servers-foundation",
+      "to": "client-install-inspection",
+      "rel": "related",
+      "target": "known"
+    },
+    {
+      "from": "system-requirements-and-performance",
+      "to": "client-install-inspection",
       "rel": "related",
       "target": "known"
     },

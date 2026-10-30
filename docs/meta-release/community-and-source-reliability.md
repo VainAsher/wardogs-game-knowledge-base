@@ -1,7 +1,7 @@
 ---
 id: community-and-source-reliability
 title: "Community Channels & Source Reliability Register"
-version: 1.1.0
+version: 1.1.1
 status: frozen
 confidence: Medium
 category: Meta & Release
@@ -23,7 +23,7 @@ tags: [community, sources, reliability, reviews, baseline, official-channels, se
 | Field | Value |
 |-------|-------|
 | Document ID | community-and-source-reliability |
-| Version | 1.1.0 |
+| Version | 1.1.1 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Meta & Release |
@@ -48,7 +48,7 @@ Confidence is Medium. The channel and review facts rest on official or first-par
 
 - Steam is the authoritative channel: 32 of the 65 items in the saved news feed are official posts from BULKHEAD (Steam news snapshot, 2026-10-08) [1][2].
 - Official posts confirm a community Discord of "10k+ members" on 9 Feb 2026 and refer to "socials" and Discord announcements, but give no invite link or X handle. The live store page links Discord, X, TikTok, Facebook, Instagram and QQ and says developers engage via Discord, X and YouTube; the link targets (handles, invites) were not captured, so they stay unconfirmed [1][6][7].
-- Review figures at 2026-10-08 have two scopes that disagree. Live store page: English Mostly Positive (63,179) and "Total reviews in all languages: 95,146" [1]. Storefront review API (same day): 81,290 positive, 28,106 negative, 109,396 total [3]. The 95,146 versus 109,396 gap is unexplained.
+- Review figures at 2026-10-08 have two scopes that disagree. Live store page: English Mostly Positive (63,179) and "Total reviews in all languages: 95,146" [1]. Storefront review API (same day): 81,290 positive, 28,106 negative, 109,396 total [3]. The 95,146 versus 109,396 gap is unexplained. Live page, 2026-10-30: English reviews Mostly Positive (83,965; 73% positive); all-language total 128,224, rated Mixed; last 30 days Mixed, 54% positive of 43,444 reviews; 161 curators [1]; the storefront appdetails recommendations total was 128,183 on 2026-10-30 against 95,106 on 2026-10-08, within 41 and 40 of the page's all-language totals (128,224 and 95,146), whereas the review API's 109,396 (2026-10-08, all purchase types) was the outlier; with two data points this is an observation, not an explanation; the review API could not be re-fetched on 2026-10-30 (the endpoint returned an HTML page instead of JSON, both from a script and in the browser).
 - Methodology lesson: the storefront-API JSON omits page-only fields (anti-cheat product, Steam Deck status, the Early Access developer Q&A), so absence from the API JSON is not evidence of absence from the page; the live page capture is the Primary store source [1].
 - The live page names the anti-cheat as Elytra (kernel level) and shows Steam Deck compatibility as Unsupported [1].
 - Steam post bodies are now readable from the local snapshot, so patch facts can rest on official text. The earlier "bodies do not render" caveat in other documents is resolved for the 32 official posts.
@@ -125,6 +125,10 @@ Every row is a value a later snapshot can diff mechanically.
 | Positive share 74.3% (computed from the two counts) | 2026-10-08 | [3] |
 | Live page English reviews: Mostly Positive (63,179) | 2026-10-08 | [1] |
 | Live page "Total reviews in all languages" 95,146 (disagrees with API 109,396; unexplained) | 2026-10-08 | [1] |
+| Live page English reviews: Mostly Positive (83,965; 73%) | 2026-10-30 | [1] |
+| Live page "Total reviews in all languages" 128,224 (Mixed) | 2026-10-30 | [1] |
+| Live page recent reviews (last 30 days, all languages): Mixed, 54% of 43,444 | 2026-10-30 | [1] |
+| Live page curators who reviewed: 161 | 2026-10-30 | [1] |
 | Anti-cheat: Elytra (kernel level), named on the store page | 2026-10-08 | [1] |
 | Steam Deck compatibility: Unsupported (store page) | 2026-10-08 | [1] |
 | Price GBP 36.99 (Standard), GBP 45.99 (Supporter Edition, includes Supporter Pack), Supporter Pack DLC GBP 11.99 | 2026-10-08 | [1][2] |
@@ -228,7 +232,7 @@ Assessment: concrete, falsifiable content claims (named weapons, a Molotov, an a
 - 10 Sep 2026: launch stability hotfix #1 forced a client restart and batch re-entry after join, kick and queue problems [13].
 - 12 Sep 2026: the studio publicly said community servers had been "underserved" and shipped 0.11 [15].
 - 2 Oct 2026: two hotfixes in one day (security/stability at 08:00 UTC; balance hotfix at 15:39 UTC) [20][21].
-- 2026-10-09 to 15: Season 02 Preview, Patch Notes and release of Update 0.2.0 changed many baseline values; the baseline table is history. Review counts were not re-captured on 2026-10-30 [58][59][60].
+- 2026-10-09 to 15: Season 02 Preview, Patch Notes and release of Update 0.2.0 changed many baseline values; the baseline table is history. Review figures were re-captured from the live page on 2026-10-30 (the review API could not be re-fetched) [1][58][59][60].
 - Store page (2026-10-30 API snapshot): prices unchanged; page description text unchanged, art changed; API recommendation total 128,183 (a different metric from the page review totals; do not equate them).
 
 # Admin & Technical Notes
@@ -248,7 +252,7 @@ The official admin-facing channels are the Steam announcements for the Approved 
 # Open Questions
 
 - Official WARDOGS Discord invite URL, X handle and the TikTok, Facebook, Instagram and QQ addresses: the live store page links them [1] but the capture did not record targets. Capturing the link hrefs would resolve this.
-- Why the store page's "Total reviews in all languages" (95,146) differs from the review API total (109,396) [1][3].
+- Why the store page's "Total reviews in all languages" (95,146) differs from the review API total (109,396) [1][3]. Partial lead (2026-10-30): the appdetails recommendations total tracks the page total on both dates; the review API could not be re-fetched to test the purchase-type explanation.
 - Whether the Vice "rain will not change mid-match" statement exists in an official post (it is not in the saved Steam feed; it may come from X or Discord).
 - Whether Dexerto, Timesaver and wardogswiki.com described a Season 02 wipe from a real developer statement or from speculation: the 14 Oct notes do not mention one, so it remains unconfirmed by official text.
 - Whether any official post after 2026-10-15 corrects or extends the notes (none seen in the 2026-10-30 snapshot).
@@ -258,7 +262,7 @@ The official admin-facing channels are the Steam announcements for the Approved 
 
 **Primary Sources**
 
-- [1] **Valve / BULKHEAD** — *WARDOGS on Steam* (browser-rendered live capture 2026-10-08, saved as snapshots/2026-10-08/store-page-live.txt). https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-08.
+- [1] **Valve / BULKHEAD** — *WARDOGS on Steam* (browser-rendered live captures 2026-10-08 and 2026-10-30, saved as snapshots/2026-10-08/store-page-live.txt and snapshots/2026-10-30/store-page-live.txt; storefront appdetails snapshot snapshots/2026-10-30/store-app-us.json). https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-08 and 2026-10-30.
 - [2] **Valve / BULKHEAD** — *Steam storefront API record and saved Steam news feed index* (local snapshot 2026-10-08; omits page-only fields). https://store.steampowered.com/news/app/1867240. Accessed 2026-10-08.
 - [3] **Valve** — *Steam reviews summary for app 1867240* (local snapshot 2026-10-08). https://store.steampowered.com/appreviews/1867240?json=1&language=all&purchase_type=all&num_per_page=0. Accessed 2026-10-08.
 - [4] **Team17** — *WARDOGS game page*. https://www.team17.com/games/wardogs/. Accessed 2026-10-08.
@@ -351,3 +355,4 @@ The official admin-facing channels are the Steam announcements for the Approved 
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint, links (0 dead) and Steam post ids. Pre-Season-02 baseline. | Standing mandate (auto-approve on green QA) |
 | 1.0.1 | 2026-10-08 | Research Pipeline (revision worker) | Corrected against live store-page capture; review figures recorded with scope (page 63,179 English and 95,146 all-language versus API 109,396), 95,146 no longer called "recommendations"; methodology lesson added; official channels updated (Discord, X, TikTok, Facebook, Instagram, QQ, YouTube engagement); Steam Deck Unsupported; anti-cheat Elytra; second package named Supporter Edition | Standing mandate (auto-approve on green QA) |
 | 1.1.0 | 2026-10-30 | Research Pipeline (virtual agent) | Recorded how pre-release press and seller claims scored against the Update 0.2.0 notes (new scoring section and register updates); added the Preview "3+ million sales" claim (9 Oct, studio claim) and the 2026-10-30 feed counts (84 items, 35 official); added PCGamesN as an outlet (press only, 10 to 27 Oct); baseline table marked as history; wipe and Gold Bar conversion stay unconfirmed (not mentioned in the notes). | — |
+| 1.1.1 | 2026-10-30 | Research Pipeline (virtual agent) | Fresh browser capture of the live store page (2026-10-30): all Primary store-page claims unchanged since 2026-10-08 (Elytra, Steam Deck Unsupported, fighter jets, 1 to 2 years, gunplay quote, proximity and local voice chat, GBP prices); review figures recorded alongside the 2026-10-08 values; the review API could not be re-fetched. | — |

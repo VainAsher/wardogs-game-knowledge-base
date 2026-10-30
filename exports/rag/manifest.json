@@ -1,7 +1,7 @@
 {
   "documents": 30,
   "chunks": 451,
-  "total_tokens_estimate": 190178,
+  "total_tokens_estimate": 191736,
   "chunk_fields": [
     "chunk_id",
     "doc_id",

@@ -123,3 +123,4 @@ Cite as `https://store.steampowered.com/news/app/1867240/view/<gid>`. The link c
 Snapshot `snapshots/2026-10-30/` (84 feed items, 35 official). No official post after 2026-10-15 was seen.
 Press & Secondary (PCGamesN, cited as press only, never alone): 2026-10-10 blue team article; 2026-10-16 Season 2 apology; 2026-10-17 Season 3 early start; 2026-10-25 developer thoughts; 2026-10-27 community servers (GG Host, 1of1 Servers, unconfirmed). PlayGround.ru feed items are not used.
 In-game verifiable data (rank 3): `client-install-inspection` records a read-only inspection of the Windows install (Steam build id 25937608, client CL-516586).
+Live store page re-captured in Chrome on 2026-10-30 (`snapshots/2026-10-30/store-page-live.txt`, local only). The review API summary for that day could not be fetched.

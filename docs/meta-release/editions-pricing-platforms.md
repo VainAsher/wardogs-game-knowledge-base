@@ -1,7 +1,7 @@
 ---
 id: editions-pricing-platforms
 title: "Editions, Pricing & Platforms"
-version: 1.2.0
+version: 1.2.1
 status: frozen
 confidence: Medium
 category: Meta & Release
@@ -23,7 +23,7 @@ tags: [pricing, editions, platforms, early-access]
 | Field | Value |
 |-------|-------|
 | Document ID | editions-pricing-platforms |
-| Version | 1.2.0 |
+| Version | 1.2.1 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Meta & Release |
@@ -50,7 +50,7 @@ Confidence is Medium. Prices, DLC contents, sales milestones, the monetisation a
 - Steam lists Windows only; no Mac or Linux support flag on the store [1]. Steam Deck compatibility is officially "Unsupported" on the live store page [18]. Console and Linux/Proton status is press-reported, not in the official posts.
 - Official pricing policy (store page, Primary): priced lower during Early Access, higher at full release; the price may be raised closer to full release; Early Access expected to last around 1 to 2 years [18].
 - Sales (official Steam posts): 1.25 million (11 Sep), 2 million (15 Sep), 3 million (26 Sep 2026) [5][6][7].
-- Reviews (2026-10-08): API all-language 81,290 of 109,396 positive [11]; live store page English 63,179 and all-language total 95,146, both "Mostly Positive" [18]. The 109,396 versus 95,146 difference is unexplained.
+- Reviews (2026-10-08): API all-language 81,290 of 109,396 positive [11]; live store page English 63,179 and all-language total 95,146, both "Mostly Positive" [18]. The 109,396 versus 95,146 difference is unexplained. On 2026-10-30 the live page showed English 83,965 (73% positive) and 128,224 in all languages, rated Mixed [18]; the review API could not be re-fetched that day.
 
 # Scope
 
@@ -79,7 +79,7 @@ The store snapshot flags Windows true, Mac false, Linux false; minimum OS Window
 
 ## Review snapshot
 
-Steam's review summary (all languages, scope `language=all`) on 2026-10-08 was "Mostly Positive": 81,290 positive and 28,106 negative, 109,396 total, 74.3% positive [11]. The earlier English-only figure is a different scope and is not comparable. The live store page (live capture 2026-10-08) shows English reviews "Mostly Positive (63,179)" and "Total reviews in all languages: 95,146 (Mostly Positive)" [18]. This is 14,250 fewer than the API's 109,396 for the same day; the cause is unexplained, so both figures are recorded and neither is preferred. The page does not show the earlier "79%" English percentage, which is not repeated here. Push Square recorded "over 17,000" reviews, also "Mostly Positive", on 11 Sep 2026 [14].
+Steam's review summary (all languages, scope `language=all`) on 2026-10-08 was "Mostly Positive": 81,290 positive and 28,106 negative, 109,396 total, 74.3% positive [11]. The earlier English-only figure is a different scope and is not comparable. The live store page (live capture 2026-10-08) shows English reviews "Mostly Positive (63,179)" and "Total reviews in all languages: 95,146 (Mostly Positive)" [18]. This is 14,250 fewer than the API's 109,396 for the same day; the cause is unexplained, so both figures are recorded and neither is preferred. The page does not show the earlier "79%" English percentage, which is not repeated here. Push Square recorded "over 17,000" reviews, also "Mostly Positive", on 11 Sep 2026 [14]. Update 2026-10-30: Live page, 2026-10-30: English reviews Mostly Positive (83,965; 73% positive); all-language total 128,224, rated Mixed; last 30 days Mixed, 54% positive of 43,444 reviews; 161 curators [18]; the storefront appdetails recommendations total was 128,183 on 2026-10-30 against 95,106 on 2026-10-08, within 41 and 40 of the page's all-language totals (128,224 and 95,146), whereas the review API's 109,396 (2026-10-08, all purchase types) was the outlier; with two data points this is an observation, not an explanation [1]; the review API could not be re-fetched on 2026-10-30 (the endpoint returned an HTML page instead of JSON, both from a script and in the browser).
 
 # Detail
 
@@ -164,7 +164,7 @@ None found. Community Server hosting is covered in technical-servers-foundation.
 - What the second DLC app id (4809930) is.
 - Whether Xbox or PS5 will have a different edition structure or price: unpublished, and no official Steam post confirms the 2028 window.
 - Whether Proton or Linux support will ship: unconfirmed (Steam Deck is officially Unsupported now [18]).
-- Why the store page's all-language review total (95,146) differs from the API total (109,396) on the same day: unexplained.
+- Why the store page's all-language review total (95,146) differs from the API total (109,396) on the same day: unexplained; the review API could not be re-fetched on 2026-10-30 to test it.
 - The "stair stepped pricing" steps: described in a video devlog, not in post text.
 - Whether the Trading Cards and Point Shop items mentioned in the 0.2.0 notes shipped: pending Valve approval at 14 Oct 2026; not checked.
 - Full-release price and 1.0 date: unpublished; only "around 1 to 2 years" and "higher price at full release" are stated [18].
@@ -186,7 +186,7 @@ None found. Community Server hosting is covered in technical-servers-foundation.
 - [11] **Valve (Steam reviews API)** — *Review summary, all languages (snapshots/2026-10-08/reviews-summary.json)*. https://store.steampowered.com/appreviews/1867240?json=1&language=all. Accessed 2026-10-08.
 - [12] **Team17 / BULKHEAD** — *WARDOGS is coming to Steam Early Access on 10 September* (press release). https://www.gamedeveloper.com/press-release/wardogs-is-coming-to-steam-early-access-on-10-september. Accessed 2026-10-08.
 
-- [18] **Valve / BULKHEAD** — *WARDOGS on Steam, rendered live store page (live capture 2026-10-08, snapshots/2026-10-08/store-page-live.txt)*. https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-08.
+- [18] **Valve / BULKHEAD** — *WARDOGS on Steam, rendered live store page (live captures 2026-10-08 and 2026-10-30, snapshots/2026-10-08/store-page-live.txt and snapshots/2026-10-30/store-page-live.txt)*. https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-08 and 2026-10-30.
 - [19] **Valve (Steam storefront)** — *WARDOGS and Supporter Pack store data, US and GB (snapshots/2026-10-30/store-app-us.json, store-app-gb.json, store-dlc-supporter-pack-us.json and -gb.json; price and platform fields compared with 2026-10-08)*. https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-30.
 - [20] **BULKHEAD (Steam news)** — *WARDOGS | Season 02 Preview* (9 Oct 2026) and *Season 02 Patch Notes* (14 Oct 2026). https://store.steampowered.com/news/app/1867240/view/1846018067933823 and https://store.steampowered.com/news/app/1867240/view/1846651706674560. Accessed 2026-10-30.
 
@@ -222,3 +222,4 @@ None cited.
 | 1.1.0 | 2026-10-08 | Research Pipeline (revision worker) | Revised against official Steam posts and store snapshot; prices, packages and DLC contents now from snapshots, sales figures replaced with official posts (1.25M, 2M, 3M), all-language review counts, console and Linux labelled press-only, confidence re-rated. | Standing mandate (auto-approve on green QA) |
 | 1.1.1 | 2026-10-08 | Research Pipeline (revision worker) | Corrected against live store-page capture; Steam Deck status now Unsupported (official), prices confirmed, official Early Access pricing policy and 1 to 2 year estimate added, store-page vs API review discrepancy recorded, interactive elements, 14 languages and Elytra anti-cheat added. | Standing mandate (auto-approve on green QA) |
 | 1.2.0 | 2026-10-30 | Research Pipeline (virtual agent) | Store prices, platform flags and discount status re-checked against the 2026-10-30 storefront snapshot (US and GB, base game and Supporter Pack): unchanged after Update 0.2.0; Preview "3+ million sales" studio claim added; Trading Cards and Point Shop mention noted as pending; no Linux, console or edition statements in the 0.2.0 notes. Confidence stays Medium (console and Linux claims remain press-only). | — |
+| 1.2.1 | 2026-10-30 | Research Pipeline (virtual agent) | Fresh browser capture of the live store page (2026-10-30): all Primary store-page claims unchanged since 2026-10-08 (Elytra, Steam Deck Unsupported, fighter jets, 1 to 2 years, gunplay quote, proximity and local voice chat, GBP prices); review figures recorded alongside the 2026-10-08 values; the review API could not be re-fetched. Prices (GBP 36.99, 45.99, 11.99) confirmed unchanged on the page. | — |

@@ -1,7 +1,7 @@
 ---
 id: meta-release-foundation
 title: "Meta & Release: Foundation"
-version: 1.2.0
+version: 1.2.1
 status: frozen
 confidence: Medium
 category: Meta & Release
@@ -23,7 +23,7 @@ tags: [release, early-access, patch-history, pricing, platforms, roadmap, commun
 | Field | Value |
 |-------|-------|
 | Document ID | meta-release-foundation |
-| Version | 1.2.0 |
+| Version | 1.2.1 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Meta & Release |
@@ -53,7 +53,7 @@ Confidence is Medium. Dates, prices, patch contents, sales milestones, the Early
 - The 0.2.0 notes do not mention a progression wipe or a cash-to-Gold-Bar conversion; before launch those appeared only in player-reported or press claims [31][32][35]. Graded outcomes are in season-2-announcements.
 - The Wager Vendor is "not available at Season 2 launch" and will open later in Season 2 [35]. Lonestar (blue) has Season 2 only cash and XP bonuses [35].
 - Press only (PCGamesN, 16 to 27 Oct 2026): a blue-team bonus removed, Season 3 possibly early, two new approved hosts [37][38][39][40].
-- Steam reviews are "Mostly Positive": English 63,179 and all languages 95,146 on the live page; the review API on the same day gave 81,290 positive of 109,396, a discrepancy that is unexplained (2026-10-08) [1][33].
+- Steam reviews are "Mostly Positive": English 63,179 and all languages 95,146 on the live page; the review API on the same day gave 81,290 positive of 109,396, a discrepancy that is unexplained (2026-10-08) [1][33]. By 2026-10-30 the page showed English 83,965 and 128,224 in all languages, Mixed overall and Mixed (54% positive of 43,444) over the last 30 days [1].
 - The Early Access page says the developers expect about 1 to 2 years in Early Access, with the price lower during Early Access and higher at full release (live capture 2026-10-08) [1].
 - Steam Deck compatibility is listed as Unsupported (live capture 2026-10-08) [1].
 
@@ -86,7 +86,7 @@ GBP 36.99 and USD 39.99 are the same Standard edition in two currencies; the Sup
 
 ## Reception (checked 2026-10-08)
 
-Two Steam sources disagree on the review total, both captured 2026-10-08. The live store page shows English reviews "Mostly Positive" (63,179) and "Total reviews in all languages: 95,146 (Mostly Positive)" [1]. The review API summary (score 6, "Mostly Positive") shows 81,290 positive and 28,106 negative, 109,396 in total across all languages, about 74.3% positive [33]. The 95,146 versus 109,396 gap (14,250) is unexplained; a different counting basis such as purchase type is a possible cause but neither source confirms it. The API gives a positive split and the page does not, so the 74.3% is API-scoped only. Version 1.0.0 of this document recorded 79% of 63,152 English-only reviews, a different filter, so figures across scopes are not a trend. Push Square recorded "over 17,000" reviews, also "Mostly Positive", on 11 Sep 2026, scope unstated [29].
+Two Steam sources disagree on the review total, both captured 2026-10-08. The live store page shows English reviews "Mostly Positive" (63,179) and "Total reviews in all languages: 95,146 (Mostly Positive)" [1]. The review API summary (score 6, "Mostly Positive") shows 81,290 positive and 28,106 negative, 109,396 in total across all languages, about 74.3% positive [33]. The 95,146 versus 109,396 gap (14,250) is unexplained; a different counting basis such as purchase type is a possible cause but neither source confirms it. The API gives a positive split and the page does not, so the 74.3% is API-scoped only. Version 1.0.0 of this document recorded 79% of 63,152 English-only reviews, a different filter, so figures across scopes are not a trend. Push Square recorded "over 17,000" reviews, also "Mostly Positive", on 11 Sep 2026, scope unstated [29]. Update 2026-10-30: Live page, 2026-10-30: English reviews Mostly Positive (83,965; 73% positive); all-language total 128,224, rated Mixed; last 30 days Mixed, 54% positive of 43,444 reviews; 161 curators [1]; the storefront appdetails recommendations total was 128,183 on 2026-10-30 against 95,106 on 2026-10-08, within 41 and 40 of the page's all-language totals (128,224 and 95,146), whereas the review API's 109,396 (2026-10-08, all purchase types) was the outlier; with two data points this is an observation, not an explanation; the review API could not be re-fetched on 2026-10-30 (the endpoint returned an HTML page instead of JSON, both from a script and in the browser).
 
 ## Developer roadmap statement
 
@@ -184,10 +184,10 @@ Release-relevant server changes: split Official and Community server browsers, p
 # Open Questions
 
 - Official WARDOGS Discord invite, X handle and the other social link targets: the page lists the platforms but the URLs were not captured; resolve by opening the links on the Steam page.
-- Why the live page counts 95,146 all-language reviews while the review API reports 109,396: unexplained; a re-capture of both, or Valve's purchase-type filter, could resolve it.
+- Why the live page counts 95,146 all-language reviews while the review API reports 109,396: unexplained; the live page was re-captured on 2026-10-30 but the review API could not be re-fetched, so the purchase-type explanation is still untested.
 - Whether Season 02 reset progression or converted cash to Gold Bars: not mentioned in the 0.2.0 notes; a BULKHEAD post would resolve it.
 - When the Wager Vendor opens, and Season 3 timing: not officially stated (press only).
-- Review totals were not re-captured on 2026-10-30.
+- The live page review totals were re-captured on 2026-10-30; the review API summary was not (HTML returned instead of JSON).
 - Full-release price and 1.0 date: not published beyond the 1 to 2 year estimate [1][2][6].
 - Console edition, price and crossplay detail: not published [18].
 
@@ -195,7 +195,7 @@ Release-relevant server changes: split Official and Community server browsers, p
 
 **Primary Sources**
 
-- [1] **Valve / BULKHEAD** — *WARDOGS on Steam* (store page, browser-rendered live capture 2026-10-08, saved at snapshots/2026-10-08/store-page-live.txt). https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-08.
+- [1] **Valve / BULKHEAD** — *WARDOGS on Steam* (store page, browser-rendered live captures 2026-10-08 and 2026-10-30, saved as snapshots/2026-10-08/store-page-live.txt and snapshots/2026-10-30/store-page-live.txt; storefront appdetails snapshot snapshots/2026-10-30/store-app-us.json). https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-08 and 2026-10-30.
 - [2] **Team17 / BULKHEAD** — *WARDOGS is coming to Steam Early Access on 10 September* (press release). https://www.gamedeveloper.com/press-release/wardogs-is-coming-to-steam-early-access-on-10-september. Accessed 2026-10-08.
 - [3] **Team17** — *WARDOGS game page*. https://www.team17.com/games/wardogs/. Accessed 2026-10-08.
 - [4] **Valve / BULKHEAD** — *WARDOGS Steam News Hub*. https://store.steampowered.com/news/app/1867240. Accessed 2026-10-08.
@@ -269,3 +269,4 @@ Release-relevant server changes: split Official and Community server browsers, p
 | 1.1.0 | 2026-10-08 | Research Pipeline (revision worker) | Revised against full official Steam text: Season 1 changelog dated 9 Sep (pre-load); closed beta dates resolved (21-23 Aug, Closed Beta 02 announced 1 Sep, open 5 Sep); official 400,000 peak and sales milestones (1.25M, 2M, 3M); USD prices and Supporter Pack terms from store data; 2 Oct balance hotfix upgraded to official; Season 02 limited to official text; reviews switched to all-language 109,396 (about 74%); confidence raised to High | Standing mandate (auto-approve on green QA) |
 | 1.1.1 | 2026-10-08 | Research Pipeline (revision worker) | Corrected against live store-page capture; restored Primary Early Access statement (1 to 2 years, lower price during Early Access, roadmap incl. fighter jets), removed them from Open Questions; recorded English 63,179 and page all-language 95,146 versus API 109,396 and flagged the discrepancy as unexplained; added Steam Deck Unsupported, listed social links, no Season 02 text on page; confidence lowered to Medium | Standing mandate (auto-approve on green QA) |
 | 1.2.0 | 2026-10-30 | Research Pipeline (virtual agent) | Revised for Update 0.2.0: Season 02 section rewritten from scheduled to released (Preview 9 Oct, Patch Notes 14 Oct, live post 15 Oct), timeline and patch tables extended, headline 0.2.0 content summarised with owner-document pointers, wipe and Gold Bar conversion stated as not mentioned in the notes, studio "3+ million" claim noted, PCGamesN 16-27 Oct items added as press only, store prices unchanged per 2026-10-30 snapshot. Confidence stays Medium. | — |
+| 1.2.1 | 2026-10-30 | Research Pipeline (virtual agent) | Fresh browser capture of the live store page (2026-10-30): all Primary store-page claims unchanged since 2026-10-08 (Elytra, Steam Deck Unsupported, fighter jets, 1 to 2 years, gunplay quote, proximity and local voice chat, GBP prices); review figures recorded alongside the 2026-10-08 values; the review API could not be re-fetched. | — |
