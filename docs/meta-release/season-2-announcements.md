@@ -1,18 +1,18 @@
 ---
 id: season-2-announcements
 title: "Season 02: Pre-Release Claims Scored Against Update 0.2.0"
-version: 2.0.1
+version: 2.1.0
 status: frozen
 confidence: Medium
 category: Meta & Release
 topic: "What was said about Season 02 before launch, scored against the official Update 0.2.0 notes (14-15 Oct 2026)"
 market: Global
-game_version: "Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30)"
+game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
 document_type: depth
 created: 2026-10-08
-updated: 2026-10-30
-review_due: 2026-11-20
-sources_verified: 2026-10-30
+updated: 2026-11-11
+review_due: 2026-11-19
+sources_verified: 2026-11-11
 supersedes: null
 related: [meta-release-foundation, season-reset-and-currencies, patch-history, progression-and-role-tracks, destructibility-and-level-design, community-and-source-reliability]
 tags: [season-02, update-0-2-0, scorecard, rumours, wipe, outcome]
@@ -23,15 +23,15 @@ tags: [season-02, update-0-2-0, scorecard, rumours, wipe, outcome]
 | Field | Value |
 |-------|-------|
 | Document ID | season-2-announcements |
-| Version | 2.0.1 |
+| Version | 2.1.0 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Meta & Release |
-| Game version | Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30) |
+| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-10-30 |
-| Review due | 2026-11-20 |
+| Updated | 2026-11-11 |
+| Review due | 2026-11-19 |
 
 # Executive Summary
 
@@ -47,10 +47,10 @@ The notes do not mention a progression wipe, a cash-to-Gold-Bar conversion, a de
 - Confirmed by the notes (0.2.0): four new weapons (TCX-SPR, PP-19 Bizon, Evo-3 Ultra, M14), a Molotov, four vehicles (Wolf-110, Wolf-110 [M2 Browning], T-72B3, Flakpanzer Gepard), three buildables (MG Nest, Large Shelter, Wooden Step), a rain weather preset, IR Rangefinder batteries (about 80 s of use) and a role-track XP rework [19].
 - Not mentioned in the notes: a progression wipe, a cash-to-Gold-Bar conversion, a conversion rate, Gold Bar persistence, the Black Market, new ammo types, the "honeypot" AK and a HammerGun [19].
 - Contradicted by the notes: a 16:00 UTC launch time (the maintenance window was 08:00 to 09:30 UTC) and "grind not eased" (level 20 now needs 111,500 XP, down from 250,000, "less than half the playtime") [19].
-- Wager Vendor: announced in the Preview as an experimental feature; the notes say it is not available at launch, will open later in Season 2 and is not a permanent addition [18][19].
+- Wager Vendor: announced in the Preview as an experimental feature; the notes say it is not available at launch, will open later in Season 2 and is not a permanent addition [18][19]. Outcome: the Season 03 notes (11 Nov 2026) say he "has been removed" and is "going back into development", because testing "uncovered too many potential exploits" and the nerfed redesign weakened his intended role; he did not open later in Season 2 [25].
 - Faction experiment: Lonestar (the blue team) gets Season 2 only cash and XP bonuses; a 20% vendor discount goes to a team at least 40 points behind second place; Bakurani spawns moved [18][19].
 - Preview names differ from the final notes (T-72 became T-72B3, Leopard became L2A6, Wolf-110 (Assault) became Wolf-110 [M2 Browning], TCX Spear became TCX-SPR, Super Heavy Helmet became Level 4 Helmet); this KB uses the final names [18][19].
-- Press only: PCGamesN reported on 16 Oct that a blue-team bonus (5% cash, 2.5% XP) was removed and on 17 and 25 Oct that Season 3 may come early, around 12 Nov [21][22][23].
+- Press only: PCGamesN reported on 16 Oct that a blue-team bonus (5% cash, 2.5% XP) was removed and on 17 and 25 Oct that Season 3 may come early, around 12 Nov [21][22][23]. Outcome: the official Season 3 date is 12 Nov 2026, with roughly three-month seasons [25][26]. The "early start" and the blue-team bonus removal are not mentioned in the official posts.
 
 # Scope
 
@@ -68,7 +68,7 @@ Covers what BULKHEAD said about Season 02 before launch, the official 0.2.0 outc
 
 # Current State
 
-As of 2026-10-30, the last official post in the snapshot is the "Season 02 is now live" post of 2026-10-15; none seen in the 2026-10-30 snapshot after that date [20].
+As of 2026-10-30, the last official post in that snapshot was the "Season 02 is now live" post of 2026-10-15 [20]. The 2026-11-11 snapshot adds two official posts: the Road to Season 3 devlog (6 Nov) and the Season 03 Patch Notes (11 Nov), which settle the Wager Vendor and Season 3 timing items in this scorecard [25][26]. The scorecard itself is unchanged.
 
 - BULKHEAD's Preview of 9 Oct 2026 (16:00 UTC) says Season 01 "is coming to a close", reports "3+ million sales and counting", previews the new content and says full notes would drop "early next week" [18]. The 3+ million figure is the studio's own claim and matches the 26 Sep post [5][18].
 - The Patch Notes of 14 Oct 2026 give a maintenance window on 15 Oct between 08:00 and 09:30 UTC (about 90 minutes) and the full 0.2.0 changes [19].
@@ -247,7 +247,7 @@ The 0.2.0 notes say Community Server admins "will be able to configure their own
 
 # Risks & Caveats
 
-- Snapshot 2026-10-30; no official post after 2026-10-15 was seen. Later hotfixes, a mid-season update or a Wager Vendor opening may exist [19][20].
+- Snapshot 2026-10-30 had no official post after 2026-10-15; the 2026-11-11 snapshot has none between 15 Oct and 6 Nov. A mid-season update (press: "0.25") is not mentioned in either official post [19][20][25][26].
 - "Not mentioned" is a statement about the notes, not about the game. Anything a video or an in-game screen states is invisible here.
 - Video content (Preview devlog, press conference, trailer) was not viewed [18][19].
 - The press items (PCGamesN) were summarised through a fetch tool, not archived; wording is paraphrased [21][22][23][24].
@@ -259,9 +259,9 @@ The 0.2.0 notes say Community Server admins "will be able to configure their own
 
 - Did Season 02 include a progression wipe or a cash-to-Gold-Bar conversion? The notes do not mention either; only press refers to a wipe or economy reset [19][22][23]. A BULKHEAD post or an in-game notice would resolve it.
 - Is the "Black Market" the same store as the Gold Market [2][8][16]? The notes only use "Gold Market".
-- When does the Wager Vendor open, and will it be pulled? Preview: it may be pulled "if it turns out to be too exploitable" [18][19].
+- Resolved by the Season 03 notes: the Wager Vendor was removed because of exploits and returned to development; the Preview had said it might be pulled "if it turns out to be too exploitable" [18][19][25].
 - Why do the 0.2.0 notes quote higher Season 1 XP values for levels 25 to 50 than the 9 Sep changelog [6][19]?
-- Season 3 timing (press: around 12 Nov, possibly early) and any mid-season "2.5" update: press only [22][23].
+- Season 3 timing is official (12 Nov 2026) [25][26]; the press-reported early start and any mid-season "2.5" update remain unconfirmed [22][23].
 - Does the 7 Apr 2026 video state a seasonal wipe [2][15]? Video not viewed.
 - Reviews: the 2026-10-08 live capture total (95,146) and API total (109,396) conflicted [12]; the live page was re-captured on 2026-10-30 (all languages 128,224, Mixed), but the review API could not be re-fetched on 2026-10-30 (the endpoint returned an HTML page instead of JSON, both from a script and in the browser).
 - The 2 Oct hotfix post says "tomorrow, Friday 2nd" in a post stamped 2 Oct 00:13 UTC [11].
@@ -285,6 +285,8 @@ The 0.2.0 notes say Community Server admins "will be able to configure their own
 - [18] **BULKHEAD / Steam** — *WARDOGS | Season 02 Preview* (2026-10-09 16:00 UTC). https://store.steampowered.com/news/app/1867240/view/1846018067933823. Accessed 2026-10-30.
 - [19] **BULKHEAD / Steam** — *WARDOGS | Season 02 Patch Notes* (2026-10-14 14:59 UTC). https://store.steampowered.com/news/app/1867240/view/1846651706674560. Accessed 2026-10-30.
 - [20] **BULKHEAD / Steam** — *WARDOGS | Season 02 is now live* (2026-10-15 09:59 UTC). https://store.steampowered.com/news/app/1867240/view/1846651706677015. Accessed 2026-10-30.
+- [25] **BULKHEAD** — *WARDOGS | Season 03 Patch Notes* (Steam news, 2026-11-11 17:59 UTC). https://store.steampowered.com/news/app/1867240/view/1849192144179736. Accessed 2026-11-11.
+- [26] **BULKHEAD** — *WARDOGS | Road to Season 3* (Steam news, 2026-11-06 19:00 UTC). https://store.steampowered.com/news/app/1867240/view/1848664643347097. Accessed 2026-11-11.
 
 **Press & Secondary**
 
@@ -323,3 +325,4 @@ The 0.2.0 notes say Community Server admins "will be able to configure their own
 | 1.0.1 | 2026-10-08 | Research Pipeline (revision worker) | Corrected against live store-page capture; added Primary store-page roadmap block (fighter jets, objective variations, 1 to 2 year Early Access, lower EA price, seasonal updates), removed the unverified-roadmap caveat and Open Question, replaced the no-duration claim, recorded live review totals and conflict with saved summary, noted page is silent on Season 02 and wipe; confidence stays Low. | Standing mandate (auto-approve on green QA) |
 | 2.0.0 | 2026-10-30 | Research Pipeline (virtual agent) | Retitled and rebuilt for Update 0.2.0: the pre-release rumour register is now a scored outcome table (12 confirmed, 3 partly, 2 contradicted, 10 not mentioned, 2 press-only); added Preview (9 Oct), Patch Notes (14 Oct) and live post (15 Oct) as Primary; Season 1 / 0.1.2 baseline retained as dated history; press follow-ups (PCGamesN 16-27 Oct) labelled press-only; wipe and Gold Bar conversion kept as not mentioned in the notes. Confidence stays below High because verdicts rest on absence of text and press. | — |
 | 2.0.1 | 2026-10-30 | Research Pipeline (virtual agent) | Fresh browser capture of the live store page (2026-10-30): all Primary store-page claims unchanged since 2026-10-08 (Elytra, Steam Deck Unsupported, fighter jets, 1 to 2 years, gunplay quote, proximity and local voice chat, GBP prices); review figures recorded alongside the 2026-10-08 values; the review API could not be re-fetched. | — |
+| 2.1.0 | 2026-11-11 | Research Pipeline (virtual agent) | Added outcome of two Season 2 claims in the Season 03 notes: Wager Vendor removed rather than opened later in Season 2, and Season 3 timing now official. Scorecard otherwise unchanged. | — |

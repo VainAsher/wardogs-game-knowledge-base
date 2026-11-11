@@ -1,18 +1,18 @@
 ---
 id: fob-and-base-building
 title: "FOBs, Hammers & Base Building"
-version: 1.1.0
+version: 1.2.0
 status: frozen
 confidence: Medium
 category: Vehicles & Outposts
 topic: "FOB deployment, supply types, hammer tiers, structures, pallet logistics, costs"
 market: Global
-game_version: "Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30)"
+game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
 document_type: depth
 created: 2026-10-08
-updated: 2026-10-30
-review_due: 2026-11-20
-sources_verified: 2026-10-30
+updated: 2026-11-11
+review_due: 2026-11-19
+sources_verified: 2026-11-11
 supersedes: null
 related: [vehicles-outposts-foundation, vehicle-roster-and-prices, air-and-counter-air, cash-rewards-and-costs, maps-environment-foundation]
 tags: [fob, hammer, base-building, pallets, supplies, season-02, early-access]
@@ -23,15 +23,15 @@ tags: [fob, hammer, base-building, pallets, supplies, season-02, early-access]
 | Field | Value |
 |-------|-------|
 | Document ID | fob-and-base-building |
-| Version | 1.1.0 |
+| Version | 1.2.0 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Vehicles & Outposts |
-| Game version | Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30) |
+| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-10-30 |
-| Review due | 2026-11-20 |
+| Updated | 2026-11-11 |
+| Review due | 2026-11-19 |
 
 # Executive Summary
 
@@ -132,6 +132,23 @@ FOB hacking and destruction (amounts in cash-rewards-and-costs) [11]: hacking a 
 
 Logistics note [11]: base logistics rewards are lower, with new delivery streaks; the notes were edited after posting to give values including the Control Zone multiplier. Values: cash-rewards-and-costs.
 
+## Season 03 (announced) outpost and supply changes
+
+Source: Season 03 Patch Notes, posted 2026-11-11 17:59 UTC, launch 2026-11-12 [13]. Announced, not yet verified in a live build.
+
+| Area | Change |
+|------|--------|
+| Large Hammer | Unlock moved later, Support level 8 to 14: "a notable power spike for builders and it came too early"; "until we rework building unlock system", this makes mega-bases "slightly harder to setup very early in the season" [13] |
+| Supply crates | Can no longer be deployed inside safe zones, matching supply pallets; they were blocking vehicle spawns at HQ and preventing safe landings [13] |
+| Drop heights (break above) | Supply Crates about 60 m to about 35 m; Armored Supply Crates about 80 m to about 35 m; Supply Pallets about 90 m to about 40 m. Armoured crates no longer survive higher drops than standard crates but stay resistant to bullets and explosions. Speed counts as well as height; you can still deploy safely at up to about 80 km/h at these heights; tooltips show the new heights [13] |
+| Crate rewards | Deploying a lower-value crate pays less, scaled to the price of the items inside; pallets deployed outside a friendly FOB pay reduced rewards [13] |
+| Emplacement rewards | Destroying an enemy L81 Mortar, Talon 9K-SAM, MG Nest or Stingray pays $1,300 (was $650); Vanguard CIWS $2,400 (was $1,200) [13] |
+| FOB fuel | New reward kickback for depositing fuel into a FOB that activates a drill, "to incentivise varied supply chains" (amount not stated) [13] |
+| Halligan Bar | Enemy supply crates can be forced open, dropping a random item [13] |
+| Hedges and walls | Box hedges can be flattened by vehicles (except the Bobcat); stone walls can be destroyed by tanks and artillery [13] |
+| Fixes | Floating pieces after supports were destroyed, MG Nest not repairable, items snapping on top of it, build tool prompts missing or freezing [13] |
+| Limited Mode | No CIWS, Stingray, MG Nest or Drill Rig on Limited servers (gameplay-modes-foundation) [13] |
+
 ## Baseline values
 
 Source class: Official = Steam announcement posts; Player = player-reported guide, not independently verified. "Season 1.0" is the 9 Sep 2026 changelog. Rows are Season 1 / 0.1.2 history; where Update 0.2.0 changed a row it is flagged in the previous section.
@@ -206,7 +223,8 @@ Official: "Any rewards for destroying buildables now scale with their build prog
 - 9 Sep 2026, Season 1: FOB $2,500 to $7,500; Large Hammer vendor $1,600 to $2,400; Medium Hammer unlock $10,000 to $25,000; Large Hammer unlock $25,000 to $75,000 and level 7 to 8; supply crate rescale; buildables crash fixed [1].
 - 30 Sep 2026, Update 0.1.2: reduced pallet deposit rewards outside the FOB zone; destruction rewards scale with build progress; buildable crit spot fix [2].
 - 2 Oct 2026: security hotfix without gameplay changes [6]; CIWS kill time on Havoc halved [5].
-- 14 to 15 Oct 2026, Update 0.2.0 / Season 02: Building Balance pass (costs, build speed, Drill Rig, Talon, Mortar, misc), three new buildables, Halligan breaching, CIWS structure damage tuning, FOB hacking and FOB destroy rewards [11][12]. No progression wipe is mentioned in the notes. No official post after 2026-10-15 appears in the 2026-10-30 snapshot.
+- 14 to 15 Oct 2026, Update 0.2.0 / Season 02: Building Balance pass (costs, build speed, Drill Rig, Talon, Mortar, misc), three new buildables, Halligan breaching, CIWS structure damage tuning, FOB hacking and FOB destroy rewards [11][12]. No progression wipe is mentioned in the notes.
+- 11 Nov 2026 (notes) for the 12 Nov launch, Season 03: Large Hammer unlock level 14, crate and pallet drop heights lowered, no crate deployment in safe zones, emplacement rewards doubled, Halligan Bar opens enemy crates, hedges and stone walls destructible [13].
 
 # Admin & Technical Notes
 
@@ -216,7 +234,7 @@ None found specific to FOBs or hammers. No official server setting for buildable
 
 - Supply types, hammer-to-structure mapping and structure supply costs are player-reported only and may be wrong or stale [8][9][10].
 - Guides mix pre-Season-1 and Season 1 values; the official changelog overrides them where it speaks [1].
-- Later hotfixes may have changed 0.2.0 values; none seen in the 2026-10-30 snapshot, which is not proof none exist.
+- Later hotfixes may have changed 0.2.0 values; Season 03 values are pre-release and unverified until after the 12 Nov 2026 launch [13].
 - Hammer unlock levels and prices in this document are Season 1 values; the 0.2.0 notes neither restate nor change them.
 
 # Open Questions
@@ -241,6 +259,7 @@ None found specific to FOBs or hammers. No official server setting for buildable
 - [6] **Bulkhead / Steam** — *WARDOGS Security and Stability Hotfix*, 2 Oct 2026. https://store.steampowered.com/news/app/1867240/view/1845383656384445. Accessed 2026-10-08.
 - [11] **Bulkhead / Steam News** — *WARDOGS | Season 02 Patch Notes*, 14 Oct 2026 (includes in-post logistics update). https://store.steampowered.com/news/app/1867240/view/1846651706674560. Accessed 2026-10-30.
 - [12] **Bulkhead / Steam News** — *WARDOGS Season 02 is now live*, 15 Oct 2026. https://store.steampowered.com/news/app/1867240/view/1846651706677015. Accessed 2026-10-30.
+- [13] **BULKHEAD** — *WARDOGS | Season 03 Patch Notes* (Steam news, 2026-11-11 17:59 UTC). https://store.steampowered.com/news/app/1867240/view/1849192144179736. Accessed 2026-11-11.
 
 **Press & Secondary**
 
@@ -271,3 +290,4 @@ The Steam news hub at https://store.steampowered.com/news/app/1867240 for any po
 | 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial draft; pre-Season-02 baseline. | — |
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint, links (0 dead) and Steam post ids. Pre-Season-02 baseline. | Standing mandate (auto-approve on green QA) |
 | 1.1.0 | 2026-10-30 | Research Pipeline (virtual agent) | Revised for Season 02 / Update 0.2.0 from the official patch notes (14 Oct) and release post (15 Oct): Building Balance (new buildables and hammers, supply cost table, build speed, Drill Rig, Talon, Mortar, misc, Halligan breaching, CIWS vs structures), FOB hacking and destroy rewards (linked), Season 1 values kept as dated history; guide supply costs flagged as contradicted; Open Questions and Risks updated. | — |
+| 1.2.0 | 2026-11-11 | Research Pipeline (virtual agent) | Added Season 03 (announced 11 Nov 2026) supply crate/pallet drop heights and safe-zone rule, Large Hammer unlock move, emplacement rewards, FOB fuel drill kickback, Halligan Bar. | — |

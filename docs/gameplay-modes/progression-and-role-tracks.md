@@ -1,18 +1,18 @@
 ---
 id: progression-and-role-tracks
 title: "Progression & Role Tracks"
-version: 1.1.0
+version: 1.2.0
 status: frozen
 confidence: Medium
 category: Gameplay & Modes
 topic: "XP curves, role tracks, WARDOG level, season resets"
 market: Global
-game_version: "Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30)"
+game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
 document_type: depth
 created: 2026-10-08
-updated: 2026-10-30
-review_due: 2026-11-20
-sources_verified: 2026-10-30
+updated: 2026-11-11
+review_due: 2026-11-19
+sources_verified: 2026-11-11
 supersedes: null
 related:
   - gameplay-modes-foundation
@@ -35,26 +35,29 @@ tags:
 | Field | Value |
 |-------|-------|
 | Document ID | progression-and-role-tracks |
-| Version | 1.1.0 |
+| Version | 1.2.0 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Gameplay & Modes |
-| Game version | Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30) |
+| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-10-30 |
-| Review due | 2026-11-20 |
+| Updated | 2026-11-11 |
+| Review due | 2026-11-19 |
 
 # Executive Summary
 
-This document explains how WARDOGS progression works: role tracks, the role-track XP curve, XP events, level caps, the account-wide WARDOG level, the exploit policy and what the developer has said about seasons. It is revised for Season 02 (Update 0.2.0), using the full official patch notes (14 Oct 2026) [10] and the release post (15 Oct 2026) [11]. Full per-item unlock levels and costs are in progression-unlock-tables.
+This document explains how WARDOGS progression works: role tracks, the role-track XP curve, XP events, level caps, the account-wide WARDOG level, the exploit policy and what the developer has said about seasons. It is revised for Season 02 (Update 0.2.0), using the full official patch notes (14 Oct 2026) [10] and the release post (15 Oct 2026) [11], and now records the announced Season 03 changes from the patch notes of 11 Nov 2026 [12]. Full per-item unlock levels and costs are in progression-unlock-tables.
 
 The 0.2.0 notes replace the Season 1 XP curve: reaching level 20 now takes 111,500 total XP instead of 250,000 (55 percent quicker) and level 50 takes 1,150,000 instead of 1,500,000 (23 percent quicker); the developer says level 20 now takes less than half the playtime it did in Season 1 [10]. The notes name seven track headings: WARDOG, Assault, Medic, Recon, Support, Pilot and Driver [10]. The Season 1 changelog (9 Sep 2026) used Career, Medic, Recon, Support, Driver and Pilot [1]. The notes also move some XP between roles: buildable destruction, IEDs and C4 now give Assault XP, artillery gives Driver XP, and repair XP goes to Driver or Pilot [10].
+
+Season 03 (announced for 12 Nov 2026, not yet verified live) raises the XP required per level again "to be more aligned with Season 1 speeds", lets shared items (armour, backpacks, tactical vests, parachutes) unlock from every role track, adds a week-by-week catch-up XP bonus for low-level players and lengthens the season to about three months [12]. The Season 03 notes publish no new XP totals, so the XP figures below are the Season 02 values and are superseded in practice once Season 03 is live.
 
 Confidence is Medium. The XP table, event values and reassignments rest on the official notes (High on their own). The level cap, the WARDOG level formula and the seasonal wipe rest on player-reported or press sources, or are not mentioned in the notes, which holds the document at Medium [8][9][10].
 
 # Key Takeaways
 
+- Season 03 (notes 2026-11-11, launch 2026-11-12): XP required per level increased; multi-track unlocks for shared items; catch-up XP bonus and vendor discount for low-level players, increasing week by week per role; season length about 3 months; an "intel-based progression system" is promised for next year (2027) [12]. Announced, not yet verified live.
 - Season 02 (Update 0.2.0, notes 2026-10-14, live 2026-10-15) lowered the total XP needed at every published level from 10 to 50: level 10 35,000 to 25,000; level 20 250,000 to 111,500; level 50 1,500,000 to 1,150,000 [10][11].
 - Season 1 history: the 9 Sep 2026 changelog had slowed the curve (level 20 from 111,500 to 250,000; level 50 from 838,000 to 1,000,000) [1]. The 0.2.0 notes print different "before" values for levels 25 to 50 (for example level 50: 1,500,000); the discrepancy is unexplained [1][10].
 - Seven track headings appear in the 0.2.0 notes: WARDOG, Assault, Medic, Recon, Support, Pilot, Driver [10]. "Career" from the Season 1 changelog is not used in the notes; Assessment: WARDOG matches Career by level (Deagle 85, Sport Parachute 35), confidence Medium [1][10].
@@ -66,7 +69,7 @@ Confidence is Medium. The XP table, event values and reassignments rest on the o
 
 # Scope
 
-Covers role tracks and naming, XP sources and the Season 02 and Season 1 curves, level caps, the WARDOG level, the 0.1.2 and 0.11 XP-exploit policy and what is known about seasons and XP. Game version: Update 0.2.0 as of the 2026-10-30 snapshot; no official post after 2026-10-15 is in that snapshot. Excluded: full unlock tables (see progression-unlock-tables), currency conversion and Gold Bar rates (see season-reset-and-currencies), weapon detail (see combat-loadouts-foundation), cash and XP reward amounts (see cash-rewards-and-costs) and prices (see economy-foundation).
+Covers role tracks and naming, XP sources and the Season 02 and Season 1 curves, level caps, the WARDOG level, the 0.1.2 and 0.11 XP-exploit policy and what is known about seasons and XP. Game version: Update 0.2.0 (live) and the announced Season 03 notes as of the 2026-11-11 snapshot. Excluded: full unlock tables (see progression-unlock-tables), currency conversion and Gold Bar rates (see season-reset-and-currencies), weapon detail (see combat-loadouts-foundation), cash and XP reward amounts (see cash-rewards-and-costs) and prices (see economy-foundation).
 
 # Definitions
 
@@ -77,14 +80,15 @@ Covers role tracks and naming, XP sources and the Season 02 and Season 1 curves,
 
 # Current State
 
-- Release: Update 0.2.0 went live on 2026-10-15 and servers were back online [11]; the patch notes were posted 2026-10-14 [10].
+- Release: Update 0.2.0 went live on 2026-10-15 and servers were back online [11]; the patch notes were posted 2026-10-14 [10]. Season 03 is announced for 2026-11-12 after a 13:00 to 15:00 UTC maintenance window; its notes were posted 2026-11-11 [12].
 - XP curve: Season 02 total XP required is 25,000 (level 10), 54,750 (15), 111,500 (20), 206,600 (25), 318,200 (30), 525,000 (35), 712,500 (40), 920,850 (45) and 1,150,000 (50) [10]. Levels not listed have no published value.
 - Developer intent: "Levels 10 to 20 were a slow grind, and many players stalled out before unlocking the gear that defines each role"; level 20 now takes less than half the Season 1 playtime [10].
 - Role tracks: seven headings in the notes, with item unlocks, additions and moves between tracks listed in progression-unlock-tables [10].
 - Role XP: destroying a buildable, IED and C4 give Assault XP; artillery gives Driver XP; repairs feed Driver or Pilot by vehicle [10].
 - The developer has said it will never monetise in-game cash or Gold Bars, which "must be earned through play" (pre-order post, 11 Aug 2026) [5].
 - Exploit policy: cash and XP reset to 0 and timed bans for cash exploits, permanent bans for XP farming (patch 0.11 post, 12 Sep 2026) [4]; reaffirmed and tightened in 0.1.2 (30 Sep 2026) [2]. The 0.2.0 notes add exploit fixes listed below [10].
-- Season 02 wipe: not mentioned in the 0.2.0 notes or the release post [10][11].
+- Season 02 wipe: not mentioned in the 0.2.0 notes or the release post [10][11]. Season 03 reset: not mentioned in the Season 03 notes either [12].
+- Season 03 curve: the notes say "the XP required for each level has been increased" and give no totals, so the Season 02 totals above are the last published figures [12].
 
 # Detail
 
@@ -109,6 +113,7 @@ Evidence that WARDOG is a full track and not a catch-all: the 0.2.0 notes list u
 | Destroying a FOB | bonus up to +$7,500 / +250 XP by supplies held, maxed at 25,000 supplies (0.2.0) | [10] |
 | Capturing a hostile drill tower | $750 to $1,500 and XP 250 to 300 (0.2.0) | [10] |
 | Logistics delivery streaks | e.g. crates +$100 / +50 XP per crate in a row up to 10 (0.2.0; updated values include the zone multiplier) | [10] |
+| Spotted target killed (Season 03, announced) | XP lowered: player 150 to 125; FOB 250 to 200; Hot Zone Magnet 225 to 200; spawn vehicles 500 to 400 | [12] |
 | Revives | Validity now server authoritative (value not published) | [2] |
 | Destroying buildables | Reward scales with build progress (0.1.2); in 0.2.0 the XP goes to the Assault track and cash matches the build supply cost with XP about 25 percent of cash | [2][10] |
 | Vehicle fly-through | Rewards capped (cap not published) | [2] |
@@ -214,6 +219,18 @@ All from the official 0.1.2 post [2]:
 
 The earlier patch 0.11 post (12 Sep 2026) set the tiers: cash exploits get a timed ban and a cash and XP reset to 0; tutorials on exploits count as advertising cheats and get a permanent ban; XP farming "will result in the most serious bans" and joining a known XP-farming server for more than a few minutes risks a permanent ban [4]. The post gives no figure for the reduced or capped rewards [2].
 
+## Season 03 progression changes (announced 11 Nov 2026)
+
+Source: Season 03 Patch Notes, posted 2026-11-11, launch 2026-11-12 [12]. Announced, not yet verified in a live build.
+
+- **Slower curve.** XP required per level is increased, "more aligned with Season 1 speeds, restoring the journey many players previously enjoyed". Overall speed is slowed "for Season 3's launch". No totals are published [12].
+- **Multi-track unlocks.** Shared items (armour, backpacks, tactical vests, parachutes) unlock from every role track; ammo types are spread across tracks by where their weapons unlock. Speed-levelling several roles to reach WARDOG levels is "no longer the fastest way to unlock shared items". The notes call this temporary, "until we introduce the intel-based progression system next year" [12].
+- **Role identity.** Assault gets armour before other roles, Medic the tactical vest, Support backpacks and Recon armour piercing ammunition [12].
+- **Catch-up.** An XP catch-up bonus and an extended vendor discount apply week by week to low-level players, increasing through the season, per role, so they can reach midgame items and "key counters to endgame power items" before the season ends [12].
+- **Season length.** About 3 months, to give "more players time to progress and play with their unlocked items" [12].
+- **Expectation set by the developer.** Players who "excel will unlock items faster"; "a very small percentage of players who min/max progression will unlock better items and vehicles within the first weekend". Counter-play and new-player or Limited servers are the suggested answers [12].
+- **Limited Mode.** Progression and cash earned in Limited Mode "carry over to other modes" [12]; see gameplay-modes-foundation.
+
 ## What Season 02 says about XP and resets
 
 The Season 02 teaser (22 Sep 2026) gave only the date 15 October 2026 [3]. The outcome, as published:
@@ -279,8 +296,9 @@ Spotting added and removed rewards scale with build progress; destroying a build
 | 2026-09-30 | Update 0.1.2: XP and cash exploit fixes, zero tolerance | [2] |
 | 2026-10-14 | Season 02 patch notes: new Role Track XP table (levels 10 to 50), unlock changes for seven track headings, role-XP reassignment, more exploit fixes | [10] |
 | 2026-10-15 | Update 0.2.0 released; servers back online | [11] |
+| 2026-11-11 | Season 03 patch notes (launch 2026-11-12): slower XP curve, multi-track unlocks, catch-up bonus, about 3-month season | [12] |
 
-Known issues: the 0.1.2 post gives no reduced-reward or cap numbers, so exploit-fix effects cannot be measured from official text [2]. No official post after 2026-10-15 is in the 2026-10-30 snapshot (none seen).
+Known issues: the 0.1.2 post gives no reduced-reward or cap numbers, so exploit-fix effects cannot be measured from official text [2]. The Season 03 notes (2026-11-11) give no XP totals; Season 03 is not yet live at the time of writing.
 
 # Admin & Technical Notes
 
@@ -319,6 +337,7 @@ None found. The progression curve is published as a game-wide Season 1 value; no
 
 - [10] **Bulkhead / Steam** — *WARDOGS | Season 02 Patch Notes* (posted 2026-10-14, with an in-post logistics update). https://store.steampowered.com/news/app/1867240/view/1846651706674560. Accessed 2026-10-30.
 - [11] **Bulkhead / Steam** — *WARDOGS | SEASON 02 IS NOW LIVE* (posted 2026-10-15). https://store.steampowered.com/news/app/1867240/view/1846651706677015. Accessed 2026-10-30.
+- [12] **BULKHEAD** — *WARDOGS | Season 03 Patch Notes* (Steam news, 2026-11-11 17:59 UTC). https://store.steampowered.com/news/app/1867240/view/1849192144179736. Accessed 2026-11-11.
 
 **Press & Secondary**
 
@@ -349,3 +368,4 @@ The Steam store page and the other posts in the 2026-10-08 and 2026-10-30 snapsh
 | 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial draft; pre-Season 02 baseline from official Steam posts. | — |
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint, links (0 dead) and Steam post ids. Pre-Season-02 baseline. | Standing mandate (auto-approve on green QA) |
 | 1.1.0 | 2026-10-30 | Research Pipeline (virtual agent) | Revised for Season 02 / Update 0.2.0 from the official patch notes (14 Oct) and release post (15 Oct): new Role Track XP table (levels 10 to 50) with the old/new conflict flagged, seven track headings and Career/WARDOG/Assault naming, role-XP reassignment, 0.2.0 exploit fixes, Season 02 outcome replacing the teaser-era wipe discussion; Season 1 curve and baseline kept as history. | — |
+| 1.2.0 | 2026-11-11 | Research Pipeline (virtual agent) | Added Season 03 (announced 11 Nov 2026): multi-track shared-item unlocks, role-adjacent early items, XP-per-level increase, catch-up bonus and extended vendor discount, roughly three-month season, intel-based progression promised for 2027. Not yet verified live. | — |

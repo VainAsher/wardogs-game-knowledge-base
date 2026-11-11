@@ -1,18 +1,18 @@
 ---
 id: price-tables-season-1
 title: "Season 1 Price Tables"
-version: 1.1.0
+version: 1.2.0
 status: frozen
 confidence: High
 category: Economy
 topic: "Complete in-game price list: Season 1 baseline plus the Season 02 (Update 0.2.0) vendor price changes"
 market: Global
-game_version: "Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30)"
+game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
 document_type: reference-data
 created: 2026-10-08
-updated: 2026-10-30
-review_due: 2026-11-20
-sources_verified: 2026-10-30
+updated: 2026-11-11
+review_due: 2026-11-19
+sources_verified: 2026-11-11
 supersedes: null
 related: [economy-foundation, weapons-catalogue, gadgets-armor-and-equipment, vehicle-roster-and-prices, cash-rewards-and-costs, progression-unlock-tables]
 tags: [economy, prices, baseline, season-1, season-2, update-0-2-0, reference-data]
@@ -23,21 +23,21 @@ tags: [economy, prices, baseline, season-1, season-2, update-0-2-0, reference-da
 | Field | Value |
 |-------|-------|
 | Document ID | price-tables-season-1 |
-| Version | 1.1.0 |
+| Version | 1.2.0 |
 | Status | frozen |
 | Confidence | High |
 | Category | Economy |
-| Game version | Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30) |
+| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-10-30 |
-| Review due | 2026-11-20 |
+| Updated | 2026-11-11 |
+| Review due | 2026-11-19 |
 
 # Executive Summary
 
 This document holds the vendor prices the studio has published for WARDOGS, in two dated layers. Layer one is the Season 1 baseline: the "Economy Changes" section of the Season 1 changelog (posted 9 Sep 2026, live 10 Sep), which gives 15 repriced items with old and new values [1]. Layer two is the "Vendor Price Changes" section of the Season 02 Patch Notes (posted 14 Oct 2026, released as Update 0.2.0 on 15 Oct 2026), which publishes prices for 28 new items, 32 price increases, 14 price decreases and 8 headline attachment decreases, each change with old and new values [7][8]. Store prices come from the Steam store data snapshot [5][6].
 
-Important limit: both lists cover only what the studio chose to print. Prices of items not named in either list are not published in any official source found, so this is a complete list of published prices and changes, not a complete shop catalogue. No official post after 15 Oct 2026 is present in the 2026-10-30 snapshot.
+Important limit: both lists cover only what the studio chose to print. Prices of items not named in either list are not published in any official source found, so this is a complete list of published prices and changes, not a complete shop catalogue. The Season 03 Patch Notes (posted 11 Nov 2026, for the 12 Nov launch) add a third layer of announced changes, in their own section below; those are not yet verified in a live build [9].
 
 Confidence is High because every value is quoted from an official Steam post or the Steam store data; no player-reported figures are used.
 
@@ -45,8 +45,9 @@ Confidence is High because every value is quoted from an official Steam post or 
 
 - Update 0.2.0 (15 Oct 2026) adds vendor prices for 4 new weapons, 11 attachments, 6 magazines, 3 gear items and 4 new vehicles; the Wolf-110 is $2,200 and the T-72B3 is $16,000 (Season 02 patch notes, 14 Oct 2026) [7].
 - 0.2.0 raises 32 vendor prices and cuts 14 more; the largest published rises are Super-45 $2,600 to $5,600, AMR 50 $8,800 to $14,800 and Range Finder $400 to $1,450 [7].
+- Season 03 (announced 11 Nov 2026): Basic Parachute $500 to $1,250, Sport Parachute $700 to $2,250, Wolf-110 [M2 Browning] $7,800 to $6,800, Kodiak [M249] $6,750 to $6,250, AH-6M Littlebird [Miniguns] $12,000 to $10,480, Havoc $28,000 to $26,000; the Infrared Range Finder is removed from the vendor [9].
 - Parachutes: Basic Parachute $100 to $500, Sport Parachute $1,000 to $700 (0.2.0) [7].
-- Wager Vendor is not available at Season 02 launch and has no published prices [7].
+- Wager Vendor is not available at Season 02 launch and has no published prices [7]; the Season 03 notes remove him and return him to development [9].
 - Season 1.0 (10 Sep 2026) changed 15 item prices, kept below as history; the Kodiak Flatbed went UP, $15,000 to $35,000 [1].
 - The Season 1 supply-crate purchase curve was rescaled from 25-250 to 1-200 (Season 1.0) [1]; the 0.2.0 notes do not restate it.
 - Steam store: Standard $39.99 / GBP 36.99, Supporter Edition $49.99 / GBP 45.99, Supporter Pack DLC $12.99 / GBP 11.99 (snapshot 2026-10-08; store prices unchanged in the 2026-10-30 snapshot) [5][6].
@@ -63,7 +64,7 @@ Covers every price and price-like number in official Steam posts and Steam store
 
 # Current State
 
-As of Update 0.2.0 (released 15 Oct 2026, servers back online) the Season 02 Patch Notes are the latest official statement of every vendor price listed in the Season 02 section below [7][8]. For items not named there, the Season 1 changelog values remain the last published figures [1]. The notes say most muzzles, grips and foregrips dropped by up to a third, naming 8 examples; the full attachment list is not published [7]. IR Rangefinders were disabled in the vendor from 2 Oct 2026 until Season 02 [4]; the 0.2.0 notes say the Infrared Range Finder "now runs on batteries" (about 80 s of active use) and list it at $3,200, up from $1,200 [7]. Update 0.1.2 capped vehicle fly-through rewards, scaled buildable-destruction rewards by build progress and reduced FOB deposit rewards outside the zone, without publishing amounts [3]. No official post after 2026-10-15 was seen in the 2026-10-30 snapshot.
+As of Update 0.2.0 (released 15 Oct 2026, servers back online) the Season 02 Patch Notes are the latest official statement of every vendor price listed in the Season 02 section below [7][8]. For items not named there, the Season 1 changelog values remain the last published figures [1]. The notes say most muzzles, grips and foregrips dropped by up to a third, naming 8 examples; the full attachment list is not published [7]. IR Rangefinders were disabled in the vendor from 2 Oct 2026 until Season 02 [4]; the 0.2.0 notes say the Infrared Range Finder "now runs on batteries" (about 80 s of active use) and list it at $3,200, up from $1,200 [7]. Update 0.1.2 capped vehicle fly-through rewards, scaled buildable-destruction rewards by build progress and reduced FOB deposit rewards outside the zone, without publishing amounts [3]. The Season 03 notes (11 Nov 2026) are announced for 12 Nov and not yet in effect; the Season 02 tables below stay the last verified live values [9].
 
 # Detail
 
@@ -196,6 +197,37 @@ The notes say "Most muzzles, grips and foregrips dropped by up to a third" and p
 
 The 0.2.0 notes do not restate the Season 1.0 supply-crate purchase curve or the Season 1 track prices for Large Hammer, Medium Hammer, Artillery Tank, scopes or Kodiak Flatbed. Whether those values carry over is "not stated"; treat the Season 1 values below as the last published figures [1][7].
 
+## Season 03 price changes (announced 11 Nov 2026)
+
+Source: Season 03 Patch Notes, posted 2026-11-11 17:59 UTC, launch 2026-11-12 [9]. Announced, not yet verified in a live build. The "before" values match the Season 02 rows above. These rows are kept out of the Season 02 tables so the Season 02 values stay the last verified live record.
+
+### Season 03 vendor price changes
+
+| Item | Season 02 | Season 03 (announced) |
+|------|-----------|-----------------------|
+| Basic Parachute | $500 | $1,250 |
+| Sport Parachute | $700 | $2,250 |
+| Wolf-110 [M2 Browning] | $7,800 | $6,800 |
+| Kodiak [M249] | $6,750 | $6,250 |
+| AH-6M Littlebird [Miniguns] | $12,000 | $10,480 |
+| Havoc | $28,000 | $26,000 |
+
+Reasons given in the notes [9]: the Wolf-110 "underperformed as a threat due to how exposed its driver and passengers are", so it was overpriced against its alternatives; the Kodiak was lowered with it "easing its profit margins during the longer grind to a tank"; the Littlebird and Havoc get extra rewards for dogfights and kill streaks, but the upfront cost "was still turning away a lot of pilots".
+
+### Season 03 unlock cost and other changes
+
+| Item | Change | Note |
+|------|--------|------|
+| Molotov Cocktail (unlock cost, Assault track) | $25k to $12.5k | "Rarely unlocked and used less than its counterparts last season"; level also moves from 13 to 8 (progression-unlock-tables) [9] |
+| Infrared Range Finder | Removed from the vendor | Pending a redesign; the Season 02 battery nerf "didn't curb how powerful it is" [9] |
+| Wager Vendor | Removed | "Going back into development" [9] |
+
+Item weights corrected (not prices) [9]: AMP-9 20 RND Magazine 1 kg to 0.3 kg; Improvised Explosive Device 1.5 kg to 2.7 kg; IED Trigger 1.5 kg to 0.2 kg.
+
+### Season 03 store price (real money)
+
+The notes announce that the first Early Access price increase, "just $5", happens at the end of Season 3 on 28 January; owners pay nothing extra. A further increase is intended around September 2027. The notes give no base price figure or currency, so no new store price is stated here (editions-pricing-platforms owns store prices) [9].
+
 ## Season 1 baseline values (history, through 0.1.2)
 
 All rows: Season 1.0 changelog, posted 9 Sep 2026 (UTC), live 10 Sep 2026 [1]. "Old" is the value before Season 1.0.
@@ -321,7 +353,8 @@ Levels below 6 are unchanged [1].
 - 30 Sep 2026, Update 0.1.2: reward caps and reductions for exploits; no price table [3].
 - 2 Oct 2026 hotfix: IR Rangefinders removed from the vendor until Season 02, where they will need batteries; no price stated [4].
 - 14 Oct 2026 (notes) / 15 Oct 2026 (live), Update 0.2.0: full vendor price pass with 28 new-item prices, 32 increases, 14 decreases and 8 named attachment decreases; Basic Parachute $100 to $500, Sport Parachute $1,000 to $700; Infrared Range Finder $1,200 to $3,200 and now battery powered [7][8].
-- The Wager Vendor is announced but not live at launch; it is "intended to come and go throughout a season" [7].
+- The Wager Vendor is announced but not live at launch; it is "intended to come and go throughout a season" [7]. Removed by the Season 03 notes (11 Nov 2026) [9].
+- 11 Nov 2026 notes / 12 Nov 2026 launch, Season 03 (announced): parachute prices up, four vehicle prices down, Molotov unlock cost halved, Infrared Range Finder removed from the vendor [9].
 - The Season 02 posts do not mention a progression or price reset; this document does not claim either way [7][8].
 
 # Admin & Technical Notes
@@ -332,7 +365,7 @@ None found. The changelog does not state whether prices are configurable on comm
 
 - Unchanged items are absent because no official source lists them; do not read absence as price zero.
 - Old values come from the studio's own changelog text, not from a first-hand capture of the pre-Season-1 shop.
-- Prices changed at Season 02 as recorded above and may change again; no official post after 2026-10-15 was seen in the 2026-10-30 snapshot [7][8].
+- Prices changed at Season 02 as recorded above and change again in the announced Season 03 notes (above) [7][8][9]; hotfixes after 2026-11-11 are unknown.
 - The 0.2.0 notes print unlock costs and vendor prices in the same post; they are different numbers (unlock costs are in progression-unlock-tables).
 - The notes' "before" XP values for Level 25 and above differ from the Season 1.0 "new" values in the Season 1 changelog [1][7]; see Open Questions.
 - Store prices vary by region and currency; only USD and GBP were captured [5][6].
@@ -344,9 +377,10 @@ None found. The changelog does not state whether prices are configurable on comm
 - Prices of unchanged items (for example the base Bobcat and most weapons): no official source; see vehicle-roster-and-prices and weapons-catalogue for community-labelled data.
 - Whether the 5% community-server bonus ended on schedule: no official follow-up found [2].
 - Role-track XP "before" values: the Season 02 notes print Level 25 365,000, Level 30 500,000 and Level 35 750,000 as the Season 1 values, while the Season 1 changelog gives 325,000, 400,000 and 500,000 [1][7]. Levels 10, 15 and 20 agree. Flagged for the progression docs.
-- Wager Vendor prices and opening date: not stated [7].
+- Wager Vendor prices and opening date: not stated [7]; removed in the Season 03 notes [9].
+- Does the Infrared Range Finder return, and at what price? The notes say removed until a redesign [9].
 - Whether unchanged Season 1 track prices (hammers, Artillery Tank, scopes) were altered in 0.2.0: not stated [7].
-- Prices from any hotfix after 15 Oct 2026: none seen in the 2026-10-30 snapshot.
+- Prices from any hotfix after 15 Oct 2026 and the live Season 03 prices: not yet checked in a live build.
 
 # References
 
@@ -361,6 +395,7 @@ None found. The changelog does not state whether prices are configurable on comm
 
 - [7] **Bulkhead (Steam News)** — *WARDOGS | Season 02 Patch Notes* (gid 1846651706674560, 14 Oct 2026, includes an in-post update to logistics values). https://store.steampowered.com/news/app/1867240/view/1846651706674560. Accessed 2026-10-30.
 - [8] **Bulkhead (Steam News)** — *WARDOGS | SEASON 02 IS NOW LIVE* (gid 1846651706677015, 15 Oct 2026). https://store.steampowered.com/news/app/1867240/view/1846651706677015. Accessed 2026-10-30.
+- [9] **BULKHEAD** — *WARDOGS | Season 03 Patch Notes* (Steam news, 2026-11-11 17:59 UTC). https://store.steampowered.com/news/app/1867240/view/1849192144179736. Accessed 2026-11-11.
 
 **Press & Secondary**
 
@@ -386,3 +421,4 @@ The WARDOGS Steam News Hub for posts after Season 02: https://store.steampowered
 | 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial baseline draft from locally saved official Steam posts. | — |
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint, links (0 dead) and Steam post ids. Pre-Season-02 baseline. | Standing mandate (auto-approve on green QA) |
 | 1.1.0 | 2026-10-30 | Research Pipeline (virtual agent) | Update 0.2.0 revision: added Season 02 vendor price section (28 new items, 32 increases, 14 decreases, 8 attachment decreases, parachutes, losing-team discount, Wager Vendor status) from the Season 02 patch notes and release post; Season 1 values kept as history; Open Questions on XP "before" values. | — |
+| 1.2.0 | 2026-11-11 | Research Pipeline (virtual agent) | Added Season 03 (announced 11 Nov 2026) price changes: Molotov, Basic and Sport Parachute, Wolf-110 [M2 Browning], Kodiak [M249], AH-6M [Miniguns], Havoc; Infrared Range Finder and Wager Vendor removed. Season 02 tables left unchanged as last verified live values; Season 03 rows are in a separate section. | — |

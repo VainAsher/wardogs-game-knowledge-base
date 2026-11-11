@@ -1,18 +1,18 @@
 ---
 id: weapons-catalogue
 title: "Weapons Catalogue"
-version: 1.1.0
+version: 1.2.0
 status: frozen
 confidence: Low
 category: Combat & Loadouts
 topic: "Firearms and launchers: roster, prices, unlock levels, attachments"
 market: Global
-game_version: "Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30)"
+game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
 document_type: reference-data
 created: 2026-10-08
-updated: 2026-10-30
-review_due: 2026-11-20
-sources_verified: 2026-10-30
+updated: 2026-11-11
+review_due: 2026-11-19
+sources_verified: 2026-11-11
 supersedes: null
 related: [combat-loadouts-foundation, gadgets-armor-and-equipment, damage-ballistics-and-balance, progression-unlock-tables, price-tables-season-1]
 tags: [weapons, prices, unlocks, attachments, season-1, season-02, update-0-2-0, early-access]
@@ -23,15 +23,15 @@ tags: [weapons, prices, unlocks, attachments, season-1, season-02, update-0-2-0,
 | Field | Value |
 |-------|-------|
 | Document ID | weapons-catalogue |
-| Version | 1.1.0 |
+| Version | 1.2.0 |
 | Status | frozen |
 | Confidence | Low |
 | Category | Combat & Loadouts |
-| Game version | Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30) |
+| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-10-30 |
-| Review due | 2026-11-20 |
+| Updated | 2026-11-11 |
+| Review due | 2026-11-19 |
 
 # Executive Summary
 
@@ -39,11 +39,12 @@ This is the WARDOGS firearm and launcher roster revised for Season 02 (Update 0.
 
 The four new weapons are the TCX-SPR (7.62x39mm assault rifle, $3,200), the PP-19 Bizon (9x19mm SMG, $1,000), the Evo-3 Ultra (.308 Win LMG, $7,250) and the M14 (.308 Win marksman rifle, $7,400) [13]. The preview post of 9 Oct 2026 called the first "TCX Spear" and the M14 a "DMR"; this document uses the final-notes names [13][14].
 
-Confidence stays Low. Every Season 02 change is Primary (patch notes), but the underlying Season 1 roster for weapons the notes do not mention (M4 and M500 prices, categories, ammo) rests on guides dated 12 to 17 September 2026 that partly disagree, one from a hosting seller. The rubric rates a document by its weakest evidence. No official post after 15 Oct 2026 appears in the 2026-10-30 snapshot.
+Confidence stays Low. Every Season 02 change is Primary (patch notes), but the underlying Season 1 roster for weapons the notes do not mention (M4 and M500 prices, categories, ammo) rests on guides dated 12 to 17 September 2026 that partly disagree, one from a hosting seller. The rubric rates a document by its weakest evidence. The Season 03 Patch Notes (posted 11 Nov 2026, for the 12 Nov launch) change DMR, assault rifle, LMG, TCX-SPR and Compound Bow handling, move the AMR 50 later in the Recon track and add five Gold Market camos; these are announced and not yet verified live [16].
 
 # Key Takeaways
 
 - Official, Update 0.2.0 (14-15 Oct 2026): four new weapons, TCX-SPR (assault rifle), PP-19 Bizon (SMG), Evo-3 Ultra (LMG), M14 (marksman rifle), with vendor prices $3,200, $1,000, $7,250 and $7,400 [13].
+- Official, Season 03 (announced 11 Nov 2026): every DMR kills an unarmoured player in 2 body shots (was 3) and an unhelmeted player in 1 headshot (was 2); assault rifle and LMG torso damage up (upper torso +13%); TCX-SPR recoil reduced; Compound Bow arrow speed +50%; AMR 50 unlock Recon 35 to 41 [16].
 - Official, 0.2.0: vendor prices rose for T-21, AMP-9, MP5, Super-45, Scout Rifle TD, Compound Bow, GGX 18, BMR-308, MGL-40 and AMR 50, and fell for AK74, Deagle, Galil, RPG-7, MAAWS, PKM and FAL [13].
 - Official, 0.2.0: the AK74 is unlocked by default, the T-21 now needs Assault level 3 ($10k), the M4 moved from level 20 to 28 and the TCX-SPR (Assault 20) takes its slot; the PKM unlocks at Support 15 (was 30) [13].
 - Official, 0.2.0: .308 Winchester -25%, 7.62x54mmR -20%, 7.62x39mm -19% and .50 Cal -16% base damage, applied to every weapon that uses those rounds, including vehicle weapons (see damage-ballistics-and-balance) [13].
@@ -72,7 +73,7 @@ Excluded: grenades, armour and gadgets (gadgets-armor-and-equipment), damage mod
 - Official: the Supporter Edition camos cover three "Starter Weapon" rifles: Valkyra A-91, Lonestar Bushmaster, Manticore KH-2002 [10]. The 0.2.0 notes do not mention these three rifles.
 - Official, 0.2.0: Gold Market camos were added for the Evo-3 Ultra, M14, TCX-SPR (Chocolate Chip), Galil and Mosin (Two-Tone Desert), and M500 (Digital Wood); the Black & Gold AK camo was removed from the Gold Market [13].
 - Official, 0.2.0: Infrared Range Finders now run on batteries (about 80 s of active use) [13]; they had been disabled in the vendor by the 2 Oct 2026 hotfix [4]. Whether they were re-enabled in the vendor is not stated in the notes (the notes list an Infrared Range Finder price of $3,200).
-- Official: no official post after 15 Oct 2026 is present in the 2026-10-30 snapshot; later hotfixes are neither confirmed nor ruled out.
+- Official: the only official posts after 15 Oct 2026 are the Road to Season 3 devlog (6 Nov) and the Season 03 notes (11 Nov); later hotfixes are neither confirmed nor ruled out.
 
 # Detail
 
@@ -178,6 +179,28 @@ All from the 0.2.0 notes [13]; numeric damage effects are covered in damage-ball
 - 12 gauge slugs: damage against armour scales with armour tier.
 - Heavy and Artillery turrets: hit-location values now the same as assault rifles and LMGs.
 
+## Season 03 (announced) weapon changes
+
+Source: Season 03 Patch Notes, posted 2026-11-11 17:59 UTC, launch 2026-11-12 [16]. Announced, not yet verified in a live build. Damage rules are owned by damage-ballistics-and-balance; this section lists what changes per weapon.
+
+| Weapon | Season 03 change |
+|--------|------------------|
+| Assault rifles | Torso damage back to Season 1 values (upper torso +13%, middle +3%, lower +3% against Season 02), with or without armour [16] |
+| LMGs | Torso damage now matches assault rifles [16] |
+| SVD, BMR-308, M14 (DMRs) | Kill an unarmoured player in 2 body shots (was 3); 1 to 2 fewer body shots at every armour level; kill through a Level 3 helmet in 2 headshots (was 3); 1 headshot on no helmet (was 2) [16] |
+| SKS (DMR) | Kills an unarmoured player in 2 body shots (was 3) and an unhelmeted player in 1 headshot (was 2); 1 fewer body shot against Level 2 and Level 4 armour [16] |
+| All DMRs | Neck damage up, still 2 shots to kill; arms and legs unchanged [16] |
+| TCX-SPR | Recoil reduced (climbs less in full auto, less side-to-side drift); fixed using standing recoil while prone [16] |
+| Compound Bow | Arrow speed +50% [16] |
+| AMR 50 | Unlock moved later, Recon 35 to 41 [16] |
+| 9K333 Verba | Unlock moved earlier, Support 14 to 8 [16] |
+| AK74 | Fixed the drum magazine using the wrong inspect animation [16] |
+| Grenade launcher | Fixed destroying tank tracks in 1 shot; now 3 hits for tracks, 5 to 6 to disable the engine [16] |
+
+Gold Market camos added for Season 03 [16]: Defibrillator, Black & Gold (limited time); MAAWS, Two-Tone Desert; Compound Bow, Digital Wood; M1911, Chocolate Chip; FAL, Chocolate Chip. The Black & Gold Littlebird camo from Season 2 carries over for 2 weeks "to account for the shortened season length".
+
+Twitch Drops (enabled for Season 03) include weapon items at watch-time tiers [16]: Knock Knock (5 h 30 min): Halligan Bar, RPG7 and 2 x 93mm; Tactical Kit (11 h 30 min): TCX-SPR, 2 x TCX-SPR 28 RND Magazine, OKP 7 Reflex and a Rubberized Ergonomic Foregrip. Full tiers are in editions-pricing-platforms.
+
 ## Season 1 baseline values (official, history)
 
 | Value | As-of version | Source |
@@ -280,6 +303,7 @@ Cross-checks. The Deagle level 85 in the tier list [8] matches the official chan
 | 2026-09-30 | Patch 0.1.2: no weapon stat or price change listed | [3] |
 | 2026-10-02 | IR Rangefinders disabled in vendor until Season 02; CIWS time to kill Havoc halved | [4] |
 | 2026-10-09 | Preview post named "TCX Spear" and called the M14 a "DMR"; final notes use TCX-SPR | [14] |
+| 2026-11-11 | Season 03 patch notes (launch 2026-11-12): DMR, assault rifle, LMG, TCX-SPR and bow changes; AMR 50 and Verba unlock moves; five Gold Market camos | [16] |
 | 2026-10-14 | Season 02 patch notes: four new weapons, 17 price changes on existing weapons, unlock level and fee changes, calibre damage reductions, MP5/Super-45/MGL-40/Mosin/DMR/bow/Scout Rifle changes | [13] |
 | 2026-10-15 | Update 0.2.0 released, servers back online; developer had said item order differs each season | [1][2][15] |
 
@@ -291,7 +315,7 @@ None found for weapons. Community-server weapon restrictions were not found in o
 
 - Almost every weapon price and level comes from guides written within days of launch; some may be beta prices.
 - One source is a hosting seller with unstated method [11], used only as corroboration.
-- No official post after 15 Oct 2026 is in the 2026-10-30 snapshot; hotfixes after that date are neither confirmed nor ruled out.
+- Season 03 weapon changes are pre-release and relative to Season 02; no absolute damage or RPM values are published. Hotfixes after 2026-11-11 are neither confirmed nor ruled out [16].
 - The 0.2.0 notes give no damage, RPM or range for any weapon; the guide figures in the performance table are Season 1 and the calibre reductions make them stale.
 - Name forms vary between sources (Wardog versus Career level).
 
@@ -321,6 +345,7 @@ None found for weapons. Community-server weapon restrictions were not found in o
 - [14] **Valve / Bulkhead (Steam)** — *WARDOGS | Season 02 Preview* (9 Oct 2026). https://store.steampowered.com/news/app/1867240/view/1846018067933823. Accessed 2026-10-30.
 - [15] **Valve / Bulkhead (Steam)** — *WARDOGS | SEASON 02 IS NOW LIVE* (15 Oct 2026). https://store.steampowered.com/news/app/1867240/view/1846651706677015. Accessed 2026-10-30.
 - [10] **Valve / Bulkhead (Steam)** — *PRE-ORDER NOW!* (11 Aug 2026), Supporter Edition camos. https://store.steampowered.com/news/app/1867240/view/1840310314354505. Accessed 2026-10-08.
+- [16] **BULKHEAD** — *WARDOGS | Season 03 Patch Notes* (Steam news, 2026-11-11 17:59 UTC). https://store.steampowered.com/news/app/1867240/view/1849192144179736. Accessed 2026-11-11.
 
 **Press & Secondary**
 
@@ -352,3 +377,4 @@ None found for weapons. Community-server weapon restrictions were not found in o
 | 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial baseline draft. | — |
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint, links (0 dead) and Steam post ids. Pre-Season-02 baseline. | Standing mandate (auto-approve on green QA) |
 | 1.1.0 | 2026-10-30 | Research Pipeline (virtual agent) | Revised for Update 0.2.0 from the official Season 02 patch notes, preview and live posts: four new weapons with prices and unlocks, new attachments, 17 weapon price changes, unlock level and fee changes, calibre damage reductions, MP5/Super-45/MGL-40/Mosin/DMR/bow/Scout Rifle/slug changes, Gold Market camos; Season 1 values kept as history. | — |
+| 1.2.0 | 2026-11-11 | Research Pipeline (virtual agent) | Added Season 03 (announced 11 Nov 2026) weapon changes: DMR kill thresholds, assault rifle/LMG torso values, TCX-SPR recoil and prone fix, Compound Bow speed, new Gold Market camos, Twitch Drop weapons. | — |

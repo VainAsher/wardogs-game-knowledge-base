@@ -38,6 +38,9 @@ except ImportError:  # pragma: no cover
 PRICE_DOC = "economy/price-tables-season-1.md"
 UNLOCK_DOC = "gameplay-modes/progression-unlock-tables.md"
 DATASET_VERSION = 1
+# What the records themselves describe. The KB docs also carry newer announced changes in sections this
+# exporter does not read; game_version (from the doc front matter) can run ahead of the records.
+DATA_BASIS = "Season 02 (Update 0.2.0) tables, last verified live; later announced changes are not exported"
 ARROW = "→"
 TRACKS = ("WARDOG", "Assault", "Medic", "Recon", "Support", "Driver", "Pilot")
 
@@ -310,6 +313,7 @@ def build(docs_dir: Path) -> dict[str, object]:
     meta = {
         "dataset_version": DATASET_VERSION,
         "game_version": str(pfm["game_version"]),
+        "data_basis": DATA_BASIS,
         "sources_verified": max(str(pfm["sources_verified"]), str(ufm["sources_verified"])),
         "docs": [{"id": fm["id"], "version": str(fm["version"]), "confidence": fm["confidence"], "status": fm["status"],
                   "review_due": str(fm["review_due"])} for fm in (pfm, ufm)],
@@ -320,6 +324,7 @@ def build(docs_dir: Path) -> dict[str, object]:
             "unlocks.item_id matches items.item_id only when the two docs use the same item name (join is partial).",
             f"{sum(1 for r in unlocks if r['item_id'] in item_ids)} of {len(unlocks)} unlock rows share an item_id with a price row.",
             "Combat, building and economy changes are prose in the docs and are not in changes.json yet.",
+            "The records are the Season 02 (Update 0.2.0) values. Season 03 changes announced on 2026-11-11 are in separate doc sections that this exporter does not read; do not present these records as the Season 03 state.",
         ],
     }
     return {"meta": meta, "items": items, "unlocks": unlocks, "xp_curve": xp, "changes": changes}

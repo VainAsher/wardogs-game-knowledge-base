@@ -1,18 +1,18 @@
 ---
 id: gadgets-armor-and-equipment
 title: "Gadgets, Armor & Equipment"
-version: 1.1.0
+version: 1.2.0
 status: frozen
 confidence: Medium
 category: Combat & Loadouts
 topic: "Gadgets, armor, backpacks, ammo types, sidearms, optics and IR gear"
 market: Global
-game_version: "Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30)"
+game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
 document_type: reference-data
 created: 2026-10-08
-updated: 2026-10-30
-review_due: 2026-11-20
-sources_verified: 2026-10-30
+updated: 2026-11-11
+review_due: 2026-11-19
+sources_verified: 2026-11-11
 supersedes: null
 related: [combat-loadouts-foundation, weapons-catalogue, damage-ballistics-and-balance, progression-unlock-tables, price-tables-season-1]
 tags: [gadgets, armor, equipment, ir-gear, optics, ammo, molotov, season-2, update-0-2-0]
@@ -23,21 +23,21 @@ tags: [gadgets, armor, equipment, ir-gear, optics, ammo, molotov, season-2, upda
 | Field | Value |
 |-------|-------|
 | Document ID | gadgets-armor-and-equipment |
-| Version | 1.1.0 |
+| Version | 1.2.0 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Combat & Loadouts |
-| Game version | Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30) |
+| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-10-30 |
-| Review due | 2026-11-20 |
+| Updated | 2026-11-11 |
+| Review due | 2026-11-19 |
 
 # Executive Summary
 
 This document covers the non-weapon loadout items in WARDOGS: armor and helmets, backpacks, parachutes, ammo types, sidearms, optics, medical gadgets, throwables and IR gear. Season 1 (patch 0.1.2 plus the 2 Oct 2026 hotfix) is kept as dated history; the current state is Update 0.2.0 (Season 02), whose official patch notes were posted 14 Oct 2026 [9] and which the developer announced as released on 15 Oct 2026 [10].
 
-Update 0.2.0 is the first official source to publish item-level numbers: Level 3 armor and helmet damage reduction lowered 55% to 50%, Level 4 lowered 65% to 60%, Level 3 and Level 4 helmets reducing suppression by 68% and 80%, a Level 4 Helmet with muffled audio, muffled proximity chat, restricted field of view and sprint fog-over, a battery-powered Infrared Range Finder (about 80 s per battery), a new Molotov Cocktail, Medical Bag durability 100 to 150, a parachute rework and a 30mm-ammo 2x2 slot with a 50-item backpack stack cap [9]. No official post after 2026-10-15 is in the 2026-10-30 snapshot, so later hotfixes are neither confirmed nor ruled out.
+Update 0.2.0 is the first official source to publish item-level numbers: Level 3 armor and helmet damage reduction lowered 55% to 50%, Level 4 lowered 65% to 60%, Level 3 and Level 4 helmets reducing suppression by 68% and 80%, a Level 4 Helmet with muffled audio, muffled proximity chat, restricted field of view and sprint fog-over, a battery-powered Infrared Range Finder (about 80 s per battery), a new Molotov Cocktail, Medical Bag durability 100 to 150, a parachute rework and a 30mm-ammo 2x2 slot with a 50-item backpack stack cap [9]. The Season 03 Patch Notes (posted 11 Nov 2026, for the 12 Nov launch) remove the Infrared Range Finder from the vendor, make the Molotov set targets ablaze, rework both parachutes, let the Halligan Bar force open enemy supply crates and correct three item weights; these are announced, not yet verified live [11].
 
 Confidence is Medium: the 0.2.0 changes are Primary-sourced, but the underlying item catalogue (for example sidearm base prices and medical-gadget details) still rests on player-reported guides and a beta-era press table.
 
@@ -46,6 +46,7 @@ Confidence is Medium: the 0.2.0 changes are Primary-sourced, but the underlying 
 - Update 0.2.0 (notes 14 Oct 2026): Level 3 Armor and Helmet damage reduction 55% to 50%; Level 4 65% to 60% [9]. Ballistics context is in damage-ballistics-and-balance.
 - Level 3 helmets reduce suppression by 68% and Level 4 helmets by 80% (0.2.0) [9].
 - Level 4 Helmet drawbacks (0.2.0): muffled audio, muffled proximity chat, restricted field of view, fogs over when sprinting [9].
+- Season 03 (announced 11 Nov 2026): the Infrared Range Finder is removed from the vendor until redesigned; the Molotov sets targets ablaze and costs $12.5k to unlock (was $25k); Basic Parachute is an emergency parachute at $1,250 and the Sport Parachute is for BASE jumps at $2,250; the Halligan Bar can force open enemy supply crates [11].
 - The Infrared Range Finder now runs on batteries: about 80 s of active use per battery, draining faster if toggled on and off quickly (0.2.0) [9]. Its vendor price rose $1,200 to $3,200 [9]. It had been disabled in the vendor by the 2 Oct 2026 hotfix [3]; the 0.2.0 notes do not say whether it is purchasable at launch.
 - New Molotov Cocktail (Assault level 13, $25k unlock, $340 vendor price): impact damage plus burn damage over time, throw overarm or underarm, burns destructible foliage, weaker in rain (0.2.0) [9].
 - Medical Bag durability 100 to 150; unlock moved Medic level 24 to 14 and $75k to $50k; vendor price $2,000 to $1,800 (0.2.0) [9].
@@ -78,8 +79,9 @@ All items below apply to Update 0.2.0 (notes 14 Oct 2026, release 15 Oct 2026) u
 - Explosives and placeables are barred from enclosed vehicle seats [9]. Barbed wire no longer gives cash or XP on kills [9].
 - Halligan Bar now breaches both doors and gates; uses raised 5 to 7; vendor price $1,100 to $885 [9].
 - Rain reduces Molotov fire and affects spotting range [9].
+- Season 03 (announced, launch 12 Nov 2026): see "Season 03 (announced) gear changes" below; until live, the Season 02 values are the last verified [11].
 - The Steam store page lists gear and a ghillie suit as loadout content, with no item table (live capture 2026-10-08) [6].
-- No official post after 2026-10-15 is in the 2026-10-30 snapshot.
+- No official post between 2026-10-15 and the Season 03 notes (2026-11-06 and 2026-11-11) is in the snapshots; later hotfixes are neither confirmed nor ruled out.
 
 # Detail
 
@@ -124,6 +126,25 @@ Source class: Official = Steam news post; PR = player-reported. Season 1 values 
 | Wrench price | $150 | $180 | Official [9] |
 | 30mm cannon ammo inventory size | 1x1 | 2x2 | Official [9] |
 | Backpack stack cap | not stated | 50 (vehicle storage 200 unchanged) | Official [9] |
+
+## Season 03 (announced) gear changes
+
+Source: Season 03 Patch Notes, posted 2026-11-11 17:59 UTC, launch 2026-11-12 [11]. Announced, not yet verified in a live build.
+
+| Item | Season 03 change |
+|------|------------------|
+| Infrared Range Finder | "Removed ... from the vendor." BULKHEAD says it is "not happy with how often it's used in almost every match" and that the Season 2 battery nerf "didn't curb how powerful it is"; it stays out "until we're happy with a redesign" [11] |
+| Molotov Cocktail | Getting caught in the fire sets you ablaze, dealing damage and forcing you to drop your held item. Unlock cost $25k to $12.5k and unlock level 13 to 8. Less damage against armoured vehicles and heavy armour [11] |
+| Basic Parachute | Now an emergency parachute for bailing out of helicopters, "not for jumping off towers". Takes longer to open; cannot be pulled within about 20 m of the ground; effective above about 100 m (survivable above about 60 m if you react fast). Price $500 to $1,250 [11] |
+| Sport Parachute | Turns, glides and dives much faster, with a stronger, longer flare; comes down a little faster. Built for BASE jumps; effective above about 60 m (survivable above about 40 m). Price $700 to $2,250 [11] |
+| Parachute HUD and reward | Helicopter passengers see their height above the ground above the minimap; a new reward for parachuting into an enemy FOB [11] |
+| Halligan Bar | Enemy supply crates can be forced open, dropping a random item on the ground [11] |
+| Item weights corrected | AMP-9 20 RND Magazine 1 kg to 0.3 kg; Improvised Explosive Device 1.5 kg to 2.7 kg; IED Trigger 1.5 kg to 0.2 kg [11] |
+| Hollow Point ammo audio | New hitmarker sounds for armour hits and helmet hits; armour and helmet break sounds now play consistently [11] |
+| Fixes | Rebuy Last Loadout failing when the loadout contained a locked magazine; loadout total wrong after refunds [11] |
+| Shared item unlocks | Armour, backpacks, tactical vests and parachutes unlock from every role track (see progression-unlock-tables) [11] |
+
+The Season 02 notes had said parachutes do not open below about 10 m; Season 03 raises that to about 20 m for the Basic Parachute. The Season 03 notes do not restate the Sport Parachute's minimum opening height.
 
 ## Baseline values (Season 1)
 
@@ -200,6 +221,7 @@ Update 0.2.0 [9]: the Infrared Range Finder runs on batteries, about 80 s of act
 | 2026-09-10 | Season 1 changelog: parachute, backpack, ammo, Deagle, PP-19 drum, hammer unlock moves; hammer, FOB, scope, crate repricing; deployables use more space | [1] |
 | 2026-09-30 | 0.1.2: throwables barred from enclosed vehicle seats | [2] |
 | 2026-10-02 | Hotfix: IR Rangefinders disabled until Season 02 (batteries on return); CIWS kill on Havoc about 12 s to about 6 s | [3] |
+| 2026-11-11 (launch 2026-11-12) | Season 03 notes: Infrared Range Finder removed from vendor; Molotov ignition; parachute rework and price rises; Halligan Bar crate opening; weight corrections | [11] |
 | 2026-10-14 (live 2026-10-15) | Update 0.2.0: Level 3/4 reduction 55% to 50% and 65% to 60%; helmet suppression -68% and -80%; Level 4 Helmet drawbacks; battery IR Range Finder (about 80 s); Molotov; Medical Bag durability 100 to 150; parachute rework and prices; 30mm ammo 2x2 slot and 50-item backpack stack cap; new attachments and magazines; armor, helmet, range-finder and backpack repricing | [9][10] |
 
 The Season 02 teaser had announced new equipment and balance reworks without detail [4]; the patch notes are the detailed outcome [9].
@@ -218,7 +240,8 @@ None found for gadgets. The 0.2.0 notes mention community-server ping-limit conf
 
 # Open Questions
 
-- Whether the Infrared Range Finder is purchasable at the 0.2.0 launch, its unlock level, and battery cost, capacity and recharge: the notes state only about 80 s per battery and a $3,200 price [9].
+- Whether the Infrared Range Finder was purchasable through Season 02: the Season 03 notes describe it as used "in almost every match" and "removed from the vendor", which implies it was; the 0.2.0 notes never said so [9][11]. Its return, price and any redesign are not stated.
+- The Sport Parachute's minimum opening height in Season 03: not stated [11].
 - Naming: "IR Goggles" (2 Oct post title) versus "IR Rangefinders" versus "Infrared Range Finder" [3][9]; whether all are one item is unverified.
 - Whether "Emergency Resuscitator" (guide) and "Field Resuscitator" (notes) are the same item [5][9].
 - Official absolute armor values, Level 2 values and tactical vest levels remain unpublished.
@@ -237,6 +260,7 @@ None found for gadgets. The 0.2.0 notes mention community-server ping-limit conf
 - [6] **Valve / Bulkhead (Steam)** — *WARDOGS* store page. https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-10-08.
 - [9] **Valve / Bulkhead (Steam)** — *WARDOGS | Season 02 Patch Notes* (14 Oct 2026; Update 0.2.0). https://store.steampowered.com/news/app/1867240/view/1846651706674560. Accessed 2026-10-30.
 - [10] **Valve / Bulkhead (Steam)** — *WARDOGS | SEASON 02 IS NOW LIVE* (15 Oct 2026). https://store.steampowered.com/news/app/1867240/view/1846651706677015. Accessed 2026-10-30.
+- [11] **BULKHEAD** — *WARDOGS | Season 03 Patch Notes* (Steam news, 2026-11-11 17:59 UTC). https://store.steampowered.com/news/app/1867240/view/1849192144179736. Accessed 2026-11-11.
 
 **Press & Secondary**
 
@@ -266,3 +290,4 @@ None found for gadgets. The 0.2.0 notes mention community-server ping-limit conf
 | 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial baseline draft. | — |
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint, links (0 dead) and Steam post ids. Pre-Season-02 baseline. | Standing mandate (auto-approve on green QA) |
 | 1.1.0 | 2026-10-30 | Research Pipeline (virtual agent) | Revised for Update 0.2.0 (Season 02): Level 3/4 armor and helmet reductions, helmet suppression, Level 4 Helmet drawbacks, battery IR Range Finder, Molotov, Medical Bag, parachutes, backpack and 30mm slot changes, new attachments, equipment repricing; Season 1 values kept as history; no official posts after 2026-10-15 in snapshot. | — |
+| 1.2.0 | 2026-11-11 | Research Pipeline (virtual agent) | Added Season 03 (announced 11 Nov 2026) gear changes: Infrared Range Finder removed, Molotov ignition, parachute rework, Halligan Bar crate opening, item weight corrections, hollow point audio. | — |

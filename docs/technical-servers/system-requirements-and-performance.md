@@ -1,18 +1,18 @@
 ---
 id: system-requirements-and-performance
 title: "System Requirements, Performance & Crashes"
-version: 1.2.1
+version: 1.3.0
 status: frozen
 confidence: Medium
 category: Technical & Servers
 topic: "Hardware requirements, Linux/Proton, anti-cheat, crash codes, performance fixes"
 market: Global
-game_version: "Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30)"
+game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
 document_type: depth
 created: 2026-10-08
-updated: 2026-10-30
-review_due: 2026-11-20
-sources_verified: 2026-10-30
+updated: 2026-11-11
+review_due: 2026-11-19
+sources_verified: 2026-11-11
 supersedes: null
 related: [technical-servers-foundation, rcon-and-server-admin, meta-release-foundation, client-install-inspection]
 tags: [system-requirements, performance, crashes, linux, proton, anti-cheat, dlss]
@@ -23,15 +23,15 @@ tags: [system-requirements, performance, crashes, linux, proton, anti-cheat, dls
 | Field | Value |
 |-------|-------|
 | Document ID | system-requirements-and-performance |
-| Version | 1.2.1 |
+| Version | 1.3.0 |
 | Status | frozen |
 | Confidence | Medium (High for the specification table) |
 | Category | Technical & Servers |
-| Game version | Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30) |
+| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-10-30 |
-| Review due | 2026-11-20 |
+| Updated | 2026-11-11 |
+| Review due | 2026-11-19 |
 
 # Executive Summary
 
@@ -69,7 +69,7 @@ Covered: Steam specification wording, graphics and upscaling settings as documen
 
 # Current State
 
-At Season 02 / Update 0.2.0 (official posts through 2026-10-15; none seen in the 2026-10-30 snapshot after that). The bullets below were read on 2026-10-08 (Season 1 / 0.1.2); the requirements were re-checked against 2026-10-30 store data and are unchanged [1]:
+At Season 02 / Update 0.2.0 (official posts through 2026-10-15) plus the Season 03 notes of 2026-11-11 (announced for 12 Nov; not yet verified live). The bullets below were read on 2026-10-08 (Season 1 / 0.1.2); the requirements were re-checked against 2026-10-30 store data and are unchanged [1]:
 
 - **Specifications.** Exactly as in the table under Detail [1]. The store lists Broadband internet and gives no DirectX line [1].
 - **Languages.** 14 supported languages; English is shown with interface, full audio and subtitles [1].
@@ -118,6 +118,16 @@ Other store data: 14 supported languages. The page shows English with interface,
 | 5 Sep 2026 | Buyers who expected Proton support on 10 Sep were told to refund (press report) | [13] |
 
 Steam Deck is officially labelled Unsupported on the store page [1]. The Steam news posts in the snapshot (official posts, February to 2 October 2026) contain no mention of Linux, Proton or Steam Deck, so the Linux and Proton timeline above, given as context, rests on the GamingOnLinux report [13].
+
+## Season 03 graphics settings and tamper policy (announced 11 Nov 2026)
+
+Source: Season 03 Patch Notes, posted 2026-11-11, launch 2026-11-12 [15]. Announced, not yet verified in a live build. No system requirement change is stated; the minimum specification stays as on the Steam store page.
+
+- **Third-party graphics tools are bannable.** "Using NVIDIA Inspector or any other 3rd party software to remove smokes, remove grass, modify geometry, alter LOD bias or changing textures is now considered bannable." In Season 3, a player with one of these settings applied is "blocked from playing with a warning popup on launch" asking them to close the game and change the settings. Forcing a workaround to keep playing "with unfair advantages" is considered bannable [15].
+- **"Potato" shadow setting.** The in-game menu does not show the setting "unless we have detected your hardware is truly min spec on boot". In Season 3 the game forces a reset of that setting on boot if it was changed outside the menu (in the .ini files). Spoofing system specs to bypass the reset, "whilst using higher end hardware than the min spec users", is bannable from Season 3 [15].
+- **Global Illumination.** The setting appears only on the Overkill preset, where it can be turned on or off; on every other preset it is off and hidden. Choosing Overkill starts with it on; if changing preset needs a restart it takes effect after the restart [15]. The player-reported settings guide below, which calls Global Illumination the biggest single gain, was written for Season 1 and does not describe this.
+- **Performance and stability fixes.** Faster ground clutter (ivy, leaves, rubble, litter) and fewer unnecessary shadow updates; improved rain rendering and no rain flicker on vehicle windows; the loading screen stays up until match data arrives; the graphics benchmark no longer runs twice on first launch; fixes for distant-object and terrain-gap visuals on the lowest settings [15].
+- **Context.** The notes say the ping-limit rise follows a "ban wave of 185,000+ players" [15]. The motive for the graphics rules is stated only as preventing "unfair advantages".
 
 ## Anti-cheat disclosure
 
@@ -183,6 +193,7 @@ No official post gives dedicated server hardware or performance requirements. Fo
 - [10] **Bulkhead** — *The 11th Reason NOT to Buy WARDOGS*, Steam announcement, 2026-09-08. https://store.steampowered.com/news/app/1867240/view/1842846814456311. Accessed 2026-10-08.
 - [11] **Bulkhead** — *WARDOGS Season 2 Patch Notes* (Steam post, 14 Oct 2026 14:59 UTC; Update 0.2.0 notes and maintenance-window notice). https://store.steampowered.com/news/app/1867240/view/1846651706674560. Accessed 2026-10-30.
 - [12] **Bulkhead** — *WARDOGS Season 02 is now LIVE* (Steam post, 15 Oct 2026 09:59 UTC; Update 0.2.0 released, servers back online). https://store.steampowered.com/news/app/1867240/view/1846651706677015. Accessed 2026-10-30.
+- [15] **BULKHEAD** — *WARDOGS | Season 03 Patch Notes* (Steam news, 2026-11-11 17:59 UTC). https://store.steampowered.com/news/app/1867240/view/1849192144179736. Accessed 2026-11-11.
 
 **Press & Secondary**
 
@@ -213,3 +224,4 @@ No official post gives dedicated server hardware or performance requirements. Fo
 | 1.1.1 | 2026-10-08 | Research Pipeline (revision worker) | Corrected against live store-page capture; anti-cheat now Primary and named (Elytra, plus WARDOGS EULA), Steam Deck labelled Unsupported, Additional Notes quoted exactly with upscaling confirmed in targets, 14 languages and English audio, removed unverified caveats and matching Open Questions | Standing mandate (auto-approve on green QA) |
 | 1.2.0 | 2026-10-30 | Research Pipeline (virtual agent) | Revised for Update 0.2.0: requirements confirmed unchanged against the 2026-10-30 store data (US); 0.2.0 notes add only general performance and stability wording and no crash codes; 15 Oct 08:00-09:30 UTC maintenance recorded; references 11 and 12 now cited | — |
 | 1.2.1 | 2026-10-30 | Research Pipeline (virtual agent) | Fresh browser capture of the live store page (2026-10-30): requirements, Elytra and Steam Deck lines unchanged since 2026-10-08. | — |
+| 1.3.0 | 2026-11-11 | Research Pipeline (virtual agent) | Added Season 03 (announced 11 Nov 2026) graphics and anti-cheat policy: third-party graphics-tweak bans and launch block, potato shadow setting reset, Global Illumination Overkill-only, performance fixes. | — |

@@ -130,6 +130,10 @@ class RealDocs(unittest.TestCase):
         c = next(r for r in self.d["changes"] if r["subject"] == "Level 25 total XP")
         self.assertEqual((c["before"], c["before_alt"], c["status"]), (365000, 325000, "conflict"))
 
+    def test_meta_states_what_the_records_describe(self):
+        self.assertIn("Season 02", self.d["meta"]["data_basis"])
+        self.assertTrue(any("do not present these records as the Season 03 state" in n for n in self.d["meta"]["notes"]))
+
     def test_ids_unique_and_counts_match(self):
         ids = [r["change_id"] for r in self.d["changes"]]
         self.assertEqual(len(ids), len(set(ids)))

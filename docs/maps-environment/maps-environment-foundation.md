@@ -1,18 +1,18 @@
 ---
 id: maps-environment-foundation
 title: "Maps & Environment: Foundation"
-version: 1.2.0
+version: 1.3.0
 status: frozen
 confidence: Medium
 category: Maps & Environment
 topic: "Map list, destructibility, points of interest"
 market: Global
-game_version: "Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30)"
+game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
 document_type: foundation
 created: 2026-10-08
-updated: 2026-10-30
-review_due: 2026-11-20
-sources_verified: 2026-10-30
+updated: 2026-11-11
+review_due: 2026-11-19
+sources_verified: 2026-11-11
 supersedes: null
 related:
   - gameplay-modes-foundation
@@ -36,23 +36,23 @@ tags:
 | Field | Value |
 |-------|-------|
 | Document ID | maps-environment-foundation |
-| Version | 1.2.0 |
+| Version | 1.3.0 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Maps & Environment |
-| Game version | Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30) |
+| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-10-30 |
-| Review due | 2026-11-20 |
+| Updated | 2026-11-11 |
+| Review due | 2026-11-19 |
 
 # Executive Summary
 
 Officially, WARDOGS is set in war-torn "Kolchia", where the fight is over a resource called PV-1, in "derelict industrial mountains of Eastern Europe" on a destructible battlefield [1][3]. Bulkhead's own 18 Feb 2026 FAQ states that three teams fight over "a randomized 2x2km Control Zone within a 256km² map" [3]. The Steam page repeats the 2x2 km zone, places it "within larger maps" and lists "large-scale maps with dynamic objective zones" as part of the current Early Access build, but does not give the 256 km² total, so that figure is official yet pre-release [1][3]. The count of "3 maps x 3 variations" appears only in the Team17 press release, and "variation" is never defined [2].
 
-The map names (Bakurani, Ozeti, Zestafona), their points of interest and relative sizes remain player-reported [14][15][16]. Update 0.2.0 (Season 02, released 15 Oct 2026) now officially adds a rain weather preset, moves and rebuilds all three team spawns on Bakurani, and adds a Large Shelter buildable "for covering key assets or keeping the rain off" [17][18][19]. The official 0.2.0 notes name Bakurani (in the spawn change) but add no new named map; the Steam page still says only that "more maps" are planned [1][18]. The earlier press-reported rain claims are therefore officially confirmed in substance; the "fixed for the whole match" detail is still press-only [11][12][18].
+The map names (Bakurani, Ozeti, Zestafona), their points of interest and relative sizes remain player-reported [14][15][16]. Update 0.2.0 (Season 02, released 15 Oct 2026) now officially adds a rain weather preset, moves and rebuilds all three team spawns on Bakurani, and adds a Large Shelter buildable "for covering key assets or keeping the rain off" [17][18][19]. The official 0.2.0 notes name Bakurani (in the spawn change) but add no new named map; the Steam page still says only that "more maps" are planned [1][18]. The Season 03 notes (11 Nov 2026, launch 12 Nov) announce Sabatulo, "WARDOGS' first city map", and name Bakurani, Zestafona and Ozeti in map fixes, so those three names are now official; their settings and sizes remain player-reported [20]. The earlier press-reported rain claims are therefore officially confirmed in substance; the "fixed for the whole match" detail is still press-only [11][12][18].
 
-Confidence is Medium (raised from Low in v1.0.0). Scale, setting, destruction headlines, the sandbox usage, the 0.2.0 rain preset and the Bakurani spawn move rest on official text (Steam page captured 2026-10-08; Season 02 posts of 9 to 15 Oct 2026); the other named map detail does not and is labelled player-reported. No official post after 2026-10-15 is in the 2026-10-30 snapshot. Depth is in launch-maps-reference and destructibility-and-level-design.
+Confidence is Medium (raised from Low in v1.0.0). Scale, setting, destruction headlines, the sandbox usage, the 0.2.0 rain preset and the Bakurani spawn move rest on official text (Steam page captured 2026-10-08; Season 02 posts of 9 to 15 Oct 2026); the other named map detail does not and is labelled player-reported. The Season 03 notes (2026-11-11) add the announced Sabatulo map and name Zestafona and Ozeti [20]. Depth is in launch-maps-reference and destructibility-and-level-design.
 
 # Key Takeaways
 
@@ -65,7 +65,7 @@ Confidence is Medium (raised from Low in v1.0.0). Scale, setting, destruction he
 - The 16 Jul 2026 "Level Design & Performance" post is a video devlog; its text mentions Georgian reference gathering and wide-hardware optimisation only [4].
 - Update 0.2.0 (released 15 Oct 2026) adds a rain weather preset: wet surfaces, vehicles and characters; context-dependent rain sound; rain visible through destroyed roofs; server-synchronised thunder that can mask footsteps; spotting range affected; Molotov fire reduced [17][18]. The pre-release "new map conditions" wording (30 Sep 2026) [5] is now resolved as this preset.
 - Update 0.2.0 moved and rebuilt all three team spawns on Bakurani, each with purpose-built routes to the zone [18]. It also added the Large Shelter buildable (250 build supply) [18].
-- The 0.2.0 notes name no new map; any further named map remains unconfirmed [18].
+- The 0.2.0 notes name no new map [18]. The Season 03 notes announce a new city map, Sabatulo (tight streets, high-rises, hospital, swimming pool, power station, river embankment; urban close-quarters and verticality), for 12 Nov 2026; no size or zone details are given [20].
 - Map names and points of interest are player-reported [14][15][16].
 
 # Scope
@@ -97,11 +97,16 @@ Verified 2026-10-30 against Update 0.2.0 (official posts 9 to 15 Oct 2026); item
 - Official (0.2.0, 14 to 15 Oct 2026): the rain preset makes surfaces, vehicles and characters visibly wet; rain sounds differ by what it falls on and whether you are under cover, indoors, in a vehicle or in the open; destroying a roof makes rain visibly come through it; thunder rolls in during heavier rain, every player on the server hears the same strike at the same time from the same direction, and it is loud enough to mask footsteps; spotting range is affected by rain; Molotov fire is reduced by rain [18]. The 9 Oct 2026 preview describes the preset as changing "visibility, engagement ranges and sound" and says rain "interacts with the environment, including damaged and destroyed structures" [17].
 - Official (0.2.0): Bakurani's three team spawns "have been moved and rebuilt, each with purpose-built routes to the zone", which Bulkhead says "should provide a more balanced match across each team" [18]. The patch notes do not give new spawn coordinates or say which areas are affected [18].
 - Official (0.2.0): a new Large Shelter buildable ("a large metal shelter for covering key assets or keeping the rain off"), buildable with the medium hammer and above, costing 250 build supply [18].
-- Official: the posts through 2026-10-15 add no new named map; the Steam page's "more maps" remains an unspecified plan [1][18]. No official post after 2026-10-15 is in the 2026-10-30 snapshot.
+- Official: the posts through 2026-10-15 add no new named map; the Steam page's "more maps" remains an unspecified plan [1][18]. The Season 03 notes (2026-11-11) announce Sabatulo as the first city map and name Zestafona and Ozeti for the first time in the saved posts [20]. Neither is yet verified in a live build.
+- Official (Season 03 notes, announced): box hedges can be flattened by vehicles (except the Bobcat); stone walls can be destroyed by tanks and artillery; rain falls through the glass of the Bakurani factory roof; unique 2D rain ambience per space rather than per biome; improved rain and ground-clutter rendering performance [20].
 - Press (pre-release): rain is "an additional weather state per map and not a dynamic event mid match", attributed by Vice to a Bulkhead post on X that was not viewed [11][12]. The official notes do not state whether the rain state can change within a match.
 - Official: patch 0.1.2 changed buildable-destruction rewards and buildable crit-spot behaviour; it has no map, terrain or weather entry [5]. The Season 1 changelog has one map-related fix (below) [6].
 
 # Detail
+
+## Sabatulo and Season 03 map changes (announced)
+
+Source: Season 03 Patch Notes, posted 2026-11-11, launch 2026-11-12 [20]. Announced, not yet verified live. Sabatulo is described as a mix of "urban firefights, close-quarters combat and verticality" with "plenty of destruction"; the full profile and the per-map fixes are in launch-maps-reference. The notes do not give its size, zone layout or rotation. Environment changes: hedges flattenable by vehicles, stone walls destructible by tanks and artillery (destructibility-and-level-design).
 
 ## Reconciling "sandbox" and "3 maps x 3 variations"
 
@@ -165,7 +170,7 @@ The notes give no numbers (spotting-range change, Molotov reduction, thunder tim
 | 2026-10-14 | Season 02 patch notes (0.2.0): rain weather preset; Bakurani spawns moved and rebuilt; Large Shelter added; no new named map | [18] |
 | 2026-10-15 | Update 0.2.0 released; servers back online. Rain claims that were press-only are now officially confirmed | [19] |
 
-Season 1 (0.1.2) to Season 02 (0.2.0): weather went from none documented to a rain preset, and Bakurani spawns changed; the notes mention no spawn change on the other two maps [18]. No map-specific known-issue list was found, and no official post after 2026-10-15 is in the 2026-10-30 snapshot. The 2 Oct 2026 official hotfix posts contain no map items.
+Season 1 (0.1.2) to Season 02 (0.2.0): weather went from none documented to a rain preset, and Bakurani spawns changed; the notes mention no spawn change on the other two maps [18]. No map-specific known-issue list was found, and the Season 03 notes (2026-11-11) list per-map bug fixes for Bakurani, Zestafona and Ozeti [20]. The 2 Oct 2026 official hotfix posts contain no map items.
 
 # Admin & Technical Notes
 
@@ -209,6 +214,7 @@ Community Server IDs persist between matches and restarts since the 12 Sep 2026 
 - [17] **Bulkhead Studios** — *WARDOGS Season 02 Preview* (Steam news, 2026-10-09). https://store.steampowered.com/news/app/1867240/view/1846018067933823. Accessed 2026-10-30.
 - [18] **Bulkhead Studios** — *WARDOGS Season 02 Patch Notes* (Steam news, 2026-10-14; includes an in-post update to logistics values). https://store.steampowered.com/news/app/1867240/view/1846651706674560. Accessed 2026-10-30.
 - [19] **Bulkhead Studios** — *WARDOGS Season 02 is now LIVE* (Steam news, 2026-10-15). https://store.steampowered.com/news/app/1867240/view/1846651706677015. Accessed 2026-10-30.
+- [20] **BULKHEAD** — *WARDOGS | Season 03 Patch Notes* (Steam news, 2026-11-11 17:59 UTC). https://store.steampowered.com/news/app/1867240/view/1849192144179736. Accessed 2026-11-11.
 
 **Press & Secondary**
 
@@ -246,3 +252,4 @@ Steam News Hub for Season 02 details as they publish: https://store.steampowered
 | 1.1.0 | 2026-10-08 | Research Pipeline (revision worker) | Revised against full official Steam text; map size 256 km² and Kolchia setting upgraded to official; sandbox usage defined from official posts; 3x3 variations marked press-release-only; 0.1.2 text limited to "new map conditions"; rain relabelled press; unsupported live-page claims demoted; confidence Low to Medium. | Standing mandate (auto-approve on green QA) |
 | 1.1.1 | 2026-10-08 | Research Pipeline (revision worker) | Corrected against live store-page capture; restored as Primary the page claims of large-scale maps with dynamic objective zones, more maps and additional objective variations planned, 100-player militaristic sandbox, destructible battlefield and Eastern Europe setting; removed the not-verified caveat and the live-page Open Question; Kolchia attributed to the FAQ only; 256 km² kept as FAQ-only; 3x3 variations still press-release-only; confidence stays Medium (map names and POIs remain player-reported). | Standing mandate (auto-approve on green QA) |
 | 1.2.0 | 2026-10-30 | Research Pipeline (virtual agent) | Cluster G revision for Update 0.2.0: rain weather preset (wet surfaces, sound, roofs, thunder masking footsteps, spotting range, Molotov) promoted from press-only to official; Bakurani spawns moved and rebuilt; Large Shelter; Season 1 baseline kept as history; no new named map; pre-release "Season 02 due" wording replaced; new sources [17]-[19]. | — |
+| 1.3.0 | 2026-11-11 | Research Pipeline (virtual agent) | Added Sabatulo and Season 03 environment changes (flattenable hedges, destructible stone walls, rain rendering) announced 11 Nov 2026. | — |
