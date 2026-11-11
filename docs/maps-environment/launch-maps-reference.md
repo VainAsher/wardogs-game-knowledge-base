@@ -1,18 +1,18 @@
 ---
 id: launch-maps-reference
 title: "Launch Maps Reference"
-version: 1.2.0
+version: 1.3.0
 status: frozen
 confidence: Low
 category: Maps & Environment
 topic: "Per-map profiles: Bakurani, Ozeti, Zestafona and unconfirmed maps"
 market: Global
-game_version: "Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30)"
+game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
 document_type: reference-data
 created: 2026-10-08
-updated: 2026-10-30
-review_due: 2026-11-20
-sources_verified: 2026-10-30
+updated: 2026-11-11
+review_due: 2026-11-19
+sources_verified: 2026-11-11
 supersedes: null
 related:
   - maps-environment-foundation
@@ -32,19 +32,19 @@ tags:
 | Field | Value |
 |-------|-------|
 | Document ID | launch-maps-reference |
-| Version | 1.2.0 |
+| Version | 1.3.0 |
 | Status | frozen |
 | Confidence | Low |
 | Category | Maps & Environment |
-| Game version | Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30) |
+| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-10-30 |
-| Review due | 2026-11-20 |
+| Updated | 2026-11-11 |
+| Review due | 2026-11-19 |
 
 # Executive Summary
 
-Officially, WARDOGS launched with three maps, each with three variations [2], and a randomised 2x2 km Control Zone inside a 256 km2 map, set in a war-torn region called "Kolchia" [1][10]. Revised 2026-10-08 against the full text of all 32 saved Steam posts: none of them, nor the Steam store data, names Bakurani, Ozeti, Zestafona, Jutari or Saburtulo, profiles a map, or explains rotation [1][10][11][12]. The per-map profiles below therefore remain player-reported: Bakurani, Ozeti and Zestafona, plus the unconfirmed Jutari and Saburtulo [3][4][5][6][7].
+Officially, WARDOGS launched with three maps, each with three variations [2], and a randomised 2x2 km Control Zone inside a 256 km2 map, set in a war-torn region called "Kolchia" [1][10]. Revised 2026-10-08 against the full text of all 32 saved Steam posts: none of them, nor the Steam store data, named Ozeti, Zestafona, Jutari or Saburtulo, profiled a map, or explained rotation [1][10][11][12]. The Season 02 notes named Bakurani [17]; the Season 03 notes (11 Nov 2026) name Bakurani, Zestafona and Ozeti in map bug fixes and announce a new city map, Sabatulo [19]. The per-map profiles below remain player-reported: Bakurani, Ozeti and Zestafona, plus the unconfirmed Jutari and Saburtulo [3][4][5][6][7].
 
 Several community sources agree on the three names, their settings and the existence of roughly three rotating areas per map. They disagree on play-area size, control-zone counts and whether a fourth map exists. Update 0.2.0 (Season 02, released 15 Oct 2026) officially adds a rain weather preset and moves and rebuilds all three team spawns on Bakurani, each with purpose-built routes to the zone; the notes name Bakurani but add no new named map [16][17][18]. Player-reported Bakurani details written before 15 Oct 2026 may be outdated.
 
@@ -54,7 +54,8 @@ Confidence stays Low (the 0.2.0 facts are official but do not change this): the 
 
 - Official: three maps, three variations each, as of the 10 Sep 2026 launch [2]. Map names are not given on the Steam page [1].
 - Official: the 18 Feb 2026 Top Questions post says "a randomized 2x2km 'Control Zone' within a 256km² map" and names the setting "Kolchia", which "features multiple locations and POIs" [10]. This is a setting name, not a map name.
-- Official gap: no Steam post names Bakurani, Ozeti or Zestafona (or Jutari, Saburtulo). Those names remain player-reported; the row is not upgraded to Primary [10][11][12][13].
+- Official, Season 03 notes (11 Nov 2026): Bakurani, Zestafona and Ozeti are named in the map bug fixes, the first official use of Zestafona and Ozeti in the saved posts; Bakurani was already named in the Season 02 notes [17][18][19]. Their settings, sizes and points of interest remain player-reported, and the notes do not say these three are the whole roster. Jutari and Saburtulo are still not named in any official post [10][11][12][13][19].
+- Official, Season 03 notes: a new city map, Sabatulo, is announced for 12 Nov 2026 (see "Sabatulo (announced for Season 03)"). Whether it is the "Saburtulo" listed by one Season 01 guide is not stated [3][19].
 - Player-reported: the maps are Bakurani (Kavkazi), Ozeti (Europe) and Zestafona (North America) [3][4][6].
 - Player-reported: each match uses one of about three rotating "areas" per map; each map lists a Default area plus two others [3][5][7].
 - Conflict: the official Control Zone is 2x2 km [1][10]; allthings.how describes 500 m radius play circles (550 m on Ozeti) with an 85 m capture ring [3][6]. Not reconciled.
@@ -88,6 +89,26 @@ Verified 2026-10-30 against Update 0.2.0 (official posts 9 to 15 Oct 2026); item
 - Press quote of Bulkhead (pre-release): rain is "an additional weather state per map and not a dynamic event mid match" [8]. The official notes do not state this; treat it as press-only [8][17]. The official 0.1.2 post (30 Sep 2026) had said only "new map conditions" [12][13].
 
 # Detail
+
+## Season 03 map fixes (announced)
+
+Source: Season 03 Patch Notes, 2026-11-11 [19]. Announced, not yet verified live.
+
+| Scope | Fix |
+|-------|-----|
+| All maps | Missing collision, clipping objects, gaps and lighting issues in shared buildings, shops and props; doors staying up after their walls were destroyed in older apartment and office buildings; destruction issues on a residential house; some players falling through the ground and appearing invisible at match start; Lonestar propaganda posters removed from spawn areas [19] |
+| Bakurani | Rain now falls through the glass of the factory roof [19] |
+| Zestafona | Mortars could fire through the roof of the green brick warehouse (fixed); collision on abandoned tractors adjusted [19] |
+| Ozeti | Blocked vehicle spawns fixed; vehicles can no longer drive through the stadium's front retaining wall and pillars [19] |
+
+## Sabatulo (announced for Season 03)
+
+Source: Season 03 Patch Notes, posted 2026-11-11 17:59 UTC, launch 2026-11-12, and the Road to Season 3 devlog, posted 2026-11-06 [19]. Announced, not yet verified in a live build.
+
+- "Sabatulo is WARDOGS' first city map, packed with tight streets, towering high-rises and plenty of destruction, alongside key locations such as a central hospital, swimming pool, power station and the river embankment." It focuses on "a mix of urban firefights, close-quarters combat and verticality": fight room to room or street to street, "or take the high points for oversight of the city" [19].
+- The devlog says it "brings urban warfare and close quarters combat to WARDOGS" [19].
+- Not stated: play-area size, number of control zone positions, whether it replaces or joins the rotation, whether it appears on official and community servers, or the real-world setting. Eight screenshots are in the post; their contents are not described in text.
+- Naming: the official spelling is "Sabatulo". One Season 01 guide listed a "Saburtulo" King of the Hill map under Russia as not playable [3]. The similar spelling suggests a link but no official text makes one, so they are not equated here.
 
 ## Map profiles (all player-reported, Season 01 baseline)
 
@@ -164,7 +185,7 @@ Official, from the Season 02 patch notes (14 Oct 2026) and the release post (15 
 | 2026-10-14 | Season 02 patch notes (0.2.0): rain weather preset; Bakurani spawns moved and rebuilt; Large Shelter; no new named map | [17] |
 | 2026-10-15 | Update 0.2.0 released, servers back online. Pre-release rain claims now officially confirmed | [18] |
 
-Season 1 (0.1.2) to Season 02 (0.2.0): Bakurani spawns changed and a rain preset was added [17]. No map-specific patch entry was found for patch 0.1.2 or the 2 Oct hotfixes, no known-issue list for the new Bakurani spawns was found, and no official post after 2026-10-15 is in the 2026-10-30 snapshot. Community map data is described by its own publishers as Early Access data that may change [5][7].
+Season 1 (0.1.2) to Season 02 (0.2.0): Bakurani spawns changed and a rain preset was added [17]. No map-specific patch entry was found for patch 0.1.2 or the 2 Oct hotfixes, no known-issue list for the new Bakurani spawns was found, and the only later official posts are the Season 03 notes (2026-11-11) with map fixes and the new Sabatulo map [19]. Community map data is described by its own publishers as Early Access data that may change [5][7].
 
 # Admin & Technical Notes
 
@@ -183,6 +204,7 @@ Gamebrief notes that patch 0.11 confirmed server-level map changes and persisten
 
 - What are the official names of the three maps? (No Steam post names them; the 256 km2 total is official but pre-release.)
 - Is the 500 m play circle a real mechanic, or a misreading of the 2x2 km Control Zone? An in-game measurement would resolve it.
+- Is the "Saburtulo" of one Season 01 guide the same map as the official Sabatulo? [3][19]
 - Do Jutari and Saburtulo exist in the build?
 - Do "three variations" equal the three live areas?
 - How much does rain change spotting range, and does it affect aircraft? The notes give no numbers. Is rain fixed for a match? Only the press says so.
@@ -206,6 +228,7 @@ Gamebrief notes that patch 0.11 confirmed server-level map changes and persisten
 - [16] **Bulkhead Studios** — *WARDOGS Season 02 Preview* (Steam news, 2026-10-09). https://store.steampowered.com/news/app/1867240/view/1846018067933823. Accessed 2026-10-30.
 - [17] **Bulkhead Studios** — *WARDOGS Season 02 Patch Notes* (Steam news, 2026-10-14). https://store.steampowered.com/news/app/1867240/view/1846651706674560. Accessed 2026-10-30.
 - [18] **Bulkhead Studios** — *WARDOGS Season 02 is now LIVE* (Steam news, 2026-10-15). https://store.steampowered.com/news/app/1867240/view/1846651706677015. Accessed 2026-10-30.
+- [19] **BULKHEAD** — *WARDOGS | Season 03 Patch Notes* (Steam news, 2026-11-11 17:59 UTC). https://store.steampowered.com/news/app/1867240/view/1849192144179736. Accessed 2026-11-11.
 
 **Press & Secondary**
 
@@ -240,3 +263,4 @@ Steam News Hub for Season 02 details: https://store.steampowered.com/news/app/18
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint and links (0 dead). | Standing mandate (auto-approve on green QA) |
 | 1.1.0 | 2026-10-08 | Research Pipeline (revision worker) | Revised against full official Steam text; added official 256 km2 map size and "Kolchia" setting (Top Questions, 18 Feb 2026), recorded that no official post names any map, resolved the whole-map-size conflict, kept per-map profiles player-reported at Low confidence, added Steam post citations [10]-[15]. | Standing mandate (auto-approve on green QA) |
 | 1.2.0 | 2026-10-30 | Research Pipeline (virtual agent) | Cluster G revision for Update 0.2.0: rain preset and Bakurani spawn move/rebuild promoted to official; Large Shelter noted; per-match rain claim kept as press-only; Bakurani profile flagged as pre-0.2.0; no new named map; Season 02 due wording replaced; new sources [16]-[18]. | — |
+| 1.3.0 | 2026-11-11 | Research Pipeline (virtual agent) | Added Sabatulo, the first city map (announced 11 Nov 2026), and Season 03 map bug fixes for Bakurani, Zestafona and Ozeti. | — |

@@ -1,18 +1,18 @@
 ---
 id: vehicle-roster-and-prices
 title: "Vehicle Roster & Prices"
-version: 1.1.0
+version: 1.2.0
 status: frozen
 confidence: Medium
 category: Vehicles & Outposts
 topic: "Land and air vehicles: roster, price, unlock level, crew, role"
 market: Global
-game_version: "Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30)"
+game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
 document_type: reference-data
 created: 2026-10-08
-updated: 2026-10-30
-review_due: 2026-11-20
-sources_verified: 2026-10-30
+updated: 2026-11-11
+review_due: 2026-11-19
+sources_verified: 2026-11-11
 supersedes: null
 related: [vehicles-outposts-foundation, air-and-counter-air, fob-and-base-building, price-tables-season-1, progression-unlock-tables, cash-rewards-and-costs]
 tags: [vehicles, prices, unlock-levels, season-2, update-0-2-0, season-1-history]
@@ -23,15 +23,15 @@ tags: [vehicles, prices, unlock-levels, season-2, update-0-2-0, season-1-history
 | Field | Value |
 |-------|-------|
 | Document ID | vehicle-roster-and-prices |
-| Version | 1.1.0 |
+| Version | 1.2.0 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Vehicles & Outposts |
-| Game version | Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30) |
+| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-10-30 |
-| Review due | 2026-11-20 |
+| Updated | 2026-11-11 |
+| Review due | 2026-11-19 |
 
 # Executive Summary
 
@@ -39,7 +39,7 @@ Update 0.2.0 (Season 02, released 15 Oct 2026) is the first official source that
 
 The notes use the vehicle names "Ural Defender", "Ural Defender [M249]", "Humvee [Minigun]", "L2A6" and "SPH-2", while the Season 1 changelog used "URAL Covered", "URAL Attack", "Heavy Tank" and "Artillery Tank" [3]. Matching the two name sets is Inferred from identical levels and prices (see the reconciliation table). The notes still publish no crew or seat counts.
 
-Document confidence is Medium: every number below comes from official posts, but the name mapping is inferred, several unlock levels are not stated, and crew sizes are unpublished. The 2026-10-30 snapshot contains no official post after 2026-10-15 [2], so later hotfixes are neither assumed nor excluded.
+Document confidence is Medium: every number below comes from official posts, but the name mapping is inferred, several unlock levels are not stated, and crew sizes are unpublished. The Season 03 Patch Notes (posted 11 Nov 2026, for the 12 Nov launch) cut four vehicle prices, raise reverse speeds, change handling and rebalance minigun, Littlebird and CIWS damage; those are announced and not yet verified live [10]. The Season 02 tables stay as the last verified live values.
 
 # Key Takeaways
 
@@ -100,6 +100,44 @@ Names follow the 0.2.0 patch notes [1]. "Season 1 name" is the Inferred match to
 | Havoc | Havoc | Pilot level not stated | $650,000 | $28,000 | Official [1] |
 
 The notes also name the plain Kodiak, Ural, Bobcat, MH-6 and Z20 Lakota (unarmed) in the vehicle-destroyed reward list but give no price, level or unlock for them [1]. Armed-variant reward values and the spotting changes belong to cash-rewards-and-costs.
+
+## Season 03 (announced) vehicle changes
+
+Source: Season 03 Patch Notes, posted 2026-11-11 17:59 UTC, launch 2026-11-12 [10]. Announced, not yet verified in a live build. The "Season 02" prices match the Season 02 tables above.
+
+### Vendor prices
+
+| Vehicle | Season 02 | Season 03 (announced) |
+|---------|-----------|-----------------------|
+| Wolf-110 [M2 Browning] | $7,800 | $6,800 |
+| Kodiak [M249] | $6,750 | $6,250 |
+| AH-6M Littlebird [Miniguns] | $12,000 | $10,480 |
+| Havoc | $28,000 | $26,000 |
+
+The notes say the Wolf-110 "underperformed as a threat due to how exposed its driver and passengers are", the Kodiak was lowered "to ease its profit margins during the longer grind to a tank" and the upfront cost of the Littlebird and Havoc "was still turning away a lot of pilots" [10]. Tanks also move later in the track (Driver 20-35 to 35-50 as printed; see progression-unlock-tables).
+
+### Reverse speed (wheeled vehicles)
+
+| Vehicle | Season 02 | Season 03 (announced) |
+|---------|-----------|-----------------------|
+| Bobcat | 16 km/h | about 25 km/h |
+| Kodiak | 33 km/h | about 57 km/h |
+| Humvee | 35 km/h | about 57 km/h |
+| Dune Buggy | 43 km/h | about 50 km/h |
+| Ural | 15 km/h | 27 km/h |
+| Wolf-110 | 27 km/h | about 40 km/h |
+
+### Handling and other changes [10]
+
+- Wheeled vehicles roll downhill when you are off the throttle. The Ural and Humvee get slightly better traction (less rear-wheel slip).
+- The Ural, Kodiak, Humvee, Dune Buggy and Wolf-110 lose some grip when pushed beyond their normal top speed (for example downhill). The Ural can no longer reach "unfair speeds" rolling backwards downhill and now rolls backwards no faster than it drives forwards.
+- Vehicle-mounted minigun damage against infantry is raised (head +50%, neck +78%, upper torso +64%, mid torso +55%, lower torso +50%, pelvis, arms and legs +56%), between Season 1 and Season 2 levels.
+- AH-6R Littlebird [Rockets]: own 70mm rockets with thrust wobble; damage per rocket unchanged. MH-6, AH-6R and AH-6M: more cockpit protection for pilot and co-pilot.
+- Tanks resist grenades better. Box hedges can be flattened by vehicles except the Bobcat; stone walls can be destroyed by tanks and artillery.
+- Window cleaning: first-person vehicle windows had an unintended smear since the Season 2 rain material; "all vehicles have had their windows thoroughly cleaned".
+- Seeding: a few unarmed vehicles spawn free for each team during seeding, and all vehicles are cleared when the match starts.
+- Rewards: destroying a vehicle with your own vehicle within 1,000 m of a control zone earns the full control zone reward; air-vehicle kill streaks are re-added (cash-rewards-and-costs).
+- Fixes include vehicles failing to spawn on flat ground, wrong Wolf-110 death poses, vehicle crash kills credited to the downed driver, gunners unable to buy vehicle ammo, T-72B3 driver killable from outside the tank, and the MH-6 body being unrepairable on its gun and rocket pod variants.
 
 ## Season 1 to Season 02 value changes
 
@@ -193,9 +231,10 @@ All from the Season 02 patch notes, 14 Oct 2026 [1].
 - 10 Sep 2026, Season 1 launch changelog: the price and level moves in the Season 1 baseline table; air-vehicle kill XP cut from 300 to 250 [3].
 - 30 Sep 2026, Update 0.1.2: fly-through exploit rewards capped; Havoc damage-intake bug from 20mm and 30mm cannons fixed; throwables blocked from enclosed vehicle seats [6].
 - 2 Oct 2026, hotfix: CIWS time to destroy a Havoc halved from about 12 to about 6 seconds [5].
+- 11 Nov 2026 (patch notes) for the 12 Nov launch: Season 03 cuts four vehicle prices, raises reverse speeds, adds downhill roll and grip limits, raises minigun damage against infantry, changes Littlebird rockets and cockpit protection, and lets vehicles flatten hedges [10].
 - 14 Oct 2026 (patch notes) and 15 Oct 2026 (live): Update 0.2.0 adds four vehicles, changes vehicle prices and unlock levels as tabled above, makes purchased-vehicle inventories private by default, reworks Humvee, tracked-vehicle and Dune Buggy handling, applies the calibre damage cuts to vehicle weapons, and fixes the bugs listed above [1][2].
 - Preview versus final naming: the 9 Oct preview called the new vehicles "T-72", "Leopard" and "Wolf-110 (Assault)"; the final notes use T-72B3, L2A6 and Wolf-110 [M2 Browning]. This document follows the final notes [1][7].
-- None seen in the 2026-10-30 snapshot: no official post after 2026-10-15 is saved, so hotfixes after that date are unknown.
+- Season 03 values are pre-release; hotfixes after 2026-11-11 are unknown.
 - Planned: fighter jets and more vehicles by full release [4].
 
 # Admin & Technical Notes
@@ -217,7 +256,7 @@ None found. No server setting for vehicle availability or prices appears in the 
 - Spawn prices of the plain Kodiak, Ural, Humvee, Dune Buggy, Bobcat, MH-6, plain Z20 Lakota and SPH-2: not stated in the notes.
 - Why the Season 1 changelog gave Z20 Lakota an unlock of $35,000 while the 0.2.0 old value is $75,000.
 - Whether a team armoured spawn vehicle has a purchase price: the notes mention a Spawn Vehicle only in rules text.
-- Whether any hotfix after 2026-10-15 changed these values: none seen in the 2026-10-30 snapshot.
+- Whether any hotfix after 2026-10-15 changed these values, and whether the Season 03 values went live as announced (verify after 12 Nov 2026) [10].
 
 # References
 
@@ -230,6 +269,7 @@ None found. No server setting for vehicle availability or prices appears in the 
 - [5] **Bulkhead / Valve Steam News** — *IR Goggles & CIWS Balance Hotfix*, 2 Oct 2026. https://store.steampowered.com/news/app/1867240/view/1845383656386801. Accessed 2026-10-08.
 - [6] **Bulkhead / Valve Steam News** — *WARDOGS Update 0.1.2 (Minor Patch)*, 30 Sep 2026. https://store.steampowered.com/news/app/1867240/view/1845383656376490. Accessed 2026-10-08.
 - [7] **BULKHEAD** — *WARDOGS | Season 02 Preview*, Steam announcement, 9 Oct 2026. https://store.steampowered.com/news/app/1867240/view/1846018067933823. Accessed 2026-10-30.
+- [10] **BULKHEAD** — *WARDOGS | Season 03 Patch Notes* (Steam news, 2026-11-11 17:59 UTC). https://store.steampowered.com/news/app/1867240/view/1849192144179736. Accessed 2026-11-11.
 
 **Press & Secondary**
 
@@ -260,3 +300,4 @@ The official Steam news feed at https://steamcommunity.com/app/1867240/allnews/ 
 | 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial draft. Pre-Season-02 baseline. | — |
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint, links (0 dead) and Steam post ids. Pre-Season-02 baseline. | Standing mandate (auto-approve on green QA) |
 | 1.1.0 | 2026-10-30 | Research Pipeline (virtual agent) | Revised for Update 0.2.0: added Wolf-110, Wolf-110 [M2 Browning], T-72B3, Flakpanzer Gepard; Season 02 spawn prices and unlock changes; private vehicle inventories; handling changes; vehicle bug fixes; kept Season 1 values as history; replaced forward-looking Season 02 statements with the outcome. | — |
+| 1.2.0 | 2026-11-11 | Research Pipeline (virtual agent) | Added Season 03 (announced 11 Nov 2026) vehicle price cuts, reverse speeds, handling, minigun damage, Littlebird rocket and cockpit changes. | — |

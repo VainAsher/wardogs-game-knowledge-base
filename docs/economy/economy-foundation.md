@@ -1,18 +1,18 @@
 ---
 id: economy-foundation
 title: "Economy: Foundation"
-version: 1.3.0
+version: 1.4.0
 status: frozen
 confidence: Medium
 category: Economy
 topic: "Account balance, costs, rewards, death penalty"
 market: Global
-game_version: "Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30)"
+game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
 document_type: foundation
 created: 2026-10-08
-updated: 2026-10-30
-review_due: 2026-11-20
-sources_verified: 2026-10-30
+updated: 2026-11-11
+review_due: 2026-11-19
+sources_verified: 2026-11-11
 supersedes: null
 related: [gameplay-modes-foundation, combat-loadouts-foundation, vehicles-outposts-foundation, meta-release-foundation, cash-rewards-and-costs, price-tables-season-1, death-penalty-and-rebuy, season-reset-and-currencies, editions-pricing-platforms]
 tags: [economy, cash, death-penalty, pricing, early-access]
@@ -23,15 +23,15 @@ tags: [economy, cash, death-penalty, pricing, early-access]
 | Field | Value |
 |-------|-------|
 | Document ID | economy-foundation |
-| Version | 1.3.0 |
+| Version | 1.4.0 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Economy |
-| Game version | Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30) |
+| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-10-30 |
-| Review due | 2026-11-20 |
+| Updated | 2026-11-11 |
+| Review due | 2026-11-19 |
 
 # Executive Summary
 
@@ -39,7 +39,9 @@ WARDOGS runs a persistent cash economy. Every player starts with $10,000, team-p
 
 Season 02 (Update 0.2.0) went live on 15 Oct 2026 [20]. Its official patch notes (posted 14 Oct) rebalance the economy broadly: new per-action cash and XP rewards, lower base logistics pay with new delivery streaks, around 30% lower spotting rewards, a full vendor price pass, a faster role-track XP curve for levels 10 to 50, and a build-cost pass [19]. They also add a Rebuy Last Loadout interface change, a Gold Market camo rotation with the Gold Market itself listed as a WARDOG-track unlock, Lonestar faction bonuses, a losing-team vendor discount, and a Wager Vendor that is not available at launch [19]. This KB holds the numbers in the depth documents (price-tables-season-1 and cash-rewards-and-costs); this foundation summarises them.
 
-Two areas are still not settled by official text. The patch notes do not mention a death-penalty rule or a Season 02 progression wipe or automatic cash-to-Gold-Bar conversion; their silence is not evidence either way [19]. The wipe claim remains press and player-reported, traced to a 7 Apr 2026 devlog video that is not in any Steam post [17]. No official post after 2026-10-15 is in the 2026-10-30 snapshot, so later hotfixes are neither confirmed nor ruled out.
+The Season 03 Patch Notes (posted 11 Nov 2026, for the 12 Nov launch) change the economy again: doubled cash for destroying enemy buildable weapon emplacements, lower spotted high-value-target rewards, air-vehicle kill streaks re-added, crate-drop rewards scaled to the contents, vehicle price cuts, parachute price rises, a halved Molotov unlock cost, a losing-faction discount measured against first place, a catch-up XP bonus with extended vendor discounts for low-level players, and removal of the Wager Vendor; they also announce a first Early Access price increase of $5 at the end of Season 3 [21]. These are announced, not yet verified in a live build.
+
+Two areas are still not settled by official text. The patch notes do not mention a death-penalty rule or a Season 02 progression wipe or automatic cash-to-Gold-Bar conversion; their silence is not evidence either way [19]. The wipe claim remains press and player-reported, traced to a 7 Apr 2026 devlog video that is not in any Steam post [17]. The Season 03 notes (11 Nov 2026) are silent on both as well [21]. The only official posts after 2026-10-15 are the Road to Season 3 devlog and the Season 03 notes, so later hotfixes are neither confirmed nor ruled out.
 
 Document confidence is Medium: the loop, Season 02 changes, prices and monetisation are official, but the death penalty and seasonal wipe are unverified, so the document cannot be rated higher while they stay open.
 
@@ -51,7 +53,8 @@ Document confidence is Medium: the loop, Season 02 changes, prices and monetisat
 - Early Access Standard is £36.99 on the UK Steam page; Supporter Edition £45.99; the Supporter Pack is cosmetic only [1][10].
 - Season 02 (Update 0.2.0, live 15 Oct 2026) rebalanced rewards, vendor prices and build costs; numbers are in cash-rewards-and-costs and price-tables-season-1 [19][20].
 - Season 02 adds a Rebuy Last Loadout interface change (visual loadout in the vendor, editable before purchase), Lonestar faction bonuses and a 20% losing-team vendor discount (at least 40 points behind second place) [19].
-- The Wager Vendor (bet cash on your own performance) is not available at Season 02 launch and is described as not permanent [19].
+- The Wager Vendor (bet cash on your own performance) was not available at Season 02 launch and was described as not permanent [19]; the Season 03 notes remove it and return it to development [21].
+- Season 03 (announced 11 Nov 2026, launch 12 Nov): emplacement-destruction cash doubled ($650 to $1,300; CIWS $1,200 to $2,400), spotted-target rewards lowered, Basic Parachute $500 to $1,250 and Sport Parachute $700 to $2,250, Wolf-110 [M2 Browning] $6,800, Kodiak [M249] $6,250, AH-6M [Miniguns] $10,480, Havoc $26,000, Molotov unlock $12.5k, Infrared Range Finder removed from the vendor [21].
 - The Season 02 patch notes do not mention a wipe, an automatic Gold Bar conversion or a death-penalty rule (notes read 2026-10-30) [19].
 - Season 1 (10 Sep 2026) raised and lowered vendor and vehicle prices; the Kodiak Flatbed rose from $15,000 to $35,000 and its unlock moved from level 2 to level 10 [4].
 - Patch 0.11 and Update 0.1.2 closed cash exploits and set an economy abuse policy with timed and permanent bans; 0.1.2 scaled buildable-destruction rewards to build progress [2][3].
@@ -82,12 +85,12 @@ All facts below are for Early Access, as of Update 0.2.0 (official posts through
 - Bulkhead states: no monetization during Early Access apart from the optional Supporter Edition; cash and Gold Bars must be earned through play; camos cannot be bought directly [6][10].
 - Steam lists Standard at £36.99, Supporter Edition at £45.99 and the Supporter Pack DLC at £11.99; the DLC contains cosmetics only (see editions-pricing-platforms) [1][10].
 - The Steam page says the team plans lower Early Access pricing and may raise it nearer full release; Early Access is expected to last around 1 to 2 years [1].
-- The latest official version in the snapshot is Update 0.2.0, released 15 Oct 2026 after a maintenance window of 08:00 to 09:30 UTC [19][20]. Before it, Update 0.1.2 (30 Sep) [2] and two 2 Oct posts, a security and stability hotfix notice and an IR Rangefinder and CIWS balance hotfix, applied [8][9]. The 2026-10-30 snapshot holds no official post after 15 Oct.
+- The latest live version in the snapshot is Update 0.2.0, released 15 Oct 2026 after a maintenance window of 08:00 to 09:30 UTC [19][20]. Season 03 is announced for 12 Nov 2026 (maintenance 13:00 to 15:00 UTC) and is not yet verified live [21]. Before it, Update 0.1.2 (30 Sep) [2] and two 2 Oct posts, a security and stability hotfix notice and an IR Rangefinder and CIWS balance hotfix, applied [8][9]. The 2026-10-30 snapshot holds no official post after 15 Oct.
 - Season 02 reward, price and build-cost changes are summarised in Detail and held in price-tables-season-1 and cash-rewards-and-costs [19].
 - The Gold Market is listed as a WARDOG-track unlock at level 35 for $150k, and eight Gold Market camos are listed for Season 02 (Black & Gold AK removed) [19].
 - Rebuy Last Loadout now pre-fills the equipment vendor with the previous loadout, editable before purchase [19].
 - Lonestar has Season 02-only cash and XP win bonuses and teamplay multipliers; any team 40 or more points behind second place gets a 20% vendor discount [19].
-- The Wager Vendor is not available at launch and will open later in Season 02 [19].
+- The Wager Vendor was not available at launch and was to open later in Season 02 [19]; it is removed in the Season 03 notes [21].
 
 # Detail
 
@@ -107,7 +110,7 @@ The Season 02 patch notes (14 Oct 2026, live as Update 0.2.0 on 15 Oct) change t
 | Faction and discounts | Lonestar bonuses; 20% losing-team vendor discount; server-seeding rewards and vendor discount (no values stated) | this document |
 | Gold Market | Camo rotation; Gold Market listed as a level 35 WARDOG unlock | season-reset-and-currencies |
 | Loadout | Rebuy Last Loadout interface change | death-penalty-and-rebuy |
-| Wager Vendor | Not available at launch; opens later in Season 2 | this document |
+| Wager Vendor | Not available at launch; opens later in Season 2; removed in the Season 03 notes (11 Nov 2026) | this document [21] |
 
 The 0.2.0 notes do not state any change to the $10,000 starting balance, a Season 02 progression wipe, a Gold Bar conversion or a death-penalty rule [19].
 
@@ -115,7 +118,17 @@ The 0.2.0 notes do not state any change to the $10,000 starting balance, a Seaso
 
 Faction balance experiment (Season 02 only): the notes list a Lonestar cash and XP win bonus and Lonestar teamplay-action cash and XP multipliers, with no values stated; the notes also say community server hosts seen exploiting the faction bonus will be punished [19]. The preview post of 9 Oct 2026 lists the same items and frames them as a "social experiment" about the blue team's win rate [18]. A new vendor discount applies to the losing team: 20% off if they are at least 40 points behind second place, for all teams [19]. Players who join and populate empty servers earn rewards and a vendor discount once the match begins, with no values stated [19].
 
-Wager Vendor: the notes say it lets a player bet their own cash on their own performance, with a live wager tracker above the minimap, and that it "is not available at Season 2 launch" and "will open later in Season 2"; it is "not a permanent addition" and is intended to come and go within a season [19]. The preview adds that players choose objectives, set how many deaths they will spend, and set a stake, with longer odds for stacked objectives, and that it may be pulled if exploitable [18]. Whether it has opened is unknown: the snapshot holds no official post after 15 Oct.
+Wager Vendor: the notes say it lets a player bet their own cash on their own performance, with a live wager tracker above the minimap, and that it "is not available at Season 2 launch" and "will open later in Season 2"; it is "not a permanent addition" and is intended to come and go within a season [19]. The preview adds that players choose objectives, set how many deaths they will spend, and set a stake, with longer odds for stacked objectives, and that it may be pulled if exploitable [18]. It never opened: the Season 03 notes (11 Nov 2026) say it "has been removed" and is "going back into development" [21].
+
+## Season 03 economy changes (announced 11 Nov 2026)
+
+Source: Season 03 Patch Notes, posted 2026-11-11 17:59 UTC, launch 2026-11-12 [21]. Announced, not yet verified in a live build. Numbers are held in the depth documents; this is the summary.
+
+- **Rewards** (cash-rewards-and-costs): emplacement destruction doubled; spotted high-value targets pay less; air-vehicle kill streaks re-added; destroying a vehicle with your own vehicle near a control zone earns the full zone reward; crate-drop pay scaled to contents; reduced pallet pay outside a friendly FOB; new FOB-fuel and parachute-into-FOB rewards; a small cash bonus for community servers.
+- **Prices** (price-tables-season-1): parachutes up (Basic $1,250, Sport $2,250); Wolf-110 [M2 Browning], Kodiak [M249], AH-6M [Miniguns] and Havoc down; Molotov unlock $25k to $12.5k; Infrared Range Finder removed from the vendor.
+- **Discounts:** the losing faction's discount is measured against the first-place faction; low-level players get an extended vendor discount that grows week by week.
+- **Real-money price:** first Early Access price increase of $5 at the end of Season 3 on 28 January; existing owners pay nothing extra (editions-pricing-platforms).
+- **Not stated:** any change to the $10,000 starting balance, a progression or cash reset, or a death-penalty rule.
 
 ## Earning cash
 
@@ -169,7 +182,7 @@ The Supporter Pack holds three Starter Weapon camos (Valkyra A-91, Lonestar Bush
 - 9 Oct 2026: Season 02 preview post, naming the Wager Vendor, faction experiment and reward systems [18]. Preview names differ from final notes in places (for example the helmet name) [18][19].
 - 14 Oct 2026, Season 02 patch notes (published ahead of release): economy changes summarised under Detail; one in-post update revised the logistics streak values to include the zone multiplier [19].
 - 15 Oct 2026, Update 0.2.0 released after a 08:00 to 09:30 UTC maintenance window; servers back online [19][20].
-- Known: the Wager Vendor is not available at Season 02 launch [19]. No official post after 15 Oct 2026 is in the 2026-10-30 snapshot.
+- Known: the Wager Vendor was not available at Season 02 launch [19] and is removed in the Season 03 notes [21]. The Season 03 notes (11 Nov 2026) are announced for 12 Nov and not yet verified live.
 - Superseded: Season 02 was teased for 15 Oct 2026 (22 Sep post) [7]; it shipped on that date [20].
 
 # Admin & Technical Notes
@@ -178,7 +191,7 @@ Update 0.1.2 added community server tools including scheduled daily restarts and
 
 # Risks & Caveats
 
-- Economy numbers change per patch and season; Season 02 already replaced many Season 1 prices [4][19]. No official post after 15 Oct 2026 is in the snapshot, so later hotfixes are unchecked.
+- Economy numbers change per patch and season; Season 02 already replaced many Season 1 prices [4][19]. Season 03 (announced for 12 Nov 2026) replaces many Season 02 values [21]; later hotfixes are unchecked.
 - Official posts are now read in full from the 2026-10-08 snapshot; the Gold Bar exchange rests on one pre-launch FAQ (18 Feb 2026) that later posts do not restate [5].
 - Community figures are measurements, not official data [15][16].
 - Commercial source: Timesaver.gg sells cash; its seasonal claims are not evidence [17].
@@ -188,9 +201,9 @@ Update 0.1.2 added community server tools including scheduled daily restarts and
 
 - Exact cash lost on death, the re-buy price, and whether vehicles are refunded: no official statement in any saved post, including the Season 02 notes.
 - The fly-through cap, the reduced pallet reward and the Lonestar and server-seeding bonus values: not stated in the notes.
-- Whether cash and XP reset each season, whether leftover cash auto-converts, and the cash-to-Gold-Bar rate: not in official text; the Season 02 patch notes do not mention a wipe or conversion [17][19]. Resolve with an in-game account check or an official statement.
+- Season 03 (announced) is silent on a reset as well [21]. Whether cash and XP reset each season, whether leftover cash auto-converts, and the cash-to-Gold-Bar rate: not in official text; the Season 02 patch notes do not mention a wipe or conversion [17][19]. Resolve with an in-game account check or an official statement.
 - Whether Season 02 changes the $10,000 starting balance: the notes do not say. (Season 1 prices were changed: see price-tables-season-1.)
-- When the Wager Vendor opens, and whether it has: no official post after 15 Oct in the snapshot.
+- Whether and when the Wager Vendor returns: removed in the Season 03 notes and "going back into development" [21].
 - Whether changelog vehicle prices are unlock prices or per-spawn prices.
 
 # References
@@ -212,6 +225,7 @@ Update 0.1.2 added community server tools including scheduled daily restarts and
 - [10] **Valve / Bulkhead** — *WARDOGS - Supporter Pack (DLC store entry)*. https://store.steampowered.com/app/4809960/. Accessed 2026-10-08.
 - [11] **Bulkhead (Steam News)** — *WARDOGS - Early Access & Beyond*, 7 Apr 2026. https://store.steampowered.com/news/app/1867240/view/1828894815567544. Accessed 2026-10-08.
 - [12] **Team17 (Game Developer)** — *WARDOGS is coming to Steam Early Access on 10 September*. https://www.gamedeveloper.com/press-release/wardogs-is-coming-to-steam-early-access-on-10-september. Accessed 2026-10-08.
+- [21] **BULKHEAD** — *WARDOGS | Season 03 Patch Notes* (Steam news, 2026-11-11 17:59 UTC). https://store.steampowered.com/news/app/1867240/view/1849192144179736. Accessed 2026-11-11.
 
 **Press & Secondary**
 
@@ -249,3 +263,4 @@ Depth documents: cash-rewards-and-costs, price-tables-season-1, death-penalty-an
 | 1.0.1 | 2026-10-08 | Orchestrator | Corrected Update 0.1.2 date from 29 Sep to 30 Sep 2026 (five outlets agree; see patch-history). | Standing mandate (auto-approve on green QA) |
 | 1.2.0 | 2026-10-08 | Research Pipeline (revision worker) | Revised against full official Steam text; Kodiak Flatbed upgraded to official $15,000 to $35,000 (unlock level 2 to 10); Gold Bars and cash exchange upgraded to official; 0.1.2 buildable reward corrected to scale with build progress; stale "posts not fetchable" risk removed; Supporter Pack contents added; 2 Oct hotfix split into two official posts; death penalty and season wipe kept as unverified. | Standing mandate (auto-approve on green QA) |
 | 1.3.0 | 2026-10-30 | Research Pipeline (virtual agent) | Revised for Season 02 / Update 0.2.0 against the official preview, patch notes and release post: added Season 02 economy summary, faction bonuses and losing-team discount, Wager Vendor (not at launch), Gold Market camo rotation and level 35 unlock, Rebuy Last Loadout interface change; death penalty and wipe kept unconfirmed (notes silent); Season 1 values kept as dated history. | — |
+| 1.4.0 | 2026-11-11 | Research Pipeline (virtual agent) | Added Season 03 (announced 11 Nov 2026) economy changes and the Wager Vendor removal; first Early Access price increase noted. Season 02 values kept as last verified live. | — |

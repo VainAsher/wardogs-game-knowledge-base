@@ -1,18 +1,18 @@
 ---
 id: community-and-source-reliability
 title: "Community Channels & Source Reliability Register"
-version: 1.1.1
+version: 1.2.0
 status: frozen
 confidence: Medium
 category: Meta & Release
 topic: "Official channels, community hubs, and a reliability rating for every source class and outlet used"
 market: Global
-game_version: "Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30)"
+game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
 document_type: depth
 created: 2026-10-08
-updated: 2026-10-30
-review_due: 2026-11-20
-sources_verified: 2026-10-30
+updated: 2026-11-11
+review_due: 2026-11-19
+sources_verified: 2026-11-11
 supersedes: null
 related: [meta-release-foundation, patch-history, editions-pricing-platforms, season-2-announcements]
 tags: [community, sources, reliability, reviews, baseline, official-channels, season-02, rumour-scoring]
@@ -23,15 +23,15 @@ tags: [community, sources, reliability, reviews, baseline, official-channels, se
 | Field | Value |
 |-------|-------|
 | Document ID | community-and-source-reliability |
-| Version | 1.1.1 |
+| Version | 1.2.0 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Meta & Release |
-| Game version | Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30) |
+| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-10-30 |
-| Review due | 2026-11-20 |
+| Updated | 2026-11-11 |
+| Review due | 2026-11-19 |
 | Sources verified | 2026-10-30 |
 
 # Executive Summary
@@ -55,6 +55,7 @@ Confidence is Medium. The channel and review facts rest on official or first-par
 - Official text confirms, against earlier uncertainty: the 2 Oct balance hotfix (IR Rangefinders disabled until Season 02, CIWS about 6 s instead of 12 s) [21], the 30 Sep date for 0.1.2 [19], and three approved hosts named on 8 Sep [22].
 - Season 02 outcome (0.2.0): the official notes do not mention a progression wipe or a cash-to-Gold-Bar conversion, so those pre-release claims stay unconfirmed; the only support after launch is press paraphrase (PCGamesN 17 and 25 Oct) [59][62][63]. Absence from the notes is not a denial.
 - How press rumours scored against the 0.2.0 notes: 12 of 29 pre-release claims confirmed, 3 partly, 2 contradicted, 10 not mentioned, 2 press-only (season-2-announcements). Specific content claims held up; wipe and currency claims did not gain support [59].
+- The 2026-11-11 feed index lists 93 items, 37 official; the two new official posts since 2026-10-30 are the Road to Season 3 devlog (6 Nov) and the Season 03 Patch Notes (11 Nov), both first-party and used as Primary [66][67]. The seven other new items are one PCGamesN item (30 Oct, a delayed Season 3 preview video, headline only) and six PlayGround.ru items (2 to 11 Nov, Russian-language, reporting dev comments on a studio break, crunch, a ban wave and the Season 3 content); they were not read in full and are not used as evidence. The 185,000 ban-wave figure is taken from the official notes [66], not from them.
 - The 2026-10-30 feed index lists 84 items, 35 official; the three new official posts are the Preview, Patch Notes and the live post, and later items are press (PCGamesN, SteamDB, PlayGround.ru). No official post after 2026-10-15 was seen. PlayGround.ru items are not used in this KB.
 - Press (PCGamesN, 16 to 27 Oct 2026, fetched 2026-10-30, not archived): a removed blue-team bonus and Driver-track exploit bans, a possibly early Season 3, slower season cadence and two new approved hosts. These are press only and never establish a fact alone [61][62][63][64].
 - Commercial sellers (boosting, hosting) and single-source outlets are rated lowest; their claims are leads, never facts (see the register).
@@ -144,6 +145,7 @@ Every row is a value a later snapshot can diff mechanically.
 | Season 02 released as Update 0.2.0; maintenance 15 Oct 08:00 to 09:30 UTC; live post 09:59 UTC | 14-15 Oct 2026 | [59][60] |
 | Official sales claim in the Preview: "3+ million sales and counting" (studio claim) | 9 Oct 2026 | [58] |
 | Steam news feed items 84, of which 35 official | 2026-10-30 snapshot | [2] |
+| Steam news feed items 93, of which 37 official (Road to Season 3, Season 03 Patch Notes new) | 2026-11-11 snapshot | [66][67] |
 | Pre-Season-02 patch: Update 0.1.2, 30 Sep 2026, maintenance 08:00 UTC for about 1 hour (history; latest official build is now 0.2.0) | 30 Sep 2026 | [19] |
 | Pre-Season-02 hotfixes (history): 2 Oct 2026 security/stability at 08:00 UTC (1 hour); balance hotfix posted 15:39 UTC | 2 Oct 2026 | [20][21] |
 
@@ -255,7 +257,7 @@ The official admin-facing channels are the Steam announcements for the Approved 
 - Why the store page's "Total reviews in all languages" (95,146) differs from the review API total (109,396) [1][3]. Partial lead (2026-10-30): the appdetails recommendations total tracks the page total on both dates; the review API could not be re-fetched to test the purchase-type explanation.
 - Whether the Vice "rain will not change mid-match" statement exists in an official post (it is not in the saved Steam feed; it may come from X or Discord).
 - Whether Dexerto, Timesaver and wardogswiki.com described a Season 02 wipe from a real developer statement or from speculation: the 14 Oct notes do not mention one, so it remains unconfirmed by official text.
-- Whether any official post after 2026-10-15 corrects or extends the notes (none seen in the 2026-10-30 snapshot).
+- Whether any official post after 2026-11-11 corrects or extends the Season 03 notes (none yet; the notes were posted the day before launch).
 - Whether the Gaming with Daopa 14 Aug closed-beta notes are genuine developer notes; no matching official post is saved.
 
 # References
@@ -288,6 +290,8 @@ The official admin-facing channels are the Steam announcements for the Approved 
 - [58] **BULKHEAD** — *WARDOGS | Season 02 Preview* (Steam post, 9 Oct 2026). https://store.steampowered.com/news/app/1867240/view/1846018067933823. Accessed 2026-10-30.
 - [59] **BULKHEAD** — *WARDOGS | Season 02 Patch Notes* (Steam post, 14 Oct 2026). https://store.steampowered.com/news/app/1867240/view/1846651706674560. Accessed 2026-10-30.
 - [60] **BULKHEAD** — *WARDOGS | Season 02 is now live* (Steam post, 15 Oct 2026). https://store.steampowered.com/news/app/1867240/view/1846651706677015. Accessed 2026-10-30.
+- [66] **BULKHEAD** — *WARDOGS | Season 03 Patch Notes* (Steam news, 2026-11-11 17:59 UTC). https://store.steampowered.com/news/app/1867240/view/1849192144179736. Accessed 2026-11-11.
+- [67] **BULKHEAD** — *WARDOGS | Road to Season 3* (Steam news, 2026-11-06 19:00 UTC). https://store.steampowered.com/news/app/1867240/view/1848664643347097. Accessed 2026-11-11.
 
 **Press & Secondary**
 
@@ -356,3 +360,4 @@ The official admin-facing channels are the Steam announcements for the Approved 
 | 1.0.1 | 2026-10-08 | Research Pipeline (revision worker) | Corrected against live store-page capture; review figures recorded with scope (page 63,179 English and 95,146 all-language versus API 109,396), 95,146 no longer called "recommendations"; methodology lesson added; official channels updated (Discord, X, TikTok, Facebook, Instagram, QQ, YouTube engagement); Steam Deck Unsupported; anti-cheat Elytra; second package named Supporter Edition | Standing mandate (auto-approve on green QA) |
 | 1.1.0 | 2026-10-30 | Research Pipeline (virtual agent) | Recorded how pre-release press and seller claims scored against the Update 0.2.0 notes (new scoring section and register updates); added the Preview "3+ million sales" claim (9 Oct, studio claim) and the 2026-10-30 feed counts (84 items, 35 official); added PCGamesN as an outlet (press only, 10 to 27 Oct); baseline table marked as history; wipe and Gold Bar conversion stay unconfirmed (not mentioned in the notes). | — |
 | 1.1.1 | 2026-10-30 | Research Pipeline (virtual agent) | Fresh browser capture of the live store page (2026-10-30): all Primary store-page claims unchanged since 2026-10-08 (Elytra, Steam Deck Unsupported, fighter jets, 1 to 2 years, gunplay quote, proximity and local voice chat, GBP prices); review figures recorded alongside the 2026-10-08 values; the review API could not be re-fetched. | — |
+| 1.2.0 | 2026-11-11 | Research Pipeline (virtual agent) | Added the Season 03 sources (Road to Season 3 devlog, Season 03 notes) as official; recorded that the 6 Nov 185,000-ban-wave figure appears in the official notes and that press Season 3 timing is now confirmed. | — |

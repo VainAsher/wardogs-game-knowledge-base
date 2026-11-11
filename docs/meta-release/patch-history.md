@@ -1,18 +1,18 @@
 ---
 id: patch-history
 title: "Patch & Update History"
-version: 1.2.0
+version: 1.3.0
 status: frozen
 confidence: High
 category: Meta & Release
 topic: "Dated per-patch changelog from closed beta through Update 0.2.0 (Season 02) and hotfixes, from official Steam posts"
 market: Global
-game_version: "Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30)"
+game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
 document_type: reference-data
 created: 2026-10-08
-updated: 2026-10-30
-review_due: 2026-11-20
-sources_verified: 2026-10-30
+updated: 2026-11-11
+review_due: 2026-11-19
+sources_verified: 2026-11-11
 supersedes: null
 related: [meta-release-foundation, technical-servers-foundation, economy-foundation, editions-pricing-platforms]
 tags: [patch-history, changelog, early-access]
@@ -23,19 +23,19 @@ tags: [patch-history, changelog, early-access]
 | Field | Value |
 |-------|-------|
 | Document ID | patch-history |
-| Version | 1.2.0 |
+| Version | 1.3.0 |
 | Status | frozen |
 | Confidence | High |
 | Category | Meta & Release |
-| Game version | Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30) |
+| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-10-30 |
-| Review due | 2026-11-20 |
+| Updated | 2026-11-11 |
+| Review due | 2026-11-19 |
 
 # Executive Summary
 
-This reference lists every dated WARDOGS build change posted by BULKHEAD on Steam News between the August 2026 closed beta and 15 October 2026, when Update 0.2.0 (Season 02) was released. Version 1.2.0 adds the Season 02 Preview (9 Oct), the Season 02 Patch Notes (14 Oct) and the "Season 02 is now live" post (15 Oct) from the 2026-10-30 snapshot [19][20][21]. Earlier entries are unchanged from the 2026-10-08 snapshot [1]. Every entry is labelled Official and cites its Steam post. Press-only items are in a separate unconfirmed list.
+This reference lists every dated WARDOGS build change posted by BULKHEAD on Steam News between the August 2026 closed beta and the Season 03 patch notes of 11 November 2026. Update 0.2.0 (Season 02) was released on 15 October 2026; Season 03 is announced for 12 November 2026 and is not yet live at the time of this revision. Version 1.3.0 adds the Road to Season 3 devlog (6 Nov) and the Season 03 Patch Notes (11 Nov) from the 2026-11-11 snapshot [26][27]. Version 1.2.0 added the Season 02 Preview (9 Oct), Patch Notes (14 Oct) and "Season 02 is now live" post (15 Oct) [19][20][21]. Earlier entries are unchanged from the 2026-10-08 snapshot [1]. Every entry is labelled Official and cites its Steam post. Press-only items are in a separate unconfirmed list.
 
 The official titles settle the version labels: "Patch 0.11", "Update 0.1.2 (Minor Patch)" and, for Season 02, the live post says "We have now released Update 0.2.0" [9][10][21]. The two 2 Oct entries are two separate official posts [11][12]. The 0.2.0 notes were posted 14 Oct, 14:59 UTC, with maintenance announced for 15 Oct 08:00 to 09:30 UTC, and the live post followed on 15 Oct at 09:59 UTC [20][21]. There are no official posts after 2026-10-15 in the 2026-10-30 snapshot; later hotfixes may exist.
 
@@ -51,11 +51,14 @@ Confidence is High: the changelog rests entirely on first-party Steam posts. The
 - Patch 0.11 split the browser into Community and Official, made Community Server IDs persistent and stated an economy-abuse sanctions policy (14 Sep 2026) [9].
 - Season 02 / Update 0.2.0 was released on 15 Oct 2026 (post 09:59 UTC, "Servers are back online") after a maintenance window announced for 08:00 to 09:30 UTC [20][21].
 - 0.2.0 added four weapons, a Molotov, four vehicles, three buildables and a rain preset; reworked suppression and calibre damage; cut the role-track XP curve (level 20: 250,000 to 111,500); and changed team switching, team-kill handling and ping limits [20]. The Wager Vendor is announced but "not available at Season 2 launch" [20].
-- Press only (PCGamesN, 16 to 27 Oct): a blue-team bonus removed, a possible early Season 3, two new approved hosts [22][23][24][25].
+- Press only (PCGamesN, 16 to 27 Oct): a blue-team bonus removed, a possible early Season 3, two new approved hosts [22][23][24][25]. The Season 3 date and roughly three-month season length are now official (see below) [26].
+- Season 03 is announced for 12 Nov 2026, after maintenance between 13:00 and 15:00 UTC (about 2 hours of downtime). The Season 03 Patch Notes were posted 11 Nov, 17:59 UTC. Headlines: new city map Sabatulo, a new Limited Mode, multi-track unlocks for shared items, an XP catch-up mechanic and extended vendor discounts, a roughly three-month season, slower progression, DMR and assault rifle torso damage restored, and the Wager Vendor and Infrared Range Finder removed from the vendor [26].
+- The first Early Access price increase is announced for the end of Season 3 on 28 Jan (2027), by $5; existing owners pay nothing extra [26]. A further increase is intended around September 2027 [26].
+- These values are announced, not yet verified in a live build: Season 03 had not launched when this entry was written (2026-11-11).
 
 # Scope
 
-Covers the closed beta posts, the open beta post, the pre-load and Season 1 changelog, Launch Stability Hotfix #1, Patch 0.11, Update 0.1.2, the 2 Oct 2026 hotfixes, the Season 02 teaser, Preview, Patch Notes and release post, as of the 2026-10-30 snapshot. Excludes marketing, sales and wishlist posts. Full 0.2.0 value tables belong to the owner documents named in the 0.2.0 section. Release dates, prices and platforms are in meta-release-foundation and editions-pricing-platforms; in-game economy rules are in economy-foundation; server administration is in technical-servers-foundation.
+Covers the closed beta posts, the open beta post, the pre-load and Season 1 changelog, Launch Stability Hotfix #1, Patch 0.11, Update 0.1.2, the 2 Oct 2026 hotfixes, the Season 02 teaser, Preview, Patch Notes and release post, and the Road to Season 3 devlog and Season 03 Patch Notes, as of the 2026-11-11 snapshot. Excludes marketing, sales and wishlist posts. Full 0.2.0 value tables belong to the owner documents named in the 0.2.0 section. Release dates, prices and platforms are in meta-release-foundation and editions-pricing-platforms; in-game economy rules are in economy-foundation; server administration is in technical-servers-foundation.
 
 # Definitions
 
@@ -69,7 +72,7 @@ Covers the closed beta posts, the open beta post, the pre-load and Season 1 chan
 
 # Current State
 
-At the 2026-10-30 snapshot the latest official build is Update 0.2.0 (Season 02), released 15 Oct 2026 [21]. No official post after 2026-10-15 was seen in the snapshot, so any later hotfix is unknown. Before it, the live build (8 Oct 2026) was Update 0.1.2 as changed by the 2 Oct 2026 hotfixes; the balance hotfix needed no client download or server downtime [10][11][12].
+At the 2026-11-11 snapshot the latest live build is still Update 0.2.0 (Season 02), released 15 Oct 2026 [21]. Season 03 is announced for 12 Nov 2026 and its patch notes are published but not yet in effect [26]. No official hotfix post between 15 Oct and 6 Nov appears in the snapshot, but whether one shipped without a Steam post is unknown. Before 0.2.0, the live build (8 Oct 2026) was Update 0.1.2 as changed by the 2 Oct 2026 hotfixes; the balance hotfix needed no client download or server downtime [10][11][12].
 
 # Detail
 
@@ -103,6 +106,8 @@ The 1.0.0 draft wondered whether "0.11" meant "0.1.1". The official title is "PA
 | 9 Oct 2026 | Season 02 Preview | 16:00 | Official | [19] |
 | 14 Oct 2026 | Season 02 Patch Notes | 14:59 | Official | [20] |
 | 15 Oct 2026 | Update 0.2.0 / Season 02 is now live | 09:59 | Official | [21] |
+| 6 Nov 2026 | Road to Season 3 (devlog) | 19:00 | Official | [27] |
+| 11 Nov 2026 | Season 03 Patch Notes (launch 12 Nov) | 17:59 | Official | [26] |
 
 ## Beta dates from the official posts
 
@@ -257,6 +262,32 @@ Posted 14:59 UTC with a trailer. Maintenance window: 15 Oct between 08:00 and 09
 
 Posted 09:59 UTC: "We have now released Update 0.2.0. Servers are back online." The post embeds a trailer and links to a patch notes address that is not in the snapshot; the 14 Oct post is cited here as the notes.
 
+## 6 Nov 2026, Road to Season 3 (Official) [27]
+
+Posted 19:00 UTC. A devlog that "recap[s] where we went wrong with Season 02" and sets out what Season 03 is built on: "No social experiments. No reactivity", a new map, longer seasons and "the best version of WARDOGS on the road to 1.0". It states that Season 03 drops 12 November, names the new map Sabatulo (urban, close quarters), says the team also addresses cheating and exploiting, and promises a Season 03 Patch Notes preview "early next week". The post text carries no numbers; the content is in the video, which is not archived here.
+
+## 11 Nov 2026, Season 03 Patch Notes (Official, effective 12 Nov) [26]
+
+Posted 17:59 UTC with a trailer. Maintenance window: 12 Nov between 13:00 and 15:00 UTC, "roughly 2 hours of downtime before the new season goes live". The post is the full Season 03 notes. Values live in the owner documents, so this entry lists headlines only. All values are announced and unverified in a live build.
+
+| Area | Headline change (Season 03) | Owner document |
+|------|-----------------------------|----------------|
+| Map | New city map Sabatulo (hospital, swimming pool, power station, river embankment; verticality and close quarters) | launch-maps-reference |
+| Mode | New Limited Mode: vendor limited to early-to-mid-season items (no HP or AP ammo, no Level 3 or 4 armour, no attack vehicles, no CIWS, Stingray, MG Nest or Drill Rig, no anti-tank mines); progression and cash carry over | gameplay-modes-foundation |
+| Progression | XP per level increased; season length about 3 months; multi-track unlocks for armour, backpacks, tactical vests, parachutes and ammo; catch-up XP bonus and extended vendor discount for low-level players; several unlock levels moved | progression-and-role-tracks, progression-unlock-tables |
+| Economy | Doubled cash for destroying buildable weapon emplacements; air-vehicle kill streaks re-added; lower spotted-target rewards; crate-drop reward scaled to contents; losing-faction discount now measured against first place; vehicle price cuts; Molotov unlock cost $25k to $12.5k; parachute price rises | cash-rewards-and-costs, price-tables-season-1 |
+| Weapons | Assault rifle torso damage back to Season 1 values (upper torso +13%); LMG torso matches assault rifles; DMRs kill unarmoured in 2 body shots; TCX-SPR recoil reduced; Compound Bow arrow speed +50% | damage-ballistics-and-balance, weapons-catalogue |
+| Gear | Infrared Range Finder removed from the vendor; Molotov sets players ablaze; Basic Parachute is an emergency parachute, Sport Parachute is for BASE jumps; Halligan Bar opens enemy supply crates; item weights corrected | gadgets-armor-and-equipment |
+| Vehicles | Faster reverse speeds, downhill roll, window cleaning; minigun damage up; Littlebird [Rockets] fires 70mm rockets; cockpit protection up; CIWS 20x102mm hits once per section; tanks resist grenades; hedges and stone walls destructible; vehicle price cuts | vehicle-roster-and-prices, air-and-counter-air, fob-and-base-building |
+| Wager Vendor | Removed; "going back into development" | season-2-announcements, economy-foundation |
+| Servers | Community server cash bonus and "Server Rules" popup; community favouriting; Limited servers in the browser; official ping limit 250 in all regions; seeding free unarmed vehicles; team-switch penalty narrowed | server-hosting-and-browser |
+| Client and anti-cheat | Third-party tools that remove smoke or grass, change geometry, LOD bias or textures are bannable and blocked on launch; "potato" shadow setting reset if set via ini; Global Illumination only on Overkill | system-requirements-and-performance |
+| Pricing and DLC | First price increase, $5, at the end of Season 3 on 28 Jan; Movember "Tactical 'Stache" DLC (100% of profits to Movember); five Gold Market camos; Twitch Drops enabled | editions-pricing-platforms |
+| Other | Steam Replay timeline events; three Steam achievements; controller rebinds; DDoS attacks on Asian regions acknowledged, infrastructure changes targeted for the Season 03 release | none |
+
+- The notes give no explicit statement on a Season 03 progression wipe or cash reset; the longer XP curve is described as "slowed for Season 3's launch". Whether progression carries over is not stated, so the press report of an economy reset [24] stays unconfirmed.
+- The ban wave "of 185,000+ players" is cited in the notes as the reason for raising the ping limit [26].
+
 ## Unconfirmed (press or player-reported only)
 
 These items are not in the official snapshot text. They do not establish facts.
@@ -269,25 +300,27 @@ These items are not in the official snapshot text. They do not establish facts.
 | Press name "Sea Whiz" for the Havoc anti-air change; claim that the 2 Oct security hotfix made no gameplay, balance, economy or UI changes | MMOEXP and InGameNews [17][15] | The official posts say CIWS and give no such statement for the security hotfix |
 | Season 02 wipe, rain, new weapons and other content (pre-release) | Timesaver.gg, which sells boosting services [18] | Rain, four weapons and the Molotov are confirmed by [20]; a wipe is not mentioned in the notes. Scored in season-2-announcements |
 | A Season 2 blue-team bonus (5% cash, 2.5% XP) removed; Driver-track exploit with 24-hour bans for "less than a thousand" players; a mid-season update "0.25" with limited-mode servers (16 Oct) | PCGamesN [22] | Press only; no official post after 15 Oct in the snapshot. The 14 Oct notes list Lonestar cash and XP bonuses as Season 2 only [20] |
-| Season 3 possibly brought "significantly" forward; no progress reset that weekend (17 Oct) | PCGamesN [23] | Press only; no official Season 3 statement in the snapshot |
-| Roughly three-month seasons with a smaller midway update; Season 3 targeted for 12 Nov with an economy reset; limited servers (25 Oct) | PCGamesN [24] | Press only |
+| Season 3 possibly brought "significantly" forward; no progress reset that weekend (17 Oct) | PCGamesN [23] | Press only; superseded: Season 3 is officially 12 Nov [26][27] |
+| Roughly three-month seasons with a smaller midway update; Season 3 targeted for 12 Nov with an economy reset; limited servers (25 Oct) | PCGamesN [24] | Date, three-month length and Limited servers are now official [26]; the economy reset and the smaller midway update are not in the official notes |
 | Two new approved server hosts, GG Host and 1of1 Servers (27 Oct) | PCGamesN [25] | Press only; no official host post after 8 Sep in the snapshot |
 
 # Early Access Changes & Known Issues
 
 - This whole document is the change record; see Detail. Official posts through 15 Oct 2026 are included.
 - Posted 14 Sep as not yet ready: community favouriting, tiered priority queues, Message of the Day, warmup activities, seeding AFK kick changes and team switching controls [9]. The 0.1.2 post lists none of them [10]. The 0.2.0 notes add team switching restrictions, server seeding rewards and pre-match entertainment [20]; favouriting, priority queues and Message of the Day are not mentioned in them.
-- No other official patch or hotfix post exists in the snapshot between 14 Sep and 30 Sep 2026, or after 15 Oct 2026 [1][21].
+- No other official patch or hotfix post exists in the snapshot between 14 Sep and 30 Sep 2026, or between 15 Oct and 6 Nov 2026 [1][21][27].
+- Season 03 (12 Nov 2026) changes several Season 02 facts recorded here: IR Range Finder removed from the vendor, Wager Vendor removed (Season 02: announced, opens later), progression slowed (Season 02 cut the curve), Season 2 ping limits raised to 250 on official servers [20][26].
 - Update 0.2.0 (15 Oct 2026) supersedes many Season 1 values; IR Rangefinders now run on batteries [20].
 - 0.2.0 changed a fact this document recorded for Season 1: level 20 XP 250,000 became 111,500 (Season 1 (0.1.2): 250,000 -> Season 02 (0.2.0): 111,500) [7][20].
 
 # Admin & Technical Notes
 
-Admin-relevant entries: Community Server IDs persist and server names must sort alphabetically with single spaces (Patch 0.11, 14 Sep 2026) [9]; daily restart time in UTC, RCON AllowedHosts, RCON length caps, RCON Standard response default and ServerImageURL checks (Update 0.1.2, 30 Sep 2026) [10]. Update 0.2.0 (14 Oct 2026): official servers enforce region-based ping limits (high ping kicks, temporary rejoin restriction, ping tags and filters in the browser) and Community Server admins "will be able to configure their own ping limits" [20]. The notes give no setting names and do not mention RCON or ini changes. Config detail belongs in technical-servers-foundation.
+Admin-relevant entries: Community Server IDs persist and server names must sort alphabetically with single spaces (Patch 0.11, 14 Sep 2026) [9]; daily restart time in UTC, RCON AllowedHosts, RCON length caps, RCON Standard response default and ServerImageURL checks (Update 0.1.2, 30 Sep 2026) [10]. Update 0.2.0 (14 Oct 2026): official servers enforce region-based ping limits (high ping kicks, temporary rejoin restriction, ping tags and filters in the browser) and Community Server admins "will be able to configure their own ping limits" [20]. Season 03 (announced 11 Nov 2026): official servers' ping limit rises to 250 in all regions; community admins keep their own limits; a configurable "Server Rules" popup and community-server favouriting are added; fixes for unbans and reserved-slot removals being undone after a settings save [26]. Neither set of notes gives setting names or mentions RCON or ini changes. Config detail belongs in technical-servers-foundation.
 
 # Risks & Caveats
 
-- The latest snapshot is dated 2026-10-30 and holds no official post after 2026-10-15; later posts, edits or removals are not reflected [1][21].
+- The latest snapshot is dated 2026-11-11; later posts, edits or removals (including any Season 03 launch-day hotfix) are not reflected [1][26].
+- Season 03 values are from pre-release notes. BULKHEAD can change them before or after launch; verify against the live build after 12 Nov 2026.
 - Dates are Steam post times in UTC; the update itself ran at the stated maintenance times, not necessarily the post time.
 - The 20 Aug beta schedule is an image whose contents are not in the text [3].
 - Press items (PCGamesN) were fetched on 2026-10-30, not archived, and are paraphrased [22][23][24][25].
@@ -300,8 +333,10 @@ Admin-relevant entries: Community Server IDs persist and server names must sort 
 - Whether the 14 Aug closed beta notes were ever posted officially.
 - Whether the 2 Oct 08:00 UTC security hotfix ran as scheduled and whether it is the "this morning" hotfix cited in the balance post.
 - Why BULKHEAD labels the patches "0.11" and "0.1.2".
-- Whether any hotfix or mid-season update has shipped since 15 Oct 2026 (none seen in the 2026-10-30 snapshot).
-- When the Wager Vendor opens [20].
+- Whether any hotfix shipped between 15 Oct and 6 Nov 2026 without a Steam post.
+- Whether Season 03 launched on time and as described (verify after 12 Nov 2026).
+- Whether Season 03 resets progression: the notes are silent [26].
+- Whether the Wager Vendor returns, and when: the notes say only that he is back in development [26].
 - Whether Season 02 reset progression: not mentioned in the notes [20].
 
 # References
@@ -324,6 +359,8 @@ Admin-relevant entries: Community Server IDs persist and server names must sort 
 - [19] **BULKHEAD** — *WARDOGS | Season 02 Preview* (Steam news, 2026-10-09 16:00 UTC). https://store.steampowered.com/news/app/1867240/view/1846018067933823. Accessed 2026-10-30.
 - [20] **BULKHEAD** — *WARDOGS | Season 02 Patch Notes* (Steam news, 2026-10-14 14:59 UTC). https://store.steampowered.com/news/app/1867240/view/1846651706674560. Accessed 2026-10-30.
 - [21] **BULKHEAD** — *WARDOGS | SEASON 02 IS NOW LIVE* (Steam news, 2026-10-15 09:59 UTC). https://store.steampowered.com/news/app/1867240/view/1846651706677015. Accessed 2026-10-30.
+- [26] **BULKHEAD** — *WARDOGS | Season 03 Patch Notes* (Steam news, 2026-11-11 17:59 UTC). https://store.steampowered.com/news/app/1867240/view/1849192144179736. Accessed 2026-11-11.
+- [27] **BULKHEAD** — *WARDOGS | Road to Season 3* (Steam news, 2026-11-06 19:00 UTC). https://store.steampowered.com/news/app/1867240/view/1848664643347097. Accessed 2026-11-11.
 
 **Press & Secondary**
 
@@ -361,3 +398,4 @@ Admin-relevant entries: Community Server IDs persist and server names must sort 
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint and links (0 dead). | Standing mandate (auto-approve on green QA) |
 | 1.1.0 | 2026-10-08 | Research Pipeline (revision worker) | Rebuilt from full official Steam text; every entry cited to its Steam post and labelled Official; version labels taken from post titles (Patch 0.11, Update 0.1.2); 2 Oct entries resolved as two posts with UTC times; beta dates from official posts; press-only items moved to an Unconfirmed list; full Season 1 XP, price and unlock baseline values added; confidence raised to High. | Standing mandate (auto-approve on green QA) |
 | 1.2.0 | 2026-10-30 | Research Pipeline (virtual agent) | Added the Season 02 Preview (9 Oct), Patch Notes (14 Oct) and Update 0.2.0 release (15 Oct) entries from the 2026-10-30 snapshot, with headline changes and owner-document pointers; Season 02 teaser entry marked historical; four PCGamesN items (16-27 Oct) added to the Unconfirmed list as press-only; no official posts after 15 Oct seen. | — |
+| 1.3.0 | 2026-11-11 | Research Pipeline (virtual agent) | Added the Road to Season 3 devlog (6 Nov) and the Season 03 Patch Notes (11 Nov, announced for 12 Nov launch) from the 2026-11-11 snapshot, with headline changes and owner-document pointers; Season 3 timing and the Wager Vendor removal moved from press/unconfirmed to official; price increase and DDoS acknowledgement recorded. In-game values not yet verified live. | — |

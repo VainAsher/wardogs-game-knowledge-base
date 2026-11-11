@@ -118,6 +118,8 @@ Cite as `https://store.steampowered.com/news/app/1867240/view/<gid>`. The link c
 | 2026-10-09 | 1846018067933823 | WARDOGS / Season 02 Preview |
 | 2026-10-14 | 1846651706674560 | WARDOGS / Season 02 Patch Notes |
 | 2026-10-15 | 1846651706677015 | WARDOGS / SEASON 02 IS NOW LIVE |
+| 2026-11-06 | 1848664643347097 | WARDOGS / Road to Season 3 |
+| 2026-11-11 | 1849192144179736 | WARDOGS / Season 03 Patch Notes |
 
 ## Sources added by Cluster G (2026-10-30)
 
@@ -125,3 +127,9 @@ Snapshot `snapshots/2026-10-30/` (84 feed items, 35 official). No official post 
 Press & Secondary (PCGamesN, cited as press only, never alone): 2026-10-10 blue team article; 2026-10-16 Season 2 apology; 2026-10-17 Season 3 early start; 2026-10-25 developer thoughts; 2026-10-27 community servers (GG Host, 1of1 Servers, unconfirmed). PlayGround.ru feed items are not used.
 In-game verifiable data (rank 3): `client-install-inspection` records a read-only inspection of the Windows install (Steam build id 25937608, client CL-516586).
 Live store page re-captured in Chrome on 2026-10-30 (`snapshots/2026-10-30/store-page-live.txt`, local only). The review API summary for that day could not be fetched.
+
+## Sources added by Cluster H (2026-11-11)
+
+Snapshot `snapshots/2026-11-11/` (93 feed items, 37 official). New official posts since 2026-10-30: Road to Season 3 (2026-11-06) and Season 03 Patch Notes (2026-11-11, launch 2026-11-12). Nothing between 2026-10-15 and 2026-11-06.
+Press & Secondary: one PCGamesN item (2026-10-30, delayed Season 3 preview video) and six PlayGround.ru feed items (2 to 11 Nov, Russian-language) are in the feed but were not read in full and are not used as evidence.
+Store data re-captured 2026-11-11 (`store-app-us/gb.json`, plus `store-dlc-movember-us/gb.json`, local only): prices unchanged (USD 39.99, GBP 36.99; Supporter Pack USD 12.99, GBP 11.99); new DLC app 4809970 "WARDOGS - Movember Pack" with no price shown; "Steam Trading Cards" category added; recommendations total 168,465 (US) and 168,326 (GB). The review API summary could not be fetched again (HTML instead of JSON); the live store page was not re-captured in a browser on this date.

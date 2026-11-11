@@ -1,18 +1,18 @@
 ---
 id: damage-ballistics-and-balance
 title: "Damage, Ballistics & Balance Changes"
-version: 1.1.0
+version: 1.2.0
 status: frozen
 confidence: Medium
 category: Combat & Loadouts
 topic: "Damage model, ballistics, hit registration, and the balance-change history"
 market: Global
-game_version: "Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30); Season 1 baseline kept as history"
+game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
 document_type: depth
 created: 2026-10-08
-updated: 2026-10-30
-review_due: 2026-11-20
-sources_verified: 2026-10-30
+updated: 2026-11-11
+review_due: 2026-11-19
+sources_verified: 2026-11-11
 supersedes: null
 related: [combat-loadouts-foundation, weapons-catalogue, gadgets-armor-and-equipment, patch-history]
 tags: [combat, damage, ballistics, balance, patch-notes, season-1, season-02, update-0-2-0, suppression, early-access]
@@ -23,15 +23,15 @@ tags: [combat, damage, ballistics, balance, patch-notes, season-1, season-02, up
 | Field | Value |
 |-------|-------|
 | Document ID | damage-ballistics-and-balance |
-| Version | 1.1.0 |
+| Version | 1.2.0 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Combat & Loadouts |
-| Game version | Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30) |
+| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-10-30 |
-| Review due | 2026-11-20 |
+| Updated | 2026-11-11 |
+| Review due | 2026-11-19 |
 
 # Executive Summary
 
@@ -39,11 +39,14 @@ The developer still has not published a damage table, ballistic table or hit-reg
 
 The 0.2.0 damage rework cuts base damage by calibre (.308 Win -25%, 7.62x54mmR -20%, 7.62x39mm -19%, .50 Cal -16%, applied to every weapon using the round, including vehicle weapons), evens out and slightly lowers assault-rifle torso damage, aligns LMG body damage with assault rifles, adjusts DMR hit-location values, raises sniper-rifle hit-location damage, lowers Level 3 and Level 4 armour and helmet damage reduction (55% to 50%, 65% to 60%), and rebuilds suppression around shared falloff curves per weapon, with Level 3 and 4 helmets reducing suppression by 68% and 80% [15].
 
-Season 1 material (the 10 Sep 2026 changelog through the 2 Oct 2026 hotfix) is kept as dated history. Document confidence is Medium: the Season 02 changes are Primary and itemised, but no absolute damage values exist, the realism and hit-registration sections rest on marketing-register text, and the ballistics claim rests on one beta-era press report. No official post after 15 Oct 2026 appears in the 2026-10-30 snapshot.
+Season 1 material (the 10 Sep 2026 changelog through the 2 Oct 2026 hotfix) is kept as dated history. The Season 03 Patch Notes (posted 11 Nov 2026, for the 12 Nov launch) partly reverse the Season 02 rework: assault-rifle torso damage returns to Season 1 values, LMG torso damage matches it, DMR damage is raised (every DMR now kills an unarmoured player in 2 body shots or 1 headshot), vehicle minigun damage against infantry rises, and tanks resist grenades [18]. These are announced and not yet verified in a live build.
+
+Document confidence is Medium: the Season 02 and Season 03 changes are Primary and itemised, but no absolute damage values exist (the Season 03 notes give shots-to-kill and percentage changes only), the realism and hit-registration sections rest on marketing-register text, and the ballistics claim rests on one beta-era press report.
 
 # Key Takeaways
 
 - Official, Update 0.2.0 (14 Oct 2026): calibre base damage reductions of .308 Win -25%, 7.62x54mmR -20%, 7.62x39mm -19%, .50 Cal -16%, affecting infantry and vehicle weapons [15].
+- Official, Season 03 (announced 11 Nov 2026): assault-rifle torso damage back to Season 1 values and LMG torso equal to it (upper torso +13%, middle +3%, lower +3% against Season 02); every DMR kills an unarmoured player in 2 body shots (was 3) and an unhelmeted player in 1 headshot (was 2); Compound Bow arrow speed +50%; TCX-SPR recoil reduced [18].
 - Official, 0.2.0: Level 3 armour and helmets damage reduction 55% to 50%; Level 4 65% to 60%; Level 3 and 4 helmets reduce suppression by 68% and 80% [15].
 - Official, 0.2.0: suppression rebuilt around shared falloff curves per weapon, stronger near-miss suppression from small and medium calibres, rate of fire accounted for, less screen shake [15].
 - Official, 0.2.0: assault-rifle body shots slightly weaker, LMG body damage matches assault rifles, DMR headshots and upper-body hits slightly weaker, sniper hit-location damage increased, Scout Rifle headshots one-shot unhelmeted targets [15].
@@ -72,7 +75,8 @@ Covers the Update 0.2.0 combat-balance rules (damage, armour, suppression, bow, 
 
 - Official, Update 0.2.0 (released 15 Oct 2026; notes posted 14 Oct 2026): the "Damage Update" reduces calibre base damage and rebalances archetypes; "Suppression Improvements" rebuilds suppression; detail in the Season 02 section below [15][17].
 - Official, 0.2.0: the notes say the calibre reductions affect "every weapon that uses these rounds, including infantry & vehicle weapons" [15].
-- Official: no post after 15 Oct 2026 is in the 2026-10-30 snapshot; later hotfixes are neither confirmed nor ruled out.
+- Official, Season 03 (notes 11 Nov 2026, launch 12 Nov): several Season 02 damage changes are partly reversed; see "Season 03 (announced) combat balance" below [18]. Until it is live and checked, the Season 02 values below are the last verified live values.
+- Official: later hotfixes are neither confirmed nor ruled out.
 - The developer describes the game as "a hardcore shooter that doesn't forget it's a game", "balance gameplay depth and accessibility", with the line "Play YOUR way" (post of 18 Feb 2026) [4].
 - A 16 Jun 2026 devlog titled "Addressing Feedback" states "Every player's line between arcade and realistic is different. We've drawn ours" and that "This isn't just about Killcam. This is our approach going forward throughout Early Access & Beyond" [3]. The post text is two sentences; the substance is in a video not captured here.
 - A 21 May 2026 post, "Tactical Depth & Teamplay", lists "Real-world ballistics, audio and flight models" and "Every decision affects YOUR account balance" as the pillars of tactical depth, and says "every bullet fired, every loadout built" has consequences for the account balance [2].
@@ -162,6 +166,40 @@ Prices and unlock levels for these weapons are in weapons-catalogue.
 - Vanguard CIWS: reduced damage to the Spawn Vehicle (2.25x longer to kill it); CIWS cannon damage against structures retuned to shred light cover and struggle against heavy fortifications [15].
 - Helicopter cockpit glass now works both ways, so shooting out through it damages the vehicle like incoming fire [15].
 - Some weapon inspects are silent, which the developer says is known [15].
+
+## Season 03 (announced) combat balance
+
+Source: Season 03 Patch Notes, posted 2026-11-11 17:59 UTC, launch 2026-11-12 [18]. Announced, not yet verified in a live build. Values are changes against Season 02 unless stated.
+
+### Infantry weapons
+
+| Change | Detail |
+|--------|--------|
+| Assault rifle torso damage | Back to Season 1 values. Against Season 02: upper torso +13%, middle +3%, lower +3%. Applies to all targets with or without armour; armour still reduces damage by the same percentage as before [18] |
+| LMG torso damage | Now matches assault rifles, with the same increases [18] |
+| DMR, body | Every DMR kills an unarmoured player in 2 shots (was 3) [18] |
+| DMR, armour | SVD, BMR-308 and M14 need 1 to 2 fewer body shots at every armour level; the SKS needs 1 fewer shot against Level 2 and Level 4 armour [18] |
+| DMR, head | Every DMR kills a player with no helmet in 1 headshot (was 2); SVD, BMR-308 and M14 kill through a Level 3 helmet in 2 headshots (was 3) [18] |
+| DMR, neck and limbs | Neck damage increased but still 2 shots to kill; arms and legs unchanged [18] |
+| TCX-SPR handling | Recoil reduced: climbs less in full auto, less side-to-side drift; fixed using standing recoil while prone [18] |
+| Compound Bow | Arrow speed +50%, so less lead on moving targets [18] |
+| Molotov Cocktail | Fire now sets players ablaze, dealing damage and forcing them to drop the held item; damage against armoured vehicles and heavy armour reduced [18] |
+
+The developer's reason for the DMR change: "the Season 2 damage changes were overtuned when they were made in tandem with the recoil changes". DMR damage lands "between Season 1 and Season 2" [18].
+
+### Vehicle and structure damage
+
+| Change | Detail |
+|--------|--------|
+| Vehicle-mounted miniguns vs infantry | Damage multipliers raised, "between Season 1 and Season 2 levels": head +50%, neck +78%, upper torso +64%, mid torso +55%, lower torso +50%, pelvis, arms and legs +56% [18] |
+| AH-6R Littlebird [Rockets] | Pods fire their own 70mm rockets instead of the Havoc's 122mm; damage per rocket unchanged; thrust instability and wobble added; slightly less effective against infantry, unchanged against vehicles and FOBs [18] |
+| MH-6, AH-6R, AH-6M cockpit | More damage protection for pilot and co-pilot, "between Season 1 and Season 2 levels" [18] |
+| Vanguard CIWS / 20x102mm | Rounds damage each vehicle section once per round instead of several times. Retuned: Havoc and Z20 Lakota roughly Season 02 damage; MH-6, AH-6R and AH-6M slightly less. Anti-air emplacement maximum aim angle 65 degrees to 60 degrees [18] |
+| Tanks | More resistant to grenades; a single grenade could previously destroy a tank's engine [18] |
+| Grenade launcher vs tanks | Bug fix: it took 1 hit to destroy tracks and 3 to disable the rear engine; now 3 hits for tracks and 5 to 6 for the engine, matching grenades [18] |
+| T-72B3 | Fixed bullets killing the driver from outside the tank [18] |
+
+Detail on vehicles is in vehicle-roster-and-prices and air-and-counter-air; weapon values are in weapons-catalogue.
 
 ## What the developer has said about realism versus tuning
 
@@ -355,6 +393,7 @@ All as-of version: Season 1 changelog, 10 Sep 2026.
 | 2026-10-09 | Season 02 Preview: announced the rework using pre-release names (Heavy and Super Heavy helmets) | [16] |
 | 2026-10-14 | Season 02 patch notes: Damage Update (calibre reductions, archetype and armour changes), suppression rebuild, bow, slug, turret, recoil and per-weapon changes | [15] |
 | 2026-10-15 | Update 0.2.0 released, servers back online | [17] |
+| 2026-11-11 | Season 03 patch notes (launch 2026-11-12): assault rifle and LMG torso damage restored, DMR damage raised, minigun multipliers raised, CIWS retune, tank grenade resistance | [18] |
 
 Known issues: the 0.2.0 notes state that some weapon inspects are silent and that this is known [15]. The 2 Oct 2026 post conceded a previous CIWS tuning "overcorrected" [9]. No other open combat bugs are listed in the saved posts.
 
@@ -367,6 +406,7 @@ None found for damage or ballistics; the 0.2.0 notes list no server-side damage 
 - The documented balance record is thin and mostly progression tuning; do not read it as a weapon-balance history [6].
 - The 21 May 2026 "real-world ballistics" claim is pre-launch marketing; its video content was not captured [2].
 - Season 1 tables are history; the 0.2.0 values are current only as of 15 Oct 2026 and may change per hotfix or at the next season [6][15].
+- Season 03 values are announced, not yet live; BULKHEAD can change them at launch. They are relative to Season 02, whose own "before" values this document never held in absolute terms [18].
 - The 0.2.0 notes give percentages and rules but no absolute damage; do not derive per-shot damage from them without the Season 1 base values, which the developer never published.
 - The Season 1 changelog mixes price rises and cuts (for example Z20 Lakota and URAL fall to $35,000 while the Large Hammer rises). The values are recorded as posted, and the Support Large Hammer price ($25,000 to $75,000) and the vendor Large Hammer price ($1,600 to $2,400) are both listed without the post saying how they relate [6].
 - Press coverage of the same posts (for example the Gfinity and BisectHosting reproductions cited by the foundation) may omit lines; this document uses the saved official text.
@@ -409,6 +449,7 @@ None found for damage or ballistics; the 0.2.0 notes list no server-side damage 
 - [16] **Bulkhead (Steam news)** — *WARDOGS | Season 02 Preview* (9 Oct 2026). https://store.steampowered.com/news/app/1867240/view/1846018067933823. Accessed 2026-10-30.
 - [17] **Bulkhead (Steam news)** — *WARDOGS | SEASON 02 IS NOW LIVE* (15 Oct 2026). https://store.steampowered.com/news/app/1867240/view/1846651706677015. Accessed 2026-10-30.
 - [14] **Bulkhead (Steam news)** — *WARDOGS | Security & Stability Hotfix* (2 Oct 2026). https://store.steampowered.com/news/app/1867240/view/1845383656384445. Accessed 2026-10-08.
+- [18] **BULKHEAD** — *WARDOGS | Season 03 Patch Notes* (Steam news, 2026-11-11 17:59 UTC). https://store.steampowered.com/news/app/1867240/view/1849192144179736. Accessed 2026-11-11.
 
 **Press & Secondary**
 
@@ -437,3 +478,4 @@ None cited.
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint, links (0 dead) and Steam post ids. Pre-Season-02 baseline. | Standing mandate (auto-approve on green QA) |
 | 1.0.1 | 2026-10-08 | Research Pipeline (revision worker) | Corrected against live store-page capture; store page does say "Realistic gunplay balanced for gameplay rather than simulation" and "tactical gunplay", store-page wording conflict with foundation resolved and made Primary, melee combat and planned "expanded weapon categories" noted, reference [1] updated to live capture. | Standing mandate (auto-approve on green QA) |
 | 1.1.0 | 2026-10-30 | Research Pipeline (virtual agent) | Revised for Update 0.2.0 from the official Season 02 patch notes, preview and live posts: calibre base damage reductions, DMR/AR/LMG/Scout Rifle/slug/bow/turret changes, Level 3 and 4 armour and helmet changes, suppression rebuild, MP5/Super-45/MGL-40/Mosin recoil and per-weapon changes, Little Bird bench MGL penalty, molotov and rangefinder battery summary; Season 1 baseline kept as history; forward-looking Season 02 sentences replaced by the known outcome. | — |
+| 1.2.0 | 2026-11-11 | Research Pipeline (virtual agent) | Added Season 03 (announced 11 Nov 2026) damage changes: assault rifle and LMG torso damage, DMR damage, TCX-SPR recoil, Compound Bow arrow speed, Molotov, minigun and CIWS changes, tank grenade resistance. | — |

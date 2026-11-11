@@ -1,18 +1,18 @@
 ---
 id: death-penalty-and-rebuy
 title: "Death Penalty, Loadout Loss & Re-buy"
-version: 1.1.0
+version: 1.2.0
 status: frozen
 confidence: Low
 category: Economy
 topic: "What dying costs, loadout loss, re-buy, insurance-like mechanics, negative balances"
 market: Global
-game_version: "Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30)"
+game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
 document_type: depth
 created: 2026-10-08
-updated: 2026-10-30
-review_due: 2026-11-20
-sources_verified: 2026-10-30
+updated: 2026-11-11
+review_due: 2026-11-19
+sources_verified: 2026-11-11
 supersedes: null
 related: [economy-foundation, cash-rewards-and-costs, price-tables-season-1, combat-loadouts-foundation, season-reset-and-currencies]
 tags: [economy, death-penalty, rebuy, loadout, vehicles, season-02, early-access]
@@ -23,15 +23,15 @@ tags: [economy, death-penalty, rebuy, loadout, vehicles, season-02, early-access
 | Field | Value |
 |-------|-------|
 | Document ID | death-penalty-and-rebuy |
-| Version | 1.1.0 |
+| Version | 1.2.0 |
 | Status | frozen |
 | Confidence | Low |
 | Category | Economy |
-| Game version | Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30) |
+| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-10-30 |
-| Review due | 2026-11-20 |
+| Updated | 2026-11-11 |
+| Review due | 2026-11-19 |
 
 # Executive Summary
 
@@ -78,7 +78,8 @@ As of Early Access Update 0.2.0 (official posts through 2026-10-15; snapshot 202
 - Update 0.2.0 (14 Oct 2026 notes): "Old placeholder rebuy UI has been removed"; clicking "Rebuy Last Loadout" populates the equipment vendor UI visually with your last loadout, which you can add to or remove items from before purchase [14]. The same notes reduce the hold time when selecting "Purchase Loadout" on controller [14].
 - Update 0.1.2 (30 Sep 2026): revive validity checks are server-authoritative [7]. Revives matter to the death penalty only through the player-reported claim that a revive preserves the paid-for kit [9].
 - No official text, including the Season 02 notes, states a death cost, re-buy price, refund, insurance or negative-balance rule (all saved official posts checked, to 2026-10-15) [1][2][3][4][5][6][7][14][15].
-- No official post after 15 Oct 2026 is in the 2026-10-30 snapshot.
+- Season 03 notes (11 Nov 2026, announced for 12 Nov; not yet verified live): fixed the "Rebuy Last Loadout" button failing when the loadout included a magazine you had not unlocked; fixed the loadout total showing an incorrect value after refunds; death bags and downed bodies are no longer treated as team kills (which stopped teammates looting them); death bags show their owner's name; downed players who leave or disconnect now drop their loot bag [16]. The notes state no death cost, rebuy price or refund rule.
+- Season 03 controller bindings list downed actions Call for Help, Damage Log, Give Up and Bribe; what "Bribe" does is not stated [16].
 
 # Detail
 
@@ -163,7 +164,8 @@ All values are from the Season 1.0 changelog (10 Sep 2026, pre-load post dated 9
 - Superseded: Season 02 was planned for 15 Oct 2026 [12]; it shipped on that date [15].
 - 14 Oct 2026, Season 02 patch notes: Rebuy Last Loadout UX improvement (old placeholder rebuy UI removed; vendor pre-filled with last loadout, editable before purchase); reduced controller hold time on "Purchase Loadout"; many price changes. No death-penalty, refund or cash-reset change is listed [14].
 - 9 Oct 2026 preview post: no death-penalty detail [13].
-- 15 Oct 2026: Update 0.2.0 released, servers back online [15]. No official post after this date is in the 2026-10-30 snapshot.
+- 15 Oct 2026: Update 0.2.0 released, servers back online [15].
+- 11 Nov 2026: Season 03 notes (launch 12 Nov): Rebuy Last Loadout fix for locked magazines, loadout-total fix after refunds, death-bag ownership and looting fixes [16].
 
 # Admin & Technical Notes
 
@@ -179,6 +181,7 @@ None found. No official server setting for death cost, re-buy or balance was fou
 # Open Questions
 
 - What exactly is lost on death, and is the loss total or partial? No official statement, including the Season 02 notes; resolve with an in-game test or an official statement [14].
+- What does the downed "Bribe" action do, and does it relate to death costs? The Season 03 notes list it only as a controller binding [16].
 - Does Rebuy Last Loadout cost the same as the original kit? Unknown; the 0.2.0 notes describe only the interface [14].
 - What happens when the balance is below the cost of a loadout or can go negative? No source.
 - Is there any insurance, refund or free fallback kit? None found; the Basic Parachute (now $500 in vendor prices [14]) is described as cheap protection only by a pre-Season-02 guide [10].
@@ -202,6 +205,7 @@ None found. No official server setting for death cost, re-buy or balance was fou
 - [14] **Bulkhead (Steam news)** — *WARDOGS | Season 02 Patch Notes*, 14 Oct 2026. https://store.steampowered.com/news/app/1867240/view/1846651706674560. Accessed 2026-10-30.
 - [15] **Bulkhead (Steam news)** — *WARDOGS | SEASON 02 IS NOW LIVE*, 15 Oct 2026. https://store.steampowered.com/news/app/1867240/view/1846651706677015. Accessed 2026-10-30.
 - [12] **Bulkhead (Steam news)** — *WARDOGS Season 02 teaser*, 22 Sep 2026 (15 Oct 2026). https://store.steampowered.com/news/app/1867240/view/1844115010504839. Accessed 2026-10-08.
+- [16] **BULKHEAD** — *WARDOGS | Season 03 Patch Notes* (Steam news, 2026-11-11 17:59 UTC). https://store.steampowered.com/news/app/1867240/view/1849192144179736. Accessed 2026-11-11.
 
 **Press & Secondary**
 
@@ -232,3 +236,4 @@ The saved official Q&A posts of 18 Feb and 3 Mar 2026 (the latter is a video wit
 | 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial draft; pre-Season 02 baseline. | — |
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint, links (0 dead) and Steam post ids. Pre-Season-02 baseline. | Standing mandate (auto-approve on green QA) |
 | 1.1.0 | 2026-10-30 | Research Pipeline (virtual agent) | Revised for Season 02 / Update 0.2.0 against the official preview, patch notes and release post: added the confirmed Rebuy Last Loadout interface change; death-penalty rules, re-buy price and zero-cash behaviour kept unconfirmed (notes silent); player-reported mechanics labelled as pre-Season-02; Season 1 values kept as dated history. | — |
+| 1.2.0 | 2026-11-11 | Research Pipeline (virtual agent) | Recorded two Season 03 (announced 11 Nov 2026) items touching rebuy: the Rebuy Last Loadout fix for locked magazines and the loadout-total fix after refunds; death-penalty rules still not officially stated. | — |

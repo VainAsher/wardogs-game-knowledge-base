@@ -1,18 +1,18 @@
 ---
 id: progression-unlock-tables
 title: "Progression Unlock Tables (Season 1 and Season 02)"
-version: 1.1.0
+version: 1.2.0
 status: frozen
 confidence: Medium
 category: Gameplay & Modes
 topic: "Level-by-level unlocks per role and account"
 market: Global
-game_version: "Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30)"
+game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
 document_type: reference-data
 created: 2026-10-08
-updated: 2026-10-30
-review_due: 2026-11-20
-sources_verified: 2026-10-30
+updated: 2026-11-11
+review_due: 2026-11-19
+sources_verified: 2026-11-11
 supersedes: null
 related:
   - progression-and-role-tracks
@@ -36,19 +36,19 @@ tags:
 | Field | Value |
 |-------|-------|
 | Document ID | progression-unlock-tables |
-| Version | 1.1.0 |
+| Version | 1.2.0 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Gameplay & Modes |
-| Game version | Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30) |
+| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-10-30 |
-| Review due | 2026-11-20 |
+| Updated | 2026-11-11 |
+| Review due | 2026-11-19 |
 
 # Executive Summary
 
-This is the reference table of role-track unlocks and the role-track XP curve for WARDOGS, updated for Season 02 (Update 0.2.0). The developer published the full 0.2.0 patch notes on 14 Oct 2026 [8] and announced the update live on 15 Oct 2026 [9]. The notes give, for every track, the unlock level and unlock cost of each added item, each item moved between tracks and each changed item, plus a new total-XP table for levels 10 to 50 [8]. The Season 1 values from the 9 Sep 2026 changelog are kept below as history [1].
+This is the reference table of role-track unlocks and the role-track XP curve for WARDOGS, updated for Season 02 (Update 0.2.0). The developer published the full 0.2.0 patch notes on 14 Oct 2026 [8] and announced the update live on 15 Oct 2026 [9]. The notes give, for every track, the unlock level and unlock cost of each added item, each item moved between tracks and each changed item, plus a new total-XP table for levels 10 to 50 [8]. The Season 1 values from the 9 Sep 2026 changelog are kept below as history [1]. The Season 03 patch notes (posted 11 Nov 2026, effective 12 Nov) change the curve and several unlock levels again; they are summarised in "Season 03 changes (announced)" and are not yet verified in a live build [10]. The Season 02 tables below remain the last values verified as live.
 
 The headline changes in 0.2.0: reaching level 20 now takes 111,500 XP instead of 250,000 (55 percent quicker) and level 50 takes 1,150,000 XP instead of 1,500,000; the notes name the tracks WARDOG, Assault, Medic, Recon, Support, Pilot and Driver, so the 0.2.0 notes show seven track headings against the six counted in earlier official text; most attachments moved to earlier levels or to other tracks; the Little Bird AH-6M [Miniguns] moved from level 4 to level 8 and from $50k to $125k; the SPH-2 moved from WARDOG level 90 into the Driver track at level 31 [8].
 
@@ -56,6 +56,8 @@ Limits: the notes list only changes and additions, so a full level-by-level tabl
 
 # Key Takeaways
 
+- Season 03 (announced 11 Nov 2026, effective 12 Nov): XP per level is increased "to be more aligned with Season 1 speeds"; shared items (armour, backpacks, tactical vests, parachutes) unlock from every role track; ammo is spread across the tracks; a week-by-week catch-up XP bonus and vendor discount help low-level players; season length is about 3 months. The notes print no new XP totals, so the Season 02 XP table below is not restated [10].
+- Season 03 moved C4 (Assault level 4 to 5), Molotov (13 to 8), Large Hammer (Support 8 to 14), Verba (Support 14 to 8) and AMR 50 (Recon 35 to 41); tanks moved later (Driver 20-35 to 35-50; WARDOG 145 to 200) [10].
 - Season 02 (Update 0.2.0, notes 2026-10-14, live 2026-10-15): the role-track total-XP table for levels 10 to 50 was lowered at every published level, from 29 percent quicker at level 10 to 23 percent quicker at level 50 (peak 55 percent at level 20) [8][9].
 - Seven track headings appear in the 0.2.0 notes: WARDOG, Assault, Medic, Recon, Support, Pilot, Driver [8]. The Season 1 changelog used "Career" as a heading [1]; the 0.2.0 notes never use "Career".
 - The Assault track gained the Molotov Cocktail (level 13, $25k), the TCX-SPR (level 20, $100k) and the C4 charge with Remote Detonator (moved from Support level 2 to Assault level 4) [8].
@@ -67,7 +69,7 @@ Limits: the notes list only changes and additions, so a full level-by-level tabl
 
 # Scope
 
-Covers the unlock levels, unlock costs and role-track XP curve published in official Steam posts: Season 1 (9 Sep 2026) as history and Season 02 (Update 0.2.0, 14-15 Oct 2026) as current. Game version: Update 0.2.0 as of the 2026-10-30 snapshot; no official post after 2026-10-15 was seen in that snapshot. Excluded: item descriptions (see weapons-catalogue, vehicle-roster-and-prices and gadgets-armor-and-equipment), the explanation of the track system (see progression-and-role-tracks), vendor per-life prices (see price-tables-season-1) and cash rewards (see cash-rewards-and-costs).
+Covers the unlock levels, unlock costs and role-track XP curve published in official Steam posts: Season 1 (9 Sep 2026) as history and Season 02 (Update 0.2.0, 14-15 Oct 2026) as current. Game version: Update 0.2.0 as the last verified live build, plus the Season 03 changes announced on 2026-11-11 (snapshot 2026-11-11). Excluded: item descriptions (see weapons-catalogue, vehicle-roster-and-prices and gadgets-armor-and-equipment), the explanation of the track system (see progression-and-role-tracks), vendor per-life prices (see price-tables-season-1) and cash rewards (see cash-rewards-and-costs).
 
 # Definitions
 
@@ -86,7 +88,7 @@ Values below are from the official 0.2.0 patch notes (posted 2026-10-14 14:59 UT
 - The notes say levels 10 to 20 "were a slow grind, and many players stalled out before unlocking the gear that defines each role", and that reaching level 20 now takes less than half the playtime it did in Season 1 [8].
 - "Most attachments have moved to earlier levels or new tracks" [8].
 - A "WARDOG Progression Track" heading holds the account-wide items (pallets, sidearms, ammo types, armour, parachute, Gold Market) [8].
-- Update 0.2.0 was released on 2026-10-15 and servers were back online [9]. No later official post is in the 2026-10-30 snapshot.
+- Update 0.2.0 was released on 2026-10-15 and servers were back online [9]. Season 03 is announced for 2026-11-12; until it is live and checked, the values below are the last verified live values and the Season 03 section lists announced changes [10].
 
 # Detail
 
@@ -404,6 +406,29 @@ Name differences between the two posts: the Season 1 changelog lists "URAL Cover
 
 The notes change which track receives XP for some actions: destroying a buildable now gives Assault XP instead of Support XP; artillery now gives Driver XP instead of Support XP; IED and C4 give Assault XP instead of Support XP; repair XP goes into the Driver or Pilot track depending on the vehicle repaired, instead of a flat Support amount [8]. Cash and XP amounts are owned by cash-rewards-and-costs.
 
+## Season 03 changes (announced)
+
+Source: Season 03 Patch Notes, posted 2026-11-11 17:59 UTC, season launch 2026-11-12 [10]. Announced, not yet verified in a live build. The notes list changes only; levels not named here are not stated.
+
+| Item | Track | Season 02 level | Season 03 level | Note |
+|------|-------|-----------------|-----------------|------|
+| C4 | Assault | 4 | 5 | Moved later to make space for multi-track items [10] |
+| Molotov Cocktail | Assault | 13 | 8 | Moved earlier alongside its improvements; unlock cost $25k to $12.5k [10] |
+| Large Hammer | Support | 8 | 14 | "A notable power spike for builders and it came too early" [10] |
+| 9K333 Verba | Support | 14 | 8 | Offsets the later Large Hammer: anti-air against the AH-6M [Miniguns] [10] |
+| AMR 50 | Recon | 35 | 41 | Moved later [10] |
+| Tanks (as printed) | Driver | 20-35 | 35-50 | "Moved later and re-added to the WARDOG track"; the notes do not name the tank models [10] |
+| Tanks (as printed) | WARDOG | 145 | 200 | Same line of the notes; mapping to specific items is not stated [10] |
+
+Structural changes [10]:
+
+- **Multi-track unlocks.** Armour, backpacks, tactical vests and parachutes can now be unlocked from every role track. Ammo types moved later in the WARDOG track and are spread across the role tracks according to where the weapons that use them unlock. Dipping into several roles to speedrun WARDOG levels "is no longer the fastest way to unlock shared items". The notes call this "a temporary solution until we introduce the intel-based progression system next year".
+- **Role-adjacent early access.** Each role reaches certain items slightly earlier than the others: Assault gets armour first, Medic the tactical vest, Support backpacks and Recon armour piercing (AP) ammunition.
+- **XP per level increased.** "The XP required for each level has been increased"; overall speed is "more aligned with Season 1 speeds". No XP totals are published in the notes, so this KB does not restate the XP curve for Season 03.
+- **Catch-up mechanic.** An XP catch-up bonus and an extended vendor discount "kick in week by week for low-level players, increasing throughout the season, per role". The thresholds and percentages are not stated.
+- **Season length.** About 3 months, up from the shorter Season 02.
+- **Early-weekend warning.** The notes anticipate that "a very small percentage of players who min/max progression" will unlock better items and vehicles within the first weekend, and point players to new-player and Limited servers [10].
+
 # Season 1 history (superseded by Update 0.2.0)
 
 The tables in this section are the Season 1.0 values from the 9 Sep 2026 changelog [1], unchanged by later official posts through 8 Oct 2026 [2][3][4]. The Season 02 date of 15 Oct 2026 was first announced in the 22 Sep 2026 teaser [5]. Where Update 0.2.0 restated or moved an item, the Season 02 tables above apply from 2026-10-15 [8]. Some Season 1 items are not mentioned in the 0.2.0 notes; for those the Season 1 value is the last published value (not changed in the notes).
@@ -555,11 +580,13 @@ Values for diffing after Season 02. "Season 1.0" means the 9 Sep 2026 changelog,
 | 2026-10-14 | Season 02 patch notes: new role-track XP table for levels 10 to 50; unlock level and cost changes for the WARDOG, Assault, Medic, Recon, Support, Pilot and Driver tracks; new items and moves between tracks | [8] |
 | 2026-10-15 | Update 0.2.0 released, servers back online | [9] |
 | 2026-10-14 | Recon: Range Finder unlock cost $15k → $25k (the Infrared Range Finder is a separate item that now runs on batteries) | [8] |
+| 2026-11-11 | Season 03 patch notes (live 2026-11-12): multi-track unlocks, higher XP per level, catch-up bonus, moves for C4, Molotov, Large Hammer, Verba, AMR 50 and tanks | [10] |
 
-Known gaps (Update 0.2.0, snapshot 2026-10-30):
+Known gaps (Update 0.2.0 and Season 03 notes, snapshot 2026-11-11):
 
+- The Season 03 notes print no XP totals, catch-up percentages or the full tank unlock mapping [10].
 - No official complete unlock table exists; the notes list only additions, moves and changes [8].
-- No official post after 2026-10-15 is in the 2026-10-30 snapshot (none seen); later hotfixes cannot be ruled in or out.
+- Season 03 launches 2026-11-12; later hotfixes cannot be ruled in or out until a post-launch snapshot.
 - The notes do not mention a Season 02 progression wipe, a level cap, or a change to the account-level (WARDOG Level) rule [8].
 
 # Admin & Technical Notes
@@ -570,7 +597,7 @@ None found.
 
 - The tables are changes only; items never moved are absent, so the lists are not complete unlock tables [1][8].
 - The 0.2.0 "old" XP values for levels 25 to 50 do not match the Season 1 changelog values; the Season 02 column is taken from the notes alone [1][8].
-- The developer says each season has a different XP curve and item order [1]; Season 02 values may be replaced by a later season.
+- The developer says each season has a different XP curve and item order [1]; Season 03 replaces the Season 02 curve and several unlock levels [10], and the Season 02 tables below are history once Season 03 is live.
 - The notes show unlock costs only for items whose cost changed or that are new; "n/c" means the notes are silent, not that the cost is unchanged [8].
 - Name mapping between the Season 1 changelog and the 0.2.0 notes (Career/WARDOG, URAL Covered/Ural Defender, Artillery Tank/SPH-2) is inferred from matching levels and prices, not stated [1][8].
 - Player-reported guides give other levels for some items; they are not used for values here [7].
@@ -580,6 +607,7 @@ None found.
 - Is the 0.2.0 "WARDOG" track the Season 1 "Career" track, and is Assault a seventh track? Both inferences rest on matching levels [1][8]. Resolution: in-game track list.
 - Why do the 0.2.0 "old" XP totals for levels 25 to 50 differ from the Season 1 changelog? Resolution: in-game check or developer clarification [1][8].
 - Does the Season 02 curve apply to levels below 10 and above 50, and is a figure cumulative? The notes do not say [8].
+- What are the Season 03 XP totals and the catch-up thresholds? The notes publish neither [10]. Resolution: in-game check after launch.
 - Is there a Season 02 progression wipe or cash-to-Gold-Bar conversion? The 0.2.0 notes and the "now live" post do not mention one; this is unconfirmed, not denied [8][9].
 - Official versus foundation doc: gameplay-modes-foundation reports a player-reported level 100 track cap and account level 600; no official post read states a cap [1][8].
 - Official versus vehicles guides: a guide cited in vehicles-outposts-foundation puts Large Hammer at level 7; the Season 1 post says it moved from 7 to 8 and the 0.2.0 notes do not mention it [1][8].
@@ -598,6 +626,7 @@ None found.
 - [6] **Bulkhead Studios (Steam)** — *WARDOGS Top Questions* (18 Feb 2026). https://store.steampowered.com/news/app/1867240/view/1825093633182385. Accessed 2026-10-08.
 - [8] **Bulkhead Studios (Steam)** — *WARDOGS | Season 02 Patch Notes* (14 Oct 2026, with an in-post logistics update). https://store.steampowered.com/news/app/1867240/view/1846651706674560. Accessed 2026-10-30.
 - [9] **Bulkhead Studios (Steam)** — *WARDOGS | SEASON 02 IS NOW LIVE* (15 Oct 2026). https://store.steampowered.com/news/app/1867240/view/1846651706677015. Accessed 2026-10-30.
+- [10] **BULKHEAD** — *WARDOGS | Season 03 Patch Notes* (Steam news, 2026-11-11 17:59 UTC). https://store.steampowered.com/news/app/1867240/view/1849192144179736. Accessed 2026-11-11.
 
 **Press & Secondary**
 
@@ -628,3 +657,4 @@ Press summaries of the Season 1 changelog are listed in `SOURCE_REGISTRY.md` (gf
 | 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial pre-Season-02 baseline from official Steam posts. | — |
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint, links (0 dead) and Steam post ids. Pre-Season-02 baseline. | Standing mandate (auto-approve on green QA) |
 | 1.1.0 | 2026-10-30 | Research Pipeline (virtual agent) | Revised for Season 02 / Update 0.2.0 from the official patch notes (14 Oct) and release post (15 Oct): new role-track XP table (levels 10 to 50), unlock level and cost changes for all seven track headings (WARDOG, Assault, Medic, Recon, Support, Pilot, Driver), additions and moves between tracks, role XP reassignment; Season 1 tables kept as history; flagged XP "old value" conflict and name mappings. | — |
+| 1.2.0 | 2026-11-11 | Research Pipeline (virtual agent) | Added a Season 03 (announced 11 Nov 2026) section: multi-track unlocks, role-adjacent early unlocks, moved unlock levels (C4, Molotov, tanks, Large Hammer, Verba, AMR 50), XP-per-level increase, catch-up bonus. Season 02 tables kept unchanged as the last verified live values; no new XP figures were published, so the XP curve is not restated. | — |

@@ -1,18 +1,18 @@
 ---
 id: cash-rewards-and-costs
 title: "Cash Rewards & Costs"
-version: 1.1.0
+version: 1.2.0
 status: frozen
 confidence: High
 category: Economy
 topic: "How cash and XP are earned per action, logistics streaks, destroyed rewards, spotting, exploit fixes and build supply costs"
 market: Global
-game_version: "Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30)"
+game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
 document_type: depth
 created: 2026-10-08
-updated: 2026-10-30
-review_due: 2026-11-20
-sources_verified: 2026-10-30
+updated: 2026-11-11
+review_due: 2026-11-19
+sources_verified: 2026-11-11
 supersedes: null
 related: [economy-foundation, death-penalty-and-rebuy, price-tables-season-1, season-reset-and-currencies, control-zone-and-match-flow, fob-and-base-building, progression-unlock-tables]
 tags: [economy, cash, rewards, hot-zone, logistics, spotting, exploits, build-costs, season-2, update-0-2-0, early-access]
@@ -23,19 +23,19 @@ tags: [economy, cash, rewards, hot-zone, logistics, spotting, exploits, build-co
 | Field | Value |
 |-------|-------|
 | Document ID | cash-rewards-and-costs |
-| Version | 1.1.0 |
+| Version | 1.2.0 |
 | Status | frozen |
 | Confidence | High |
 | Category | Economy |
-| Game version | Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30) |
+| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-10-30 |
-| Review due | 2026-11-20 |
+| Updated | 2026-11-11 |
+| Review due | 2026-11-19 |
 
 # Executive Summary
 
-Until Season 02 the studio published no per-action cash amounts; the Season 1 and 0.1.2 posts described reward changes only qualitatively [1][3]. The Season 02 Patch Notes (posted 14 Oct 2026, released as Update 0.2.0 on 15 Oct 2026) change that: their "Cash & XP Reward Changes" section prints dollar and XP values for new action rewards, logistics deliveries and streaks, vehicle, buildable and supply-crate destruction, drill tower capture and spotting, and lists seven exploit fixes [14][15]. The notes also give new build supply costs [14].
+Until Season 02 the studio published no per-action cash amounts; the Season 1 and 0.1.2 posts described reward changes only qualitatively [1][3]. The Season 02 Patch Notes (posted 14 Oct 2026, released as Update 0.2.0 on 15 Oct 2026) change that: their "Cash & XP Reward Changes" section prints dollar and XP values for new action rewards, logistics deliveries and streaks, vehicle, buildable and supply-crate destruction, drill tower capture and spotting, and lists seven exploit fixes [14][15]. The notes also give new build supply costs [14]. The Season 03 Patch Notes (posted 11 Nov 2026, for the 12 Nov launch) adjust rewards again: doubled cash for destroying enemy buildable weapon emplacements, lower spotted high-value-target rewards, re-added air-vehicle kill streaks and a crate-drop reward scaled to the price of the contents; these are announced, not yet verified live [16].
 
 The Hot Zone still pays double cash and cash persists between matches [4][5]. In Season 02 only, the Lonestar faction gets a cash and XP win bonus and teamplay multipliers, and a losing team 40 points behind gets a 20% vendor discount [14]. The notes contain an in-post update: the logistics streak values were revised after first posting to include the zone multiplier, and this document uses the updated values [14].
 
@@ -46,6 +46,7 @@ Confidence is High: every number comes from the official Season 02 Patch Notes o
 - 0.2.0 (15 Oct 2026): assault-archetype weapon kill bonus rose $1,500 to $2,000; FOB hacking pays the hacker $2,500 / 250 XP and teammates in the FOB radius $1,000 / 250 XP [14].
 - Logistics: base rewards were lowered and new delivery streaks add per-delivery bonuses, for example crates +$100 / +50 XP each up to 10 (updated values) [14].
 - Vehicle destroyed rewards are now per variant: Humvee default $600 but Humvee [Minigun] $5,000; armed variants give 1.5x the XP of the default [14].
+- Season 03 (announced 11 Nov 2026): L81 Mortar, Talon 9K-SAM, MG Nest and Stingray destruction pays $1,300 (was $650) and the Vanguard CIWS $2,400 (was $1,200); air-vehicle kill streak rewards are re-added; destroying a vehicle with your own vehicle within 1,000 m of a control zone earns the full control zone reward [16].
 - Spotting rewards are about 30% lower than Season 1 and scale with the value of the target; a spotted target destroyed by an enemy faction now pays 25% of the reward, down from 50% [14].
 - Build supply costs changed: Door 22 to 80, Gate 85 to 200, L81 Mortar 150 to 600, Talon 9K-SAM 1,000 to 650, Hot Zone Magnet 2,250 to 2,750 [14].
 - Exploit fixes: supply-crate selling has diminishing returns per buyer, selling to an enemy gives no cash or XP, FOB Supplied Assist is split between assisting players [14].
@@ -70,8 +71,8 @@ Covers how cash and XP are earned and lost per action as of Update 0.2.0, with t
 - The Hot Zone yields double cash and players count double towards zone presence (Steam news, 18 Feb 2026) [4].
 - Cash persists between matches and can be spent or exchanged for Gold Bars, the endgame cosmetic currency (18 Feb 2026) [4]. In-game cash and Gold Bars will never be sold for real money (11 Aug 2026) [6].
 - Update 0.2.0 is live (15 Oct 2026, servers back online) and contains the reward values in the Detail section [14][15].
-- Wager Vendor: announced as a way to "bet your own cash on your own performance"; it is not available at Season 02 launch and "will open later in Season 2" [14].
-- No official post after 2026-10-15 was seen in the 2026-10-30 snapshot.
+- Wager Vendor: announced for Season 02 as a way to "bet your own cash on your own performance" and not available at launch [14]. The Season 03 notes say "The Wager Vendor has been removed" and he is "going back into development" [16].
+- Season 03 is announced for 12 Nov 2026; its reward changes are in "Season 03 reward changes (announced)" and are not yet verified live [16].
 
 # Detail
 
@@ -243,6 +244,36 @@ All from the notes' "Exploit Fixes" section [14]:
 
 Related 0.2.0 anti-abuse changes outside the reward tables: team-switching restrictions (once a team is more than 10 points ahead), and a victim-driven Team-Kill Punish / Forgive vote; see control-zone-and-match-flow [14].
 
+## Season 03 reward changes (announced 11 Nov 2026)
+
+Source: Season 03 Patch Notes, posted 2026-11-11 17:59 UTC, launch 2026-11-12 [16]. Announced, not yet verified in a live build. The "before" values are the notes' own and match the Season 02 tables above for the emplacement rows.
+
+| Reward | Before | After |
+|--------|--------|-------|
+| Destroy enemy L81 Mortar, Talon 9K-SAM, MG Nest or Stingray | $650 | $1,300 |
+| Destroy enemy Vanguard CIWS | $1,200 | $2,400 |
+| Spotted target killed: AH-6M Littlebird [Miniguns] / AH-6R Littlebird [Rockets] (cash) | $1,000 | $850 |
+| Spotted target killed: Z20 Lakota [Miniguns] (cash) | $1,400 | $1,200 |
+| Spotted target killed: L2A6 (cash) | $3,300 | $3,000 |
+| Spotted target killed: T-72B3 (cash) | $2,400 | $2,000 |
+| Spotted target killed: Hot Zone Magnet (cash) | $1,650 | $1,500 |
+| Spotted target killed: player (XP) | 150 XP | 125 XP |
+| Spotted target killed: FOB (XP) | 250 XP | 200 XP |
+| Spotted target killed: Hot Zone Magnet (XP) | 225 XP | 200 XP |
+| Spotted target killed: spawn vehicles (XP) | 500 XP | 400 XP |
+
+Other reward changes in the same notes [16]:
+
+- Air-vehicle kill streak rewards when killing enemy players are re-added (amounts not stated).
+- Destroying a vehicle with your own vehicle within 1,000 m of a control zone now earns the full control zone reward. The notes tie this to the Littlebird and Havoc price cuts, "to incentivise dogfights".
+- Pallets deployed outside a friendly FOB give reduced rewards.
+- Deploying a lower-value crate pays a smaller reward, scaled to the price of the items inside, "to discourage crate drop spam for profit".
+- New reward kickback for depositing fuel into a FOB that activates a drill, "to incentivise varied supply chains" (amount not stated).
+- New reward for parachuting into an enemy FOB, to offset the higher parachute prices (amount not stated; prices in price-tables-season-1).
+- A small cash bonus for playing on community-run servers (amount not stated).
+- The vendor discount for the losing faction is now based on how far it is behind the first-place faction, instead of the faction one place above it; the notes say this should encourage third-place players to buy more firepower [16].
+- A week-by-week vendor discount extension for low-level players is part of the catch-up mechanic (see progression-and-role-tracks) [16].
+
 ## Season 02 faction experiment and discounts
 
 The notes announce a "social experiment" for Season 2: a Lonestar cash and XP win bonus and Lonestar teamplay action cash and XP multipliers, "Season 2 only", with no values stated. A new vendor discount gives the losing team 20% off when at least 40 points behind second place, relevant to all teams. Community server hosts seen exploiting the faction bonus "will be punished" [14]. Server-seeding players earn rewards and a vendor discount once the match begins, amounts not stated [14].
@@ -298,7 +329,8 @@ No sourced income-per-hour figure exists. The only quantified pacing statement i
 - 30 Sep 2026, Update 0.1.2: revive, fly-through, buildable and pallet reward fixes; zero-tolerance statement [1].
 - 2 Oct 2026 hotfix: IR Rangefinders disabled and CIWS tweak; no reward change [8].
 - 14 Oct 2026 notes / 15 Oct 2026 release, Update 0.2.0: new action rewards, role-XP reassignment, reduced base logistics plus new delivery streaks (values revised in-post to include the zone multiplier), per-variant vehicle-destroyed rewards, buildable-destroyed rewards matching build supply cost, crate-destroyed changes, spotting about 30% lower, drill tower capture doubled in cash, seven exploit fixes, new build supply costs, Lonestar experiment and losing-team discount [14][15].
-- Wager Vendor announced for later in Season 2; not available at launch [14].
+- Wager Vendor announced for later in Season 2; not available at launch [14]. Removed in the Season 03 notes (11 Nov 2026) and returned to development [16].
+- 11 Nov 2026 notes / 12 Nov 2026 launch, Season 03 (announced): doubled emplacement-destruction cash, lower spotted-target rewards, air-vehicle kill streaks re-added, crate-drop reward scaled to contents, losing-faction discount measured against first place, community-server cash bonus [16].
 - The developer has called the economy interlinked "even more so when we bring the meta into the game" [2], and a Black Market, Vault and challenge system are planned for Early Access [9]. The Season 02 Teaser had flagged the 15 Oct date [7]; the notes confirm it.
 
 # Admin & Technical Notes
@@ -309,9 +341,10 @@ The 5% bonus (Patch 0.11) applied to community servers only and was a developer 
 
 - The streak values were revised in the post after first publication; the original numbers are not preserved and the post's "17:00 UTC" original time differs from the feed timestamp (14:59 UTC), so the exact revision timing is unclear [14].
 - Reward lines state "Season 2 only" for the faction bonus; values are unpublished.
+- Season 03 values are pre-release; the notes omit several amounts (kill streaks, fuel kickback, FOB parachute reward, community-server bonus). Re-verify after the 12 Nov launch [16].
 - Official posts were read from locally saved snapshots (2026-10-08 and 2026-10-30); links use the Steam news form. The release post links to the notes by a gid not in the snapshot and is not cited for that [15].
 - Guide pages are third-party and may be out of date relative to 0.2.0.
-- No official post after 2026-10-15 was seen in the 2026-10-30 snapshot; later hotfixes may exist or not.
+- The only official posts after 2026-10-15 in the 2026-11-11 snapshot are the Road to Season 3 devlog and the Season 03 notes; later hotfixes may exist or not.
 
 # Open Questions
 
@@ -339,6 +372,7 @@ The 5% bonus (Patch 0.11) applied to community servers only and was a developer 
 - [9] **Bulkhead (Steam News)** — *WARDOGS - Early Access & Beyond*. https://store.steampowered.com/news/app/1867240/view/1828894815567544. Accessed 2026-10-08.
 - [14] **Bulkhead (Steam News)** — *WARDOGS | Season 02 Patch Notes* (14 Oct 2026, includes an in-post update to logistics values). https://store.steampowered.com/news/app/1867240/view/1846651706674560. Accessed 2026-10-30.
 - [15] **Bulkhead (Steam News)** — *WARDOGS | SEASON 02 IS NOW LIVE* (15 Oct 2026). https://store.steampowered.com/news/app/1867240/view/1846651706677015. Accessed 2026-10-30.
+- [16] **BULKHEAD** — *WARDOGS | Season 03 Patch Notes* (Steam news, 2026-11-11 17:59 UTC). https://store.steampowered.com/news/app/1867240/view/1849192144179736. Accessed 2026-11-11.
 
 **Press & Secondary**
 
@@ -371,3 +405,4 @@ The Steam news feed for posts after Season 02; economy-foundation for the loop o
 | 0.1.0 | 2026-10-08 | Research Pipeline (virtual agent) | Initial draft; pre-Season-02 baseline. | — |
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint, links (0 dead) and Steam post ids. Pre-Season-02 baseline. | Standing mandate (auto-approve on green QA) |
 | 1.1.0 | 2026-10-30 | Research Pipeline (virtual agent) | Update 0.2.0 revision: added published reward values (new action rewards, role-XP reassignment, logistics base and updated streaks, vehicle/buildable/crate destroyed, spotting, drill tower capture), exploit fixes, build supply costs, Lonestar experiment and losing-team discount, Wager Vendor status; Season 1 values kept as history; confidence raised to High. | — |
+| 1.2.0 | 2026-11-11 | Research Pipeline (virtual agent) | Added Season 03 (announced 11 Nov 2026) reward changes: doubled emplacement-destruction cash, lower spotted high-value-target cash and XP, air-vehicle kill streaks re-added, crate-drop reward scaled to contents, vehicle-on-vehicle zone reward, parachuting-into-FOB reward, FOB fuel drill kickback, community-server cash bonus, losing-faction discount rule, Wager Vendor removed. Season 02 values kept as last verified live. | — |

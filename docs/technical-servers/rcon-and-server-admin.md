@@ -1,18 +1,18 @@
 ---
 id: rcon-and-server-admin
 title: "RCON & Server Administration"
-version: 1.2.0
+version: 1.3.0
 status: frozen
 confidence: Low
 category: Technical & Servers
 topic: "RCON interface, ServerSettings, admin tooling, security hardening"
 market: Global
-game_version: "Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30)"
+game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
 document_type: depth
 created: 2026-10-08
-updated: 2026-10-30
-review_due: 2026-11-20
-sources_verified: 2026-10-30
+updated: 2026-11-11
+review_due: 2026-11-19
+sources_verified: 2026-11-11
 supersedes: null
 related: [technical-servers-foundation, server-hosting-and-browser, system-requirements-and-performance]
 tags: [rcon, serversettings, admin, security, warcon]
@@ -23,15 +23,15 @@ tags: [rcon, serversettings, admin, security, warcon]
 | Field | Value |
 |-------|-------|
 | Document ID | rcon-and-server-admin |
-| Version | 1.2.0 |
+| Version | 1.3.0 |
 | Status | frozen |
 | Confidence | Low |
 | Category | Technical & Servers |
-| Game version | Early Access Season 02, Update 0.2.0 (15 Oct 2026); official posts through 2026-10-15 (snapshot 2026-10-30) |
+| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-10-30 |
-| Review due | 2026-11-20 |
+| Updated | 2026-11-11 |
+| Review due | 2026-11-19 |
 
 # Executive Summary
 
@@ -69,8 +69,9 @@ Covered: RCON transport, authentication, endpoints, config document semantics, `
 
 # Current State
 
-State at Season 02 / Update 0.2.0 (official posts through 2026-10-15; none seen in the 2026-10-30 snapshot after that). The 0.1.2 and earlier items below are dated history, checked 2026-10-08.
+State at Season 02 / Update 0.2.0 (official posts through 2026-10-15) plus the Season 03 notes of 2026-11-11 (announced for 12 Nov; not yet verified live). The 0.1.2 and earlier items below are dated history, checked 2026-10-08.
 
+- Season 03 patch notes (11 Nov 2026, launch 12 Nov; announced): admins can create and customise a "Server Rules" popup for players joining community-run servers; a fix for unbans and reserved-slot removals being undone after a server settings save; community admins keep their own ping limits while Official servers use 250; "server stability & security improvements". The notes give no setting name, ini key or RCON endpoint for any of these and do not mention RCON [14].
 - Update 0.2.0 patch notes (14 Oct 2026 14:59 UTC), maintenance 08:00 to 09:30 UTC on 15 Oct: "Community Server admins will be able to configure their own ping limits, allowing for cross regional play (or more stringent rules) if desired"; "Community server hosts being seen to exploit the faction bonus will be punished"; "Server stability & security improvements" [6]. Release confirmed 15 Oct 2026 09:59 UTC [7]. Nothing on RCON, AllowedHosts, restart time or ini keys; whether 0.1.2 admin settings changed is not stated.
 
 - No official RCON or server-settings documentation was found. The vendor guide says so directly (guide dated 2026-09-14, PR) [11]. A fan site relaying a hosting-policy thread (checked 2026-09-01, PR) says Bulkhead was developing an RCON tool and that moderation details were unpublished at that time [13].
@@ -233,6 +234,7 @@ Known gaps: no official admin documentation, no read-only RCON role, and no TLS 
 - [5] **Bulkhead / Team17 (Steam announcement)** — *Pre-load live: Season 1 changelog*, 2026-09-09. https://store.steampowered.com/news/app/1867240/view/1843481262690549. Accessed 2026-10-08.
 - [6] **Bulkhead** — *WARDOGS Season 2 Patch Notes* (Steam post, 14 Oct 2026 14:59 UTC; Update 0.2.0 notes and maintenance-window notice). https://store.steampowered.com/news/app/1867240/view/1846651706674560. Accessed 2026-10-30.
 - [7] **Bulkhead** — *WARDOGS Season 02 is now LIVE* (Steam post, 15 Oct 2026 09:59 UTC; Update 0.2.0 released, servers back online). https://store.steampowered.com/news/app/1867240/view/1846651706677015. Accessed 2026-10-30.
+- [14] **BULKHEAD** — *WARDOGS | Season 03 Patch Notes* (Steam news, 2026-11-11 17:59 UTC). https://store.steampowered.com/news/app/1867240/view/1849192144179736. Accessed 2026-11-11.
 
 **Press & Secondary**
 
@@ -265,3 +267,4 @@ Known gaps: no official admin documentation, no read-only RCON role, and no TLS 
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint and links (0 dead). | Standing mandate (auto-approve on green QA) |
 | 1.1.0 | 2026-10-08 | Research Pipeline (revision worker) | Revised against full official Steam text; quoted the five 0.1.2 admin lines as primary, recorded that the 2 Oct hotfix post does not link to RCON and that no official post gives AllowedHosts syntax or defaults, added official 0.11, 8 Sep and Season 1 changelog statements, relabelled ini and API content as unofficial, review_due set to 2026-10-22. | Standing mandate (auto-approve on green QA) |
 | 1.2.0 | 2026-10-30 | Research Pipeline (virtual agent) | Revised for Update 0.2.0: official notes add admin-configurable ping limits, faction-bonus exploitation penalty and server stability and security improvements; no RCON or ini change stated, so RCON and ini details stay unconfirmed and Low; references 6 and 7 now cited; verified-version wording updated | — |
+| 1.3.0 | 2026-11-11 | Research Pipeline (virtual agent) | Recorded Season 03 (announced 11 Nov 2026) admin-facing changes: Server Rules popup, unban and reserved-slot save fix, own ping limits on community servers. No RCON or ini changes stated. | — |
