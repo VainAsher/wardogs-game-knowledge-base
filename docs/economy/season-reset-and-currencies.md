@@ -1,18 +1,18 @@
 ---
 id: season-reset-and-currencies
 title: "Seasons, Resets & Currencies"
-version: 1.2.0
+version: 1.3.0
 status: frozen
 confidence: Medium
 category: Economy
 topic: "Season structure, what resets, Gold Bars, what persists, cosmetics"
 market: Global
-game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
+game_version: "Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12)"
 document_type: depth
 created: 2026-10-08
-updated: 2026-11-11
+updated: 2026-11-12
 review_due: 2026-11-19
-sources_verified: 2026-11-11
+sources_verified: 2026-11-12
 supersedes: null
 related: [economy-foundation, progression-and-role-tracks, season-2-announcements, patch-history, price-tables-season-1, cash-rewards-and-costs, progression-unlock-tables]
 tags: [economy, seasons, wipe, gold-bars, cosmetics, season-02, early-access]
@@ -23,14 +23,14 @@ tags: [economy, seasons, wipe, gold-bars, cosmetics, season-02, early-access]
 | Field | Value |
 |-------|-------|
 | Document ID | season-reset-and-currencies |
-| Version | 1.2.0 |
+| Version | 1.3.0 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Economy |
-| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
+| Game version | Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12) |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-11-11 |
+| Updated | 2026-11-12 |
 | Review due | 2026-11-19 |
 
 # Executive Summary
@@ -49,8 +49,8 @@ Confidence is Medium: the currency model and the Season 02 Gold Market changes a
 - Official: Season 02 (Update 0.2.0) went live 15 October 2026 after a 08:00 to 09:30 UTC maintenance window [14][15].
 - Official (Season 02 patch notes, 14 Oct 2026): eight Gold Market skins across four camo families (Black & Gold Little Bird is a Season 2 exclusive), the Black & Gold AK camo removed from the Gold Market, and Gold Market listed as a WARDOG-track unlock at level 35 for $150k [14].
 - Official: Season 02 changed the role-track XP curve for levels 10 to 50 (for example level 20: 250,000 to 111,500 total XP) [14].
-- The Season 02 notes and release post do not mention a progression wipe, a cash and XP reset, or an automatic cash-to-Gold-Bar conversion [14][15]. The Season 03 notes (announced 11 Nov 2026) do not either [16].
-- Season 03 (announced): season length about three months; five new Gold Market camos: Defibrillator Black & Gold (limited time), MAAWS Two-Tone Desert, Compound Bow Digital Wood, M1911 Chocolate Chip, FAL Chocolate Chip; the Black & Gold Littlebird camo carries over two weeks from Season 2 "to account for the shortened season length" [16].
+- The Season 02 notes and release post do not mention a progression wipe, a cash and XP reset, or an automatic cash-to-Gold-Bar conversion [14][15]. The Season 03 notes (live 12 Nov 2026) do not either [16].
+- Season 03 (live 12 Nov 2026): season length about three months; five new Gold Market camos: Defibrillator Black & Gold (limited time), MAAWS Two-Tone Desert, Compound Bow Digital Wood, M1911 Chocolate Chip, FAL Chocolate Chip; the Black & Gold Littlebird camo carries over two weeks from Season 2 "to account for the shortened season length" [16].
 - Press (quoting a devlog not in the snapshot): at season end cash and XP reset, leftover cash auto-converts to Gold Bars, and Gold Bars and cosmetics persist permanently [10][11][12]. Still unconfirmed officially.
 - Not published anywhere found: the cash-to-Gold-Bar rate, and whether the starting cash is again $10,000 (the notes state no starting balance) [14].
 - Official: exploit sanctions already reset cash and XP to 0 for individuals, a separate mechanism from any seasonal reset [5][6].
@@ -71,7 +71,7 @@ Covers what is officially said about season structure, the seasonal reset, cash 
 
 As of Update 0.2.0 (official posts through 2026-10-15; snapshot 2026-10-30):
 
-- Season 02 (Update 0.2.0) is live: the patch notes were posted 14 Oct 2026 and the release post on 15 Oct 2026 says servers were back online [14][15]. Season 03 is announced for 12 Nov 2026 [16]; the Season 02 season therefore ran about four weeks (15 Oct to 12 Nov), which the notes call "shortened". Later hotfixes are neither confirmed nor ruled out.
+- Season 02 (Update 0.2.0) was live until 12 Nov 2026: the patch notes were posted 14 Oct 2026 and the release post on 15 Oct 2026 says servers were back online [14][15]. Season 03 went live on 12 Nov 2026 [17][16]; the Season 02 season therefore ran about four weeks (15 Oct to 12 Nov), which the notes call "shortened". Later hotfixes are neither confirmed nor ruled out.
 - Cash persists between matches [2][9].
 - Cash can be exchanged for Gold Bars; Gold Bars buy cosmetics in the Gold Market (18 Feb 2026 FAQ, not restated in later posts, including the Season 02 notes) [2][14].
 - The Season 02 notes list eight new Gold Market skins, remove the Black & Gold AK camo, and list "Gold Market (LVL 35, $150k)" under WARDOG-track additional unlocks [14].
@@ -228,7 +228,7 @@ None found. No official statement on how a seasonal reset affects community serv
 
 # Risks & Caveats
 
-- Season 02 values supersede the Baseline table; Season 03 (announced 11 Nov 2026) changes the XP curve and season length again [16]; later hotfixes are unchecked.
+- Season 02 values supersede the Baseline table; Season 03 (live 12 Nov 2026) changes the XP curve and season length again [16]; later hotfixes are unchecked.
 - The reset rule is press-relayed from a video devlog; wording may differ from BULKHEAD's original.
 - The Gold Bar exchange appears only in a February pre-launch FAQ; behaviour may have changed.
 - Commercial sources (Timesaver) are conflicted and used only for labelled claims.
@@ -271,6 +271,7 @@ None found. No official statement on how a seasonal reset affects community serv
 **Player-Reported Evidence**
 
 - [12] **Timesaver.gg** — *WARDOGS Season 2: everything we know* (commercial seller of boosting and cash; conflict of interest). https://timesaver.gg/blog/wardogs-season-2-everything-we-know. Accessed 2026-10-08.
+- [17] **BULKHEAD** — *WARDOGS | SEASON 03 IS NOW LIVE* (Steam news, 2026-11-12 15:00 UTC; "We have now released Update 0.3.0. Servers are back online."). https://store.steampowered.com/news/app/1867240/view/1849192144183254. Accessed 2026-11-12.
 
 # Further Reading
 
@@ -294,3 +295,4 @@ BULKHEAD's 7 April 2026 devlog video (linked from [7]) is the claimed origin of 
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint, links (0 dead) and Steam post ids. Pre-Season-02 baseline. | Standing mandate (auto-approve on green QA) |
 | 1.1.0 | 2026-10-30 | Research Pipeline (virtual agent) | Revised for Season 02 / Update 0.2.0 against the official preview, patch notes and release post: added Gold Market camos (eight skins, Black & Gold AK removed) and Gold Market level 35 WARDOG unlock, Season 02 XP curve, outcome of the Season 02 teaser; wipe and Gold Bar conversion kept unconfirmed (notes silent); Season 1 baseline kept as dated history; flagged XP "from" value mismatch. | — |
 | 1.2.0 | 2026-11-11 | Research Pipeline (virtual agent) | Recorded that the Season 03 notes (11 Nov 2026) are silent on a progression or cash reset, that the season lengthens to about three months, and that the press-reported Season 3 economy reset remains unconfirmed. | — |
+| 1.3.0 | 2026-11-12 | Research Pipeline (virtual agent) | Season 03 went live on 12 Nov 2026 (Update 0.3.0; official go-live post, snapshot 2026-11-12) [17]. Pre-release "announced, not yet verified live" labels replaced by "in effect per the official notes, not independently verified in a build"; tenses corrected. No values changed: the Season 03 Patch Notes are byte-identical to the 2026-11-11 snapshot. | — |

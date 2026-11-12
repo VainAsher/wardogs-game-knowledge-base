@@ -1,18 +1,18 @@
 ---
 id: fob-and-base-building
 title: "FOBs, Hammers & Base Building"
-version: 1.2.0
+version: 1.3.0
 status: frozen
 confidence: Medium
 category: Vehicles & Outposts
 topic: "FOB deployment, supply types, hammer tiers, structures, pallet logistics, costs"
 market: Global
-game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
+game_version: "Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12)"
 document_type: depth
 created: 2026-10-08
-updated: 2026-11-11
+updated: 2026-11-12
 review_due: 2026-11-19
-sources_verified: 2026-11-11
+sources_verified: 2026-11-12
 supersedes: null
 related: [vehicles-outposts-foundation, vehicle-roster-and-prices, air-and-counter-air, cash-rewards-and-costs, maps-environment-foundation]
 tags: [fob, hammer, base-building, pallets, supplies, season-02, early-access]
@@ -23,14 +23,14 @@ tags: [fob, hammer, base-building, pallets, supplies, season-02, early-access]
 | Field | Value |
 |-------|-------|
 | Document ID | fob-and-base-building |
-| Version | 1.2.0 |
+| Version | 1.3.0 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Vehicles & Outposts |
-| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
+| Game version | Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12) |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-11-11 |
+| Updated | 2026-11-12 |
 | Review due | 2026-11-19 |
 
 # Executive Summary
@@ -132,9 +132,9 @@ FOB hacking and destruction (amounts in cash-rewards-and-costs) [11]: hacking a 
 
 Logistics note [11]: base logistics rewards are lower, with new delivery streaks; the notes were edited after posting to give values including the Control Zone multiplier. Values: cash-rewards-and-costs.
 
-## Season 03 (announced) outpost and supply changes
+## Season 03 (live 12 Nov 2026) outpost and supply changes
 
-Source: Season 03 Patch Notes, posted 2026-11-11 17:59 UTC, launch 2026-11-12 [13]. Announced, not yet verified in a live build.
+Source: Season 03 Patch Notes, posted 2026-11-11 17:59 UTC, launch 2026-11-12 [13]. In effect since 12 Nov 2026 per the official go-live post [14], not independently verified in a build.
 
 | Area | Change |
 |------|--------|
@@ -270,6 +270,7 @@ None found specific to FOBs or hammers. No official server setting for buildable
 - [8] **KeenGamer** — *How to build a FOB in WARDOGS: supplies and costs*. https://www.keengamer.com/articles/guides/how-to-build-a-fob-in-wardogs-supplies-and-costs/. Accessed 2026-10-08.
 - [9] **allthings.how** — *WARDOGS: how to build structures with hammers and FOBs*. https://allthings.how/wardogs-how-to-build-structures-with-hammers-and-fobs/. Accessed 2026-10-08.
 - [10] **KeenGamer** — *WARDOGS best base building guide, FOB layout and build order*. https://www.keengamer.com/articles/guides/wardogs-best-base-building-guide-fob-layout-build-order/. Accessed 2026-10-08.
+- [14] **BULKHEAD** — *WARDOGS | SEASON 03 IS NOW LIVE* (Steam news, 2026-11-12 15:00 UTC; "We have now released Update 0.3.0. Servers are back online."). https://store.steampowered.com/news/app/1867240/view/1849192144183254. Accessed 2026-11-12.
 
 # Further Reading
 
@@ -291,3 +292,4 @@ The Steam news hub at https://store.steampowered.com/news/app/1867240 for any po
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint, links (0 dead) and Steam post ids. Pre-Season-02 baseline. | Standing mandate (auto-approve on green QA) |
 | 1.1.0 | 2026-10-30 | Research Pipeline (virtual agent) | Revised for Season 02 / Update 0.2.0 from the official patch notes (14 Oct) and release post (15 Oct): Building Balance (new buildables and hammers, supply cost table, build speed, Drill Rig, Talon, Mortar, misc, Halligan breaching, CIWS vs structures), FOB hacking and destroy rewards (linked), Season 1 values kept as dated history; guide supply costs flagged as contradicted; Open Questions and Risks updated. | — |
 | 1.2.0 | 2026-11-11 | Research Pipeline (virtual agent) | Added Season 03 (announced 11 Nov 2026) supply crate/pallet drop heights and safe-zone rule, Large Hammer unlock move, emplacement rewards, FOB fuel drill kickback, Halligan Bar. | — |
+| 1.3.0 | 2026-11-12 | Research Pipeline (virtual agent) | Season 03 went live on 12 Nov 2026 (Update 0.3.0; official go-live post, snapshot 2026-11-12) [14]. Pre-release "announced, not yet verified live" labels replaced by "in effect per the official notes, not independently verified in a build"; tenses corrected. No values changed: the Season 03 Patch Notes are byte-identical to the 2026-11-11 snapshot. | — |

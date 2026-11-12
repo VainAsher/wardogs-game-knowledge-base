@@ -37,7 +37,7 @@ for it in items:
 print(f"{len(items)} items, {sum(i['official'] for i in index)} official -> {out}")
 
 # Store page data (description, price, requirements, DLC, review counts).
-for label, aid in (("app", a.appid), ("dlc-supporter-pack", "4809960")):
+for label, aid in (("app", a.appid), ("dlc-supporter-pack", "4809960"), ("dlc-movember", "4809970")):
     for cc in ("us", "gb"):
         u = f"https://store.steampowered.com/api/appdetails?appids={aid}&cc={cc}&l=english"
         try:

@@ -1,18 +1,18 @@
 ---
 id: progression-unlock-tables
 title: "Progression Unlock Tables (Season 1 and Season 02)"
-version: 1.2.0
+version: 1.3.0
 status: frozen
 confidence: Medium
 category: Gameplay & Modes
 topic: "Level-by-level unlocks per role and account"
 market: Global
-game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
+game_version: "Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12)"
 document_type: reference-data
 created: 2026-10-08
-updated: 2026-11-11
+updated: 2026-11-12
 review_due: 2026-11-19
-sources_verified: 2026-11-11
+sources_verified: 2026-11-12
 supersedes: null
 related:
   - progression-and-role-tracks
@@ -36,19 +36,19 @@ tags:
 | Field | Value |
 |-------|-------|
 | Document ID | progression-unlock-tables |
-| Version | 1.2.0 |
+| Version | 1.3.0 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Gameplay & Modes |
-| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
+| Game version | Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12) |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-11-11 |
+| Updated | 2026-11-12 |
 | Review due | 2026-11-19 |
 
 # Executive Summary
 
-This is the reference table of role-track unlocks and the role-track XP curve for WARDOGS, updated for Season 02 (Update 0.2.0). The developer published the full 0.2.0 patch notes on 14 Oct 2026 [8] and announced the update live on 15 Oct 2026 [9]. The notes give, for every track, the unlock level and unlock cost of each added item, each item moved between tracks and each changed item, plus a new total-XP table for levels 10 to 50 [8]. The Season 1 values from the 9 Sep 2026 changelog are kept below as history [1]. The Season 03 patch notes (posted 11 Nov 2026, effective 12 Nov) change the curve and several unlock levels again; they are summarised in "Season 03 changes (announced)" and are not yet verified in a live build [10]. The Season 02 tables below remain the last values verified as live.
+This is the reference table of role-track unlocks and the role-track XP curve for WARDOGS, updated for Season 02 (Update 0.2.0). The developer published the full 0.2.0 patch notes on 14 Oct 2026 [8] and announced the update live on 15 Oct 2026 [9]. The notes give, for every track, the unlock level and unlock cost of each added item, each item moved between tracks and each changed item, plus a new total-XP table for levels 10 to 50 [8]. The Season 1 values from the 9 Sep 2026 changelog are kept below as history [1]. The Season 03 patch notes (posted 11 Nov 2026, effective 12 Nov) change the curve and several unlock levels again; they have been in effect since 12 Nov 2026 per the go-live post [11] and are summarised in "Season 03 changes (live 12 Nov 2026)" and are not independently verified in a build [10]. The Season 02 tables below are the previous season's values, kept as history and for comparison.
 
 The headline changes in 0.2.0: reaching level 20 now takes 111,500 XP instead of 250,000 (55 percent quicker) and level 50 takes 1,150,000 XP instead of 1,500,000; the notes name the tracks WARDOG, Assault, Medic, Recon, Support, Pilot and Driver, so the 0.2.0 notes show seven track headings against the six counted in earlier official text; most attachments moved to earlier levels or to other tracks; the Little Bird AH-6M [Miniguns] moved from level 4 to level 8 and from $50k to $125k; the SPH-2 moved from WARDOG level 90 into the Driver track at level 31 [8].
 
@@ -69,7 +69,7 @@ Limits: the notes list only changes and additions, so a full level-by-level tabl
 
 # Scope
 
-Covers the unlock levels, unlock costs and role-track XP curve published in official Steam posts: Season 1 (9 Sep 2026) as history and Season 02 (Update 0.2.0, 14-15 Oct 2026) as current. Game version: Update 0.2.0 as the last verified live build, plus the Season 03 changes announced on 2026-11-11 (snapshot 2026-11-11). Excluded: item descriptions (see weapons-catalogue, vehicle-roster-and-prices and gadgets-armor-and-equipment), the explanation of the track system (see progression-and-role-tracks), vendor per-life prices (see price-tables-season-1) and cash rewards (see cash-rewards-and-costs).
+Covers the unlock levels, unlock costs and role-track XP curve published in official Steam posts: Season 1 (9 Sep 2026) as history and Season 02 (Update 0.2.0, 14-15 Oct 2026) as current. Game version: Update 0.2.0 as the previous season, plus the Season 03 changes (notes of 2026-11-11; live since 2026-11-12 [11]; snapshot 2026-11-12). Excluded: item descriptions (see weapons-catalogue, vehicle-roster-and-prices and gadgets-armor-and-equipment), the explanation of the track system (see progression-and-role-tracks), vendor per-life prices (see price-tables-season-1) and cash rewards (see cash-rewards-and-costs).
 
 # Definitions
 
@@ -88,7 +88,7 @@ Values below are from the official 0.2.0 patch notes (posted 2026-10-14 14:59 UT
 - The notes say levels 10 to 20 "were a slow grind, and many players stalled out before unlocking the gear that defines each role", and that reaching level 20 now takes less than half the playtime it did in Season 1 [8].
 - "Most attachments have moved to earlier levels or new tracks" [8].
 - A "WARDOG Progression Track" heading holds the account-wide items (pallets, sidearms, ammo types, armour, parachute, Gold Market) [8].
-- Update 0.2.0 was released on 2026-10-15 and servers were back online [9]. Season 03 is announced for 2026-11-12; until it is live and checked, the values below are the last verified live values and the Season 03 section lists announced changes [10].
+- Update 0.2.0 was released on 2026-10-15 and servers were back online [9]. Season 03 went live on 2026-11-12 [11]; the values below are the Season 02 values, kept as history and for comparison, and the Season 03 section lists the changes from the official notes, not independently verified in a build [10].
 
 # Detail
 
@@ -406,9 +406,9 @@ Name differences between the two posts: the Season 1 changelog lists "URAL Cover
 
 The notes change which track receives XP for some actions: destroying a buildable now gives Assault XP instead of Support XP; artillery now gives Driver XP instead of Support XP; IED and C4 give Assault XP instead of Support XP; repair XP goes into the Driver or Pilot track depending on the vehicle repaired, instead of a flat Support amount [8]. Cash and XP amounts are owned by cash-rewards-and-costs.
 
-## Season 03 changes (announced)
+## Season 03 changes (live 12 Nov 2026)
 
-Source: Season 03 Patch Notes, posted 2026-11-11 17:59 UTC, season launch 2026-11-12 [10]. Announced, not yet verified in a live build. The notes list changes only; levels not named here are not stated.
+Source: Season 03 Patch Notes, posted 2026-11-11 17:59 UTC, season launch 2026-11-12 [10]. In effect since 12 Nov 2026 per the official go-live post [11], not independently verified in a build. The notes list changes only; levels not named here are not stated.
 
 | Item | Track | Season 02 level | Season 03 level | Note |
 |------|-------|-----------------|-----------------|------|
@@ -586,7 +586,7 @@ Known gaps (Update 0.2.0 and Season 03 notes, snapshot 2026-11-11):
 
 - The Season 03 notes print no XP totals, catch-up percentages or the full tank unlock mapping [10].
 - No official complete unlock table exists; the notes list only additions, moves and changes [8].
-- Season 03 launches 2026-11-12; later hotfixes cannot be ruled in or out until a post-launch snapshot.
+- Season 03 went live 2026-11-12 [11]; hotfixes after the go-live post cannot be ruled in or out until the next snapshot.
 - The notes do not mention a Season 02 progression wipe, a level cap, or a change to the account-level (WARDOG Level) rule [8].
 
 # Admin & Technical Notes
@@ -635,6 +635,7 @@ None cited.
 **Player-Reported Evidence**
 
 - [7] **allthings.how** — *WARDOGS roles: how to pick the best class for you* (player-reported guide). https://allthings.how/wardogs-roles-how-to-pick-the-best-class-for-you/. Accessed 2026-10-08.
+- [11] **BULKHEAD** — *WARDOGS | SEASON 03 IS NOW LIVE* (Steam news, 2026-11-12 15:00 UTC; "We have now released Update 0.3.0. Servers are back online."). https://store.steampowered.com/news/app/1867240/view/1849192144183254. Accessed 2026-11-12.
 
 # Further Reading
 
@@ -658,3 +659,4 @@ Press summaries of the Season 1 changelog are listed in `SOURCE_REGISTRY.md` (gf
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint, links (0 dead) and Steam post ids. Pre-Season-02 baseline. | Standing mandate (auto-approve on green QA) |
 | 1.1.0 | 2026-10-30 | Research Pipeline (virtual agent) | Revised for Season 02 / Update 0.2.0 from the official patch notes (14 Oct) and release post (15 Oct): new role-track XP table (levels 10 to 50), unlock level and cost changes for all seven track headings (WARDOG, Assault, Medic, Recon, Support, Pilot, Driver), additions and moves between tracks, role XP reassignment; Season 1 tables kept as history; flagged XP "old value" conflict and name mappings. | — |
 | 1.2.0 | 2026-11-11 | Research Pipeline (virtual agent) | Added a Season 03 (announced 11 Nov 2026) section: multi-track unlocks, role-adjacent early unlocks, moved unlock levels (C4, Molotov, tanks, Large Hammer, Verba, AMR 50), XP-per-level increase, catch-up bonus. Season 02 tables kept unchanged as the last verified live values; no new XP figures were published, so the XP curve is not restated. | — |
+| 1.3.0 | 2026-11-12 | Research Pipeline (virtual agent) | Season 03 went live on 12 Nov 2026 (Update 0.3.0; official go-live post, snapshot 2026-11-12) [11]. Pre-release "announced, not yet verified live" labels replaced by "in effect per the official notes, not independently verified in a build"; tenses corrected. No values changed: the Season 03 Patch Notes are byte-identical to the 2026-11-11 snapshot. | — |

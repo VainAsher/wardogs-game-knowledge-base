@@ -1,18 +1,18 @@
 ---
 id: season-2-announcements
 title: "Season 02: Pre-Release Claims Scored Against Update 0.2.0"
-version: 2.1.0
+version: 2.2.0
 status: frozen
 confidence: Medium
 category: Meta & Release
 topic: "What was said about Season 02 before launch, scored against the official Update 0.2.0 notes (14-15 Oct 2026)"
 market: Global
-game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
+game_version: "Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12)"
 document_type: depth
 created: 2026-10-08
-updated: 2026-11-11
+updated: 2026-11-12
 review_due: 2026-11-19
-sources_verified: 2026-11-11
+sources_verified: 2026-11-12
 supersedes: null
 related: [meta-release-foundation, season-reset-and-currencies, patch-history, progression-and-role-tracks, destructibility-and-level-design, community-and-source-reliability]
 tags: [season-02, update-0-2-0, scorecard, rumours, wipe, outcome]
@@ -23,14 +23,14 @@ tags: [season-02, update-0-2-0, scorecard, rumours, wipe, outcome]
 | Field | Value |
 |-------|-------|
 | Document ID | season-2-announcements |
-| Version | 2.1.0 |
+| Version | 2.2.0 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Meta & Release |
-| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
+| Game version | Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12) |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-11-11 |
+| Updated | 2026-11-12 |
 | Review due | 2026-11-19 |
 
 # Executive Summary
@@ -302,6 +302,7 @@ The 0.2.0 notes say Community Server admins "will be able to configure their own
 - [15] **Timesaver.gg** — *WARDOGS Season 2: everything we know* (sells boosting services; updated 2026-10-05). https://timesaver.gg/blog/wardogs-season-2-everything-we-know. Accessed 2026-10-08.
 - [16] **Dexerto** — *WARDOGS Season 2 update* (community wiki, undated). https://www.dexerto.com/wikis/wardogs/season-2-update/. Accessed 2026-10-08.
 - [17] **MMOEXP** — *WARDOGS October 2 update, Season 2 wipe, IR rangefinder nerf and new weapons* (seller of in-game cash; single podcast source; 2026-10-05). https://www.mmoexp.com/News/wardogs-october-2-update-season-2-wipe-ir-rangefinder-nerf-and-new-weapons.html. Accessed 2026-10-08.
+- [27] **BULKHEAD** — *WARDOGS | SEASON 03 IS NOW LIVE* (Steam news, 2026-11-12 15:00 UTC; "We have now released Update 0.3.0. Servers are back online."). https://store.steampowered.com/news/app/1867240/view/1849192144183254. Accessed 2026-11-12.
 
 # Further Reading
 
@@ -326,3 +327,4 @@ The 0.2.0 notes say Community Server admins "will be able to configure their own
 | 2.0.0 | 2026-10-30 | Research Pipeline (virtual agent) | Retitled and rebuilt for Update 0.2.0: the pre-release rumour register is now a scored outcome table (12 confirmed, 3 partly, 2 contradicted, 10 not mentioned, 2 press-only); added Preview (9 Oct), Patch Notes (14 Oct) and live post (15 Oct) as Primary; Season 1 / 0.1.2 baseline retained as dated history; press follow-ups (PCGamesN 16-27 Oct) labelled press-only; wipe and Gold Bar conversion kept as not mentioned in the notes. Confidence stays below High because verdicts rest on absence of text and press. | — |
 | 2.0.1 | 2026-10-30 | Research Pipeline (virtual agent) | Fresh browser capture of the live store page (2026-10-30): all Primary store-page claims unchanged since 2026-10-08 (Elytra, Steam Deck Unsupported, fighter jets, 1 to 2 years, gunplay quote, proximity and local voice chat, GBP prices); review figures recorded alongside the 2026-10-08 values; the review API could not be re-fetched. | — |
 | 2.1.0 | 2026-11-11 | Research Pipeline (virtual agent) | Added outcome of two Season 2 claims in the Season 03 notes: Wager Vendor removed rather than opened later in Season 2, and Season 3 timing now official. Scorecard otherwise unchanged. | — |
+| 2.2.0 | 2026-11-12 | Research Pipeline (virtual agent) | Season 03 went live on 12 Nov 2026 (Update 0.3.0; official go-live post, snapshot 2026-11-12) [27]. Pre-release "announced, not yet verified live" labels replaced by "in effect per the official notes, not independently verified in a build"; tenses corrected. No values changed: the Season 03 Patch Notes are byte-identical to the 2026-11-11 snapshot. | — |

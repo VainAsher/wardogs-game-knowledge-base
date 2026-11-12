@@ -1,18 +1,18 @@
 ---
 id: server-hosting-and-browser
 title: "Server Hosting & Server Browser"
-version: 1.3.0
+version: 1.4.0
 status: frozen
 confidence: Medium
 category: Technical & Servers
 topic: "Official vs community servers, approved hosts, regions, browser behaviour, restarts"
 market: Global
-game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
+game_version: "Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12)"
 document_type: depth
 created: 2026-10-08
-updated: 2026-11-11
+updated: 2026-11-12
 review_due: 2026-11-19
-sources_verified: 2026-11-11
+sources_verified: 2026-11-12
 supersedes: null
 related: [technical-servers-foundation, rcon-and-server-admin, meta-release-foundation]
 tags: [servers, hosting, server-browser, community-servers, approved-hosts]
@@ -23,14 +23,14 @@ tags: [servers, hosting, server-browser, community-servers, approved-hosts]
 | Field | Value |
 |-------|-------|
 | Document ID | server-hosting-and-browser |
-| Version | 1.3.0 |
+| Version | 1.4.0 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Technical & Servers |
-| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
+| Game version | Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12) |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-11-11 |
+| Updated | 2026-11-12 |
 | Review due | 2026-11-19 |
 
 # Executive Summary
@@ -47,7 +47,7 @@ Confidence is Medium. The hosting model, host names, browser split and restart m
 - Official: community-hosted servers are where "admins can instantly ban bad actors"; the studio's advice on official servers is to use the in-game report function [1].
 - Official (Update 0.2.0, notes 14 Oct 2026): Official servers enforce region-based maximum ping limits; players who consistently exceed the limit over a sustained period are kicked and cannot rejoin that server until the next map transition; community admins can set their own limits; the browser has maximum-ping tags and filters. The notes call the initial values "quite lenient" and give none [7].
 - Official (0.2.0): players who join and populate empty servers earn rewards and a vendor discount once the match begins; community hosts "seen to exploit the faction bonus will be punished" (penalty not stated) [7].
-- Official (Season 03 notes, 11 Nov 2026, announced for 12 Nov): the official ping limit rises to 250 in all regions, "after checking regional biases against real data"; community admins keep their own limits; community servers can be favourited from the browser and the in-match pause menu (favourites filter and sort column); the browser shows and filters Limited servers; admins can create a "Server Rules" popup shown on joining; a small cash bonus rewards playing on community servers [19].
+- Official (Season 03 notes, 11 Nov 2026; live since 12 Nov 2026 [20]): the official ping limit rises to 250 in all regions, "after checking regional biases against real data"; community admins keep their own limits; community servers can be favourited from the browser and the in-match pause menu (favourites filter and sort column); the browser shows and filters Limited servers; admins can create a "Server Rules" popup shown on joining; a small cash bonus rewards playing on community servers [19].
 - Press only: PCGamesN (27 Oct 2026) reports two new server hosts, GG Host and 1of1 Servers; no official post in the 2026-10-30 snapshot confirms it, so the approved list stays at three officially [11].
 - Self-hosting is reportedly not offered: the developer is said not to release server code (fan-site relay; player-reported). No official post read states this [12][13].
 - Official (patch 0.11, 14 Sep 2026): the browser split into Community and Official; Official lost its filters because there are no Official modified game modes; Community gained text search and filter reliability fixes; Show Empty/Full was added to the quick bar [2].
@@ -69,7 +69,7 @@ Covers the hosting model, approved hosts, Official versus Community servers, reg
 
 # Current State
 
-Statements at Season 02 / Update 0.2.0 unless dated otherwise (official posts through 2026-10-15), plus the Season 03 notes of 2026-11-11 (announced for 12 Nov; not yet verified live). Items from earlier checks keep their dates.
+Statements at Season 02 / Update 0.2.0 unless dated otherwise (official posts through 2026-10-15), plus the Season 03 notes of 2026-11-11 (in effect since 12 Nov per the go-live post [20]; not independently verified in a build). Items from earlier checks keep their dates.
 
 - **Ping limits (0.2.0).** Official servers enforce region-dependent maximum pings; sustained excess causes an automatic kick (short spikes and server-side lag spikes are excluded) and a rejoin block on that server until the next map transition [7]. Community admins configure their own limits, allowing cross-regional play or stricter rules [7]. The browser shows maximum-ping tags and filters [7]. Values are not published.
 - **Seeding (0.2.0).** Rewards and a vendor discount for players who populate empty servers, paid once the match begins; amounts not stated [7]. See control-zone-and-match-flow.
@@ -83,9 +83,9 @@ Statements at Season 02 / Update 0.2.0 unless dated otherwise (official posts th
 
 # Detail
 
-## Season 03 server features (announced 11 Nov 2026)
+## Season 03 server features (live 12 Nov 2026)
 
-Source: Season 03 Patch Notes, posted 2026-11-11, launch 2026-11-12 [19]. Announced, not yet verified in a live build.
+Source: Season 03 Patch Notes, posted 2026-11-11, launch 2026-11-12 [19]. In effect since 12 Nov 2026 per the official go-live post [20], not independently verified in a build.
 
 | Area | Change |
 |------|--------|
@@ -123,7 +123,7 @@ Assessment: confirmed. The conflict was stale evidence, not disagreement, and th
 
 The post frames the change as favouring community servers: it admits Community Servers "have been underserved" and that the studio rushed its Community Server strategy [2]. The studio notes that matchmaking would suit a game of this size but that it does not want community admins and hosts to suffer, hence the two browsers [2]. The Host button was updated to direct to the correct location [2]. PlayDay's press summary matches the official text [10].
 
-Planned and not shipped per the 0.11 post: community server favouriting, tiered priority queues for Community servers, Message of the Day prompt, improved warmup activities, disabling AFK kicking during seeding, and team switching controls [2]. Team switching controls shipped in 0.2.0 [7]; community server favouriting and an admin-editable rules popup are announced in the Season 03 notes [19]. Tiered priority queues, the Message of the Day prompt (the Server Rules popup may be a successor, but the notes do not say so) and the seeding AFK change are not mentioned in them. A one-week 5 percent End of Match cash bonus on Community servers ran from 14 Sep and has ended [2].
+Planned and not shipped per the 0.11 post: community server favouriting, tiered priority queues for Community servers, Message of the Day prompt, improved warmup activities, disabling AFK kicking during seeding, and team switching controls [2]. Team switching controls shipped in 0.2.0 [7]; community server favouriting and an admin-editable rules popup are in the Season 03 notes [19]. Tiered priority queues, the Message of the Day prompt (the Server Rules popup may be a successor, but the notes do not say so) and the seeding AFK change are not mentioned in them. A one-week 5 percent End of Match cash bonus on Community servers ran from 14 Sep and has ended [2].
 
 ## Browser behaviour
 
@@ -232,6 +232,7 @@ Update 0.2.0 adds per-server ping limits that community admins "will be able to 
 - [16] **XGamingServer (commercial host, not confirmed approved)** — *WARDOGS server hosting*. https://xgamingserver.com/wardogs-server-hosting. Accessed 2026-10-08.
 - [17] **Supercraft.host (commercial host, not confirmed approved)** — *WARDOGS hosting reservation page*. https://supercraft.host/?p=49132. Accessed 2026-10-08.
 - [18] **wardogs.tech (unofficial)** — *Wardogs Server Reference*. https://wardogs.tech/rcon-reference. Accessed 2026-10-08.
+- [20] **BULKHEAD** — *WARDOGS | SEASON 03 IS NOW LIVE* (Steam news, 2026-11-12 15:00 UTC; "We have now released Update 0.3.0. Servers are back online."). https://store.steampowered.com/news/app/1867240/view/1849192144183254. Accessed 2026-11-12.
 
 # Further Reading
 
@@ -255,3 +256,4 @@ Update 0.2.0 adds per-server ping limits that community admins "will be able to 
 | 1.1.0 | 2026-10-08 | Research Pipeline (revision worker) | Revised against full official Steam text; host list, browser split, 0.1.2 Deploy flow, restored Official filters and daily restart time relabelled Primary; six official posts added as references; 7 Sep stepwise host dating marked unconfirmed; confidence Low to Medium; 12 h vs 24 h, prices, slots and regions left unofficial. | Standing mandate (auto-approve on green QA) |
 | 1.2.0 | 2026-10-30 | Research Pipeline (virtual agent) | Revised for Update 0.2.0 (14-15 Oct 2026): region-based ping limits and kicks, admin-configurable limits, browser ping tags and filters, seeding rewards, faction-bonus exploitation penalty, server stability and security improvements, 08:00-09:30 UTC 15 Oct maintenance; PCGamesN two-new-hosts report added as unconfirmed press; Season 02 forward-looking text replaced | — |
 | 1.3.0 | 2026-11-11 | Research Pipeline (virtual agent) | Added Season 03 (announced 11 Nov 2026) server features: community favouriting, Server Rules popup, community cash bonus, Limited server filter, ping limit 250, seeding vehicles, DDoS acknowledgement. | — |
+| 1.4.0 | 2026-11-12 | Research Pipeline (virtual agent) | Season 03 went live on 12 Nov 2026 (Update 0.3.0; official go-live post, snapshot 2026-11-12) [20]. Pre-release "announced, not yet verified live" labels replaced by "in effect per the official notes, not independently verified in a build"; tenses corrected. No values changed: the Season 03 Patch Notes are byte-identical to the 2026-11-11 snapshot. | — |

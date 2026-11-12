@@ -1,18 +1,18 @@
 ---
 id: community-and-source-reliability
 title: "Community Channels & Source Reliability Register"
-version: 1.2.0
+version: 1.3.0
 status: frozen
 confidence: Medium
 category: Meta & Release
 topic: "Official channels, community hubs, and a reliability rating for every source class and outlet used"
 market: Global
-game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
+game_version: "Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12)"
 document_type: depth
 created: 2026-10-08
-updated: 2026-11-11
+updated: 2026-11-12
 review_due: 2026-11-19
-sources_verified: 2026-11-11
+sources_verified: 2026-11-12
 supersedes: null
 related: [meta-release-foundation, patch-history, editions-pricing-platforms, season-2-announcements]
 tags: [community, sources, reliability, reviews, baseline, official-channels, season-02, rumour-scoring]
@@ -23,14 +23,14 @@ tags: [community, sources, reliability, reviews, baseline, official-channels, se
 | Field | Value |
 |-------|-------|
 | Document ID | community-and-source-reliability |
-| Version | 1.2.0 |
+| Version | 1.3.0 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Meta & Release |
-| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
+| Game version | Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12) |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-11-11 |
+| Updated | 2026-11-12 |
 | Review due | 2026-11-19 |
 | Sources verified | 2026-10-30 |
 
@@ -130,6 +130,9 @@ Every row is a value a later snapshot can diff mechanically.
 | Live page "Total reviews in all languages" 128,224 (Mixed) | 2026-10-30 | [1] |
 | Live page recent reviews (last 30 days, all languages): Mixed, 54% of 43,444 | 2026-10-30 | [1] |
 | Live page curators who reviewed: 161 | 2026-10-30 | [1] |
+| Live page English reviews: Mostly Positive (115,851; 79%) | 2026-11-12 | [69] |
+| Live page recent reviews (last 30 days, all languages): Mostly Positive, 72% of 70,838 (Mixed, 54% of 43,444 on 2026-10-30) | 2026-11-12 | [69] |
+| Live page curators who reviewed: 173 | 2026-11-12 | [69] |
 | Anti-cheat: Elytra (kernel level), named on the store page | 2026-10-08 | [1] |
 | Steam Deck compatibility: Unsupported (store page) | 2026-10-08 | [1] |
 | Price GBP 36.99 (Standard), GBP 45.99 (Supporter Edition, includes Supporter Pack), Supporter Pack DLC GBP 11.99 | 2026-10-08 | [1][2] |
@@ -338,6 +341,8 @@ The official admin-facing channels are the Steam announcements for the Approved 
 - [55] **Neonsect** — *WARDOGS community servers guide*. https://neonsect.com/wardogs/wardogs-community-servers-guide/. Accessed 2026-10-08.
 - [56] **wardogswiki.com (unofficial)** — *WARDOGS Season 2*. https://www.wardogswiki.com/en/guides/wardogs-season-2. Accessed 2026-10-08.
 - [57] **Gaming with Daopa** — *Wardogs Closed Beta Patch Notes, August 14th*. https://gamingwithdaopa.ellatha.com/wardogs/closed-beta-patch-notes-august-14th/. Accessed 2026-10-08.
+- [68] **BULKHEAD** — *WARDOGS | SEASON 03 IS NOW LIVE* (Steam news, 2026-11-12 15:00 UTC; "We have now released Update 0.3.0. Servers are back online."). https://store.steampowered.com/news/app/1867240/view/1849192144183254. Accessed 2026-11-12.
+- [69] **Valve (Steam storefront)** — *WARDOGS store page rendered in Chrome (GBP storefront), plus US and GB store data for the base game and the Movember Pack (app 4809970)* (snapshots/2026-11-12/store-page-live.txt, store-app-us.json, store-app-gb.json, store-dlc-movember-us.json, store-dlc-movember-gb.json; local only). https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-11-12.
 
 # Further Reading
 
@@ -361,3 +366,4 @@ The official admin-facing channels are the Steam announcements for the Approved 
 | 1.1.0 | 2026-10-30 | Research Pipeline (virtual agent) | Recorded how pre-release press and seller claims scored against the Update 0.2.0 notes (new scoring section and register updates); added the Preview "3+ million sales" claim (9 Oct, studio claim) and the 2026-10-30 feed counts (84 items, 35 official); added PCGamesN as an outlet (press only, 10 to 27 Oct); baseline table marked as history; wipe and Gold Bar conversion stay unconfirmed (not mentioned in the notes). | — |
 | 1.1.1 | 2026-10-30 | Research Pipeline (virtual agent) | Fresh browser capture of the live store page (2026-10-30): all Primary store-page claims unchanged since 2026-10-08 (Elytra, Steam Deck Unsupported, fighter jets, 1 to 2 years, gunplay quote, proximity and local voice chat, GBP prices); review figures recorded alongside the 2026-10-08 values; the review API could not be re-fetched. | — |
 | 1.2.0 | 2026-11-11 | Research Pipeline (virtual agent) | Added the Season 03 sources (Road to Season 3 devlog, Season 03 notes) as official; recorded that the 6 Nov 185,000-ban-wave figure appears in the official notes and that press Season 3 timing is now confirmed. | — |
+| 1.3.0 | 2026-11-12 | Research Pipeline (virtual agent) | Season 03 went live on 12 Nov 2026 (Update 0.3.0; official go-live post, snapshot 2026-11-12) [68]. Pre-release "announced, not yet verified live" labels replaced by "in effect per the official notes, not independently verified in a build"; tenses corrected. No Season 03 values changed: the Season 03 Patch Notes are byte-identical to the 2026-11-11 snapshot. Also records the 2026-11-12 Chrome-rendered store page capture and store API data [69]: review figures re-captured (English 79% of 115,851; last 30 days 72% of 70,838; 173 curators). | — |

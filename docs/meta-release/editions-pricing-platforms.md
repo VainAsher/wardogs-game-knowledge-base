@@ -1,18 +1,18 @@
 ---
 id: editions-pricing-platforms
 title: "Editions, Pricing & Platforms"
-version: 1.3.0
+version: 1.4.0
 status: frozen
 confidence: Medium
 category: Meta & Release
 topic: "Editions, regional pricing, Supporter Pack contents, platform roadmap, Early Access policy"
 market: Global
-game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
+game_version: "Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12)"
 document_type: reference-data
 created: 2026-10-08
-updated: 2026-11-11
+updated: 2026-11-12
 review_due: 2026-11-19
-sources_verified: 2026-11-11
+sources_verified: 2026-11-12
 supersedes: null
 related: [meta-release-foundation, economy-foundation, patch-history, system-requirements-and-performance]
 tags: [pricing, editions, platforms, early-access]
@@ -23,19 +23,19 @@ tags: [pricing, editions, platforms, early-access]
 | Field | Value |
 |-------|-------|
 | Document ID | editions-pricing-platforms |
-| Version | 1.3.0 |
+| Version | 1.4.0 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Meta & Release |
-| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
+| Game version | Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12) |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-11-11 |
+| Updated | 2026-11-12 |
 | Review due | 2026-11-19 |
 
 # Executive Summary
 
-WARDOGS is sold on Steam as two purchase options plus a separate DLC: the Standard game (package 671715), the Supporter Edition (package 1746527) and the Supporter Pack DLC (app 4809960) [1][2]. In the 2026-10-08 store snapshot the US prices are USD 39.99, 49.99 and 12.99 and the UK prices are GBP 36.99, 45.99 and 11.99, with no discount active [1][2]. A second storefront snapshot on 2026-10-30, after Update 0.2.0 (15 Oct 2026), shows the same US and UK prices, the same Windows-only platform flags and no discount for the base game and the Supporter Pack [19]. Store prices did not change with Season 02. A third storefront snapshot on 2026-11-11 shows the same US and UK prices for the base game and Supporter Pack and no discount, and lists a new DLC, "WARDOGS - Movember Pack" (app 4809970) [23]. The Season 03 Patch Notes (11 Nov 2026) announce that the first Early Access price increase, "just $5", takes effect at the end of Season 3 on 28 January, with owners paying nothing extra [21]. The Supporter Pack is cosmetic content (camos, a scoreboard icon, two bobbleheads). The developer's stated policy is that it is the only monetisation during Early Access and that in-game cash, gold bars and camos will never be sold [2][4].
+WARDOGS is sold on Steam as two purchase options plus a separate DLC: the Standard game (package 671715), the Supporter Edition (package 1746527) and the Supporter Pack DLC (app 4809960) [1][2]. In the 2026-10-08 store snapshot the US prices are USD 39.99, 49.99 and 12.99 and the UK prices are GBP 36.99, 45.99 and 11.99, with no discount active [1][2]. A second storefront snapshot on 2026-10-30, after Update 0.2.0 (15 Oct 2026), shows the same US and UK prices, the same Windows-only platform flags and no discount for the base game and the Supporter Pack [19]. Store prices did not change with Season 02. A third storefront snapshot on 2026-11-11 shows the same US and UK prices for the base game and Supporter Pack and no discount, and lists a new DLC, "WARDOGS - Movember Pack" (app 4809970) [23]. A fourth capture on 2026-11-12 (after the Season 03 go-live) shows the base game and Supporter Pack prices unchanged and the Movember Pack on sale at USD 2.00 and GBP 2.00 [25]. The Season 03 Patch Notes (11 Nov 2026) announce that the first Early Access price increase, "just $5", takes effect at the end of Season 3 on 28 January, with owners paying nothing extra [21]. The Supporter Pack is cosmetic content (camos, a scoreboard icon, two bobbleheads). The developer's stated policy is that it is the only monetisation during Early Access and that in-game cash, gold bars and camos will never be sold [2][4].
 
 Steam lists Windows only and the live store page shows Steam Deck compatibility as "Unsupported" [1][18]. The official Steam posts in the snapshot say nothing about Linux, Xbox or PS5; those statements (Xbox and PS5 "sometime in 2028", Linux unsupported with Proton work ongoing) come from press reports and are labelled as such [13][14][15][16]. The store page's own Early Access section says the developers plan a lower price during Early Access and a higher price at full release, and expect Early Access to last around 1 to 2 years [18]. Official Steam posts record 1.25 million copies sold on 11 Sep, 2 million on 15 Sep and 3 million on 26 Sep 2026 [5][6][7]; the Season 02 Preview of 9 Oct says "3+ million sales and counting" (studio claim, no new figure) [20]. Reviews on 2026-10-08 differ by source: the reviews API gave 81,290 positive of 109,396 (74.3%) while the live store page showed 95,146 total in all languages, both "Mostly Positive"; the gap is unexplained [11][18].
 
@@ -51,7 +51,7 @@ Confidence is Medium. Prices, DLC contents, sales milestones, the monetisation a
 - Steam lists Windows only; no Mac or Linux support flag on the store [1]. Steam Deck compatibility is officially "Unsupported" on the live store page [18]. Console and Linux/Proton status is press-reported, not in the official posts.
 - Official pricing policy (store page, Primary): priced lower during Early Access, higher at full release; the price may be raised closer to full release; Early Access expected to last around 1 to 2 years [18].
 - Sales (official Steam posts): 1.25 million (11 Sep), 2 million (15 Sep), 3 million (26 Sep 2026) [5][6][7].
-- Reviews (2026-10-08): API all-language 81,290 of 109,396 positive [11]; live store page English 63,179 and all-language total 95,146, both "Mostly Positive" [18]. The 109,396 versus 95,146 difference is unexplained. On 2026-10-30 the live page showed English 83,965 (73% positive) and 128,224 in all languages, rated Mixed [18]; the review API could not be re-fetched that day.
+- Reviews (2026-10-08): API all-language 81,290 of 109,396 positive [11]; live store page English 63,179 and all-language total 95,146, both "Mostly Positive" [18]. The 109,396 versus 95,146 difference is unexplained. On 2026-10-30 the live page showed English 83,965 (73% positive) and 128,224 in all languages, rated Mixed [18]; the review API could not be re-fetched that day. On 2026-11-12 the live page showed English reviews Mostly Positive (79% of 115,851) and, for the last 30 days, Mostly Positive (72% of 70,838), against Mixed (54% of 43,444) on 2026-10-30; the page gives no cause [25].
 
 # Scope
 
@@ -102,7 +102,7 @@ The US and GB rows come from the 2026-10-08 store snapshot; the other rows come 
 
 ## Season 03 price increase, Movember DLC and Twitch Drops (announced 11 Nov 2026)
 
-Source: Season 03 Patch Notes, posted 2026-11-11 17:59 UTC [21], the Road to Season 3 devlog of 2026-11-06 (which dates the season start 12 Nov) [22], and Steam store data captured 2026-11-11 [23]. Announced, not yet in effect.
+Source: Season 03 Patch Notes, posted 2026-11-11 17:59 UTC [21], the Road to Season 3 devlog of 2026-11-06 (which dates the season start 12 Nov) [22], and Steam store data captured 2026-11-11 [23]. Announced for 28 Jan; not yet in effect. The 2026-11-12 store capture (snapshot) still shows the unchanged USD 39.99 price.
 
 ### Early Access price increase
 
@@ -113,7 +113,7 @@ Source: Season 03 Patch Notes, posted 2026-11-11 17:59 UTC [21], the Road to Sea
 
 ### Movember Pack DLC
 
-- Steam store data lists "WARDOGS - Movember Pack" as DLC app 4809970 in the 2026-11-11 capture; it was not in the 2026-10-30 capture, which lists apps 4809960 and 4809930 [19][23]. The captured record shows no price (price_overview empty), so the price and purchasability were not confirmed [23].
+- Steam store data lists "WARDOGS - Movember Pack" as DLC app 4809970 in the 2026-11-11 capture; it was not in the 2026-10-30 capture, which lists apps 4809960 and 4809930 [19][23]. The captured record shows no price (price_overview empty), so the price and purchasability were not confirmed on that date [23]. The 2026-11-12 capture (Chrome-rendered GB page plus the US and GB store API) lists it as NEW at USD 2.00 and GBP 2.00, released 12 Nov 2026 and on sale. It is sold separately: the Supporter Edition still lists 2 items (the game and the Supporter Pack) [25].
 - The notes call it the "Tactical 'Stache DLC": a "Movember 2026 Tactical 'Stache" mustache cosmetic that grows as you play and "can only be equipped during November", and a "Movember 2026 Scoreboard Badge" that can be equipped permanently. "100% of profits from this DLC go to Movember" [21][23]. How the 100% figure is audited is not stated.
 
 ### Twitch Drops
@@ -199,7 +199,7 @@ None found. Community Server hosting is covered in technical-servers-foundation.
 
 - Supporter Edition and DLC prices in regions other than US and UK.
 - What the second DLC app id (4809930) is. The third, 4809970, is the Movember Pack [23].
-- When the Movember Pack goes on sale and at what price: not shown in the captured store record [23].
+- Movember Pack price: answered on 2026-11-12, USD 2.00 and GBP 2.00, on sale since 12 Nov 2026 [25]. Whether the price changes during November: unknown.
 - Currency and year of the announced $5 increase: not stated [21].
 - Whether Xbox or PS5 will have a different edition structure or price: unpublished, and no official Steam post confirms the 2028 window.
 - Whether Proton or Linux support will ship: unconfirmed (Steam Deck is officially Unsupported now [18]).
@@ -239,6 +239,8 @@ None found. Community Server hosting is covered in technical-servers-foundation.
 - [15] **GamingOnLinux** — *WARDOGS developers clarify Linux support via Proton may come later*. http://www.gamingonlinux.com/2026/09/wardogs-developers-clarify-linux-support-via-proton-may-come-later. Accessed 2026-10-08.
 - [16] **SteamDeckHQ** — *WARDOGS devs are working on Proton support*. https://steamdeckhq.com/news/wardogs-devs-are-working-on-proton-support/. Accessed 2026-10-08.
 - [17] **GosuGamers** — *WARDOGS sells 3 million copies in just over two weeks after Early Access launch* (peak concurrent figure only). https://www.gosugamers.net/entertainment/news/79260-wardogs-sells-3-million-copies-in-just-over-two-weeks-after-early-access-launch. Accessed 2026-10-08.
+- [24] **BULKHEAD** — *WARDOGS | SEASON 03 IS NOW LIVE* (Steam news, 2026-11-12 15:00 UTC; "We have now released Update 0.3.0. Servers are back online."). https://store.steampowered.com/news/app/1867240/view/1849192144183254. Accessed 2026-11-12.
+- [25] **Valve (Steam storefront)** — *WARDOGS store page rendered in Chrome (GBP storefront), plus US and GB store data for the base game and the Movember Pack (app 4809970)* (snapshots/2026-11-12/store-page-live.txt, store-app-us.json, store-app-gb.json, store-dlc-movember-us.json, store-dlc-movember-gb.json; local only). https://store.steampowered.com/app/1867240/WARDOGS/. Accessed 2026-11-12.
 
 **Player-Reported Evidence**
 
@@ -266,3 +268,4 @@ None cited.
 | 1.2.0 | 2026-10-30 | Research Pipeline (virtual agent) | Store prices, platform flags and discount status re-checked against the 2026-10-30 storefront snapshot (US and GB, base game and Supporter Pack): unchanged after Update 0.2.0; Preview "3+ million sales" studio claim added; Trading Cards and Point Shop mention noted as pending; no Linux, console or edition statements in the 0.2.0 notes. Confidence stays Medium (console and Linux claims remain press-only). | — |
 | 1.2.1 | 2026-10-30 | Research Pipeline (virtual agent) | Fresh browser capture of the live store page (2026-10-30): all Primary store-page claims unchanged since 2026-10-08 (Elytra, Steam Deck Unsupported, fighter jets, 1 to 2 years, gunplay quote, proximity and local voice chat, GBP prices); review figures recorded alongside the 2026-10-08 values; the review API could not be re-fetched. Prices (GBP 36.99, 45.99, 11.99) confirmed unchanged on the page. | — |
 | 1.3.0 | 2026-11-11 | Research Pipeline (virtual agent) | Added the announced first Early Access price increase (end of Season 3, 28 Jan 2027, by 5 USD), the Movember Tactical Stache DLC and Twitch Drops; store prices not re-captured. | — |
+| 1.4.0 | 2026-11-12 | Research Pipeline (virtual agent) | Season 03 went live on 12 Nov 2026 (Update 0.3.0; official go-live post, snapshot 2026-11-12) [24]. Pre-release "announced, not yet verified live" labels replaced by "in effect per the official notes, not independently verified in a build"; tenses corrected. No Season 03 values changed: the Season 03 Patch Notes are byte-identical to the 2026-11-11 snapshot. Also records the 2026-11-12 Chrome-rendered store page capture and store API data [25]: Movember Pack price (USD 2.00 / GBP 2.00, released 12 Nov) and review figures added. | — |

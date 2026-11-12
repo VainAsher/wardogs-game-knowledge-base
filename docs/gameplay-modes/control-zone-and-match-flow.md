@@ -1,18 +1,18 @@
 ---
 id: control-zone-and-match-flow
 title: "Control Zone & Match Flow"
-version: 1.2.0
+version: 1.3.0
 status: frozen
 confidence: Medium
 category: Gameplay & Modes
 topic: "Match lifecycle, Control Zone and Hot Zone scoring, win conditions, spawning, team balance"
 market: Global
-game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
+game_version: "Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12)"
 document_type: depth
 created: 2026-10-08
-updated: 2026-11-11
+updated: 2026-11-12
 review_due: 2026-11-19
-sources_verified: 2026-11-11
+sources_verified: 2026-11-12
 supersedes: null
 related:
   - gameplay-modes-foundation
@@ -37,14 +37,14 @@ tags:
 | Field | Value |
 |-------|-------|
 | Document ID | control-zone-and-match-flow |
-| Version | 1.2.0 |
+| Version | 1.3.0 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Gameplay & Modes |
-| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
+| Game version | Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12) |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-11-11 |
+| Updated | 2026-11-12 |
 | Review due | 2026-11-19 |
 
 # Executive Summary
@@ -53,7 +53,7 @@ The official sources describe the match loop in a few sentences: three teams con
 
 Everything finer-grained is player-reported: the 30-second scoring tick, one point per tick, the tower and code mechanic that drags the Hot Zone, the deployment board, the APC spawn and its cooldown [12][13]. No official source published at 2026-10-08 states respawn timers, spawn placement rules, team-balance rules or match length. Update 0.2.0 added official match-flow rules around the loop: team-switch restrictions once a team is more than 10 points ahead, a victim-driven Forgive/Punish vote on team kills, a Squad Intent UI, server seeding rewards with pre-match entertainment, a 20% vendor discount for a team at least 40 points behind second place, and a Lonestar faction experiment [14]. The Season 01 baseline is kept below as dated history.
 
-Confidence is Medium. The core rule and the 0.2.0 rules rest on the Steam page, the Top Questions post and the Season 02 patch notes; spawn, tick and tower detail still rests on player-reported guides, which may not raise a claim above Medium. The Season 03 notes (11 Nov 2026, launch 12 Nov) change seeding, the team-switch penalty, the losing-faction discount and the official ping limit; none changes the scoring rule [17]. Those are announced and not yet verified live.
+Confidence is Medium. The core rule and the 0.2.0 rules rest on the Steam page, the Top Questions post and the Season 02 patch notes; spawn, tick and tower detail still rests on player-reported guides, which may not raise a claim above Medium. The Season 03 notes (11 Nov 2026, launch 12 Nov) change seeding, the team-switch penalty, the losing-faction discount and the official ping limit; none changes the scoring rule [17]. Those are in effect since 12 Nov 2026 per the official go-live post [18], not independently verified in a build.
 
 # Key Takeaways
 
@@ -109,7 +109,7 @@ Season 01 statements verified 2026-10-08; Update 0.2.0 statements verified 2026-
 - 0.2.0 parachutes: longer to open, no opening below about 10 m, fall damage if opened below roughly 50 m while falling fast; prices are in price-tables-season-1 [14].
 - 0.2.0 controller changes (summary): Aim Assist strength slider in Settings > Controller > Advanced (default 1, 0 is off), Aim Assist on Firing Range target dummies, adjusted sensitivity and Aim Acceleration, and rebinds including Cycle Minimap Zoom and Reject Tip on View, Deploy Crate on D-Pad Up (hold), and squad invite accept/reject moved to View/Menu [14].
 - 0.2.0 Wager Vendor: not available at launch, opens later in Season 2, not permanent [14][15]. Removed in the Season 03 notes [17].
-- Season 03 (announced): the Lonestar faction bonus was stated as "Season 2 only" [14] and the Season 03 notes do not mention it; the devlog says "No social experiments. No reactivity" [17].
+- Season 03 (live 12 Nov 2026): the Lonestar faction bonus was stated as "Season 2 only" [14] and the Season 03 notes do not mention it; the devlog says "No social experiments. No reactivity" [17].
 
 # Detail
 
@@ -188,9 +188,9 @@ Squad leaders choose a team-visible intent from a pre-defined list (the entries 
 
 Seeding: rewards and a vendor discount for players who join and populate empty servers, granted once the match begins. Pre-match entertainment: guns with targets, a football and a hidden radio in each spawn [14]. Separately, the Lonestar experiment adds a Season 2 win bonus and teamplay multipliers for Lonestar, and a 20% vendor discount for any team at least 40 points behind second place [14]. The notes give no sizes for the bonuses, seeding rewards or seeding discount; cash and XP figures are owned by cash-rewards-and-costs and vendor prices by price-tables-season-1.
 
-## Season 03 match-flow changes (announced 11 Nov 2026)
+## Season 03 match-flow changes (live 12 Nov 2026)
 
-Source: Season 03 Patch Notes, posted 2026-11-11, launch 2026-11-12 [17]. Announced, not yet verified in a live build.
+Source: Season 03 Patch Notes, posted 2026-11-11, launch 2026-11-12 [17]. In effect since 12 Nov 2026 per the official go-live post [18], not independently verified in a build.
 
 - **Losing-faction vendor discount.** It is now based on how far the faction is behind the first-place faction, instead of the faction one place above it, "to encourage players on the third-place faction to buy more firepower and compete with the other two factions". The Season 02 rule (20% for a team at least 40 points behind second place) is replaced in this respect; the notes give no new thresholds or percentages [17].
 - **Seeding.** During seeding, a few unarmed vehicles spawn for free for each team, and all vehicles are cleared when the match starts [17].
@@ -237,7 +237,7 @@ The "Tactical Depth & Teamplay" post (21 May 2026) gives three bullets: real-wor
 | 2026-10-14 | Season 02 patch notes: team-switch restrictions, Forgive/Punish, Squad Intent UI and prompt queueing, server seeding and pre-match entertainment, Lonestar experiment, 20% losing-team discount, ping timer 20 s to 60 s, parachute and controller changes, Bakurani spawns moved, Wager Vendor announced for later | Official [14] |
 | 2026-10-15 | Update 0.2.0 released, servers back online | Official [16] |
 | 2026-11-11 | Season 03 patch notes (launch 2026-11-12): losing-faction discount measured against first place, free seeding vehicles, narrower team-switch penalty, official ping limit 250 | Official [17] |
-| after 2026-11-11 | Season 03 launch-day changes and later hotfixes not yet in the snapshot | Official [16] |
+| 2026-11-12 | Season 03 (Update 0.3.0) live; hotfixes after the go-live post are not in the snapshot | Official [18] |
 
 No official post read changed the 100-point threshold, the Hot Zone multipliers or zone size during Season 01. Team-switching controls shipped in 0.2.0 [14]; tiered priority queues and improved warmup were pipeline features on 14 Sep 2026 and the 0.2.0 notes do not mention them [6][14]. The notes also do not mention a change to the 100-point threshold, Hot Zone multipliers or zone size.
 
@@ -293,6 +293,7 @@ None cited; official posts were preferred.
 
 - [12] **allthings.how** — *WARDOGS Hot Zone: how double presence and double cash work* (player guide). https://allthings.how/wardogs-hot-zone-how-double-presence-and-double-cash-work/. Accessed 2026-10-08.
 - [13] **allthings.how** — *WARDOGS beginner's guide: how the zone and cash systems work* (player guide). https://allthings.how/wardogs-beginner-s-guide-how-the-zone-and-cash-systems-work/. Accessed 2026-10-08.
+- [18] **BULKHEAD** — *WARDOGS | SEASON 03 IS NOW LIVE* (Steam news, 2026-11-12 15:00 UTC; "We have now released Update 0.3.0. Servers are back online."). https://store.steampowered.com/news/app/1867240/view/1849192144183254. Accessed 2026-11-12.
 
 # Further Reading
 
@@ -317,3 +318,4 @@ Snapshots of official posts are under `snapshots/2026-10-08/steam-news/` and, fo
 | 1.0.1 | 2026-10-08 | Orchestrator | Voice-chat wording reconciled with the live store-page capture (page uses both phrases). | Standing mandate (auto-approve on green QA) |
 | 1.1.0 | 2026-10-30 | Research Pipeline (virtual agent) | Revised for Update 0.2.0 (Season 02, live 15 Oct 2026) from the 14 Oct patch notes, 9 Oct preview and 15 Oct release post: team-switch restrictions, Forgive/Punish, Squad Intent UI and prompt queueing, server seeding and pre-match entertainment, Lonestar experiment and 20% losing-team discount, ping timer 60 s, parachute and controller summaries, Bakurani spawns, Wager Vendor pointer; Season 01 baseline kept as dated history; no official posts after 2026-10-15 in snapshot | — |
 | 1.2.0 | 2026-11-11 | Research Pipeline (virtual agent) | Added Season 03 (announced 11 Nov 2026) match-flow changes: seeding free vehicles, narrowed team-switch penalty, losing-faction discount rule, ping limit 250, vehicle-on-vehicle zone reward, Wager Vendor removal. | — |
+| 1.3.0 | 2026-11-12 | Research Pipeline (virtual agent) | Season 03 went live on 12 Nov 2026 (Update 0.3.0; official go-live post, snapshot 2026-11-12) [18]. Pre-release "announced, not yet verified live" labels replaced by "in effect per the official notes, not independently verified in a build"; tenses corrected. No values changed: the Season 03 Patch Notes are byte-identical to the 2026-11-11 snapshot. | — |
