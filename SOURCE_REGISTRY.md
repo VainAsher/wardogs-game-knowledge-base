@@ -120,6 +120,7 @@ Cite as `https://store.steampowered.com/news/app/1867240/view/<gid>`. The link c
 | 2026-10-15 | 1846651706677015 | WARDOGS / SEASON 02 IS NOW LIVE |
 | 2026-11-06 | 1848664643347097 | WARDOGS / Road to Season 3 |
 | 2026-11-11 | 1849192144179736 | WARDOGS / Season 03 Patch Notes |
+| 2026-11-12 | 1849192144183254 | WARDOGS / SEASON 03 IS NOW LIVE |
 
 ## Sources added by Cluster G (2026-10-30)
 
@@ -133,3 +134,8 @@ Live store page re-captured in Chrome on 2026-10-30 (`snapshots/2026-10-30/store
 Snapshot `snapshots/2026-11-11/` (93 feed items, 37 official). New official posts since 2026-10-30: Road to Season 3 (2026-11-06) and Season 03 Patch Notes (2026-11-11, launch 2026-11-12). Nothing between 2026-10-15 and 2026-11-06.
 Press & Secondary: one PCGamesN item (2026-10-30, delayed Season 3 preview video) and six PlayGround.ru feed items (2 to 11 Nov, Russian-language) are in the feed but were not read in full and are not used as evidence.
 Store data re-captured 2026-11-11 (`store-app-us/gb.json`, plus `store-dlc-movember-us/gb.json`, local only): prices unchanged (USD 39.99, GBP 36.99; Supporter Pack USD 12.99, GBP 11.99); new DLC app 4809970 "WARDOGS - Movember Pack" with no price shown; "Steam Trading Cards" category added; recommendations total 168,465 (US) and 168,326 (GB). The review API summary could not be fetched again (HTML instead of JSON); the live store page was not re-captured in a browser on this date.
+
+## Sources added by Cluster I (2026-11-12)
+
+Snapshot `snapshots/2026-11-12/` (95 feed items, 38 official). One new official post since 2026-11-11: "WARDOGS | SEASON 03 IS NOW LIVE" (2026-11-12 15:00 UTC, Steam post 1849192144183254), which says "We have now released Update 0.3.0. Servers are back online." and links the unchanged Season 03 Patch Notes. Every previously snapshotted post is byte-identical by hash. One new press item (PCGamesN, 2026-11-12) is in the feed but was not read and is not used as evidence.
+Store data re-captured 2026-11-12 (`store-app-us/gb.json`, `store-dlc-supporter-pack-us/gb.json`, local only): prices unchanged (USD 39.99, GBP 36.99; Supporter Pack USD 12.99, GBP 11.99); Steam achievements total 14 (10 on 2026-11-11; the notes mention three, unresolved); a "Season 3 Trailer" added to the media; recommendations total 170,556 (US and GB). The live store page was also re-captured in Chrome later on 2026-11-12 (`store-page-live.txt`, GBP storefront, account-specific lines removed, local only) and the Movember Pack API data was fetched (`store-dlc-movember-us/gb.json`): the Movember Pack (app 4809970) is on sale at USD 2.00 and GBP 2.00, released 12 Nov 2026; achievements total 14 on the page; English reviews Mostly Positive (79% of 115,851), last 30 days Mostly Positive (72% of 70,838); 173 curators. The review API summary again returned HTML instead of JSON. The snapshot script now also covers the Movember DLC.

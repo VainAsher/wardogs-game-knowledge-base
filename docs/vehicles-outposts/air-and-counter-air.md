@@ -1,18 +1,18 @@
 ---
 id: air-and-counter-air
 title: "Air Vehicles & Counter-Air"
-version: 1.2.0
+version: 1.3.0
 status: frozen
 confidence: Medium
 category: Vehicles & Outposts
 topic: "Helicopters, aircraft, anti-air systems (Vanguard CIWS, Talon 9K-SAM, Flakpanzer Gepard, Havoc), pilots, IR countermeasures"
 market: Global
-game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
+game_version: "Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12)"
 document_type: depth
 created: 2026-10-08
-updated: 2026-11-11
+updated: 2026-11-12
 review_due: 2026-11-19
-sources_verified: 2026-11-11
+sources_verified: 2026-11-12
 supersedes: null
 related: [vehicles-outposts-foundation, vehicle-roster-and-prices, fob-and-base-building, gadgets-armor-and-equipment, damage-ballistics-and-balance, progression-unlock-tables, cash-rewards-and-costs]
 tags: [helicopters, pilot-track, anti-air, ciws, talon, gepard, havoc, ir-rangefinder, season-2, update-0-2-0, season-1-history, early-access]
@@ -23,14 +23,14 @@ tags: [helicopters, pilot-track, anti-air, ciws, talon, gepard, havoc, ir-rangef
 | Field | Value |
 |-------|-------|
 | Document ID | air-and-counter-air |
-| Version | 1.2.0 |
+| Version | 1.3.0 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Vehicles & Outposts |
-| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
+| Game version | Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12) |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-11-11 |
+| Updated | 2026-11-12 |
 | Review due | 2026-11-19 |
 
 # Executive Summary
@@ -39,7 +39,7 @@ This document goes deeper than the parent foundation on WARDOGS aircraft (all he
 
 The Season 1 position (Update 0.1.2 plus the 2 Oct 2026 hotfix) is kept as dated history: the CIWS time to destroy a Havoc was halved from about 12 s to about 6 s, and IR Rangefinders were pulled from the vendor until Season 02 [3][4]. The notes also describe the Infrared Range Finder as battery-powered (about 80 s of active use) [9].
 
-Confidence is Medium. Every Season 02 number is Primary, but the Season 1 roster, levels and anti-air costs came only from conflicting player guides, several levels are still not stated by any official post (Lakota, Havoc, AH-6R, MH-6), and sling-loading remains unconfirmed. The Season 03 Patch Notes (posted 11 Nov 2026, for the 12 Nov launch) rework the CIWS 20x102mm round, lower the anti-air emplacement's maximum aim angle, move the Verba earlier, give the Littlebird [Rockets] its own 70mm rockets, raise cockpit protection, cut the Havoc and AH-6M prices and rework parachutes; those are announced and not yet verified live [18].
+Confidence is Medium. Every Season 02 number is Primary, but the Season 1 roster, levels and anti-air costs came only from conflicting player guides, several levels are still not stated by any official post (Lakota, Havoc, AH-6R, MH-6), and sling-loading remains unconfirmed. The Season 03 Patch Notes (posted 11 Nov 2026, for the 12 Nov launch) rework the CIWS 20x102mm round, lower the anti-air emplacement's maximum aim angle, move the Verba earlier, give the Littlebird [Rockets] its own 70mm rockets, raise cockpit protection, cut the Havoc and AH-6M prices and rework parachutes; those are in effect since 12 Nov 2026 per the official go-live post [19], not independently verified in a build.
 
 # Key Takeaways
 
@@ -115,9 +115,9 @@ The notes give no damage, range, ammunition or seat figures for the Gepard, Talo
 - Exiting a vehicle now places the player on the ground rather than pushing through it [9].
 - Handling changes in the notes are for tracked vehicles, the Humvee and the Dune Buggy; no helicopter flight-model change is listed [9].
 
-## Season 03 (announced) air and counter-air changes
+## Season 03 (live 12 Nov 2026) air and counter-air changes
 
-Source: Season 03 Patch Notes, posted 2026-11-11 17:59 UTC, launch 2026-11-12 [18]. Announced, not yet verified in a live build.
+Source: Season 03 Patch Notes, posted 2026-11-11 17:59 UTC, launch 2026-11-12 [18]. In effect since 12 Nov 2026 per the official go-live post [19], not independently verified in a build.
 
 | Area | Change |
 |------|--------|
@@ -196,7 +196,7 @@ None found. No server setting for air vehicles or anti-air was seen in the offic
 - The 901-supply CIWS figure versus the notes' 1,500 supplies: which supply type or version differs.
 - Is external sling-loading present? Unconfirmed.
 - Fighter jets: planned per the 2026-10-08 store capture, absent from the 2026-10-30 store data; no timing or roster stated.
-- Whether any hotfix after 2026-10-15 changed these values, and whether Season 03 went live as announced (verify after 12 Nov 2026) [18].
+- Whether any hotfix after 2026-10-15 changed these values, and whether the Season 03 values in the notes match what runs in game (the go-live post confirms the update is live [19] but publishes no values) [18].
 
 # References
 
@@ -226,6 +226,7 @@ None found. No server setting for air vehicles or anti-air was seen in the offic
 - [15] **KeenGamer** — *How to build a FOB in WARDOGS: supplies and costs*. https://www.keengamer.com/articles/guides/how-to-build-a-fob-in-wardogs-supplies-and-costs/. Accessed 2026-10-08.
 - [16] **Timesaver.gg** — *WARDOGS IR goggles and CWIS hotfix* (sells boosting services). https://timesaver.gg/blog/wardogs-ir-goggles-cwis-hotfix. Accessed 2026-10-08.
 - [17] **MMOEXP** — *WARDOGS October 2 update, Season 2 wipe, IR rangefinder nerf and new weapons* (single podcast source). https://www.mmoexp.com/News/wardogs-october-2-update-season-2-wipe-ir-rangefinder-nerf-and-new-weapons.html. Accessed 2026-10-08.
+- [19] **BULKHEAD** — *WARDOGS | SEASON 03 IS NOW LIVE* (Steam news, 2026-11-12 15:00 UTC; "We have now released Update 0.3.0. Servers are back online."). https://store.steampowered.com/news/app/1867240/view/1849192144183254. Accessed 2026-11-12.
 
 # Further Reading
 
@@ -251,3 +252,4 @@ Steam News hub: https://store.steampowered.com/news/app/1867240 for later notes.
 | 1.0.2 | 2026-10-08 | Research Pipeline (revision worker) | Corrected against live store-page capture; restored fighter jets as Primary (store page, live capture 2026-10-08), added helicopter supply-ferrying wording, updated Key Takeaways, Current State, Executive Summary, Open Questions and reference [1]. | Standing mandate (auto-approve on green QA) |
 | 1.1.0 | 2026-10-30 | Research Pipeline (virtual agent) | Revised for Update 0.2.0: added Flakpanzer Gepard, Talon 9K-SAM and Vanguard CIWS changes, Little Bird, Lakota and Havoc price and unlock changes, cockpit glass, calibre cuts on vehicle miniguns, IR Range Finder batteries, private vehicle inventories; kept Season 1 and 2 Oct values as history; replaced the forward-looking Season 02 wipe statements with the known outcome. | — |
 | 1.2.0 | 2026-11-11 | Research Pipeline (virtual agent) | Added Season 03 (announced 11 Nov 2026) air and counter-air changes: CIWS 20x102mm rework and 60 degree aim limit, Verba earlier unlock, Littlebird rockets and cockpit protection, parachute rework, kill streaks. | — |
+| 1.3.0 | 2026-11-12 | Research Pipeline (virtual agent) | Season 03 went live on 12 Nov 2026 (Update 0.3.0; official go-live post, snapshot 2026-11-12) [19]. Pre-release "announced, not yet verified live" labels replaced by "in effect per the official notes, not independently verified in a build"; tenses corrected. No values changed: the Season 03 Patch Notes are byte-identical to the 2026-11-11 snapshot. | — |

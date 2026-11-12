@@ -1,18 +1,18 @@
 ---
 id: destructibility-and-level-design
 title: "Destructibility & Level Design"
-version: 1.2.0
+version: 1.3.0
 status: frozen
 confidence: Medium
 category: Maps & Environment
 topic: "Destruction model, level design philosophy, map scale, performance trade-offs, weather"
 market: Global
-game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
+game_version: "Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12)"
 document_type: depth
 created: 2026-10-08
-updated: 2026-11-11
+updated: 2026-11-12
 review_due: 2026-11-19
-sources_verified: 2026-11-11
+sources_verified: 2026-11-12
 supersedes: null
 related:
   - maps-environment-foundation
@@ -33,14 +33,14 @@ tags:
 | Field | Value |
 |-------|-------|
 | Document ID | destructibility-and-level-design |
-| Version | 1.2.0 |
+| Version | 1.3.0 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Maps & Environment |
-| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
+| Game version | Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12) |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-11-11 |
+| Updated | 2026-11-12 |
 | Review due | 2026-11-19 |
 
 # Executive Summary
@@ -87,7 +87,7 @@ Verified 2026-10-30 against official Steam text through the 15 Oct 2026 post; it
 - Patch 0.1.2 changed buildable-destruction rewards and fixed buildable crit spots that jumped or reappeared in the same place [7].
 - Update 0.2.0 (14 to 15 Oct 2026) adds the rain preset (details under Weather and rain), and its building changes touch destruction: doors and gates can no longer be breached with a hammer while the Halligan bar can breach both; unfinished buildables collapse as soon as they lose a support; CIWS cannon damage against structures was retuned to shred light cover and struggle against heavy fortifications; Large Shelter was added [15]. Build costs and rewards are owned by fob-and-base-building and cash-rewards-and-costs.
 - The 15 Oct 2026 post states Update 0.2.0 was released and servers were back online [16].
-- Season 03 (notes 11 Nov 2026, launch 12 Nov; announced, not yet verified live): box hedges can be flattened by vehicles (except the Bobcat); stone walls can be destroyed by tanks and artillery; the new city map Sabatulo is described as having "plenty of destruction"; the Halligan Bar can force open enemy supply crates; fixes for doors staying up after their walls were destroyed and for destruction issues on a residential house [17].
+- Season 03 (notes 11 Nov 2026, launch 12 Nov; in effect since 12 Nov 2026 per the official go-live post [18], not independently verified in a build): box hedges can be flattened by vehicles (except the Bobcat); stone walls can be destroyed by tanks and artillery; the new city map Sabatulo is described as having "plenty of destruction"; the Halligan Bar can force open enemy supply crates; fixes for doors staying up after their walls were destroyed and for destruction issues on a residential house [17].
 
 # Detail
 
@@ -137,9 +137,9 @@ Destruction is also a listed Early Access pillar: "Destruction & Build Mechanics
 
 No official source ties destruction to a performance cost, a debris cap or a server tick budget. What is official: Bulkhead built a custom framework on UE5 to handle 100 players [2]; performance was prioritised from day one [3]; graphics options exist [3]. The Steam requirements and minimum spec are in system-requirements-and-performance. Assessment: Low confidence that destruction limits exist; the KB neither confirms nor denies them.
 
-## Season 03 destruction changes (announced)
+## Season 03 destruction changes (live 12 Nov 2026)
 
-Source: Season 03 Patch Notes, posted 2026-11-11 [17]. Announced, not yet verified in a live build.
+Source: Season 03 Patch Notes, posted 2026-11-11 [17]. In effect since 12 Nov 2026 per the official go-live post [18], not independently verified in a build.
 
 - Box hedges can be flattened by vehicles, except the Bobcat. Stone walls can be destroyed by tanks and artillery. The notes give no hit counts or damage thresholds.
 - Sabatulo, the first city map, is billed on "tight streets, towering high-rises and plenty of destruction"; the notes give no destruction rules specific to it.
@@ -199,7 +199,7 @@ None found. No official source documents server-side destruction settings, debri
 
 # Risks & Caveats
 
-- Early Access: maps, weather and values can change each patch; this reflects Update 0.2.0 and the Season 03 notes of 2026-11-11 (announced for 12 Nov; not yet verified live).
+- Early Access: maps, weather and values can change each patch; this reflects Update 0.2.0 and the Season 03 notes of 2026-11-11 (in effect since 12 Nov per the go-live post [18]; not independently verified in a build).
 - The 256 km² figure is official but pre-release.
 - The per-match rain claim rests on press quoting Bulkhead on X, which was not viewed; the official 0.2.0 text does not repeat it.
 - The press-release claim of "3 variations" was taken from the foundation citation and not re-read.
@@ -241,6 +241,7 @@ None found. No official source documents server-side destruction settings, debri
 **Player-Reported Evidence**
 
 - [13] **allthings.how** — *WARDOGS maps: every location and what each one fights over*. https://allthings.how/wardogs-maps-every-location-and-what-each-one-fights-over/. Accessed 2026-10-08.
+- [18] **BULKHEAD** — *WARDOGS | SEASON 03 IS NOW LIVE* (Steam news, 2026-11-12 15:00 UTC; "We have now released Update 0.3.0. Servers are back online."). https://store.steampowered.com/news/app/1867240/view/1849192144183254. Accessed 2026-11-12.
 
 # Further Reading
 
@@ -261,3 +262,4 @@ Steam News Hub for Season 02 details: https://store.steampowered.com/news/app/18
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint, links (0 dead) and Steam post ids. Pre-Season-02 baseline. | Standing mandate (auto-approve on green QA) |
 | 1.1.0 | 2026-10-30 | Research Pipeline (virtual agent) | Cluster G revision for Update 0.2.0: rain weather preset (wet surfaces, sound, roofs, thunder masking footsteps, spotting, Molotov and foliage) promoted from press-only to official; 0.2.0 destruction-relevant building changes added; Large Shelter and Bakurani spawn move noted; pre-Season-02 baseline wording and resolved foundation-contradiction question replaced; per-match rain claim kept press-only; no new named map; new sources [14]-[16]. | — |
 | 1.2.0 | 2026-11-11 | Research Pipeline (virtual agent) | Added Season 03 destruction changes (box hedges flattened by vehicles, stone walls destroyed by tanks and artillery, Halligan Bar on supply crates) and Sabatulo's destruction theme, announced 11 Nov 2026. | — |
+| 1.3.0 | 2026-11-12 | Research Pipeline (virtual agent) | Season 03 went live on 12 Nov 2026 (Update 0.3.0; official go-live post, snapshot 2026-11-12) [18]. Pre-release "announced, not yet verified live" labels replaced by "in effect per the official notes, not independently verified in a build"; tenses corrected. No values changed: the Season 03 Patch Notes are byte-identical to the 2026-11-11 snapshot. | — |

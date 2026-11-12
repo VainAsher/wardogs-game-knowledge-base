@@ -1,18 +1,18 @@
 ---
 id: vehicles-outposts-foundation
 title: "Vehicles & Outposts: Foundation"
-version: 1.3.0
+version: 1.4.0
 status: frozen
 confidence: Medium
 category: Vehicles & Outposts
 topic: "Vehicle roster, purchasing, outpost construction, destruction"
 market: Global
-game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
+game_version: "Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12)"
 document_type: foundation
 created: 2026-10-08
-updated: 2026-11-11
+updated: 2026-11-12
 review_due: 2026-11-19
-sources_verified: 2026-11-11
+sources_verified: 2026-11-12
 supersedes: null
 related: [cash-rewards-and-costs, gameplay-modes-foundation, combat-loadouts-foundation, economy-foundation, maps-environment-foundation, vehicle-roster-and-prices, fob-and-base-building, air-and-counter-air, price-tables-season-1, progression-unlock-tables, destructibility-and-level-design, patch-history]
 tags: [vehicles, fob, outposts, building, destruction, logistics, early-access]
@@ -23,14 +23,14 @@ tags: [vehicles, fob, outposts, building, destruction, logistics, early-access]
 | Field | Value |
 |-------|-------|
 | Document ID | vehicles-outposts-foundation |
-| Version | 1.3.0 |
+| Version | 1.4.0 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Vehicles & Outposts |
-| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
+| Game version | Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12) |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-11-11 |
+| Updated | 2026-11-12 |
 | Review due | 2026-11-19 |
 
 # Executive Summary
@@ -39,7 +39,7 @@ WARDOGS pairs a combined-arms vehicle set (tanks, an artillery tank, helicopters
 
 Revisions 1.1.x replaced press summaries with the full official Steam text and corrected the document against a browser-rendered capture of the live Steam store page (live capture 2026-10-08) [6]. That page lists "Vehicles, logistics systems, and support-focused gameplay" in the current Early Access state and says the developers plan "new vehicle types including fighter jets" for the fuller game [6]. The Season 1 changelog (9 Sep 2026) is the only official source for vehicle and hammer prices and unlock levels, and it lists changes only, not a full table [1]. Season 1 (9 Sep 2026) values, kept as dated history: FOB vendor $7,500, Large Hammer vendor $2,400, Medium Hammer unlock $25,000, Large Hammer unlock $75,000 at Support level 8, Kodiak Flatbed Driver 10 for $35,000, Heavy Tank Driver 35, Artillery Tank Career 90 for $500,000 [1]. Update 0.1.2 fixed the vehicle fly-through exploit, reduced pallet rewards outside the FOB zone and scaled buildable-destruction rewards by build progress [2]. The 2 Oct balance hotfix made the CIWS destroy a Havoc in about 6 seconds instead of 12 [3].
 
-Update 0.2.0 (Season 02, released 15 Oct 2026) changed this area heavily [12][13]. It added four vehicles (Wolf-110, Wolf-110 [M2 Browning], T-72B3, Flakpanzer Gepard) and three buildables (MG Nest, Large Shelter, Wooden Step), raised most vehicle vendor prices, moved several vehicles on the Driver and Pilot tracks, and ran a "full pass" on build costs, build speed and durability, with the Talon, Mortar and Drill Rig made slower to build and more expensive to keep active [12]. FOB hacking now also pays teammates in the FOB radius and destroying a FOB pays a bonus based on the supplies it held [12]. The 0.2.0 notes supply official supply costs for named buildables, which differ from the earlier guide figures [12][9]. The notes were posted 14 Oct and a release post followed on 15 Oct [12][13]. The Season 03 Patch Notes (posted 11 Nov 2026, for the 12 Nov launch) then cut four vehicle prices (Wolf-110 [M2 Browning] $6,800, Kodiak [M249] $6,250, AH-6M [Miniguns] $10,480, Havoc $26,000), raise wheeled reverse speeds, rework the CIWS 20x102mm round, lower crate and pallet drop heights, push the Large Hammer to Support level 14 and make hedges and stone walls destructible [14]. These are announced, not yet verified live; hotfixes after 2026-11-11 are unknown.
+Update 0.2.0 (Season 02, released 15 Oct 2026) changed this area heavily [12][13]. It added four vehicles (Wolf-110, Wolf-110 [M2 Browning], T-72B3, Flakpanzer Gepard) and three buildables (MG Nest, Large Shelter, Wooden Step), raised most vehicle vendor prices, moved several vehicles on the Driver and Pilot tracks, and ran a "full pass" on build costs, build speed and durability, with the Talon, Mortar and Drill Rig made slower to build and more expensive to keep active [12]. FOB hacking now also pays teammates in the FOB radius and destroying a FOB pays a bonus based on the supplies it held [12]. The 0.2.0 notes supply official supply costs for named buildables, which differ from the earlier guide figures [12][9]. The notes were posted 14 Oct and a release post followed on 15 Oct [12][13]. The Season 03 Patch Notes (posted 11 Nov 2026, for the 12 Nov launch) then cut four vehicle prices (Wolf-110 [M2 Browning] $6,800, Kodiak [M249] $6,250, AH-6M [Miniguns] $10,480, Havoc $26,000), raise wheeled reverse speeds, rework the CIWS 20x102mm round, lower crate and pallet drop heights, push the Large Hammer to Support level 14 and make hedges and stone walls destructible [14]. These are in effect since 12 Nov 2026 per the official go-live post [15], not independently verified in a build; hotfixes after 2026-11-11 are unknown.
 
 Still player-reported only: the build procedure, the Small/Medium/Large-to-structure mapping for pre-0.2.0 structures, structure health, and most spawn behaviour [7][8][9][10][11]. Document confidence is Medium: prices, levels, build costs and patch changes are now official and Primary, but the mechanics layer (procedure, hammer mapping, free vehicles) is still guide-sourced. For depth see vehicle-roster-and-prices, fob-and-base-building and air-and-counter-air.
 
@@ -156,7 +156,7 @@ None found specific to vehicles or FOBs. Update 0.1.2 added RCON and scheduled-r
 - Guide figures mix beta and Season 1 values and conflict with each other and with the changelog; where they disagree, the official text wins [7][8][9][10].
 - Reading the changelog's track prices as unlock prices, and matching guide vehicle names to official names, are Inferred.
 - The fighter-jet roadmap line is a stated plan on the live store page, not a shipped feature, and has no date [6]. The storefront-API JSON snapshot omits it; the live capture of 2026-10-08 is the authority.
-- Season 02 shipped on 15 Oct 2026 [13]; Season 03 is announced for 12 Nov 2026 [14]. Hotfixes may have changed values since, so this document goes stale quickly.
+- Season 02 shipped on 15 Oct 2026 [13]; Season 03 shipped on 12 Nov 2026 [14][15]. Hotfixes may have changed values since, so this document goes stale quickly.
 - The Season 1 vehicle guide figures (spawn prices, Humvee/Kodiak variants) predate 0.2.0 and are partly superseded by official 0.2.0 vendor prices [12][7][10].
 
 # Open Questions
@@ -194,6 +194,7 @@ None cited directly; the v1.0.0 press reproductions of the changelog and 0.1.2 n
 - [9] **allthings.how** — *WARDOGS: how to build structures with hammers and FOBs*. https://allthings.how/wardogs-how-to-build-structures-with-hammers-and-fobs/. Accessed 2026-10-08.
 - [10] **allthings.how** — *WARDOGS: how to get a vehicle, prices and unlock levels*. https://allthings.how/wardogs-how-to-get-a-vehicle-prices-and-unlock-levels/. Accessed 2026-10-08.
 - [11] **KeenGamer** — *WARDOGS best base building guide, FOB layout and build order*. https://www.keengamer.com/articles/guides/wardogs-best-base-building-guide-fob-layout-build-order/. Accessed 2026-10-08.
+- [15] **BULKHEAD** — *WARDOGS | SEASON 03 IS NOW LIVE* (Steam news, 2026-11-12 15:00 UTC; "We have now released Update 0.3.0. Servers are back online."). https://store.steampowered.com/news/app/1867240/view/1849192144183254. Accessed 2026-11-12.
 
 # Further Reading
 
@@ -223,3 +224,4 @@ The official Steam news feed at https://store.steampowered.com/news/app/1867240 
 | 1.1.1 | 2026-10-08 | Research Pipeline (revision worker) | Corrected against live store-page capture; fighter-jet plan restored as Primary and removed from Open Questions and the unverified caveat; Early Access state (vehicles, logistics systems) and helicopter, FOB and artillery-tank text added; artillery wording aligned to page; new open question on jet timing | Standing mandate (auto-approve on green QA) |
 | 1.2.0 | 2026-10-30 | Research Pipeline (virtual agent) | Revised for Season 02 / Update 0.2.0 from the official patch notes (14 Oct) and release post (15 Oct): four vehicles, three buildables, vendor and unlock changes, Building Balance and FOB hacking/destroy summary, vehicle behaviour changes; Season 1 values kept as dated history; references [12][13] added; Current State, Risks and Open Questions updated. | — |
 | 1.3.0 | 2026-11-11 | Research Pipeline (virtual agent) | Added a Season 03 (announced 11 Nov 2026) summary of vehicle, crate and outpost changes with pointers to the owner documents. | — |
+| 1.4.0 | 2026-11-12 | Research Pipeline (virtual agent) | Season 03 went live on 12 Nov 2026 (Update 0.3.0; official go-live post, snapshot 2026-11-12) [15]. Pre-release "announced, not yet verified live" labels replaced by "in effect per the official notes, not independently verified in a build"; tenses corrected. No values changed: the Season 03 Patch Notes are byte-identical to the 2026-11-11 snapshot. | — |

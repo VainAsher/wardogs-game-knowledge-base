@@ -1,18 +1,18 @@
 ---
 id: launch-maps-reference
 title: "Launch Maps Reference"
-version: 1.3.0
+version: 1.4.0
 status: frozen
 confidence: Low
 category: Maps & Environment
 topic: "Per-map profiles: Bakurani, Ozeti, Zestafona and unconfirmed maps"
 market: Global
-game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
+game_version: "Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12)"
 document_type: reference-data
 created: 2026-10-08
-updated: 2026-11-11
+updated: 2026-11-12
 review_due: 2026-11-19
-sources_verified: 2026-11-11
+sources_verified: 2026-11-12
 supersedes: null
 related:
   - maps-environment-foundation
@@ -32,14 +32,14 @@ tags:
 | Field | Value |
 |-------|-------|
 | Document ID | launch-maps-reference |
-| Version | 1.3.0 |
+| Version | 1.4.0 |
 | Status | frozen |
 | Confidence | Low |
 | Category | Maps & Environment |
-| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
+| Game version | Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12) |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-11-11 |
+| Updated | 2026-11-12 |
 | Review due | 2026-11-19 |
 
 # Executive Summary
@@ -55,7 +55,7 @@ Confidence stays Low (the 0.2.0 facts are official but do not change this): the 
 - Official: three maps, three variations each, as of the 10 Sep 2026 launch [2]. Map names are not given on the Steam page [1].
 - Official: the 18 Feb 2026 Top Questions post says "a randomized 2x2km 'Control Zone' within a 256km² map" and names the setting "Kolchia", which "features multiple locations and POIs" [10]. This is a setting name, not a map name.
 - Official, Season 03 notes (11 Nov 2026): Bakurani, Zestafona and Ozeti are named in the map bug fixes, the first official use of Zestafona and Ozeti in the saved posts; Bakurani was already named in the Season 02 notes [17][18][19]. Their settings, sizes and points of interest remain player-reported, and the notes do not say these three are the whole roster. Jutari and Saburtulo are still not named in any official post [10][11][12][13][19].
-- Official, Season 03 notes: a new city map, Sabatulo, is announced for 12 Nov 2026 (see "Sabatulo (announced for Season 03)"). Whether it is the "Saburtulo" listed by one Season 01 guide is not stated [3][19].
+- Official, Season 03 notes: a new city map, Sabatulo, went live on 12 Nov 2026 [20] (see "Sabatulo (new in Season 03)"). Whether it is the "Saburtulo" listed by one Season 01 guide is not stated [3][19].
 - Player-reported: the maps are Bakurani (Kavkazi), Ozeti (Europe) and Zestafona (North America) [3][4][6].
 - Player-reported: each match uses one of about three rotating "areas" per map; each map lists a Default area plus two others [3][5][7].
 - Conflict: the official Control Zone is 2x2 km [1][10]; allthings.how describes 500 m radius play circles (550 m on Ozeti) with an 85 m capture ring [3][6]. Not reconciled.
@@ -90,9 +90,9 @@ Verified 2026-10-30 against Update 0.2.0 (official posts 9 to 15 Oct 2026); item
 
 # Detail
 
-## Season 03 map fixes (announced)
+## Season 03 map fixes (live 12 Nov 2026)
 
-Source: Season 03 Patch Notes, 2026-11-11 [19]. Announced, not yet verified live.
+Source: Season 03 Patch Notes, 2026-11-11 [19]. In effect since 12 Nov 2026 per the official go-live post [20], not independently verified in a build.
 
 | Scope | Fix |
 |-------|-----|
@@ -101,9 +101,9 @@ Source: Season 03 Patch Notes, 2026-11-11 [19]. Announced, not yet verified live
 | Zestafona | Mortars could fire through the roof of the green brick warehouse (fixed); collision on abandoned tractors adjusted [19] |
 | Ozeti | Blocked vehicle spawns fixed; vehicles can no longer drive through the stadium's front retaining wall and pillars [19] |
 
-## Sabatulo (announced for Season 03)
+## Sabatulo (new in Season 03)
 
-Source: Season 03 Patch Notes, posted 2026-11-11 17:59 UTC, launch 2026-11-12, and the Road to Season 3 devlog, posted 2026-11-06 [19]. Announced, not yet verified in a live build.
+Source: Season 03 Patch Notes, posted 2026-11-11 17:59 UTC, launch 2026-11-12, and the Road to Season 3 devlog, posted 2026-11-06 [19]. In effect since 12 Nov 2026 per the official go-live post [20], not independently verified in a build.
 
 - "Sabatulo is WARDOGS' first city map, packed with tight streets, towering high-rises and plenty of destruction, alongside key locations such as a central hospital, swimming pool, power station and the river embankment." It focuses on "a mix of urban firefights, close-quarters combat and verticality": fight room to room or street to street, "or take the high points for oversight of the city" [19].
 - The devlog says it "brings urban warfare and close quarters combat to WARDOGS" [19].
@@ -242,6 +242,7 @@ Gamebrief notes that patch 0.11 confirmed server-level map changes and persisten
 - [6] **allthings.how** — *WARDOGS Zestafona map guide to every play area and the control zone*. https://allthings.how/wardogs-zestafona-map-guide-to-every-play-area-and-the-control-zone/. Accessed 2026-10-08.
 - [7] **Boostroom** (boosting service) — *WARDOGS map guide: control zones, hot zones and battlefield strategy*. https://boostroom.com/blog/wardogs-map-guide-control-zones-hot-zones-and-battlefield-strategy. Accessed 2026-10-08.
 - [9] **XGamingServer** — *WARDOGS interactive map*. https://xgamingserver.com/tools/wardogs/interactive-map. Accessed 2026-10-08.
+- [20] **BULKHEAD** — *WARDOGS | SEASON 03 IS NOW LIVE* (Steam news, 2026-11-12 15:00 UTC; "We have now released Update 0.3.0. Servers are back online."). https://store.steampowered.com/news/app/1867240/view/1849192144183254. Accessed 2026-11-12.
 
 # Further Reading
 
@@ -264,3 +265,4 @@ Steam News Hub for Season 02 details: https://store.steampowered.com/news/app/18
 | 1.1.0 | 2026-10-08 | Research Pipeline (revision worker) | Revised against full official Steam text; added official 256 km2 map size and "Kolchia" setting (Top Questions, 18 Feb 2026), recorded that no official post names any map, resolved the whole-map-size conflict, kept per-map profiles player-reported at Low confidence, added Steam post citations [10]-[15]. | Standing mandate (auto-approve on green QA) |
 | 1.2.0 | 2026-10-30 | Research Pipeline (virtual agent) | Cluster G revision for Update 0.2.0: rain preset and Bakurani spawn move/rebuild promoted to official; Large Shelter noted; per-match rain claim kept as press-only; Bakurani profile flagged as pre-0.2.0; no new named map; Season 02 due wording replaced; new sources [16]-[18]. | — |
 | 1.3.0 | 2026-11-11 | Research Pipeline (virtual agent) | Added Sabatulo, the first city map (announced 11 Nov 2026), and Season 03 map bug fixes for Bakurani, Zestafona and Ozeti. | — |
+| 1.4.0 | 2026-11-12 | Research Pipeline (virtual agent) | Season 03 went live on 12 Nov 2026 (Update 0.3.0; official go-live post, snapshot 2026-11-12) [20]. Pre-release "announced, not yet verified live" labels replaced by "in effect per the official notes, not independently verified in a build"; tenses corrected. No values changed: the Season 03 Patch Notes are byte-identical to the 2026-11-11 snapshot. | — |

@@ -1,18 +1,18 @@
 ---
 id: technical-servers-foundation
 title: "Technical & Servers: Foundation"
-version: 1.3.0
+version: 1.4.0
 status: frozen
 confidence: Medium
 category: Technical & Servers
 topic: "System requirements, settings, netcode, dedicated and community servers, modding"
 market: Global
-game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
+game_version: "Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12)"
 document_type: foundation
 created: 2026-10-08
-updated: 2026-11-11
+updated: 2026-11-12
 review_due: 2026-11-19
-sources_verified: 2026-11-11
+sources_verified: 2026-11-12
 supersedes: null
 related: [gameplay-modes-foundation, maps-environment-foundation, meta-release-foundation, server-hosting-and-browser, rcon-and-server-admin, system-requirements-and-performance, patch-history, community-and-source-reliability, client-install-inspection]
 tags: [technical, servers, community-servers, rcon, system-requirements, anti-cheat]
@@ -23,14 +23,14 @@ tags: [technical, servers, community-servers, rcon, system-requirements, anti-ch
 | Field | Value |
 |-------|-------|
 | Document ID | technical-servers-foundation |
-| Version | 1.3.0 |
+| Version | 1.4.0 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Technical & Servers |
-| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
+| Game version | Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12) |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-11-11 |
+| Updated | 2026-11-12 |
 | Review due | 2026-11-19 |
 
 # Executive Summary
@@ -55,7 +55,7 @@ Confidence is Medium. System requirements, anti-cheat naming, patch contents and
 - A security and stability hotfix on 2 Oct 2026 (08:00 UTC, about one hour) had undisclosed specifics; a separate no-downtime balance hotfix followed the same day [8][9].
 - Update 0.2.0 (patch notes 14 Oct 2026, released 15 Oct 2026): Official servers enforce region-based maximum ping limits with automatic kicks for sustained excess, community admins can configure their own ping limits, the browser gained maximum-ping tags and filters, players who populate empty servers earn rewards and a vendor discount, and community hosts seen exploiting the Lonestar faction bonus "will be punished". The notes say the initial ping values are "quite lenient" and give no numbers [11][12].
 - A 15 Oct 2026 maintenance window ran 08:00 to 09:30 UTC (about 90 minutes of downtime estimated); the "now live" post says Update 0.2.0 is released and servers are back online [11][12].
-- Official (Season 03 notes, 11 Nov 2026, announced for 12 Nov): official ping limit 250 in all regions; community-server favouriting, a Limited-server filter and an admin-editable "Server Rules" popup in the browser and join flow; free unarmed vehicles during seeding; Asian-region DDoS attacks acknowledged with infrastructure changes targeted for the season release; third-party graphics tools (for example NVIDIA Inspector) that remove smoke or grass or alter geometry, LOD bias or textures are bannable and blocked at launch; Global Illumination only on the Overkill preset [20]. Detail in server-hosting-and-browser and system-requirements-and-performance.
+- Official (Season 03 notes, 11 Nov 2026; live since 12 Nov 2026 [21]): official ping limit 250 in all regions; community-server favouriting, a Limited-server filter and an admin-editable "Server Rules" popup in the browser and join flow; free unarmed vehicles during seeding; Asian-region DDoS attacks acknowledged with infrastructure changes targeted for the season release; third-party graphics tools (for example NVIDIA Inspector) that remove smoke or grass or alter geometry, LOD bias or textures are bannable and blocked at launch; Global Illumination only on the Overkill preset [20]. Detail in server-hosting-and-browser and system-requirements-and-performance.
 - Press only: PCGamesN (27 Oct 2026) reports two new server hosts, GG Host and 1of1 Servers; no official post in the 2026-11-11 snapshot confirms this, so it is unconfirmed [15].
 - No official RCON or ServerSettings.ini documentation was found; the detailed reference is unofficial and Low confidence [17]. No mod support is mentioned in the store data, and no modding plan was found in the official posts read [1].
 
@@ -73,7 +73,7 @@ Covered: system requirements, graphics and stability changes, anti-cheat, platfo
 
 # Current State
 
-Statements below are at Season 02 / Update 0.2.0 (official posts through 2026-10-15) plus the Season 03 notes of 2026-11-11 (announced for 12 Nov; not yet verified live). Store-page items were captured on 2026-10-08 and the requirements re-checked against store data of 2026-10-30 [1].
+Statements below are at Season 02 / Update 0.2.0 (official posts through 2026-10-15) plus the Season 03 notes of 2026-11-11 (in effect since 12 Nov per the go-live post [21]; not independently verified in a build). Store-page items were captured on 2026-10-08 and the requirements re-checked against store data of 2026-10-30 [1].
 
 - **Update 0.2.0 server changes.** Region-based ping limits on Official servers with automatic kicks, community-configurable limits, browser ping tags and filters, server seeding rewards, a community-host faction-bonus penalty and server stability and security improvements; see Detail [11].
 
@@ -141,7 +141,7 @@ Source for the table: [1]. Both columns state a 64-bit processor and operating s
 
 Team switching, forgive and punish are covered in control-zone-and-match-flow.
 
-Planned but not shipped per the 0.11 post and not announced as shipped in 0.1.2 or the 0.2.0 notes read (community server favouriting is announced in the Season 03 notes [20]): community server favouriting, tiered priority queues, Message of the Day prompt, improved warmup activities, disabling AFK kicking during seeding, team switching controls [6][7].
+Planned but not shipped per the 0.11 post and not announced as shipped in 0.1.2 or the 0.2.0 notes read (community server favouriting is listed in the Season 03 notes [20]): community server favouriting, tiered priority queues, Message of the Day prompt, improved warmup activities, disabling AFK kicking during seeding, team switching controls [6][7].
 
 # Early Access Changes & Known Issues
 
@@ -240,6 +240,7 @@ Source warning: Bulkhead has published no server-admin manual that was found. On
 - [17] **wardogs.tech (unofficial)** — *Wardogs Server Reference*. https://wardogs.tech/rcon-reference. Accessed 2026-10-08.
 - [18] **Wardog Servers (independent tracker)** — *WARDOGS RCON and admin tools*. https://wardogservers.com/guides/wardogs-rcon-and-admin-tools. Accessed 2026-10-08.
 - [19] **Warcon project (GitHub)** — *warcon: self-hostable RCON panel for WARDOGS*. https://github.com/warcon-app/warcon. Accessed 2026-10-08.
+- [21] **BULKHEAD** — *WARDOGS | SEASON 03 IS NOW LIVE* (Steam news, 2026-11-12 15:00 UTC; "We have now released Update 0.3.0. Servers are back online."). https://store.steampowered.com/news/app/1867240/view/1849192144183254. Accessed 2026-11-12.
 
 # Further Reading
 
@@ -268,3 +269,4 @@ Source warning: Bulkhead has published no server-admin manual that was found. On
 | 1.1.1 | 2026-10-08 | Research Pipeline (revision worker) | Corrected against live store-page capture; anti-cheat now Primary (Kernel Level Anti-Cheat: Elytra, WARDOGS EULA), removed from Risks and Open Questions as unconfirmed, 8 Sep remark kept as context; added Steam Deck Unsupported, 1-2 year Early Access estimate, lower Early Access price, GBP 36.99, exact system requirement notes, language and feature wording from the page; removed the Early Access duration open question | Standing mandate (auto-approve on green QA) |
 | 1.2.0 | 2026-10-30 | Research Pipeline (virtual agent) | Revised for Update 0.2.0 (patch notes 14 Oct, release 15 Oct 2026): region-based ping limits and kicks, community-configurable limits, browser ping tags and filters, seeding rewards, faction-bonus exploitation penalty, server stability and security improvements, 15 Oct 08:00-09:30 UTC maintenance; system requirements unchanged in 2026-10-30 store data; PCGamesN two-new-hosts report added as unconfirmed press; Season 02 forward-looking text replaced with outcome; references 11, 12, 15 now cited | — |
 | 1.3.0 | 2026-11-11 | Research Pipeline (virtual agent) | Added a Season 03 (announced 11 Nov 2026) summary: ping limit 250, Server Rules popup, favouriting, seeding, DDoS acknowledgement, client tamper policy. | — |
+| 1.4.0 | 2026-11-12 | Research Pipeline (virtual agent) | Season 03 went live on 12 Nov 2026 (Update 0.3.0; official go-live post, snapshot 2026-11-12) [21]. Pre-release "announced, not yet verified live" labels replaced by "in effect per the official notes, not independently verified in a build"; tenses corrected. No values changed: the Season 03 Patch Notes are byte-identical to the 2026-11-11 snapshot. | — |

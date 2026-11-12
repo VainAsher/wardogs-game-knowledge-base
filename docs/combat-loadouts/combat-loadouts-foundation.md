@@ -1,18 +1,18 @@
 ---
 id: combat-loadouts-foundation
 title: "Combat & Loadouts: Foundation"
-version: 1.3.0
+version: 1.4.0
 status: frozen
 confidence: Medium
 category: Combat & Loadouts
 topic: "Weapons, gadgets, classes, damage and ballistics"
 market: Global
-game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
+game_version: "Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12)"
 document_type: foundation
 created: 2026-10-08
-updated: 2026-11-11
+updated: 2026-11-12
 review_due: 2026-11-19
-sources_verified: 2026-11-11
+sources_verified: 2026-11-12
 supersedes: null
 related: [gameplay-modes-foundation, economy-foundation, vehicles-outposts-foundation, weapons-catalogue, gadgets-armor-and-equipment, damage-ballistics-and-balance, price-tables-season-1, progression-unlock-tables, patch-history]
 tags: [combat, weapons, loadouts, roles, ballistics, early-access]
@@ -23,14 +23,14 @@ tags: [combat, weapons, loadouts, roles, ballistics, early-access]
 | Field | Value |
 |-------|-------|
 | Document ID | combat-loadouts-foundation |
-| Version | 1.3.0 |
+| Version | 1.4.0 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Combat & Loadouts |
-| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
+| Game version | Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12) |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-11-11 |
+| Updated | 2026-11-12 |
 | Review due | 2026-11-19 |
 
 # Executive Summary
@@ -39,7 +39,7 @@ WARDOGS has no fixed class selection at spawn. Each life, a player spends cash a
 
 The developer's stance on realism is a middle line: the store page says "tactical gunplay" in About This Game and, under the Early Access current-state answer, "Realistic gunplay balanced for gameplay rather than simulation" (live capture 2026-10-08) [1], the February 2026 FAQ calls the game "a hardcore shooter that doesn't forget it's a game" with "Grounded Gunplay" as an Early Access feature [6], and a May 2026 post lists "real-world ballistics" among its pillars [7]. No official weapon list, damage value or ballistic parameter has been published. The official Steam text for the 9 Sep Season 1 changelog [2], the 30 Sep update 0.1.2 [3] and the 2 Oct balance hotfix [4] is the Season 1 baseline.
 
-Update 0.2.0 (Season 02, released 15 Oct 2026 [12]; notes posted 14 Oct [11]) is the first official source to publish combat numbers: calibre base-damage reductions (.308 -25%, 7.62x54mmR -20%, 7.62x39mm -19%, .50 cal -16%), Level 3 armor and helmet damage reduction lowered 55% to 50%, Level 4 lowered 65% to 60%, suppression rebuilt with Level 3 and Level 4 helmets reducing it by 68% and 80%, a battery-powered Infrared Range Finder (about 80 s per battery), a new Molotov, four new weapons (TCX-SPR, PP-19 Bizon, Evo-3 Ultra, M14), parachute and Medical Bag changes [11]. Numbers are owned by damage-ballistics-and-balance, gadgets-armor-and-equipment, weapons-catalogue and price-tables-season-1. The Season 03 Patch Notes (posted 11 Nov 2026, launch 12 Nov) then restore assault rifle torso damage and raise DMR damage, remove the Infrared Range Finder from the vendor, rework both parachutes, make the Molotov ignite targets and add the Limited Mode with a restricted vendor; these are announced and not yet verified live [13]. Nothing later is known here.
+Update 0.2.0 (Season 02, released 15 Oct 2026 [12]; notes posted 14 Oct [11]) is the first official source to publish combat numbers: calibre base-damage reductions (.308 -25%, 7.62x54mmR -20%, 7.62x39mm -19%, .50 cal -16%), Level 3 armor and helmet damage reduction lowered 55% to 50%, Level 4 lowered 65% to 60%, suppression rebuilt with Level 3 and Level 4 helmets reducing it by 68% and 80%, a battery-powered Infrared Range Finder (about 80 s per battery), a new Molotov, four new weapons (TCX-SPR, PP-19 Bizon, Evo-3 Ultra, M14), parachute and Medical Bag changes [11]. Numbers are owned by damage-ballistics-and-balance, gadgets-armor-and-equipment, weapons-catalogue and price-tables-season-1. The Season 03 Patch Notes (posted 11 Nov 2026, launch 12 Nov) then restore assault rifle torso damage and raise DMR damage, remove the Infrared Range Finder from the vendor, rework both parachutes, make the Molotov ignite targets and add the Limited Mode with a restricted vendor; these are in effect since 12 Nov 2026 per the official go-live post [14], not independently verified in a build. Nothing later is known here.
 
 Document confidence is Medium: the structural model, role tracks, repricing and the 0.2.0 balance changes are official, but absolute per-weapon damage is still unpublished and pre-0.2.0 weapon details rest on beta-era press and player-reported guides (see weapons-catalogue).
 
@@ -58,7 +58,7 @@ Document confidence is Medium: the structural model, role tracks, repricing and 
 
 # Scope
 
-Covers infantry combat, weapon categories, gadgets and equipment, the role/progression system as it relates to loadouts, the documented damage/ballistics model, and how loadout purchasing ties to the in-match economy. Game version: Early Access Season 02, Update 0.2.0 (15 Oct 2026) as the last verified live build, plus the Season 03 changes announced on 11 Nov 2026 for the 12 Nov launch, with Season 1 (0.1.2 and the 2 Oct 2026 hotfixes) kept as dated history.
+Covers infantry combat, weapon categories, gadgets and equipment, the role/progression system as it relates to loadouts, the documented damage/ballistics model, and how loadout purchasing ties to the in-match economy. Game version: Early Access Season 02, Update 0.2.0 (15 Oct 2026) as the last build checked against live evidence, plus the Season 03 changes from the official notes of 11 Nov 2026 (live since 12 Nov 2026 per the go-live post [14], not independently verified in a build), with Season 1 (0.1.2 and the 2 Oct 2026 hotfixes) kept as dated history.
 
 Excluded: vehicle combat detail (see vehicles-outposts-foundation), mode rules (gameplay-modes-foundation), full economy mechanics (economy-foundation) and per-weapon, per-item and per-price tables, which live in the depth documents listed under Related Documents.
 
@@ -144,7 +144,7 @@ Officially named in Season 1: ghillie suit, rocket launchers and forward operati
 | 2026-10-02 | Balance hotfix: IR Rangefinders disabled in the vendor until Season 02 (batteries required on return); CIWS kills a Havoc in about 6 s instead of 12 s; no client download or downtime | [4] |
 | 2026-10-14 (live 2026-10-15) | Update 0.2.0 / Season 02: calibre damage cuts, Level 3/4 armor and helmet reductions lowered, suppression rework, battery Range Finder, Molotov, Level 4 Helmet drawbacks, Medical Bag durability 100 to 150, parachute rework, four new weapons, new attachments, rebuy UI, 30mm ammo 2x2 slot and 50-item backpack stack cap | [11][12] |
 
-Season 02 shipped on 15 Oct 2026 with equipment and balance reworks [11][12]. Season 03 is announced for 12 Nov 2026: restored assault rifle torso damage, DMR damage buffs, Infrared Range Finder and Wager Vendor removed, parachute rework, Limited Mode (no HP or AP ammo, no Level 3 or 4 armour, no attack vehicles, no CIWS, Stingray, MG Nest, Drill Rig or anti-tank mines) [13]. The store page's Early Access roadmap, confirmed in the live capture 2026-10-08, plans "more maps, weapons, vehicles, and gameplay variety", "expanded weapon categories", deeper progression, a stronger seasonal meta game and fighter jets [1]. The earlier storefront-API JSON omitted this text. Season 1 numbers did not persist: the 0.2.0 notes change the XP curve, unlock levels and prices [11], consistent with the developer saying each season has its own curve and item order [2].
+Season 02 shipped on 15 Oct 2026 with equipment and balance reworks [11][12]. Season 03 went live on 12 Nov 2026 [14]: restored assault rifle torso damage, DMR damage buffs, Infrared Range Finder and Wager Vendor removed, parachute rework, Limited Mode (no HP or AP ammo, no Level 3 or 4 armour, no attack vehicles, no CIWS, Stingray, MG Nest, Drill Rig or anti-tank mines) [13]. The store page's Early Access roadmap, confirmed in the live capture 2026-10-08, plans "more maps, weapons, vehicles, and gameplay variety", "expanded weapon categories", deeper progression, a stronger seasonal meta game and fighter jets [1]. The earlier storefront-API JSON omitted this text. Season 1 numbers did not persist: the 0.2.0 notes change the XP curve, unlock levels and prices [11], consistent with the developer saying each season has its own curve and item order [2].
 
 # Admin & Technical Notes
 
@@ -195,6 +195,7 @@ None specific to loadouts. The 0.2.0 notes add community-server ping-limit confi
 **Player-Reported Evidence**
 
 - [10] **KeenGamer** — *WARDOGS progression guide* (dated 17 Sep 2026). https://www.keengamer.com/articles/guides/wardogs-progression-guide/. Accessed 2026-10-08.
+- [14] **BULKHEAD** — *WARDOGS | SEASON 03 IS NOW LIVE* (Steam news, 2026-11-12 15:00 UTC; "We have now released Update 0.3.0. Servers are back online."). https://store.steampowered.com/news/app/1867240/view/1849192144183254. Accessed 2026-11-12.
 
 # Further Reading
 
@@ -223,3 +224,4 @@ None specific to loadouts. The 0.2.0 notes add community-server ping-limit confi
 | 1.1.1 | 2026-10-08 | Research Pipeline (revision worker) | Corrected against live store-page capture; restored Primary quote 'Realistic gunplay balanced for gameplay rather than simulation' alongside 'tactical gunplay'; melee confirmed by Mature Content Description and removed from Open Questions (no melee roster published); roadmap 'more maps, weapons, vehicles' and 'expanded weapon categories' now cited from the page; Elytra kernel anti-cheat noted | Standing mandate (auto-approve on green QA) |
 | 1.2.0 | 2026-10-30 | Research Pipeline (virtual agent) | Revised for Update 0.2.0 (Season 02): calibre damage cuts, Level 3/4 armor and helmet reductions, suppression, Molotov, battery Range Finder, Medical Bag, new weapons, rebuy UI, track names (Assault/WARDOG); Season 1 values kept as history; no official posts after 2026-10-15 in snapshot. | — |
 | 1.3.0 | 2026-11-11 | Research Pipeline (virtual agent) | Added a Season 03 (announced 11 Nov 2026) summary of balance, gear and removal changes with pointers to the owner documents. | — |
+| 1.4.0 | 2026-11-12 | Research Pipeline (virtual agent) | Season 03 went live on 12 Nov 2026 (Update 0.3.0; official go-live post, snapshot 2026-11-12) [14]. Pre-release "announced, not yet verified live" labels replaced by "in effect per the official notes, not independently verified in a build"; tenses corrected. No values changed: the Season 03 Patch Notes are byte-identical to the 2026-11-11 snapshot. | — |

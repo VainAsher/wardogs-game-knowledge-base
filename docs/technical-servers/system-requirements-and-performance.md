@@ -1,18 +1,18 @@
 ---
 id: system-requirements-and-performance
 title: "System Requirements, Performance & Crashes"
-version: 1.3.0
+version: 1.4.0
 status: frozen
 confidence: Medium
 category: Technical & Servers
 topic: "Hardware requirements, Linux/Proton, anti-cheat, crash codes, performance fixes"
 market: Global
-game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
+game_version: "Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12)"
 document_type: depth
 created: 2026-10-08
-updated: 2026-11-11
+updated: 2026-11-12
 review_due: 2026-11-19
-sources_verified: 2026-11-11
+sources_verified: 2026-11-12
 supersedes: null
 related: [technical-servers-foundation, rcon-and-server-admin, meta-release-foundation, client-install-inspection]
 tags: [system-requirements, performance, crashes, linux, proton, anti-cheat, dlss]
@@ -23,14 +23,14 @@ tags: [system-requirements, performance, crashes, linux, proton, anti-cheat, dls
 | Field | Value |
 |-------|-------|
 | Document ID | system-requirements-and-performance |
-| Version | 1.3.0 |
+| Version | 1.4.0 |
 | Status | frozen |
 | Confidence | Medium (High for the specification table) |
 | Category | Technical & Servers |
-| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
+| Game version | Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12) |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-11-11 |
+| Updated | 2026-11-12 |
 | Review due | 2026-11-19 |
 
 # Executive Summary
@@ -69,7 +69,7 @@ Covered: Steam specification wording, graphics and upscaling settings as documen
 
 # Current State
 
-At Season 02 / Update 0.2.0 (official posts through 2026-10-15) plus the Season 03 notes of 2026-11-11 (announced for 12 Nov; not yet verified live). The bullets below were read on 2026-10-08 (Season 1 / 0.1.2); the requirements were re-checked against 2026-10-30 store data and are unchanged [1]:
+At Season 02 / Update 0.2.0 (official posts through 2026-10-15) plus the Season 03 notes of 2026-11-11 (in effect since 12 Nov per the go-live post [16]; not independently verified in a build). The bullets below were read on 2026-10-08 (Season 1 / 0.1.2); the requirements were re-checked against 2026-10-30 store data and are unchanged [1]:
 
 - **Specifications.** Exactly as in the table under Detail [1]. The store lists Broadband internet and gives no DirectX line [1].
 - **Languages.** 14 supported languages; English is shown with interface, full audio and subtitles [1].
@@ -119,9 +119,9 @@ Other store data: 14 supported languages. The page shows English with interface,
 
 Steam Deck is officially labelled Unsupported on the store page [1]. The Steam news posts in the snapshot (official posts, February to 2 October 2026) contain no mention of Linux, Proton or Steam Deck, so the Linux and Proton timeline above, given as context, rests on the GamingOnLinux report [13].
 
-## Season 03 graphics settings and tamper policy (announced 11 Nov 2026)
+## Season 03 graphics settings and tamper policy (live 12 Nov 2026)
 
-Source: Season 03 Patch Notes, posted 2026-11-11, launch 2026-11-12 [15]. Announced, not yet verified in a live build. No system requirement change is stated; the minimum specification stays as on the Steam store page.
+Source: Season 03 Patch Notes, posted 2026-11-11, launch 2026-11-12 [15]. In effect since 12 Nov 2026 per the official go-live post [16], not independently verified in a build. No system requirement change is stated; the minimum specification stays as on the Steam store page.
 
 - **Third-party graphics tools are bannable.** "Using NVIDIA Inspector or any other 3rd party software to remove smokes, remove grass, modify geometry, alter LOD bias or changing textures is now considered bannable." In Season 3, a player with one of these settings applied is "blocked from playing with a warning popup on launch" asking them to close the game and change the settings. Forcing a workaround to keep playing "with unfair advantages" is considered bannable [15].
 - **"Potato" shadow setting.** The in-game menu does not show the setting "unless we have detected your hardware is truly min spec on boot". In Season 3 the game forces a reset of that setting on boot if it was changed outside the menu (in the .ini files). Spoofing system specs to bypass the reset, "whilst using higher end hardware than the min spec users", is bannable from Season 3 [15].
@@ -202,6 +202,7 @@ No official post gives dedicated server hardware or performance requirements. Fo
 **Player-Reported Evidence**
 
 - [14] **allthings.how** — *WARDOGS best settings for performance and visibility on PC* (updated 12 Sep 2026). https://allthings.how/wardogs-best-settings-for-performance-and-visibility-on-pc/. Accessed 2026-10-08.
+- [16] **BULKHEAD** — *WARDOGS | SEASON 03 IS NOW LIVE* (Steam news, 2026-11-12 15:00 UTC; "We have now released Update 0.3.0. Servers are back online."). https://store.steampowered.com/news/app/1867240/view/1849192144183254. Accessed 2026-11-12.
 
 # Further Reading
 
@@ -225,3 +226,4 @@ No official post gives dedicated server hardware or performance requirements. Fo
 | 1.2.0 | 2026-10-30 | Research Pipeline (virtual agent) | Revised for Update 0.2.0: requirements confirmed unchanged against the 2026-10-30 store data (US); 0.2.0 notes add only general performance and stability wording and no crash codes; 15 Oct 08:00-09:30 UTC maintenance recorded; references 11 and 12 now cited | — |
 | 1.2.1 | 2026-10-30 | Research Pipeline (virtual agent) | Fresh browser capture of the live store page (2026-10-30): requirements, Elytra and Steam Deck lines unchanged since 2026-10-08. | — |
 | 1.3.0 | 2026-11-11 | Research Pipeline (virtual agent) | Added Season 03 (announced 11 Nov 2026) graphics and anti-cheat policy: third-party graphics-tweak bans and launch block, potato shadow setting reset, Global Illumination Overkill-only, performance fixes. | — |
+| 1.4.0 | 2026-11-12 | Research Pipeline (virtual agent) | Season 03 went live on 12 Nov 2026 (Update 0.3.0; official go-live post, snapshot 2026-11-12) [16]. Pre-release "announced, not yet verified live" labels replaced by "in effect per the official notes, not independently verified in a build"; tenses corrected. No values changed: the Season 03 Patch Notes are byte-identical to the 2026-11-11 snapshot. | — |

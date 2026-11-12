@@ -1,18 +1,18 @@
 ---
 id: weapons-catalogue
 title: "Weapons Catalogue"
-version: 1.2.0
+version: 1.3.0
 status: frozen
 confidence: Low
 category: Combat & Loadouts
 topic: "Firearms and launchers: roster, prices, unlock levels, attachments"
 market: Global
-game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
+game_version: "Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12)"
 document_type: reference-data
 created: 2026-10-08
-updated: 2026-11-11
+updated: 2026-11-12
 review_due: 2026-11-19
-sources_verified: 2026-11-11
+sources_verified: 2026-11-12
 supersedes: null
 related: [combat-loadouts-foundation, gadgets-armor-and-equipment, damage-ballistics-and-balance, progression-unlock-tables, price-tables-season-1]
 tags: [weapons, prices, unlocks, attachments, season-1, season-02, update-0-2-0, early-access]
@@ -23,14 +23,14 @@ tags: [weapons, prices, unlocks, attachments, season-1, season-02, update-0-2-0,
 | Field | Value |
 |-------|-------|
 | Document ID | weapons-catalogue |
-| Version | 1.2.0 |
+| Version | 1.3.0 |
 | Status | frozen |
 | Confidence | Low |
 | Category | Combat & Loadouts |
-| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
+| Game version | Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12) |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-11-11 |
+| Updated | 2026-11-12 |
 | Review due | 2026-11-19 |
 
 # Executive Summary
@@ -39,12 +39,12 @@ This is the WARDOGS firearm and launcher roster revised for Season 02 (Update 0.
 
 The four new weapons are the TCX-SPR (7.62x39mm assault rifle, $3,200), the PP-19 Bizon (9x19mm SMG, $1,000), the Evo-3 Ultra (.308 Win LMG, $7,250) and the M14 (.308 Win marksman rifle, $7,400) [13]. The preview post of 9 Oct 2026 called the first "TCX Spear" and the M14 a "DMR"; this document uses the final-notes names [13][14].
 
-Confidence stays Low. Every Season 02 change is Primary (patch notes), but the underlying Season 1 roster for weapons the notes do not mention (M4 and M500 prices, categories, ammo) rests on guides dated 12 to 17 September 2026 that partly disagree, one from a hosting seller. The rubric rates a document by its weakest evidence. The Season 03 Patch Notes (posted 11 Nov 2026, for the 12 Nov launch) change DMR, assault rifle, LMG, TCX-SPR and Compound Bow handling, move the AMR 50 later in the Recon track and add five Gold Market camos; these are announced and not yet verified live [16].
+Confidence stays Low. Every Season 02 change is Primary (patch notes), but the underlying Season 1 roster for weapons the notes do not mention (M4 and M500 prices, categories, ammo) rests on guides dated 12 to 17 September 2026 that partly disagree, one from a hosting seller. The rubric rates a document by its weakest evidence. The Season 03 Patch Notes (posted 11 Nov 2026, for the 12 Nov launch) change DMR, assault rifle, LMG, TCX-SPR and Compound Bow handling, move the AMR 50 later in the Recon track and add five Gold Market camos; these are in effect since 12 Nov 2026 per the official go-live post [17], not independently verified in a build.
 
 # Key Takeaways
 
 - Official, Update 0.2.0 (14-15 Oct 2026): four new weapons, TCX-SPR (assault rifle), PP-19 Bizon (SMG), Evo-3 Ultra (LMG), M14 (marksman rifle), with vendor prices $3,200, $1,000, $7,250 and $7,400 [13].
-- Official, Season 03 (announced 11 Nov 2026): every DMR kills an unarmoured player in 2 body shots (was 3) and an unhelmeted player in 1 headshot (was 2); assault rifle and LMG torso damage up (upper torso +13%); TCX-SPR recoil reduced; Compound Bow arrow speed +50%; AMR 50 unlock Recon 35 to 41 [16].
+- Official, Season 03 (live 12 Nov 2026): every DMR kills an unarmoured player in 2 body shots (was 3) and an unhelmeted player in 1 headshot (was 2); assault rifle and LMG torso damage up (upper torso +13%); TCX-SPR recoil reduced; Compound Bow arrow speed +50%; AMR 50 unlock Recon 35 to 41 [16].
 - Official, 0.2.0: vendor prices rose for T-21, AMP-9, MP5, Super-45, Scout Rifle TD, Compound Bow, GGX 18, BMR-308, MGL-40 and AMR 50, and fell for AK74, Deagle, Galil, RPG-7, MAAWS, PKM and FAL [13].
 - Official, 0.2.0: the AK74 is unlocked by default, the T-21 now needs Assault level 3 ($10k), the M4 moved from level 20 to 28 and the TCX-SPR (Assault 20) takes its slot; the PKM unlocks at Support 15 (was 30) [13].
 - Official, 0.2.0: .308 Winchester -25%, 7.62x54mmR -20%, 7.62x39mm -19% and .50 Cal -16% base damage, applied to every weapon that uses those rounds, including vehicle weapons (see damage-ballistics-and-balance) [13].
@@ -179,9 +179,9 @@ All from the 0.2.0 notes [13]; numeric damage effects are covered in damage-ball
 - 12 gauge slugs: damage against armour scales with armour tier.
 - Heavy and Artillery turrets: hit-location values now the same as assault rifles and LMGs.
 
-## Season 03 (announced) weapon changes
+## Season 03 (live 12 Nov 2026) weapon changes
 
-Source: Season 03 Patch Notes, posted 2026-11-11 17:59 UTC, launch 2026-11-12 [16]. Announced, not yet verified in a live build. Damage rules are owned by damage-ballistics-and-balance; this section lists what changes per weapon.
+Source: Season 03 Patch Notes, posted 2026-11-11 17:59 UTC, launch 2026-11-12 [16]. In effect since 12 Nov 2026 per the official go-live post [17], not independently verified in a build. Damage rules are owned by damage-ballistics-and-balance; this section lists what changes per weapon.
 
 | Weapon | Season 03 change |
 |--------|------------------|
@@ -357,6 +357,7 @@ None found for weapons. Community-server weapon restrictions were not found in o
 - [8] **allthings.how** — *WARDOGS Weapons Ranked: Every Gun Tier List for Season 1* (updated 13 Sep 2026). https://allthings.how/wardogs-weapons-tier-list/. Accessed 2026-10-08.
 - [11] **XGamingServer** — *Best Weapons in WARDOGS* (16 Sep 2026; sells server hosting, unattributed). https://xgamingserver.com/blog/?p=23238. Accessed 2026-10-08.
 - [12] **KeenGamer** — *WARDOGS best weapons and loadouts* (12 Sep 2026). https://www.keengamer.com/articles/guides/wardogs-best-weapons-and-loadouts/. Accessed 2026-10-08.
+- [17] **BULKHEAD** — *WARDOGS | SEASON 03 IS NOW LIVE* (Steam news, 2026-11-12 15:00 UTC; "We have now released Update 0.3.0. Servers are back online."). https://store.steampowered.com/news/app/1867240/view/1849192144183254. Accessed 2026-11-12.
 
 # Further Reading
 
@@ -378,3 +379,4 @@ None found for weapons. Community-server weapon restrictions were not found in o
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint, links (0 dead) and Steam post ids. Pre-Season-02 baseline. | Standing mandate (auto-approve on green QA) |
 | 1.1.0 | 2026-10-30 | Research Pipeline (virtual agent) | Revised for Update 0.2.0 from the official Season 02 patch notes, preview and live posts: four new weapons with prices and unlocks, new attachments, 17 weapon price changes, unlock level and fee changes, calibre damage reductions, MP5/Super-45/MGL-40/Mosin/DMR/bow/Scout Rifle/slug changes, Gold Market camos; Season 1 values kept as history. | — |
 | 1.2.0 | 2026-11-11 | Research Pipeline (virtual agent) | Added Season 03 (announced 11 Nov 2026) weapon changes: DMR kill thresholds, assault rifle/LMG torso values, TCX-SPR recoil and prone fix, Compound Bow speed, new Gold Market camos, Twitch Drop weapons. | — |
+| 1.3.0 | 2026-11-12 | Research Pipeline (virtual agent) | Season 03 went live on 12 Nov 2026 (Update 0.3.0; official go-live post, snapshot 2026-11-12) [17]. Pre-release "announced, not yet verified live" labels replaced by "in effect per the official notes, not independently verified in a build"; tenses corrected. No values changed: the Season 03 Patch Notes are byte-identical to the 2026-11-11 snapshot. | — |

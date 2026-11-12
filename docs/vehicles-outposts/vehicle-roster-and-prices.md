@@ -1,18 +1,18 @@
 ---
 id: vehicle-roster-and-prices
 title: "Vehicle Roster & Prices"
-version: 1.2.0
+version: 1.3.0
 status: frozen
 confidence: Medium
 category: Vehicles & Outposts
 topic: "Land and air vehicles: roster, price, unlock level, crew, role"
 market: Global
-game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
+game_version: "Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12)"
 document_type: reference-data
 created: 2026-10-08
-updated: 2026-11-11
+updated: 2026-11-12
 review_due: 2026-11-19
-sources_verified: 2026-11-11
+sources_verified: 2026-11-12
 supersedes: null
 related: [vehicles-outposts-foundation, air-and-counter-air, fob-and-base-building, price-tables-season-1, progression-unlock-tables, cash-rewards-and-costs]
 tags: [vehicles, prices, unlock-levels, season-2, update-0-2-0, season-1-history]
@@ -23,14 +23,14 @@ tags: [vehicles, prices, unlock-levels, season-2, update-0-2-0, season-1-history
 | Field | Value |
 |-------|-------|
 | Document ID | vehicle-roster-and-prices |
-| Version | 1.2.0 |
+| Version | 1.3.0 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Vehicles & Outposts |
-| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
+| Game version | Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12) |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-11-11 |
+| Updated | 2026-11-12 |
 | Review due | 2026-11-19 |
 
 # Executive Summary
@@ -39,7 +39,7 @@ Update 0.2.0 (Season 02, released 15 Oct 2026) is the first official source that
 
 The notes use the vehicle names "Ural Defender", "Ural Defender [M249]", "Humvee [Minigun]", "L2A6" and "SPH-2", while the Season 1 changelog used "URAL Covered", "URAL Attack", "Heavy Tank" and "Artillery Tank" [3]. Matching the two name sets is Inferred from identical levels and prices (see the reconciliation table). The notes still publish no crew or seat counts.
 
-Document confidence is Medium: every number below comes from official posts, but the name mapping is inferred, several unlock levels are not stated, and crew sizes are unpublished. The Season 03 Patch Notes (posted 11 Nov 2026, for the 12 Nov launch) cut four vehicle prices, raise reverse speeds, change handling and rebalance minigun, Littlebird and CIWS damage; those are announced and not yet verified live [10]. The Season 02 tables stay as the last verified live values.
+Document confidence is Medium: every number below comes from official posts, but the name mapping is inferred, several unlock levels are not stated, and crew sizes are unpublished. The Season 03 Patch Notes (posted 11 Nov 2026, for the 12 Nov launch) cut four vehicle prices, raise reverse speeds, change handling and rebalance minigun, Littlebird and CIWS damage; those are in effect since 12 Nov 2026 per the official go-live post [11], not independently verified in a build. The Season 02 tables stay as the previous season's values.
 
 # Key Takeaways
 
@@ -101,13 +101,13 @@ Names follow the 0.2.0 patch notes [1]. "Season 1 name" is the Inferred match to
 
 The notes also name the plain Kodiak, Ural, Bobcat, MH-6 and Z20 Lakota (unarmed) in the vehicle-destroyed reward list but give no price, level or unlock for them [1]. Armed-variant reward values and the spotting changes belong to cash-rewards-and-costs.
 
-## Season 03 (announced) vehicle changes
+## Season 03 (live 12 Nov 2026) vehicle changes
 
-Source: Season 03 Patch Notes, posted 2026-11-11 17:59 UTC, launch 2026-11-12 [10]. Announced, not yet verified in a live build. The "Season 02" prices match the Season 02 tables above.
+Source: Season 03 Patch Notes, posted 2026-11-11 17:59 UTC, launch 2026-11-12 [10]. In effect since 12 Nov 2026 per the official go-live post [11], not independently verified in a build. The "Season 02" prices match the Season 02 tables above.
 
 ### Vendor prices
 
-| Vehicle | Season 02 | Season 03 (announced) |
+| Vehicle | Season 02 | Season 03 (live 12 Nov 2026) |
 |---------|-----------|-----------------------|
 | Wolf-110 [M2 Browning] | $7,800 | $6,800 |
 | Kodiak [M249] | $6,750 | $6,250 |
@@ -118,7 +118,7 @@ The notes say the Wolf-110 "underperformed as a threat due to how exposed its dr
 
 ### Reverse speed (wheeled vehicles)
 
-| Vehicle | Season 02 | Season 03 (announced) |
+| Vehicle | Season 02 | Season 03 (live 12 Nov 2026) |
 |---------|-----------|-----------------------|
 | Bobcat | 16 km/h | about 25 km/h |
 | Kodiak | 33 km/h | about 57 km/h |
@@ -256,7 +256,7 @@ None found. No server setting for vehicle availability or prices appears in the 
 - Spawn prices of the plain Kodiak, Ural, Humvee, Dune Buggy, Bobcat, MH-6, plain Z20 Lakota and SPH-2: not stated in the notes.
 - Why the Season 1 changelog gave Z20 Lakota an unlock of $35,000 while the 0.2.0 old value is $75,000.
 - Whether a team armoured spawn vehicle has a purchase price: the notes mention a Spawn Vehicle only in rules text.
-- Whether any hotfix after 2026-10-15 changed these values, and whether the Season 03 values went live as announced (verify after 12 Nov 2026) [10].
+- Whether any hotfix after 2026-10-15 changed these values, and whether the Season 03 values in the notes match what runs in game (the go-live post confirms the update is live [11] but publishes no values) [10].
 
 # References
 
@@ -279,6 +279,7 @@ None cited directly.
 
 - [8] **GameBrief** — *WARDOGS vehicles guide 2026*. https://www.gamebrief.net/blog/wardogs-vehicles-guide-2026. Accessed 2026-10-08.
 - [9] **allthings.how** — *WARDOGS: how to get a vehicle, prices and unlock levels*. https://allthings.how/wardogs-how-to-get-a-vehicle-prices-and-unlock-levels/. Accessed 2026-10-08.
+- [11] **BULKHEAD** — *WARDOGS | SEASON 03 IS NOW LIVE* (Steam news, 2026-11-12 15:00 UTC; "We have now released Update 0.3.0. Servers are back online."). https://store.steampowered.com/news/app/1867240/view/1849192144183254. Accessed 2026-11-12.
 
 # Further Reading
 
@@ -301,3 +302,4 @@ The official Steam news feed at https://steamcommunity.com/app/1867240/allnews/ 
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint, links (0 dead) and Steam post ids. Pre-Season-02 baseline. | Standing mandate (auto-approve on green QA) |
 | 1.1.0 | 2026-10-30 | Research Pipeline (virtual agent) | Revised for Update 0.2.0: added Wolf-110, Wolf-110 [M2 Browning], T-72B3, Flakpanzer Gepard; Season 02 spawn prices and unlock changes; private vehicle inventories; handling changes; vehicle bug fixes; kept Season 1 values as history; replaced forward-looking Season 02 statements with the outcome. | — |
 | 1.2.0 | 2026-11-11 | Research Pipeline (virtual agent) | Added Season 03 (announced 11 Nov 2026) vehicle price cuts, reverse speeds, handling, minigun damage, Littlebird rocket and cockpit changes. | — |
+| 1.3.0 | 2026-11-12 | Research Pipeline (virtual agent) | Season 03 went live on 12 Nov 2026 (Update 0.3.0; official go-live post, snapshot 2026-11-12) [11]. Pre-release "announced, not yet verified live" labels replaced by "in effect per the official notes, not independently verified in a build"; tenses corrected. No values changed: the Season 03 Patch Notes are byte-identical to the 2026-11-11 snapshot. | — |

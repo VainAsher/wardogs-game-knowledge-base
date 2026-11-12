@@ -1,18 +1,18 @@
 ---
 id: gadgets-armor-and-equipment
 title: "Gadgets, Armor & Equipment"
-version: 1.2.0
+version: 1.3.0
 status: frozen
 confidence: Medium
 category: Combat & Loadouts
 topic: "Gadgets, armor, backpacks, ammo types, sidearms, optics and IR gear"
 market: Global
-game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
+game_version: "Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12)"
 document_type: reference-data
 created: 2026-10-08
-updated: 2026-11-11
+updated: 2026-11-12
 review_due: 2026-11-19
-sources_verified: 2026-11-11
+sources_verified: 2026-11-12
 supersedes: null
 related: [combat-loadouts-foundation, weapons-catalogue, damage-ballistics-and-balance, progression-unlock-tables, price-tables-season-1]
 tags: [gadgets, armor, equipment, ir-gear, optics, ammo, molotov, season-2, update-0-2-0]
@@ -23,21 +23,21 @@ tags: [gadgets, armor, equipment, ir-gear, optics, ammo, molotov, season-2, upda
 | Field | Value |
 |-------|-------|
 | Document ID | gadgets-armor-and-equipment |
-| Version | 1.2.0 |
+| Version | 1.3.0 |
 | Status | frozen |
 | Confidence | Medium |
 | Category | Combat & Loadouts |
-| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
+| Game version | Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12) |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-11-11 |
+| Updated | 2026-11-12 |
 | Review due | 2026-11-19 |
 
 # Executive Summary
 
 This document covers the non-weapon loadout items in WARDOGS: armor and helmets, backpacks, parachutes, ammo types, sidearms, optics, medical gadgets, throwables and IR gear. Season 1 (patch 0.1.2 plus the 2 Oct 2026 hotfix) is kept as dated history; the current state is Update 0.2.0 (Season 02), whose official patch notes were posted 14 Oct 2026 [9] and which the developer announced as released on 15 Oct 2026 [10].
 
-Update 0.2.0 is the first official source to publish item-level numbers: Level 3 armor and helmet damage reduction lowered 55% to 50%, Level 4 lowered 65% to 60%, Level 3 and Level 4 helmets reducing suppression by 68% and 80%, a Level 4 Helmet with muffled audio, muffled proximity chat, restricted field of view and sprint fog-over, a battery-powered Infrared Range Finder (about 80 s per battery), a new Molotov Cocktail, Medical Bag durability 100 to 150, a parachute rework and a 30mm-ammo 2x2 slot with a 50-item backpack stack cap [9]. The Season 03 Patch Notes (posted 11 Nov 2026, for the 12 Nov launch) remove the Infrared Range Finder from the vendor, make the Molotov set targets ablaze, rework both parachutes, let the Halligan Bar force open enemy supply crates and correct three item weights; these are announced, not yet verified live [11].
+Update 0.2.0 is the first official source to publish item-level numbers: Level 3 armor and helmet damage reduction lowered 55% to 50%, Level 4 lowered 65% to 60%, Level 3 and Level 4 helmets reducing suppression by 68% and 80%, a Level 4 Helmet with muffled audio, muffled proximity chat, restricted field of view and sprint fog-over, a battery-powered Infrared Range Finder (about 80 s per battery), a new Molotov Cocktail, Medical Bag durability 100 to 150, a parachute rework and a 30mm-ammo 2x2 slot with a 50-item backpack stack cap [9]. The Season 03 Patch Notes (posted 11 Nov 2026, for the 12 Nov launch) remove the Infrared Range Finder from the vendor, make the Molotov set targets ablaze, rework both parachutes, let the Halligan Bar force open enemy supply crates and correct three item weights; these are in effect since 12 Nov 2026 per the official go-live post [12], not independently verified in a build.
 
 Confidence is Medium: the 0.2.0 changes are Primary-sourced, but the underlying item catalogue (for example sidearm base prices and medical-gadget details) still rests on player-reported guides and a beta-era press table.
 
@@ -46,7 +46,7 @@ Confidence is Medium: the 0.2.0 changes are Primary-sourced, but the underlying 
 - Update 0.2.0 (notes 14 Oct 2026): Level 3 Armor and Helmet damage reduction 55% to 50%; Level 4 65% to 60% [9]. Ballistics context is in damage-ballistics-and-balance.
 - Level 3 helmets reduce suppression by 68% and Level 4 helmets by 80% (0.2.0) [9].
 - Level 4 Helmet drawbacks (0.2.0): muffled audio, muffled proximity chat, restricted field of view, fogs over when sprinting [9].
-- Season 03 (announced 11 Nov 2026): the Infrared Range Finder is removed from the vendor until redesigned; the Molotov sets targets ablaze and costs $12.5k to unlock (was $25k); Basic Parachute is an emergency parachute at $1,250 and the Sport Parachute is for BASE jumps at $2,250; the Halligan Bar can force open enemy supply crates [11].
+- Season 03 (live 12 Nov 2026): the Infrared Range Finder is removed from the vendor until redesigned; the Molotov sets targets ablaze and costs $12.5k to unlock (was $25k); Basic Parachute is an emergency parachute at $1,250 and the Sport Parachute is for BASE jumps at $2,250; the Halligan Bar can force open enemy supply crates [11].
 - The Infrared Range Finder now runs on batteries: about 80 s of active use per battery, draining faster if toggled on and off quickly (0.2.0) [9]. Its vendor price rose $1,200 to $3,200 [9]. It had been disabled in the vendor by the 2 Oct 2026 hotfix [3]; the 0.2.0 notes do not say whether it is purchasable at launch.
 - New Molotov Cocktail (Assault level 13, $25k unlock, $340 vendor price): impact damage plus burn damage over time, throw overarm or underarm, burns destructible foliage, weaker in rain (0.2.0) [9].
 - Medical Bag durability 100 to 150; unlock moved Medic level 24 to 14 and $75k to $50k; vendor price $2,000 to $1,800 (0.2.0) [9].
@@ -79,7 +79,7 @@ All items below apply to Update 0.2.0 (notes 14 Oct 2026, release 15 Oct 2026) u
 - Explosives and placeables are barred from enclosed vehicle seats [9]. Barbed wire no longer gives cash or XP on kills [9].
 - Halligan Bar now breaches both doors and gates; uses raised 5 to 7; vendor price $1,100 to $885 [9].
 - Rain reduces Molotov fire and affects spotting range [9].
-- Season 03 (announced, launch 12 Nov 2026): see "Season 03 (announced) gear changes" below; until live, the Season 02 values are the last verified [11].
+- Season 03 (live 12 Nov 2026): see "Season 03 (live 12 Nov 2026) gear changes" below; the Season 02 values are the last checked against live evidence [11].
 - The Steam store page lists gear and a ghillie suit as loadout content, with no item table (live capture 2026-10-08) [6].
 - No official post between 2026-10-15 and the Season 03 notes (2026-11-06 and 2026-11-11) is in the snapshots; later hotfixes are neither confirmed nor ruled out.
 
@@ -127,9 +127,9 @@ Source class: Official = Steam news post; PR = player-reported. Season 1 values 
 | 30mm cannon ammo inventory size | 1x1 | 2x2 | Official [9] |
 | Backpack stack cap | not stated | 50 (vehicle storage 200 unchanged) | Official [9] |
 
-## Season 03 (announced) gear changes
+## Season 03 (live 12 Nov 2026) gear changes
 
-Source: Season 03 Patch Notes, posted 2026-11-11 17:59 UTC, launch 2026-11-12 [11]. Announced, not yet verified in a live build.
+Source: Season 03 Patch Notes, posted 2026-11-11 17:59 UTC, launch 2026-11-12 [11]. In effect since 12 Nov 2026 per the official go-live post [12], not independently verified in a build.
 
 | Item | Season 03 change |
 |------|------------------|
@@ -270,6 +270,7 @@ None found for gadgets. The 0.2.0 notes mention community-server ping-limit conf
 
 - [5] **KeenGamer** — *WARDOGS progression guide*. https://www.keengamer.com/articles/guides/wardogs-progression-guide/. Accessed 2026-10-08.
 - [8] **Timesaver.gg** — *WARDOGS IR goggles and CWIS hotfix* (sells boosting services). https://timesaver.gg/blog/wardogs-ir-goggles-cwis-hotfix. Accessed 2026-10-08.
+- [12] **BULKHEAD** — *WARDOGS | SEASON 03 IS NOW LIVE* (Steam news, 2026-11-12 15:00 UTC; "We have now released Update 0.3.0. Servers are back online."). https://store.steampowered.com/news/app/1867240/view/1849192144183254. Accessed 2026-11-12.
 
 # Further Reading
 
@@ -291,3 +292,4 @@ None found for gadgets. The 0.2.0 notes mention community-server ping-limit conf
 | 1.0.0 | 2026-10-08 | Orchestrator | Frozen after independent re-verification of validate, markdownlint, links (0 dead) and Steam post ids. Pre-Season-02 baseline. | Standing mandate (auto-approve on green QA) |
 | 1.1.0 | 2026-10-30 | Research Pipeline (virtual agent) | Revised for Update 0.2.0 (Season 02): Level 3/4 armor and helmet reductions, helmet suppression, Level 4 Helmet drawbacks, battery IR Range Finder, Molotov, Medical Bag, parachutes, backpack and 30mm slot changes, new attachments, equipment repricing; Season 1 values kept as history; no official posts after 2026-10-15 in snapshot. | — |
 | 1.2.0 | 2026-11-11 | Research Pipeline (virtual agent) | Added Season 03 (announced 11 Nov 2026) gear changes: Infrared Range Finder removed, Molotov ignition, parachute rework, Halligan Bar crate opening, item weight corrections, hollow point audio. | — |
+| 1.3.0 | 2026-11-12 | Research Pipeline (virtual agent) | Season 03 went live on 12 Nov 2026 (Update 0.3.0; official go-live post, snapshot 2026-11-12) [12]. Pre-release "announced, not yet verified live" labels replaced by "in effect per the official notes, not independently verified in a build"; tenses corrected. No values changed: the Season 03 Patch Notes are byte-identical to the 2026-11-11 snapshot. | — |

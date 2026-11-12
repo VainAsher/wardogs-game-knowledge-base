@@ -1,18 +1,18 @@
 ---
 id: gameplay-modes-foundation
 title: "Gameplay & Modes: Foundation"
-version: 1.3.0
+version: 1.4.0
 status: frozen
 confidence: High
 category: Gameplay & Modes
 topic: "Match structure, objectives, three-team model, progression"
 market: Global
-game_version: "Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live"
+game_version: "Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12)"
 document_type: foundation
 created: 2026-10-08
-updated: 2026-11-11
+updated: 2026-11-12
 review_due: 2026-11-19
-sources_verified: 2026-11-11
+sources_verified: 2026-11-12
 supersedes: null
 related:
   - combat-loadouts-foundation
@@ -39,21 +39,21 @@ tags:
 | Field | Value |
 |-------|-------|
 | Document ID | gameplay-modes-foundation |
-| Version | 1.3.0 |
+| Version | 1.4.0 |
 | Status | frozen |
 | Confidence | High |
 | Category | Gameplay & Modes |
-| Game version | Early Access Season 03 (launches 12 Nov 2026); official Season 03 Patch Notes posted 2026-11-11 (snapshot 2026-11-11); in-game values not yet verified live |
+| Game version | Early Access Season 03 / Update 0.3.0 (live since 12 Nov 2026 per the official go-live post); values as printed in the official Season 03 Patch Notes (11 Nov 2026); not independently verified in a live build (snapshot 2026-11-12) |
 | Owner | WARDOGS KB Research Pipeline |
 | Created | 2026-10-08 |
-| Updated | 2026-11-11 |
+| Updated | 2026-11-12 |
 | Review due | 2026-11-19 |
 
 # Executive Summary
 
 WARDOGS is a 100-player, three-team tactical shooter in Steam Early Access since 10 September 2026 [1][2]. Its core mode is the Control Zone: three teams contest a randomised 2x2 km zone inside a 256 km2 map, the team with the most players inside earns points, and the first to 100 points wins [1][2]. A shifting Hot Zone inside it counts each player double and pays double cash [1][2]. Proximity voice chat is listed in the Early Access state and local voice chat in the game description, both on the store page [1][2].
 
-Progression is cash-based, with cash persisting from match to match and exchangeable for Gold Bars, plus XP across six role tracks (Career, Medic, Recon, Support, Driver, Pilot) that gate unlocks [2][3]. The developer states that each season gets a different XP curve and item order [3]. Season 02 (Update 0.2.0) went live on 15 October 2026 [20]. The 14 Oct patch notes add team-switching restrictions, a victim-driven Forgive/Punish team-kill vote, a Squad Intent UI, server seeding rewards with pre-match entertainment, a rain weather preset, new weapons, vehicles and buildables, a Lonestar faction experiment, and a Wager Vendor that is not open at launch [18]. The notes do not mention a progression wipe. Season 03 (patch notes 11 Nov 2026, launch 12 Nov) adds a Limited Mode in which the vendor is restricted to early-to-mid-season items, lengthens the season to about three months and removes the Wager Vendor [21]. These Season 03 facts are announced and not yet verified live.
+Progression is cash-based, with cash persisting from match to match and exchangeable for Gold Bars, plus XP across six role tracks (Career, Medic, Recon, Support, Driver, Pilot) that gate unlocks [2][3]. The developer states that each season gets a different XP curve and item order [3]. Season 02 (Update 0.2.0) went live on 15 October 2026 [20]. The 14 Oct patch notes add team-switching restrictions, a victim-driven Forgive/Punish team-kill vote, a Squad Intent UI, server seeding rewards with pre-match entertainment, a rain weather preset, new weapons, vehicles and buildables, a Lonestar faction experiment, and a Wager Vendor that is not open at launch [18]. The notes do not mention a progression wipe. Season 03 (patch notes 11 Nov 2026, launch 12 Nov) adds a Limited Mode in which the vendor is restricted to early-to-mid-season items, lengthens the season to about three months and removes the Wager Vendor [21]. These Season 03 facts are in effect since 12 Nov 2026 per the official go-live post [22], not independently verified in a build.
 
 Confidence is High for the core claims, which rest on the live store page (live capture 2026-10-08), the Top Questions post, the Season 1 changelog, the 0.11 and 0.1.2 posts, the two 2 Oct posts and the Season 02 patch notes [18]. Level caps, scoring tick, tower mechanics and any Season 02 wipe are not in official text and are kept as player-reported or press-reported. The Season 03 notes of 2026-11-11 add the Limited Mode and remove the Wager Vendor; hotfixes after that date are neither confirmed nor ruled out.
 
@@ -71,7 +71,7 @@ Confidence is High for the core claims, which rest on the live store page (live 
 
 # Scope
 
-Covers match format, the three-team model, the Control Zone objective, voice chat, progression and unlocks, modes available at Early Access, and what is stated about 1.0. Game version verified: Season 02, Update 0.2.0 (official posts through 2026-10-15) as the last verified live build, plus the Season 03 notes of 2026-11-11 (announced for 12 Nov), with Season 01 (patch 0.1.2 and the 2 Oct 2026 hotfixes) kept as dated history. Excluded: weapon and loadout detail (see combat-loadouts-foundation), prices and economy detail (see economy-foundation), map detail (see maps-environment-foundation), release and business facts (see meta-release-foundation), and the depth documents listed under Related Documents.
+Covers match format, the three-team model, the Control Zone objective, voice chat, progression and unlocks, modes available at Early Access, and what is stated about 1.0. Game version verified: Season 02, Update 0.2.0 (official posts through 2026-10-15) as the previous season, plus Season 03 / Update 0.3.0 (live since 12 Nov 2026 [22]; values from the notes of 2026-11-11, not independently verified in a build), with Season 01 (patch 0.1.2 and the 2 Oct 2026 hotfixes) kept as dated history. Excluded: weapon and loadout detail (see combat-loadouts-foundation), prices and economy detail (see economy-foundation), map detail (see maps-environment-foundation), release and business facts (see meta-release-foundation), and the depth documents listed under Related Documents.
 
 # Definitions
 
@@ -155,7 +155,7 @@ The only core mode named in official text through Season 02 is the Control Zone 
 
 ## Limited Mode (announced for Season 03)
 
-Source: Season 03 Patch Notes, posted 2026-11-11, launch 2026-11-12 [21]. Announced, not yet verified in a live build.
+Source: Season 03 Patch Notes, posted 2026-11-11, launch 2026-11-12 [21]. In effect since 12 Nov 2026 per the official go-live post [22], not independently verified in a build.
 
 - **What it is.** "Purchasable vendor items are limited to what's typically available early to mid season." The notes give examples of what is absent: no Hollow Point (HP) or Armor Piercing (AP) ammunition; no Level 3 or Level 4 armour; no attack vehicles; no CIWS, Stingray, MG Nest or Drill Rig; no anti-tank mines.
 - **Who it is for.** Players who want "an environment with fewer endgame power items", fairer engagements, and players joining later in a season. The notes also point players who want to avoid min-maxers' early unlocks to "new player and Limited servers".
@@ -189,7 +189,7 @@ The 7 Apr 2026 post says the Metagame (the frontend experience to keep earning a
 | 2026-10-14 | Season 02 Patch Notes posted: team-switch limits, Forgive/Punish, Squad Intent UI, server seeding and pre-match entertainment, Lonestar experiment and losing-team discount, parachute and controller changes, Wager Vendor announced for later in Season 2, ping timer 20 s to 60 s | [18] |
 | 2026-10-15 | Update 0.2.0 released, servers back online | [20] |
 | 2026-11-11 | Season 03 patch notes (launch 2026-11-12): Limited Mode, about three-month season, Wager Vendor removed | [21] |
-| after 2026-11-11 | Season 03 launch-day changes and later hotfixes not yet in the snapshot | [21] |
+| 2026-11-12 | Season 03 (Update 0.3.0) live; hotfixes after the go-live post are not in the snapshot | [22] |
 
 Announced but unreleased as of 0.11: community server favouriting, tiered priority queues, message of the day, improved warmup, disabling AFK kicking during seeding, team switching controls [4]. None was confirmed shipped in the 0.1.2 post [5]. In 0.2.0, team switching restrictions and server seeding rewards shipped [18]; the notes do not mention favouriting, priority queues, message of the day or AFK-kick changes.
 
@@ -245,6 +245,7 @@ Official servers have no modified modes; Community servers support text search a
 - [15] **allthings.how** — *WARDOGS roles: how to pick the best class for you*. https://allthings.how/wardogs-roles-how-to-pick-the-best-class-for-you/. Accessed 2026-10-08.
 - [16] **allthings.how** — *WARDOGS beginner's guide: how the zone and cash systems work*. https://allthings.how/wardogs-beginner-s-guide-how-the-zone-and-cash-systems-work/. Accessed 2026-10-08.
 - [17] **allthings.how** — *WARDOGS Hot Zone: how double presence and double cash work*. https://allthings.how/wardogs-hot-zone-how-double-presence-and-double-cash-work/. Accessed 2026-10-08.
+- [22] **BULKHEAD** — *WARDOGS | SEASON 03 IS NOW LIVE* (Steam news, 2026-11-12 15:00 UTC; "We have now released Update 0.3.0. Servers are back online."). https://store.steampowered.com/news/app/1867240/view/1849192144183254. Accessed 2026-11-12.
 
 # Further Reading
 
@@ -274,3 +275,4 @@ Pure Xbox and Push Square coverage of the console plans are listed in `SOURCE_RE
 | 1.1.1 | 2026-10-08 | Research Pipeline (revision worker) | Corrected against live store-page capture; voice chat recorded as both store-page phrases (proximity in the Early Access list, local in About This Game) and the contradiction dropped; roadmap bullets, 1 to 2 year Early Access, price plan, fighter jets now Primary and unverified caveats and matching open questions removed; $10,000 start, Hot Zone double cash, militaristic sandbox and Eastern Europe setting added from the page; confidence reassessed (High kept) | Standing mandate (auto-approve on green QA) |
 | 1.2.0 | 2026-10-30 | Research Pipeline (revision worker) | Revised for Update 0.2.0 (Season 02, live 15 Oct 2026) from the 14 Oct patch notes, 9 Oct preview and 15 Oct live post: team-switch limits, Forgive/Punish, Squad Intent UI, seeding and pre-match entertainment, Lonestar experiment and losing-team discount, Wager Vendor (not at launch), XP curve summary; Season 01 values kept as dated history; wipe still unstated; no official posts after 2026-10-15 in snapshot | — |
 | 1.3.0 | 2026-11-11 | Research Pipeline (virtual agent) | Added the Limited Mode (announced 11 Nov 2026), Season 03 launch date and roughly three-month season, Wager Vendor removal. | — |
+| 1.4.0 | 2026-11-12 | Research Pipeline (virtual agent) | Season 03 went live on 12 Nov 2026 (Update 0.3.0; official go-live post, snapshot 2026-11-12) [22]. Pre-release "announced, not yet verified live" labels replaced by "in effect per the official notes, not independently verified in a build"; tenses corrected. No values changed: the Season 03 Patch Notes are byte-identical to the 2026-11-11 snapshot. | — |
