@@ -1,10 +1,12 @@
-name: Publish (GitHub Pages)
+name: Publish (GitHub Pages redirect stub)
 
-# Auto-deploys the MkDocs site on every push to main (repo is public; Pages
-# source = GitHub Actions). Also runnable manually via the Actions tab.
+# The canonical reader site is the games wiki (https://wiki.vainasherstudios.com/en/wardogs-kb/home).
+# GitHub Pages now serves only redirect-stub/: index.html sends visitors to the wiki home and 404.html maps any old
+# page URL (/<repo>/<category>/<document-id>/) to the same path on the wiki. The MkDocs build is retired.
 on:
   push:
     branches: [main]
+    paths: ["redirect-stub/**", ".github/workflows/pages.yml"]
   workflow_dispatch: {}
 
 permissions:
@@ -12,36 +14,21 @@ permissions:
   pages: write
   id-token: write
 
-# Allow one concurrent deployment; don't cancel an in-progress publish.
 concurrency:
   group: pages
   cancel-in-progress: false
 
 jobs:
-  build:
-    name: Build MkDocs site
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - run: pip install pyyaml mkdocs-material
-      - name: Regenerate site scaffolding (nav + landing page)
-        run: python scripts/build_site.py
-      - name: Build site
-        run: python -m mkdocs build --strict
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
-
   deploy:
-    name: Deploy to GitHub Pages
-    needs: build
+    name: Deploy redirect stub
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - uses: actions/checkout@v4
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: redirect-stub
       - id: deployment
         uses: actions/deploy-pages@v4

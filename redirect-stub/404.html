@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>WARDOGS Game Knowledge Base has moved</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<script>
+// Old page URLs were /<repo>/<category>/<document-id>/ ; the wiki keeps the same category/document-id tail under /en/wardogs-kb/.
+(function () {
+  var wiki = "https://wiki.vainasherstudios.com/en/wardogs-kb/";
+  var tail = location.pathname.replace(/^\/wardogs-game-knowledge-base\/?/, "").replace(/\/?(index\.html)?$/, "");
+  var ok = /^[a-z0-9-]+(\/[a-z0-9-]+){0,2}$/.test(tail);
+  location.replace(wiki + (ok ? tail : "home"));
+})();
+</script>
+</head>
+<body>
+<p>The WARDOGS Game Knowledge Base has moved to
+<a href="https://wiki.vainasherstudios.com/en/wardogs-kb/home">wiki.vainasherstudios.com/en/wardogs-kb/home</a>.</p>
+</body>
+</html>
